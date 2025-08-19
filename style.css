@@ -59,3 +59,24 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+form {
+        display: flex;
+        align-items: center;
+    }
+
+    #search-input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 5px;
+    }
+
+    button {
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
