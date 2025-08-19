@@ -1,39 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 body {
   font-family: 'Bellota', sans-serif;                                       
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f2f5;
-    gap: 20px;
-    margin: 0;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
 }
-
 header {
-    background: #7971EA;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #7971EA;
+  color: white;
+  padding: 15px;
+  text-align: right;
 }
-
 header h1 {
-    color: #ffffff;
+  color: #ffffff; /* Tiêu đề trắng */
 }
 
-.nav-links a:link {
-    color: #5a52b3; /* Sắc thái tối hơn để nổi bật */
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease;
+nav {
+  margin: 10px 0;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  margin-top: 40px;
 }
 
-.nav-links a:hover {
-    color: #ffffff;
+a:link {
+  color: #8756A9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800080;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .search-container {
