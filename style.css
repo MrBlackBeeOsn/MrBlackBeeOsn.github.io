@@ -34,6 +34,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 nav a:hover {
   text-decoration: underline;
