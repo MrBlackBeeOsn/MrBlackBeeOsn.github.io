@@ -24,18 +24,15 @@ header {
             text-decoration: underline; /* Thêm gạch chân */
         }
 nav {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 nav a {
-  color: #7971EA;
-  text-decoration: none;
-  font-weight: bold;
   margin: 0 10px;
-  padding: 10px;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 nav a:hover {
-  color: #fff;
   text-decoration: underline;
 }
 main {
