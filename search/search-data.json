@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "title": "Trang Lập trình",
+      "url": "/programming/",
+      "content": "Nội dung về lập trình, học HTML, CSS, JavaScript"
+    },
+    {
+      "title": "Trang Blog",
+      "url": "/blog/",
+      "content": "Bài viết về blog, chia sẻ kinh nghiệm, mẹo lập trình"
+    }
+  ]
+}
