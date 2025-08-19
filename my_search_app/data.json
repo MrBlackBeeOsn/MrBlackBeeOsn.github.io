@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Lập trình web với HTML",
+        "content": "HTML là ngôn ngữ nền tảng của mọi trang web, dùng để tạo ra cấu trúc."
+    },
+    {
+        "id": 2,
+        "title": "Học CSS cơ bản",
+        "content": "CSS là ngôn ngữ định dạng giúp trang web của bạn đẹp hơn và có giao diện hấp dẫn."
+    },
+    {
+        "id": 3,
+        "title": "Giới thiệu về JavaScript",
+        "content": "JavaScript giúp trang web của bạn có tính tương tác, xử lý logic và sự kiện."
+    }
+]
