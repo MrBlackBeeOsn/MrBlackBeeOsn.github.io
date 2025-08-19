@@ -15,50 +15,28 @@
       <a href="index.html" style="color:#ffffff;">🐝 ßee</a>
       <a href="/programming/index.html" style="color:#ffffff;">🅿rogramming</a>
       <a href="/spreadsheet/index.html" style="color:#ffffff;">Spreadsheet</a>
-        <div class="search-container">
-          <input type="text" class="search-input" placeholder="Nhập từ khóa tìm kiếm">
-          <button class="search-button">
-            <i class="fas fa-search"></i>
-            <span>Tìm kiếm</span>
-          </button>
-        </div>
     </nav>
+    
+    <h1>Chào mừng đến với website</h1>
+        <div class="nav-links">
+            <a href="/programming/">Lập trình</a>
+            <a href="/blog/">Blog</a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Nhập từ khóa tìm kiếm...">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+                <span>Tìm Kiếm</span>
+            </button>
+        </div>
   </header>
-
+    <div class="search-results" id="searchResults"></div>
+    <script src="/script.js"></script>
+  
   <main>
     <h2>Chào mừng!</h2>
     <p>Đây là website HTML + CSS nhiều trang nội bộ đầu tiên của bạn 🚀.</p>
   </main>
-
- <script async src="https://cse.google.com/cse.js?cx=d2310543fb2bc4e4c">
-</script>
-<div class="gcse-search"></div>
-  
- <script>
-    const searchButton = document.querySelector('.search-button');
-    const searchInput = document.querySelector('.search-input');
-
-    searchButton.addEventListener('click', function() {
-        const query = searchInput.value;
-        if (query) {
-            // Sử dụng Fetch API để gửi yêu cầu đến server back-end
-            fetch(`/search?q=${query}`)
-                .then(response => response.json())
-                .then(data => {
-                    // Hiển thị kết quả tìm kiếm ở đây
-                    console.log('Kết quả tìm kiếm:', data);
-                    // Bạn có thể viết thêm code để hiển thị data trên trang web
-                })
-                .catch(error => console.error('Lỗi khi tìm kiếm:', error));
-        }
-    });
-
-    searchInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            searchButton.click();
-        }
-    });
-</script>
   
   <footer>
     <p>© 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📓</p>
