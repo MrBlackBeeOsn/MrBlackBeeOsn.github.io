@@ -58,24 +58,6 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-  color: #7971EA;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #7971EA;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #7971EA;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 .search-container {
             display: flex;
             gap: 10px;
