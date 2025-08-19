@@ -38,6 +38,52 @@
     <p>Đây là website HTML + CSS nhiều trang nội bộ đầu tiên của bạn 🚀.</p>
   </main>
   
+  <Script>
+document.addEventListener('DOMContentLoaded', () => {
+    const searchButton = document.querySelector('.search-button');
+    const searchInput = document.querySelector('.search-input');
+    const searchResults = document.querySelector('#searchResults');
+
+    // Tải dữ liệu tìm kiếm
+    fetch('/search-data.json')
+        .then(response => response.json())
+        .then(data => {
+            searchButton.addEventListener('click', () => {
+                const query = searchInput.value.trim().toLowerCase();
+                if (query) {
+                    searchResults.innerHTML = '';
+                    const results = data.pages.filter(page =>
+                        page.title.toLowerCase().includes(query) ||
+                        page.content.toLowerCase().includes(query)
+                    );
+
+                    if (results.length > 0) {
+                        results.forEach(page => {
+                            const resultItem = document.createElement('a');
+                            resultItem.href = page.url;
+                            resultItem.textContent = page.title;
+                            searchResults.appendChild(resultItem);
+                        });
+                    } else {
+                        searchResults.innerHTML = '<p>Không tìm thấy kết quả.</p>';
+                    }
+                }
+            });
+
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    searchButton.click();
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Lỗi khi tải search-data.json:', error);
+            searchResults.innerHTML = '<p>Lỗi khi tải dữ liệu tìm kiếm.</p>';
+        });
+});
+
+  </Script>
+    
   <footer>
     <p>© 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📓</p>
     <a href="/about/index.html"><ins>๏</ins></a>
