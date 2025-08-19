@@ -8,19 +8,22 @@ body {
 header {
   background: #7971EA;
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: right;
 }
 nav {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 nav a {
-  margin: 0 10px;
+  color: #7971EA;
   text-decoration: none;
-  color: white;
   font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+  transition: color 0.3s ease;
 }
 nav a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 main {
