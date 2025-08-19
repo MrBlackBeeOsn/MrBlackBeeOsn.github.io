@@ -35,22 +35,30 @@
 <div class="gcse-search"></div>
   
  <script>
-        const searchButton = document.querySelector('.search-button');
-        const searchInput = document.querySelector('.search-input');
+    const searchButton = document.querySelector('.search-button');
+    const searchInput = document.querySelector('.search-input');
 
-        searchButton.addEventListener('click', function() {
-            const query = searchInput.value;
-            if (query) {
-                window.location.href = `https://mrblackbeeosn.github.io/search?q=${query}`;
-            }
-        });
+    searchButton.addEventListener('click', function() {
+        const query = searchInput.value;
+        if (query) {
+            // Sử dụng Fetch API để gửi yêu cầu đến server back-end
+            fetch(`/search?q=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Hiển thị kết quả tìm kiếm ở đây
+                    console.log('Kết quả tìm kiếm:', data);
+                    // Bạn có thể viết thêm code để hiển thị data trên trang web
+                })
+                .catch(error => console.error('Lỗi khi tìm kiếm:', error));
+        }
+    });
 
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                searchButton.click();
-            }
-        });
-    </script>
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            searchButton.click();
+        }
+    });
+</script>
   
   <footer>
     <p>© 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📓</p>
