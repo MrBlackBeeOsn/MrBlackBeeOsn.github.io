@@ -51,3 +51,18 @@ a:visited {
   color: #8756A9;
   background-color: transparent;
   text-decoration: none;
+
+/* Quy tắc riêng cho trang chính */
+.bee-page {
+  background-image: url('images/flower1.11.png');
+}
+
+/* Quy tắc riêng cho trang bài viết 1 */
+.programming-page {
+  background-image: url('images/flower1.12.png');
+}
+
+/* Quy tắc riêng cho trang giới thiệu */
+.spreadsheet-page {
+  background-image: url('images/flower1.12.png');
+}
