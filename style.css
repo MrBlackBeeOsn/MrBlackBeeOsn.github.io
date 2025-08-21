@@ -55,26 +55,50 @@ a:visited {
 /* Quy tắc riêng cho trang chính */
 .bee-page {
   background-image: url("/images/flower1.11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 /* Quy tắc riêng cho trang bài viết 1 */
 .programming-page {
   background-image: url("/images/flower1.2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 /* Quy tắc riêng cho trang giới thiệu */
 .spreadsheet-page {
   background-image: url("/images/flower1.2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .about-page {
   background-image: url("/images/flower1.3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .indiv-page {
-  background-color: #eeeeee;
+  background-image: url("/images/flower1.41.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .page {
   background-image: url("/images/flower1.5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
