@@ -51,6 +51,7 @@ a:visited {
   color: #8756A9;
   background-color: transparent;
   text-decoration: none;
+}
 
 /* Quy tắc riêng cho trang chính */
 .bee-page {
@@ -99,7 +100,7 @@ a:visited {
   background-repeat: no-repeat;
 } */
 
-main p span {
+mark {
     background-color: #A8A4F2;
     color: #333;
     padding: 2px 4px;
