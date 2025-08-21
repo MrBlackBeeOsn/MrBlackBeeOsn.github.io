@@ -21,3 +21,22 @@ my_website/
 │
 └── images/
     └── logo.png
+
+Dựa trên việc tăng độ sáng (Lightness) và giữ sắc độ gần giống, đây là một số màu nhạt hơn của #7971EA:
+
+Màu nhạt hơn (Lightness ~80%):
+
+Hex: #A8A4F2
+RGB: (168, 164, 242)
+HSL: (243, 76%, 80%)
+Mô tả: Màu tím nhạt hơn, vẫn giữ sắc độ gốc nhưng sáng hơn.
+
+
+Màu rất nhạt (Lightness ~90%):
+
+Hex: #D6D3F9
+RGB: (214, 211, 249)
+HSL: (243, 76%, 90%)
+Mô tả: Màu tím rất nhạt, gần với pastel.
+
+Mã màu #f3f3f3 là một màu xám rất nhạt, gần với màu trắng.
