@@ -98,3 +98,10 @@ a:visited {
   background-position: righ bottomt;
   background-repeat: no-repeat;
 }
+
+mark {
+    background-color: #A8A4F2; /* Màu nhạt hơn */
+    color: #f3f3f3; /* Chữ trắng */
+    padding: 2px 4px;
+    border-radius: 3px;
+}
