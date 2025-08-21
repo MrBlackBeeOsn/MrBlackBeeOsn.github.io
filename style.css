@@ -90,14 +90,14 @@ a:visited {
 .indiv-page {
   background-color: #333;
 }
-
-.page {
+  
+/*.page {
   background: url("/images/flower1.5.png") #f9f9f9;
   min-height: 100vh;
   background-size: cover;
   background-position: righ bottomt;
   background-repeat: no-repeat;
-}
+} */
 
 mark {
     background-color: #A8A4F2; /* Màu nhạt hơn */
