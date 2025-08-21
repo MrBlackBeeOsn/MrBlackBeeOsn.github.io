@@ -2,7 +2,6 @@
 body {
   font-family: Bellota, sans-serif;
   margin: 0;
-  background: #f9f9f9;
   color: #333;
 }
 header {
@@ -88,11 +87,7 @@ a:visited {
 }
 
 .indiv-page {
-  background-image: url("/images/flower1.41.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  background-color: #333;
 }
 
 .page {
