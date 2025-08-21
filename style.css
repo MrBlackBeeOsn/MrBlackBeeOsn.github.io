@@ -100,8 +100,8 @@ a:visited {
 } */
 
 mark {
-    background-color: #A8A4F2; /* Màu nhạt hơn */
-    color: #333; /* Chữ xám rất đậm, gần với màu đen. */
+    background-color: #A8A4F2;
+    color: #333;
     padding: 2px 4px;
     border-radius: 3px;
 }
