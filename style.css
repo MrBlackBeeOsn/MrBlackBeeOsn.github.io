@@ -43,13 +43,13 @@ footer {
 }
 
 a:link {
-  color: #8756A9;
+  color: #7971EA; /*#8756A9;*/
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #8756A9;
+  color: #7971EA;
   background-color: transparent;
   text-decoration: none;
 }
