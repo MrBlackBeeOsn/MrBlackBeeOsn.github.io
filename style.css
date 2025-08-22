@@ -147,3 +147,14 @@ a:visited {
     padding: 2px 4px;
     border-radius: 3px;
 }
+
+.logo {
+  max-width: 150px; /* Kích thước tối đa của logo */
+  height: auto; /* Giữ tỷ lệ hình ảnh */
+}
+
+.logo:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
