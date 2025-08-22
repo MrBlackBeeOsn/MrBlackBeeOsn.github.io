@@ -149,8 +149,8 @@ a:visited {
 }
 
 .logo {
-  max-width: 150px; /* Kích thước tối đa của logo */
-  height: auto; /* Giữ tỷ lệ hình ảnh */
+  height: 50px; /* Thiết lập chiều cao của logo */
+  width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
 }
 
 .logo:hover {
