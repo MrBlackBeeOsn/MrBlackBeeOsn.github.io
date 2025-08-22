@@ -58,9 +58,8 @@ a:visited {
 /* Quy tắc riêng cho trang chính */
 .bee-flower {
   background: url("/images/flower1.11.png") #f9f9f9;
-  width: 100%;
+  width: auto;
   height: auto;
-  display: block;
   min-height: 100vh;
   background-size: cover;
   background-position: right bottom;
@@ -71,9 +70,8 @@ a:visited {
 /* Quy tắc riêng cho trang bài viết 1 */
 .programming-flower {
   background: url("/images/flower1.2.png") #f9f9f9;
-  width: 100%;
+  width: auto;
   height: auto;
-  display: block;
   min-height: 100vh;
   background-size: cover;
   background-position: right bottom;
@@ -84,9 +82,8 @@ a:visited {
 /* Quy tắc riêng cho trang giới thiệu */
 .spreadsheet-flower {
   background: url("/images/flower1.2.png") #f9f9f9;
-  width: 100%;
+  width: auto;
   height: auto;
-  display: block;
   min-height: 100vh;
   background-size: cover;
   background-position: right bottom;
@@ -96,9 +93,8 @@ a:visited {
 
 .about-flower {
   background: url("/images/flower1.3.png") #f9f9f9;
-  width: 100%;
+  width: auto;
   height: auto;
-  display: block;
   min-height: 100vh;
   background-size: cover;
   background-position: right bottom;
@@ -108,9 +104,8 @@ a:visited {
 
 .term-flower {
   background: url("/images/flower1.41.png") #f9f9f9;
-  width: 100%;
+  width: auto;
   height: auto;
-  display: block;
   min-height: 100vh;
   background-size: cover;
   background-position: right bottom;
