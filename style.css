@@ -149,6 +149,6 @@ a:visited {
 }
 
 .logo {
-  height: 10px; /* Thiết lập chiều cao của logo */
+  height: 1px; /* Thiết lập chiều cao của logo */
   width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
 }
