@@ -41,6 +41,7 @@ Mô tả: Màu tím rất nhạt, gần với pastel.
 
 Mã màu #333 là một màu xám rất đậm, gần với màu đen.
 Mã màu #f3f3f3 là một màu xám rất nhạt, gần với màu trắng.
+Mã màu #f9f9f9 là một màu xám rất nhạt, gần với màu trắng tinh.
 
 Màu #333 là một màu xám đậm.
 
