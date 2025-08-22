@@ -34,10 +34,6 @@ main {
   max-width: 800px;
   margin: 20px auto;
   padding: 0 20px;
-  overflow-x: hidden;
-  flex: 1 0 auto; /* Mở rộng để lấp đầy không gian dọc */
-  display: flex;
-  flex-direction: column;
 }
 footer {
   text-align: center;
