@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
+  overflow-x: hidden
 }
 header {
   background: #7971EA;
