@@ -121,21 +121,21 @@ a:visited {
 } */
 
 .highlight1 {
-    background-color: #A8A4F2; /* Tím nhạt hơn*/
+    background-color: #A8A4F2; /* Purple nhạt hơn*/
     color: #333;
     padding: 2px 4px;
     border-radius: 3px;
 }
 
 .highlight2 {
-    background-color: #D6D3F9; /* Tím rất nhạt*/
+    background-color: #D6D3F9; /* Purple rất nhạt*/
     color: #333;
     padding: 2px 4px;
     border-radius: 3px;
 }
 
 .highlight3 {
-    background-color: #f3f3f3; /* Xám rất nhạt*/
+    background-color: #f3f3f3; /* Grey rất nhạt*/
     color: #333;
     padding: 2px 4px;
     border-radius: 3px;
