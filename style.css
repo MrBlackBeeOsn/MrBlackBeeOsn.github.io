@@ -120,8 +120,22 @@ a:visited {
   background-repeat: no-repeat;
 } */
 
-mark {
-    background-color: #A8A4F2;
+.highlight1 {
+    background-color: #A8A4F2; /* Tím nhạt hơn*/
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.highlight2 {
+    background-color: #D6D3F9; /* Tím rất nhạt*/
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.highlight3 {
+    background-color: #f3f3f3; /* Xám rất nhạt*/
     color: #333;
     padding: 2px 4px;
     border-radius: 3px;
