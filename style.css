@@ -149,12 +149,6 @@ a:visited {
 }
 
 .logo {
-  height: 50px; /* Thiết lập chiều cao của logo */
+  height: 10px; /* Thiết lập chiều cao của logo */
   width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
-}
-
-.logo:hover {
-    opacity: 0.8;
-    transform: scale(1.1);
-    transition: all 0.3s ease;
 }
