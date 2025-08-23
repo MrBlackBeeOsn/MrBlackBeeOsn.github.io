@@ -147,27 +147,21 @@ a:visited {
     border-radius: 3px;
 }
 
-.logo {
-  height: 40px; /* Thiết lập chiều cao của logo */
-  width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
-  display: flex;
-  align-items: center; /* Căn chỉnh logo theo chiều dọc ở giữa header (tùy chọn) */
-  justify-content: left;
-  margin-left: 20px;
-  border-radius: 100%;
-  margin-right: 20px; /* Khoảng cách giữa logo và menu */
+.logo-container img {
+    height: 25px; /* Điều chỉnh kích thước logo */
+    width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
+    border-radius: 100%;
+    /* Các thuộc tính khác như border-radius */
 }
 
-/* Media query cho mobile */
-        @media screen and (max-width: 768px) {
-            nav {
-                flex-direction: column; /* Xếp dọc trên mobile */
-                justify-content: center; /* Canh giữa */
-                text-align: center;
-            }
-            .logo {
-                max-width: 120px; /* Thu nhỏ logo trên mobile */
-                margin-right: 0;
-                margin-bottom: 15px; /* Khoảng cách dưới logo */
-            }
+nav ul {
+    list-style: none; /* Xóa các dấu chấm */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Đặt các mục nằm trên cùng một dòng */
+    margin: 0 0px; /* Thêm khoảng cách giữa các mục */
+}
 
