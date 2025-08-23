@@ -152,7 +152,7 @@ a:visited {
 }
 
 .logo-container img {
-    height: 25px; /* Điều chỉnh kích thước logo */
+    height: 50px; /* Điều chỉnh kích thước logo */
     width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
     border-radius: 100%;
     /* Các thuộc tính khác như border-radius */
