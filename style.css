@@ -47,14 +47,30 @@ main {
   padding: 0 20px;    /* tạo khoảng thở hai bên trái/phải */
   overflow-x: hidden;
 }
+main h3 {
+    font-size: 24px;
+    margin: 0 0 15px;
+    text-align: center;
+    font-weight: bold;
+}
+main p {
+    width: 100%;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
 footer {
-  text-align: center;
-  padding: 15px;
-  background: #333;
-  color: white;
-  margin-top: auto;
-  width: 100%;
-  max-width: 100vw;
+    width: 100%;
+    max-width: 100vw;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #333;
+    color: white;
 }
 
 a:link {
@@ -71,15 +87,19 @@ a:visited {
 
 /* Quy tắc riêng cho trang chính */
 .bee-flower {
-  background: url("/images/flower1.11.png") #f9f9f9;
-  width: 100%;
-  display: block;
-  height: auto;
-  min-height: 100vh;
-  background-size: cover;
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  padding-bottom: 50px; /* Tránh footer che nội dung */
+    width: 700px; /* Chiều rộng cố định, tối ưu cho blog */
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('/images/flower1.11.png'); /* Hình nền giống giấy */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
+    font-family: 'Merriweather', 'Georgia', serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+    position: relative;
 }
 
 /* Quy tắc riêng cho trang bài viết 1 */
@@ -187,17 +207,65 @@ nav ul li {
 }
 
 @media screen and (max-width: 768px) {
-    main {
-        width: 100%;
-         width: 100vw;
-        padding: 15px;
-        overflow-x: hidden; /* Ngăn trượt ngang */
-        box-shadow: none;
+    header {
+        padding: 10px;
     }
+
+    .branding {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    header img {
+        max-width: 80px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    main.image {
+        width: 100%;
+        max-width: 100vw;
+        margin: 0;
+        padding: 15px;
+        box-shadow: none;
+        border: none;
+        overflow-x: hidden;
+        background-image: url('/images/flower1.11.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    main.image::before {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    main h2 {
+        font-size: 20px;
+    }
+
     main img {
         width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto 15px;
+        object-fit: contain;
     }
-  main p {
+
+    main p {
         font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
     }
 }
