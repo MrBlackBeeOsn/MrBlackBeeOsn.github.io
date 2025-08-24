@@ -57,7 +57,7 @@ main.image {
     margin: 20px auto;  /* cách lề trên dưới 20px, căn giữa ngang */
     padding: 20px;
     background-color: #f5f5f5;
-    background-image: url('https://mrblackbeeosn.github.io/images/flower1.11.png'); /* Hình nền giống giấy */
+    background-image: url('/images/flower1.11.png'); /* Hình nền giống giấy */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ footer {
         box-shadow: none;
         border: none;
         overflow-x: hidden;
-        background-image: url('https://mrblackbeeosn.github.io/images/flower1.11.png');
+        background-image: url('/images/flower1.11.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
