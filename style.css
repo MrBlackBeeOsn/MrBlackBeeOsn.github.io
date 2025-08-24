@@ -276,3 +276,13 @@ header {
     background: #7971EA;
     color: white;
 }
+
+body {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    min-height: 100vh;      /* Đảm bảo body có chiều cao tối thiểu bằng màn hình */
+}
+
+main {
+    flex: 1; /* Cho phép main tự động co giãn để chiếm không gian trống */
+}
