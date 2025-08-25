@@ -273,10 +273,10 @@ a:visited {
 }
 
 .quote {
-  border-left: 6px solid #7971EA;
-  /*background-color: #f3f3f3;8*/
-  padding: 15px;
-  padding: 12px 16px
+    border-left: 6px solid #7971EA;
+    /*background-color: #f3f3f3;8*/
+    padding: 15px;
+    padding: 12px 16px
 }
 
 .branding img {
@@ -294,19 +294,19 @@ footer {
 }
 
 nav {
-  align-items: center; /* Căn giữa theo chiều dọc */
-  padding: 10px 20px;
-  justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px 20px;
+    justify-content: center; /* Căn giữa theo chiều ngang */
 }
 nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: color 0.3s ease;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 nav ul {
@@ -344,9 +344,9 @@ main {
 }
 
 p.last-of-type, h2.last-of-type {
-  margin-bottom: 50px; /* hoặc một giá trị khác phù hợp hơn */
+    margin-bottom: 50px; /* hoặc một giá trị khác phù hợp hơn */
 }
 
 p.first-of-type, h2.last-of-type {
-  margin-top: 50px; /* hoặc một giá trị khác phù hợp hơn */
+    margin-top: 50px; /* hoặc một giá trị khác phù hợp hơn */
 }
