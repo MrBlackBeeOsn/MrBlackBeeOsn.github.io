@@ -427,13 +427,17 @@ h2.last-of-type {
     margin-top: 50px; /* hoặc một giá trị khác phù hợp hơn */
 }
 
+p.first-of-type-color {
+    margin-top: 50px;
+    color: #7971EA;
+}
+
 p.text-align {
     font-size: 14px;
     /*text-align: right;*/
     font-weight: normal;
     margin-bottom: 50px; /* hoặc một giá trị khác phù hợp hơn */
 }
-
 
 p {
   font-family: 'Bellota Text', sans-serif;
