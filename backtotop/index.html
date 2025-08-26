@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to Top</title>
+    <style>
+        /* Header và Logo */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .shamrock {
+            color: #86D731; /* Màu xanh lá cây từ yêu cầu */
+            font-size: 24px;
+            margin-right: 10px;
+            font-family: 'Arial', 'Segoe UI Emoji', sans-serif;
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Quote */
+        .quote {
+            border-left: 6px solid #7971EA;
+            background-color: #f3f3f3;
+            padding: 15px 20px;
+            font-size: 16px;
+            color: #333;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #86D731; /* Màu xanh lá cây shamrock */
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background-color: #79C029; /* Màu tối hơn khi hover */
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+            .logo-container {
+                justify-content: center;
+            }
+            .back-to-top {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header với Logo và Shamrock -->
+    <header>
+        <div class="logo-container">
+            <span class="shamrock">☘</span>
+            <a href="/"><img src="images/logo.png" alt="Logo của trang web" class="logo"></a>
+        </div>
+        <nav>
+            <a href="#home">Trang chủ</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+    </header>
+
+    <!-- Nội dung mẫu để cuộn -->
+    <div style="height: 1500px;">
+        <div class="quote">
+            <span class="shamrock">☘</span>
+            Đây là một câu trích dẫn mẫu với biểu tượng shamrock.
+        </div>
+        <p>Nội dung dài để kiểm tra cuộn...</p>
+    </div>
+
+    <!-- Nút Back to Top -->
+    <button class="back-to-top" title="Quay lại đầu trang">↑</button>
+
+    <!-- JavaScript -->
+    <script>
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        // Hiển thị/ẩn nút khi cuộn
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) { // Hiển thị nút khi cuộn xuống 300px
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Cuộn mượt về đầu trang
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
