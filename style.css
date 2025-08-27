@@ -340,6 +340,7 @@ a:visited {
     height: 50px; /* Điều chỉnh kích thước logo */
     width: auto; /* Chiều rộng sẽ tự động điều chỉnh để giữ tỷ lệ */
     border-radius: 100%;
+    outline: none;
 }
 
 footer {
@@ -475,6 +476,7 @@ ul {
             /* background-color: #7971EA; Màu tím hoa cà */
             color:  white;
             border: none;
+            outline: none;
             border-radius: 50%;
             width: 50px;
             height: 50px;
@@ -499,6 +501,13 @@ ul {
             opacity: 1;
         }
 
+        .back-to-top:focus,
+        .back-to-top:active {
+            background-color: transparent;
+            outline: none;
+            box-shadow: none; /* nếu có */
+        }
+
         /* Responsive */
         @media screen and (max-width: 768px) {
             header {
@@ -514,7 +523,7 @@ ul {
                 height: 40px;
                 font-size: 20px;
                 bottom: 20px;
-                left: -12px;  /* lấn ra ngoài màn hình 12px */
+                left: -12px; /* lấn ra ngoài màn hình 12px */
             }
             .back-to-top.show {
                 opacity: 0.3;
@@ -522,5 +531,11 @@ ul {
             }
             .back-to-top:hover {
                 opacity: 1;
+            }
+            .back-to-top:focus,
+            .back-to-top:active {
+                background-color: transparent;
+                outline: none;
+                box-shadow: none; /* nếu có */
             }
         }
