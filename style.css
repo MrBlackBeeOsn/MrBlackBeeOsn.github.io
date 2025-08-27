@@ -516,4 +516,11 @@ ul {
                 bottom: 15px;
                 right: 15px;
             }
+            .back-to-top.show {
+                opacity: 0.3;
+                visibility: visible;
+            }
+            .back-to-top:hover {
+                opacity: 1;
+            }
         }
