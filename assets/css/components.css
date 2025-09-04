@@ -2,7 +2,7 @@
    Components
 ============================= */
 
-h1 {
+/* h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -19,4 +19,116 @@ button {
 
 button:hover {
   background: #357abd;
+} */
+
+/* =============================
+   aeiou - DPSK
+============================= */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 0rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 20px; Thêm padding để tránh card bị cắt khi xoay */
+    overflow: visible; /* Đảm bảo card xoay không bị ẩn */
+}
+
+.card {
+    padding: 1rem;
+    border: 2px solid #D6D3F9;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 65px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center bottom; /* Điểm xoay tại đáy card */
+}
+
+/* Tạo góc xoay ngẫu nhiên cho các card */
+.card:nth-child(odd) {
+    transform: rotate(-3deg);
+}
+
+.card:nth-child(even) {
+    transform: rotate(2deg);
+}
+
+.card:nth-child(3n) {
+    transform: rotate(4deg);
+}
+
+.card:nth-child(5n) {
+    transform: rotate(-5deg);
+}
+
+/* Hiệu ứng khi hover */
+.card:hover {
+    transform: rotate(0deg) scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* Đảm bảo card hover nổi lên trên */
+}
+
+.text-big { 
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+code { 
+    background: #f6f6f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 6px;
+}
+
+.muted { 
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* =============================
+   Mr. Bee OSn
+============================= */
+
+.card2 {
+    padding: 5px;
+    border: 1px solid #D6D3F9;
+    border-radius: 5px;
+    font-weight: normal;
+    width: auto;
+    line-height: 0;
+    text-align: center;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center bottom; /* Điểm xoay tại đáy card */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Tạo góc xoay ngẫu nhiên cho các card */
+.card2:nth-child(odd) {
+    transform: rotate(-3deg);
+}
+
+.card2:nth-child(even) {
+    transform: rotate(2deg);
+}
+
+.card2:nth-child(3n) {
+    transform: rotate(4deg);
+}
+
+.card2:nth-child(5n) {
+    transform: rotate(-5deg);
+}
+
+/* Hiệu ứng khi hover */
+.card2:hover {
+    transform: rotate(0deg) scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* Đảm bảo card hover nổi lên trên */
 }
