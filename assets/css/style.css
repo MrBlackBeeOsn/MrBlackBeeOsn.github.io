@@ -323,7 +323,7 @@ span.bold {
     transform: scale(0.92); /* chữ + nền nhỏ lại */
 }
 
-.bee {
+span.bee {
       position: absolute;
       font-size: 14px;
       transition: transform 1s ease-in-out;
