@@ -569,6 +569,19 @@ html {
   font-weight: normal;
 }
 
+pre {
+    background-color: #eeeeee; /* #f4f4f4Màu nền xám nhạt */
+    padding-left: 0rem; /* Thêm khoảng đệm bên trong  */
+    border-radius: 8px; /* Bo tròn các góc */
+    overflow-x: auto; /* Thêm thanh cuộn ngang nếu nội dung quá dài */
+}
+
+/* Style cho văn bản code */
+code {
+    font-family: monospace; /* Đảm bảo font chữ đơn cách */
+    color: #333; /* Màu chữ */
+}
+
 /* =============================
    Back to Top Button - by GRK
 ============================= */
