@@ -573,14 +573,14 @@ pre {
     overflow-x: auto; /* Thêm thanh cuộn ngang nếu nội dung quá dài */
 }
 
-.pre-background {
-    background-color: #eeeeee; /* #f4f4f4Màu nền xám nhạt */
-}
-
 .pre-border {
     border: 2px, solid #D6D3F9;
     border-radius: 8px; /* Bo tròn các góc */
     padding: 0px;
+}
+
+.pre-background {
+    background-color: #eeeeee; /* #f4f4f4Màu nền xám nhạt */
 }
 
 code {
@@ -592,6 +592,10 @@ code {
     border: 1px, solid #D6D3F9;
     border-radius: 5px; /* Bo tròn các góc */
     padding: 3px; /* Thêm khoảng đệm bên trong  */
+}
+
+.code-background {
+    background-color: #eeeeee; /* #f4f4f4Màu nền xám nhạt */
 }
 
 /* =============================
