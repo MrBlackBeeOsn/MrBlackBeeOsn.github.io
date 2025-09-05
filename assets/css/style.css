@@ -570,16 +570,28 @@ html {
 }
 
 pre {
-    background-color: #eeeeee; /* #f4f4f4Màu nền xám nhạt */
-    padding-left: 0rem; /* Thêm khoảng đệm bên trong  */
-    border-radius: 8px; /* Bo tròn các góc */
     overflow-x: auto; /* Thêm thanh cuộn ngang nếu nội dung quá dài */
 }
 
-/* Style cho văn bản code */
+.pre-background {
+    background-color: #eeeeee; /* #f4f4f4Màu nền xám nhạt */
+}
+
+.pre-border {
+    border: 2px, solid #D6D3F9;
+    border-radius: 8px; /* Bo tròn các góc */
+    padding: 0px;
+}
+
 code {
     font-family: monospace; /* Đảm bảo font chữ đơn cách */
     color: #333; /* Màu chữ */
+}
+
+.code-border {
+    border: 1px, solid #D6D3F9;
+    border-radius: 5px; /* Bo tròn các góc */
+    padding: 3px; /* Thêm khoảng đệm bên trong  */
 }
 
 /* =============================
