@@ -13,7 +13,6 @@ Màn hình < 768px:
 
 Margin-y: 40px.
 Font-size: 16px.
-Line-height: 1.4 (≈ 22px).
 
 /* Dưới 768px */
 @media (max-width: 767px) {
