@@ -50,3 +50,12 @@ body {
 &#127803; sunflower 🌻
 &#127806; 🌾 "Ear of Rice"
 &#9752; ☘️ Shamrock <span style="color:#86d731;;">&#9752;</span>🌱
+
+Vàng sáng	#f0ff00	Màu vàng neon, tượng trưng cho thân ong
+Đen	#131212	Màu đen đậm, thường dùng cho sọc hoặc mắt ong
+
+
+Vàng mật ong	#FFC30B	Ấm áp, ngọt ngào như mật ong
+Vàng nghệ	#E1B12C	Vàng đất, hơi trầm, rất dễ phối
+Vàng pastel	#F9E79F	Nhẹ nhàng, thanh lịch
+Vàng cam nhẹ	#F4A460	
