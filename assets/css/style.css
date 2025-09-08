@@ -343,10 +343,10 @@ span.bold {
 
 .logo-text {
     position: absolute;
-    top: -10px;    /* Điều chỉnh khoảng cách phía trên */
-    left: 130%;  /* Điều chỉnh khoảng cách phía bên phải */
+    top: -14px;    /* Điều chỉnh khoảng cách phía trên */
+    left: 105%;  /* Điều chỉnh khoảng cách phía bên phải */
     transform: translateX(-50%); /* căn giữa chuẩn */
-    font-size: 8px;
+    font-size: 12px;
     color: #7971EA;
     font-weight: bold;
     padding: 5px;
