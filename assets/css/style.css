@@ -283,6 +283,17 @@ a:active img {
 }
 
 /* =============================
+   Quote
+============================= */
+
+.quote {
+    border-left: 6px solid #7971EA;
+    /*background-color: #f3f3f3;8*/
+    padding: 1.2rem 1.6rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* =============================
    Highlight
 ============================= */
 
@@ -327,17 +338,6 @@ mark.bold {
 
 span.bold {
     font-weight: bold;
-}
-
-/* =============================
-   Quote
-============================= */
-
-.quote {
-    border-left: 6px solid #7971EA;
-    /*background-color: #f3f3f3;8*/
-    padding: 1.2rem 1.6rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* =============================
