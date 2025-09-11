@@ -1368,6 +1368,7 @@ code {
                 right: -45px;
                 width: 130px; /* Kích thước hình ảnh */
                 height: auto;
+                opacity: 27%;
             }
         }
 
@@ -1441,6 +1442,7 @@ code {
                 right: -40px;
                 width: 120px; /* Kích thước hình ảnh */
                 height: auto;
+                opacity: 25%;
             }
 
         }
