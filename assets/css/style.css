@@ -1177,6 +1177,59 @@ code {
     }
 
 /* =============================
+    Table - by DPSK
+============================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 16px 20px;
+    text-align: center;
+    border-bottom: 1px dashed var(--tertiary-color);
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+th:nth-child(3) {
+    background-color: var(--accent-color); /* Màu xanh lá cho tiêu đề cột giá tiền */
+}
+
+/* Tô màu cho toàn bộ cột thứ 3 */
+td:nth-child(3) {
+    background-color: white;
+    font-weight: 600;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: var(--tertiary-color);
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào ô ở cột thứ 3 */
+td:nth-child(3):hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
+    /* =============================
     Mobile (Responsive) - by GRK
 ============================= */
 
