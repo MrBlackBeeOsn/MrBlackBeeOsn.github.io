@@ -1,5 +1,9 @@
 /* =============================
-   Reset margin, padding
+  Base: font-family, box-sizing (Dành cho các style chung của trang)
+============================= */
+
+/* =============================
+  Reset margin, padding
 ============================= */
 
 /* * {
