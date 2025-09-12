@@ -1180,23 +1180,32 @@ code {
     Table - by DPSK
 ============================= */
 
+.table-container {
+    max-width: 1000px;
+    /* background-color: white; */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 3.0rem;
+    overflow: hidden;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin: 2.0rem 0;
+    font-size: 1.6rem;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); */
 }
 
 th, td {
-    padding: 16px 20px;
+    padding: 1.6rem 2.0rem;
     text-align: center;
     border-bottom: 1px dashed var(--tertiary-color);
 }
 
 th {
-    background-color: var(--primary-color);
-    color: white;
+    /* background-color: var(--primary-color); */
+    /* color: white; */
     font-weight: 600;
     text-align: center;
 }
@@ -1213,9 +1222,9 @@ td:nth-child(3) {
     text-align: center;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #f9f9f9;
-}
+} */
 
 tr:hover {
     background-color: var(--tertiary-color);
@@ -1229,8 +1238,8 @@ td:nth-child(3):hover {
     transition: all 0.2s ease;
 }
 
-    /* =============================
-    Mobile (Responsive) - by GRK
+/* =============================
+    Mobile (Responsive768px) - by GRK
 ============================= */
 
         @media screen and (max-width: 768px) {
@@ -1444,10 +1453,28 @@ td:nth-child(3):hover {
                 width: 80px; /* Kích thước hình ảnh */
                 opacity: 27%;
             }
+
+            /* =============================
+                Table 768px - by DPSK
+            ============================= */
+
+            .table-container {
+                border-radius: 10px;
+            }
+            
+            th, td {
+                padding: 1.2rem 0.8rem;
+                font-size: 1.6rem;
+            }
+            
+            .mobile-message {
+                display: block;
+            }
+
         }
 
 /* =============================
-    Mobile (Responsive) - by GRK
+    Mobile (Responsive 375px) - by GRK
 ============================= */
 
          @media screen and (max-width: 375px) {
@@ -1527,4 +1554,21 @@ td:nth-child(3):hover {
                 opacity: 25%;
             }
             
+            /* =============================
+                Table 375px - by DPSK
+            ============================= */
+
+            .table-container {
+                border-radius: 10px;
+            }
+            
+            th, td {
+                padding: 1.2rem 0.8rem;
+                font-size: 1.2rem;
+            }
+            
+            .mobile-message {
+                display: block;
+            }
+
         }
