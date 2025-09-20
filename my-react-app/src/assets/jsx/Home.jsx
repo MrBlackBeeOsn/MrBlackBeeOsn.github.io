@@ -11,13 +11,13 @@ export default function Home() {
 
         <p className="quote">
 
-          🐝 <a href="programming/programming.html">Programming</a> is the process of creating a set of <mark className="highlight5">instructions</mark> that tells a computer how to <mark className="highlight5">perform a task.</mark>
+          🐝 <Link to="/">Programming</Link> is the process of creating a set of <mark className="highlight5">instructions</mark> that tells a computer how to <mark className="highlight5">perform a task.</mark>
 
         </p>
         
         <p className="quote">
 
-          🐝 A <a href="formula/spreadsheet.html">spreadsheet</a> is a digital tool for <mark className="highlight5">organizing and working with information.</mark>
+          🐝 A <Link to="/">spreadsheet</Link> is a digital tool for <mark className="highlight5">organizing and working with information.</mark>
           
         </p>
 
