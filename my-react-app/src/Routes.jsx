@@ -1,8 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import { Link } from "react-router-dom";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Layout from './components/Layout';
 
 import Home from "./pages/Home";
 import Programming from "./pages/Programming";
@@ -14,18 +12,14 @@ export default function AppRoutes() {
 
     <Routes>
 
-        <Header />
+      <Route path="/" element={<Layout />}>
 
-        <main>
+        <Route path="/" element={<Home />} />
+        <Route path="/programming" element={<Programming />} />
+        <Route path="/spreadsheet" element={<Spreadsheet />} />
+        <Route path="/mrbeeosn" element={<MrBeeOsn />} />
 
-            <Route path="/" element={<Home />} />
-            <Route path="/programming" element={<Programming />} />
-            <Route path="/spreadsheet" element={<Spreadsheet />} />
-            <Route path="/mrbeeosn" element={<MrBeeOsn />} />
-
-        </main>
-
-        <Footer />
+      </Route>
 
     </Routes>
 
