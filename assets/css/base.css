@@ -36,14 +36,14 @@ body, html {
     overflow-x: hidden;
     background: var(--background-color);
     font-family: Bellota, sans-serif;
-    font-size: 1.8rem; /* 18px; */
+    font-size: 1.8rem;           /* 18px */
 }
 
 body {
     display: flex;
     flex-direction: column; /* Sắp xếp các phần tử theo cột */
     min-height: 100vh;      /* Đảm bảo body có chiều cao tối thiểu bằng màn hình */
-}
+} 
 
 /* =============================
    a
