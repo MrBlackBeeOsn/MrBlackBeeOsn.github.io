@@ -51,11 +51,12 @@ h5 { font-size: 1.8rem; line-height: 1.5; }
 h6 { font-size: 1.6rem; line-height: 1.5; }
 
 /* =============================
-   Paragraph
+   p
 ============================= */
 
 p {
   font-family: 'Bellota Text', sans-serif;
+  
 }
 
 .text-left,
