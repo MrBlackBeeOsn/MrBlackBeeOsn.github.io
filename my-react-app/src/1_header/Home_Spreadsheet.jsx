@@ -6,7 +6,7 @@ export default function Home_Spreadsheet() {
   <main className="image image1 content">
 
     {/* =============================
-          Spreadsheet Terms
+        1. Spreadsheet Terms
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="spreadsheet-terms">Spreadsheet Terms</h3>
@@ -22,7 +22,7 @@ export default function Home_Spreadsheet() {
     </ul>
 
     {/* =============================
-          Function Terms
+        2. Function Terms
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="function-terms">Function Terms</h3>

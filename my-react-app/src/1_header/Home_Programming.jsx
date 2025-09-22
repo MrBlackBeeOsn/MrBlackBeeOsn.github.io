@@ -6,7 +6,7 @@ export default function Home_Programming() {
   <main className="image image1 content">
 
     {/* =============================
-          Programming Terms
+        1. Programming Terms
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="programming-terms">Programming Terms</h3>
@@ -36,7 +36,7 @@ export default function Home_Programming() {
     </ul>
 
     {/* =============================
-          Pront-End Terms
+        2. Pront-End Terms
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Terms</h3>
@@ -54,7 +54,7 @@ export default function Home_Programming() {
     </ul> */}
 
     {/* =============================
-          Back-End Terms
+        3. Back-End Terms
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="back-end-terms">Back-End Terms</h3>
@@ -78,10 +78,10 @@ export default function Home_Programming() {
     </ul> */}
 
     {/* =============================
-          Mr. Bee's Articles
+        4. Lập Trình Terms
     ============================= */}
 
-    <h3 className="margin-y-50 text-center" id="mr.bee-osn-programming-terms">Mr. Bee Osn Programming Terms</h3>
+    <h3 className="margin-y-50 text-center" id="lap-trinh-terms">Lập Trình Terms</h3>
     
     {/* <ul className="list-border1">
 
