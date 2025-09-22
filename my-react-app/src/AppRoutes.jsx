@@ -23,6 +23,20 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
   import Git from "./2_main/programming/Git";
   import Function from "./2_main/programming/Function";
 
+  // 3. Frontend
+  import Front_End_Developer from "./2_main/programming/prontend/Front_End_Developer";
+  import HTML from "./2_main/programming/prontend/HTML";
+  import CSS from "./2_main/programming/prontend/CSS";
+  import JavaScript from "./2_main/programming/prontend/JavaScript";
+
+  // 3. Backend
+  import Back_End_Developer from "./2_main/programming/backend/Back_End_Developer";
+  import GitHub from "./2_main/programming/backend/GitHub";
+  import SQL from "./2_main/programming/backend/SQL";
+  import Python from "./2_main/programming/backend/Python";
+  import Java from "./2_main/programming/backend/Java";
+  import PHP from "./2_main/programming/backend/PHP";
+  import Node_JS from "./2_main/programming/backend/Node_JS";
 
   // 4. Lập Trình
   import Lo_Trinh_Hoc_Frontend from "./2_main/programming/laptrinh/Lo_Trinh_Hoc_Frontend";
@@ -70,6 +84,21 @@ export default function AppRoutes() {
         <Route path="/programming/what-is-Git?" element={<Git />} />
         <Route path="/programming/what-is-a-function?" element={<Function />} />
 
+        {/* 2. Frontend */}
+        <Route path="/programming/frontend/what-is-a-front-end-developer?" element={<Front_End_Developer />} />
+        <Route path="/programming/frontend/what-is-html?" element={<HTML />} />
+        <Route path="/programming/frontend/what-is-css?" element={<CSS />} />
+        <Route path="/programming/frontend/what-is-javascript?" element={<JavaScript />} />
+        
+        {/* 3. Backend */}
+        <Route path="/programming/backend/what-is-a-back-end-developer?" element={<Back_End_Developer />} />
+        <Route path="/programming/backend/what-is-github?" element={<GitHub />} />
+        <Route path="/programming/backend/what-is-sql?" element={<SQL />} />
+        <Route path="/programming/backend/what-is-python?" element={<Python />} />
+        <Route path="/programming/backend/what-is-java?" element={<Java />} />
+        <Route path="/programming/backend/what-is-php?" element={<PHP />} />
+        <Route path="/programming/backend/what-is-node.js?" element={<Node_JS />} />
+        
         {/* 4. Lập Trình */}
         <Route path="/laptrinh/lo-trinh-hoc-frontend-la-gi?" element={<Lo_Trinh_Hoc_Frontend />} />
         <Route path="/laptrinh/lo-trinh-hoc-backend-la-gi?" element={<Lo_Trinh_Hoc_Backend />} />
