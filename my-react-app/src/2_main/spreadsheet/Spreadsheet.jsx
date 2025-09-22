@@ -4,6 +4,7 @@ export default function Spreadsheet() {
   return (<>
 
   <main className="image image2">
+    
     <h4><Link to="/spreadsheet#spreadsheet-terms"><mark className="highlight2">Spreadsheet</mark></Link></h4>
     
     <h2 className="margin-y-50 text-center">What is a spreadsheet?</h2>
