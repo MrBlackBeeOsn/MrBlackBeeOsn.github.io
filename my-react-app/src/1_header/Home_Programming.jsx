@@ -13,25 +13,25 @@ export default function Home_Programming() {
     
     <ul className="list-border1">
 
-      <li><Link to="what-is-programming?">Programming</Link></li>
+      <li><Link to="/programming/what-is-programming?">Programming</Link></li>
       
-      {/* <li><Link to="programming-language?">Programming language</Link></li>
+      <li><Link to="/programming/what-is-a-programming-language?">Programming language</Link></li>
       
-      <li><Link to="programmer?">Programmer</Link></li>
+      <li><Link to="/programming/what-is-a-programmer?">Programmer</Link></li>
 
-      <li><Link to="software-developer?">Software Developer</Link></li>
+      <li><Link to="/programming/what-is-a-software-developer?">Software Developer</Link></li>
 
-      <li><Link to="full-stack-developer?">Full-Stack Developer</Link></li>
+      <li><Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link></li>
 
-      <li><Link to="mobile-developer?">Mobile Developer</Link></li>
+      <li><Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link></li>
 
-      <li><Link to="good-habits?">Good habits</Link></li>
+      <li><Link to="/programming/what-are-good-habits?">Good habits</Link></li>
 
-      <li><Link to="if-then-else?">If-Then-Else</Link></li>
+      <li><Link to="/programming/what-is-if-then-else?">If-Then-Else</Link></li>
 
-      <li><Link to="git?">Git</Link></li>
+      <li><Link to="/programming/what-is-Git?">Git</Link></li>
 
-      <li><Link to="function?">Function</Link></li> */}
+      <li><Link to="/programming/what-is-a-function?">Function</Link></li>
 
     </ul>
 
@@ -41,17 +41,17 @@ export default function Home_Programming() {
 
     <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Terms</h3>
     
-    {/* <ul className="list-border1">
+    <ul className="list-border1">
       
-      <li><Link to="front-end-developer?">Front-End Developer</Link></li>
+      <li><Link to="/programming/frontend/what-is-a-front-end-developer?">Front-End Developer</Link></li>
       
-      <li><Link to="html?">HTML</Link></li>
+      <li><Link to="/programming/frontend/what-is-html?">HTML</Link></li>
 
-      <li><Link to="css?">CSS</Link></li>
+      <li><Link to="/programming/frontend/what-is-css?">CSS</Link></li>
 
-      <li><Link to="javascript?">JavaScript</Link></li>
+      <li><Link to="/programming/frontend/what-is-javascript?">JavaScript</Link></li>
 
-    </ul> */}
+    </ul>
 
     {/* =============================
         3. Back-End Terms
@@ -59,23 +59,26 @@ export default function Home_Programming() {
 
     <h3 className="margin-y-50 text-center" id="back-end-terms">Back-End Terms</h3>
     
-    {/* <ul className="list-border1">
+    <ul className="list-border1">
 
-      <li><Link to="back-end-developer?">Back-End Developer</Link></li>
+      <li><Link to="/programming/backend/what-is-a-back-end-developer?">Back-End Developer</Link></li>
       
-      <li><Link to="github?">GitHub</Link></li>
+      <li><Link to="/programming/backend/what-is-github?">GitHub</Link></li>
 
-      <li><Link to="sql?">SQL</Link></li>
+      <li><Link to="/programming/backend/what-is-sql?">SQL</Link></li>
 
-      <li><Link to="python?">Python</Link></li>
+      <li><Link to="/programming/backend/what-is-python?">Python</Link></li>
 
-      <li><Link to="java?">Java</Link></li>
+      <li><Link to="/programming/backend/what-is-java?">Java</Link></li>
 
-      <li><Link to="php?">PHP</Link></li>
+      <li><Link to="/programming/backend/what-is-php?">PHP</Link></li>
 
-      <li><Link to="node.js?">Node.js</Link></li>
+      <li><Link to="/programming/backend/what-is-node.js?">Node.js</Link></li>
 
-    </ul> */}
+      <li><Link to="/programming/backend/what-is-python?">Python</Link></li>
+
+
+    </ul>
 
     {/* =============================
         4. Lập Trình Terms
@@ -83,13 +86,13 @@ export default function Home_Programming() {
 
     <h3 className="margin-y-50 text-center" id="lap-trinh-terms">Lập Trình Terms</h3>
     
-    {/* <ul className="list-border1">
+    <ul className="list-border1">
 
-      <li><Link to="lo-trinh-hoc-frontend-la-gi?">Lộ trình học Frontend</Link></li>
+      <li><Link to="/laptrinh/lo-trinh-hoc-frontend-la-gi?">Lộ trình học Frontend</Link></li>
       
-      <li><Link to="lo-trinh-hoc-backend-la-gi?">Lộ trình học Backend</Link></li>
+      <li><Link to="/laptrinh/lo-trinh-hoc-backend-la-gi?">Lộ trình học Backend</Link></li>
 
-    </ul> */}
+    </ul>
     
   </main>
 

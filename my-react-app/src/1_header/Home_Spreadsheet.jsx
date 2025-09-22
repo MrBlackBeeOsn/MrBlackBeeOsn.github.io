@@ -13,11 +13,11 @@ export default function Home_Spreadsheet() {
     
     <ul className="list-border1">
 
-      <li><Link to="what-is-spreadsheet?">Spreadsheet</Link></li>
+      <li><Link to="/spreadsheet/what-is-spreadsheet?">Spreadsheet</Link></li>
       
-      {/* <li><Link to="formula?">Formula</Link></li>
+      <li><Link to="/spreadsheet/what-is-formula?">Formula</Link></li>
 
-      <li><Link to="function?">Function</Link></li> */}
+      <li><Link to="/spreadsheet/what-is-function?">Function</Link></li>
 
     </ul>
 
@@ -27,13 +27,13 @@ export default function Home_Spreadsheet() {
 
     <h3 className="margin-y-50 text-center" id="function-terms">Function Terms</h3>
     
-    {/* <ul className="list-border1">
+    <ul className="list-border1">
 
-      <li><Link to="xlookup?">XLOOKUP</Link></li>
+      <li><Link to="/spreadsheet/functions/what-is-XLOOKUP?">XLOOKUP</Link></li>
       
       <li><Link to=""></Link></li>
 
-    </ul> */}
+    </ul>
     
   </main>
 
