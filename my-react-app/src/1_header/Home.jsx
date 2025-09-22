@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  return (
-
-    <div>
+  return (<>
      
       <main className="image">
 
@@ -11,13 +9,13 @@ export default function Home() {
 
         <p className="quote">
 
-          🐝 <Link to="/">Programming</Link> is the process of creating a set of <mark className="highlight5">instructions</mark> that tells a computer how to <mark className="highlight5">perform a task.</mark>
+          🐝 <Link to="/programming/what-is-programming?">Programming</Link> is the process of creating a set of <mark className="highlight5">instructions</mark> that tells a computer how to <mark className="highlight5">perform a task.</mark>
 
         </p>
         
         <p className="quote">
 
-          🐝 A <Link to="/">spreadsheet</Link> is a digital tool for <mark className="highlight5">organizing and working with information.</mark>
+          🐝 A <Link to="/spreadsheet/what-is-spreadsheet?">spreadsheet</Link> is a digital tool for <mark className="highlight5">organizing and working with information.</mark>
           
         </p>
 
@@ -39,6 +37,5 @@ export default function Home() {
 
       </main>
 
-    </div>
-  );
+  </>);
 }
