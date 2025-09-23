@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Lo_Trinh_Hoc_Backend() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#programming#mr.bee-osn-programming-terms"><mark className="highlight2">Programming</mark></a></h4>
+    <h4><HashLink smooth to="/programming#lap-trinh-terms"><mark className="highlight2">Lập Trình</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">Lộ trình học Backend là gì?</h2>
 

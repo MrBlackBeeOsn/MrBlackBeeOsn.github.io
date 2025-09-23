@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function JavaScript() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#programming#pront-end-terms"><mark className="highlight2">Pront-End</mark></a></h4>
+    <h4><HashLink smooth to="/programming#pront-end-terms"><mark className="highlight2">Pront-End</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">What is JavaScript?</h2>
 
@@ -13,7 +14,7 @@ export default function JavaScript() {
 
     <p><strong>JavaScript</strong>: The Dynamic Language of the Web</p>
 
-    <p><strong>JavaScript</strong> is a high-level programming language that's primarily used to add interactivity and dynamic content to web pages. It's one of the core technologies of the web, alongside <a href="html.html">HTML</a> and <a href="css.html">CSS</a>.</p>
+    <p><strong>JavaScript</strong> is a high-level programming language that's primarily used to add interactivity and dynamic content to web pages. It's one of the core technologies of the web, alongside <Link to="/programming/frontend/what-is-html?">HTML</Link> and <Link to="/programming/frontend/what-is-css?">CSS</Link>.</p>
 
     <h4 className="margin-y-50 text-center">How Does JavaScript Work?</h4>
     

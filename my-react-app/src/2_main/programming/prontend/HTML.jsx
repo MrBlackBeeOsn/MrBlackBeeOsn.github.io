@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function HTML() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#programming#pront-end-terms"><mark className="highlight2">Pront-End</mark></a></h4>
+    <h4><HashLink smooth to="/programming#pront-end-terms"><mark className="highlight2">Pront-End</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">What is HTML?</h2>
 
@@ -29,19 +30,18 @@ export default function HTML() {
 
     <p><strong>HTML</strong></p>
 
-    <pre className="pre-border"><code>
-      &lt;!DOCTYPE html&gt;
-      &lt;html&gt;
-      &lt;head&gt;
-        &lt;title&gt;My Web Page&lt;/title&gt;
-      &lt;/head&gt;
-      &lt;body&gt;
-        &lt;h1&gt;Welcome to my webpage!&lt;/h1&gt;
-        &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
-      &lt;/body&gt;
-      &lt;/html&gt;
-
-      </code></pre>
+    <pre className="pre-border"><code>{`
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>My Web Page</title>
+      </head>
+      <body>
+        <h1>Welcome to my webpage!</h1>
+        <p>This is a paragraph of text.</p>
+      </body>
+      </html>
+      `}</code></pre>
 
     <p className="margin-top-20">Use code with caution.</p>
     
@@ -75,7 +75,7 @@ export default function HTML() {
 
       </ul>
 
-    <p className="margin-top-20">In essence, <strong>HTML</strong> provides the framework for web pages, defining their structure and content. It works in conjunction with <a href="css.html">CSS</a> (for styling) and <a href="javascript.html">JavaScript</a> (for interactivity) to create dynamic and visually appealing websites.</p>
+    <p className="margin-top-20">In essence, <strong>HTML</strong> provides the framework for web pages, defining their structure and content. It works in conjunction with <Link to="/programming/frontend/what-is-css?">CSS</Link> (for styling) and <Link to="/programming/frontend/what-is-javascript?">JavaScript</Link> (for interactivity) to create dynamic and visually appealing websites.</p>
 
     {/* =============================
           🌾 Think simply!

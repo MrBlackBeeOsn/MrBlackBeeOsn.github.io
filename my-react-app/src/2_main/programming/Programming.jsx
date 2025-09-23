@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Programming() {
   return (<>
 
   <main className="image image2">
     
-    <h4><Link to="/programming#programming-terms"><mark className="highlight2">Programming</mark></Link></h4>
+    <h4><HashLink smooth to="/programming#programming-terms"><mark className="highlight2">Programming</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is programming?</h2>
 

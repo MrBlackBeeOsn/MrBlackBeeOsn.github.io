@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function CSS() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#programming#pront-end-terms"><mark className="highlight2">Pront-End</mark></a></h4>
+    <h4><HashLink smooth to="/programming#pront-end-terms"><mark className="highlight2">Pront-End</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">What is CSS?</h2>
 
     {/* This is the content of Pront-End Term. */}
 
-    <p><strong>CSS</strong> (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in <a href="html.html">HTML</a>. It controls the appearance of an HTML element by specifying the font, color, layout, and more. Think of it as the "makeup" for your web page. </p>
+    <p><strong>CSS</strong> (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in <Link to="/programming/frontend/what-is-html?">HTML</Link>. It controls the appearance of an HTML element by specifying the font, color, layout, and more. Think of it as the "makeup" for your web page. </p>
 
     <p className="margin-top-20">Key Features of <strong>CSS</strong>:</p>
     
@@ -45,17 +46,15 @@ export default function CSS() {
 
     <h4 className="margin-y-50 text-center">Example:</h4>
 
-    <pre className="pre-border"><code>
-
+    <pre className="pre-border"><code>{`
     HTML
 
-    &lt;h1 style="color: blue; font-size: 36px;"&gt;
-    
-      Hello, World!
-    
-    &lt;/h1&gt;
+    <h1 style="color: blue; font-size: 36px;">
 
-    </code></pre>
+    Hello, World!
+    
+    </h1>
+    `}</code></pre>
 
     <p className="margin-top-20">In this example, the h1 element is styled with blue text and a font size of 36 pixels.</p>
 

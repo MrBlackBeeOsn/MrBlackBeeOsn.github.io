@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Lo_Trinh_Hoc_Frontend() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#programming#mr.bee-osn-programming-terms"><mark className="highlight2">Programming</mark></a></h4>
+    <h4><HashLink smooth to="/programming#lap-trinh-terms"><mark className="highlight2">Lập Trình</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">Lộ trình học Frontend là gì?</h2>
 
@@ -19,9 +20,9 @@ export default function Lo_Trinh_Hoc_Frontend() {
     
       <ul className="list-none">
 
-        <li>✅ <strong>Hiểu cấu trúc <a href="html.html">HTML</a></strong>: thẻ div, section, header, footer, form, v.v.</li>
+        <li>✅ <strong>Hiểu cấu trúc <Link to="/programming/frontend/what-is-html?">HTML</Link></strong>: thẻ div, section, header, footer, form, v.v.</li>
 
-        <li>✅ <strong>Nắm vững <a href="css.html">CSS</a></strong>: Flexbox, Grid, Responsive, Animation</li>
+        <li>✅ <strong>Nắm vững <Link to="/programming/frontend/what-is-css?">CSS</Link></strong>: Flexbox, Grid, Responsive, Animation</li>
 
         <li>✅ <strong>Thực hành</strong>: Tạo một trang portfolio cá nhân đơn giản</li>
 
@@ -45,7 +46,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
 
       </ul>
 
-    <p>📌 <strong>Mục tiêu</strong>: Hiểu cách <a href="javascript.html">JavaScript</a> điều khiển giao diện và tương tác người dùng.</p>
+    <p>📌 <strong>Mục tiêu</strong>: Hiểu cách <Link to="/programming/frontend/what-is-javascript?">JavaScript</Link> điều khiển giao diện và tương tác người dùng.</p>
 
     <h4 className="margin-y-50 text-center">🌐 Giai đoạn 3: Làm việc với dữ liệu và API</h4>
     
