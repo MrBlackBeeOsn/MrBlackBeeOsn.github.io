@@ -20,29 +20,33 @@ export default function If_Then_Else() {
     
     <h4 className="margin-y-50 text-center">Structure:</h4>
 
-    <pre className="pre-border"><code>
-
+    <pre className="pre-border"><code>{`
       if (condition) {
-        // Code to execute if the condition is true (then part)
-      } else {
-        // Code to execute if the condition is false (else part) (optional)
-      }
 
-    </code></pre>
+        // Code to execute if the condition is true (then part)
+
+      } else {
+
+        // Code to execute if the condition is false (else part) (optional)
+
+      }
+    `}</code></pre>
 
     <h4 className="margin-y-50 text-center">Example:</h4>
 
-    <pre className="pre-border"><code>
-
+    <pre className="pre-border"><code>{`
       age = 10
 
-      if (age &gt;= 13) {
-        print("You are a teenager!")
-      } else {
-        print("You are still a child.")
-      }
+      if (age >= 13) {
 
-    </code></pre>
+        print("You are a teenager!")
+
+      } else {
+
+        print("You are still a child.")
+
+      }
+    `}</code></pre>
     
     <p className="margin-top-20">In this example:</p>
     
