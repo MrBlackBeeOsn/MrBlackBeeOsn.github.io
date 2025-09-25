@@ -51,6 +51,8 @@ export default function Home_Programming() {
 
       <li><Link to="/programming/frontend/what-is-javascript?">JavaScript</Link></li>
 
+      <li><Link to="/programming/frontend/what-is-react?">React</Link></li>
+
     </ul>
 
     {/* =============================

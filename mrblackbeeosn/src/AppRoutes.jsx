@@ -28,6 +28,7 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
   import HTML from "./2_main/programming/prontend/HTML";
   import CSS from "./2_main/programming/prontend/CSS";
   import JavaScript from "./2_main/programming/prontend/JavaScript";
+  import React from "./2_main/programming/prontend/React";
 
   // 3. Backend
   import Back_End_Developer from "./2_main/programming/backend/Back_End_Developer";
@@ -89,6 +90,7 @@ export default function AppRoutes() {
         <Route path="/programming/frontend/what-is-html?" element={<HTML />} />
         <Route path="/programming/frontend/what-is-css?" element={<CSS />} />
         <Route path="/programming/frontend/what-is-javascript?" element={<JavaScript />} />
+        <Route path="/programming/frontend/what-is-react?" element={<React />} />
         
         {/* 3. Backend */}
         <Route path="/programming/backend/what-is-a-back-end-developer?" element={<Back_End_Developer />} />
