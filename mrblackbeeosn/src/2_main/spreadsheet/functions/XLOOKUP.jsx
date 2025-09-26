@@ -6,7 +6,7 @@ export default function XLOOKUP() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/spreadsheet#function-terms"><mark className="highlight2">Functions</mark></HashLink></h4>
+    <h4><HashLink smooth to="/spreadsheet#function-terms"><mark className="highlight-tertiary-padding-4-8">Functions</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is the XLOOKUP function?</h2>
 
@@ -34,7 +34,7 @@ export default function XLOOKUP() {
 
     <p>Imagine you have a table with product names in column A and their prices in column B. To find the price of a product named "Laptop," you could use the <strong>XLOOKUP</strong> function:</p>
 
-    <p className="margin-y-50 text-center"><mark  className="highlight2">=<strong>XLOOKUP</strong>("Laptop", A2:A10, B2:B10)</mark></p>
+    <p className="margin-y-50 text-center"><mark  className="highlight-tertiary-padding-4-8">=<strong>XLOOKUP</strong>("Laptop", A2:A10, B2:B10)</mark></p>
 
     <p className="margin-bottom-50">This formula would search for "Laptop" in cells A2 to A10 and return the corresponding price from cells B2 to B10.</p>
 
