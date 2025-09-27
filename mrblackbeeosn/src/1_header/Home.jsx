@@ -3,39 +3,39 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (<>
      
-      <main className="image">
+    <main className="image">
 
-        <h1 className="margin-y-50 text-center">🌾 Welcome!</h1>
+      <h1 className="margin-y-50 text-center">🌾 Welcome!</h1>
 
-        <p className="quote">
+      <p className="quote">
 
-          🐝 <Link to="/programming/what-is-programming?">Programming</Link> is the process of creating a set of <mark className="highlight-white-padding-0-4">instructions</mark> that tells a computer how to <mark className="highlight-white-padding-0-4">perform a task.</mark>
+        🐝 <Link to="/programming/what-is-programming?">Programming</Link> is the process of creating a set of <mark className="highlight-white-padding-0-4">instructions</mark> that tells a computer how to <mark className="highlight-white-padding-0-4">perform a task.</mark>
 
-        </p>
+      </p>
+      
+      <p className="quote">
+
+        🐝 A <Link to="/spreadsheet/what-is-spreadsheet?">spreadsheet</Link> is a digital tool for <mark className="highlight-white-padding-0-4">organizing and working with information.</mark>
         
-        <p className="quote">
+      </p>
 
-          🐝 A <Link to="/spreadsheet/what-is-spreadsheet?">spreadsheet</Link> is a digital tool for <mark className="highlight-white-padding-0-4">organizing and working with information.</mark>
-          
-        </p>
-
-        <div className="grid">
-          <div className="card2">
-            <p className="text-small">
-          
-              ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!
+      <div className="grid">
+        <div className="card2">
+          <p className="text-small no-margin">
         
-            </p>
-          </div>
+            ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!
+      
+          </p>
         </div>
+      </div>
 
-        <p className="margin-bottom-50 text-center text-small">
-            
-          __Summer, 2025 - by <Link to="/mrbeeosn">Mr. Bee Osn</Link>--
+      <p className="margin-bottom-50 text-center text-small">
           
-        </p>
+        __Summer, 2025 - by <Link to="/mrbeeosn">Mr. Bee Osn</Link>--
+        
+      </p>
 
-      </main>
+    </main>
 
   </>);
 }
