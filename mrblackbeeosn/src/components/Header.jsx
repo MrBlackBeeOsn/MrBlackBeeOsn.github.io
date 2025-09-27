@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from '/public/assets/images/bee-purple2.png';
+import Blog from './Blog';
 
 export default function Header() {
   return (
