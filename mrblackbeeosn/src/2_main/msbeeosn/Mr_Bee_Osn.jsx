@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Mr_Bee_Osn() {
   return (<>
      
-  <main className="image image3">
+  <main className="image image4">
 
     <h2 className="margin-y-50 text-center">Mr. Bee Osn</h2>
 

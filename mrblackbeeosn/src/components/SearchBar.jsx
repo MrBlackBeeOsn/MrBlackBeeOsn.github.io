@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 export default function SearchBar({ posts, onSearchResults }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [hasSearched, setHasSearched] = useState(false);
@@ -36,21 +37,31 @@ export default function SearchBar({ posts, onSearchResults }) {
 
   return (
     <div className="search-bar">
+
+      <button onClick={handleSearch} className="search-btn">
+
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            
+        </svg>
+
+      </button>
+
       <input
         type="text"
-        placeholder="Nhập từ khóa tìm kiếm..."
+        placeholder="Search..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         onKeyPress={handleKeyPress}
       />
-      <button onClick={handleSearch} className="search-btn">
-        🔍
-      </button>
-      {hasSearched && (
+
+      {hasSearched && ( 
         <button onClick={handleClear} className="clear-btn">
           ✕
         </button>
       )}
+      
     </div>
   );
 }

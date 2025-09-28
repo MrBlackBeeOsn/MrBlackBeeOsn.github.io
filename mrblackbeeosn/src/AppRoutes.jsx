@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from "./1_header/Home";
 import Home_Programming from "./1_header/Home_Programming";
 import Home_Spreadsheet from "./1_header/Home_Spreadsheet";
+import Home_Search from "./1_header/Home_Search";
 
 // 2_main import các chức năng và đường dẫn
 import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
@@ -67,6 +68,7 @@ export default function AppRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/programming" element={<Home_Programming />} />
         <Route path="/spreadsheet" element={<Home_Spreadsheet />} />
+        <Route path="/search" element={<Home_Search />} />
 
         {/* 2_main Khai báo đường dẫn path cho Mr. Bee Osn */}
         <Route path="/mrbeeosn" element={<Mr_Bee_Osn />} />

@@ -1,4 +1,4 @@
-// samplePosts.jsx
+// Posts.jsx
 export default function Posts() {
   return [
     { 
