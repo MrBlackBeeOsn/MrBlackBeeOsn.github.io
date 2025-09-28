@@ -16,10 +16,14 @@ export default function SearchBar({ posts, onSearchResults }) {
     setHasSearched(true);
     
     // Chỉ tìm kiếm khi có từ khóa
-    const filteredPosts = (posts || []).filter(post => 
-      post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      (post.content && post.content.toLowerCase().includes(searchTerm.toLowerCase()))
-    );
+    const filteredPosts = (posts || []).filter(post => {
+      const searchLower = searchTerm.toLowerCase();
+      return (
+        post.title.toLowerCase().includes(searchLower) ||
+        (post.content && post.content.toLowerCase().includes(searchLower)) ||
+        (post.category && post.category.toLowerCase().includes(searchLower))
+      );
+    });
     onSearchResults(filteredPosts);
   };
 

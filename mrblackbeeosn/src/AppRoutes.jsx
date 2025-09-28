@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import Posts from './Posts';
 
 // 1_header import các chức năng và đường dẫn
 import Home from "./1_header/Home";
@@ -63,6 +64,8 @@ export default function AppRoutes() {
     <Routes>
 
       <Route path="/" element={<Layout />}>
+      <Route path="/:slug" element={<Posts />} />
+      <Route path="/:category" element={<Posts />} />
 
         {/* 1_header Khai báo đường dẫn path cho Home */}
         <Route path="/" element={<Home />} />
