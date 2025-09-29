@@ -12,7 +12,7 @@ export default function Spreadsheet() {
 
     {/* This is the content of Spreadsheet Term. */}
     
-    <p>A <strong>spreadsheet</strong> is a digital tool for organizing and working with information. It's like a giant table with squares you can fill in</p>
+    <p>A <strong>spreadsheet</strong> is a digital tool for organizing and working with information. It's like a giant table with squares you can fill in.</p>
 
     <p className="margin-top-20">Here's a breakdown:</p>
     
