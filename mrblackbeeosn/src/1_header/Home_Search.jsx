@@ -4,13 +4,61 @@ import SearchBar from "../components/SearchBar";
 import Blog from '../components/Blog';
 
 export default function Home_Search() {
-  return (<>
-     
-    <main className="image image3">
+	return (<>
+		 
+		<main className="image image3">
+						
+			<h2 className="margin-y-50 text-center">Concept Hub</h2>
 
-      <Blog />
+			{/* This is the content of Mr. Bee Osn English Term. */}
 
-    </main>
+			<div className="margin-bottom-50 margin-top-30 table-container">
 
-  </>);
+				<div className="text-border1 padding-20">
+
+				<Blog />
+
+					<div className="flex-container">
+
+						<HashLink smooth to="/programming#programming-terms">
+							<mark className="highlight-tertiary-padding-2-4">Programming</mark>
+						</HashLink>
+
+						<HashLink smooth to="/programming#pront-end-terms">
+							<mark className="highlight-tertiary-padding-2-4">Pront-End</mark>
+						</HashLink>
+
+						<HashLink smooth to="/programming#back-end-terms">
+							<mark className="highlight-tertiary-padding-2-4">Back-End</mark>
+						</HashLink>
+
+					</div>
+
+					<div className="flex-container">
+
+						<HashLink smooth to="/programming#lap-trinh-terms">
+							<mark className="highlight-tertiary-padding-2-4">Lập Trình</mark>
+						</HashLink>
+
+					</div>
+			
+					<div className="flex-container">
+
+						<HashLink smooth to="/spreadsheet#spreadsheet-terms">
+							<mark className="highlight-tertiary-padding-2-4">Spreadsheet</mark>
+						</HashLink>
+
+						<HashLink smooth to="/spreadsheet#function-terms">
+							<mark className="highlight-tertiary-padding-2-4">Functions</mark>
+						</HashLink>
+					
+					</div>
+
+				</div>
+			
+			</div>
+
+		</main>
+
+	</>);
 }

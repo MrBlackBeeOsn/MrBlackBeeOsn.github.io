@@ -16,19 +16,20 @@ export default function Header() {
 
         <div className="nav-bar">
    
-            <Link to="/programming" className="nav-link">🅿rogramming</Link>
-            <Link to="/spreadsheet" className="nav-link">Spreadsheet</Link>
-            <Link to="/search" className="nav-link">
+          <Link to="/search" className="nav-link">
 
-              <svg xmlns="http://www.w3.org/2000/svg" className="icon" width="24" height="24" fill="currentColor" stroke="var(--secondary-color)" strokeWidth="2" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" className="icon" width="24" height="24" fill="currentColor" stroke="var(--secondary-color)" strokeWidth="2" viewBox="0 0 24 24">
 
-                <circle cx="11" cy="11" r="8" />
-                
-                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-            
-              </svg>
+              <circle cx="11" cy="11" r="8" />
+              
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          
+            </svg>
 
-            </Link>
+          </Link>
+
+          <Link to="/programming" className="nav-link">🅿rogramming</Link>
+          <Link to="/spreadsheet" className="nav-link">Spreadsheet</Link>
               
         </div>
 
