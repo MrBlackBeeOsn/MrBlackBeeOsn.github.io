@@ -14,9 +14,9 @@ export default function Home_Search() {
 
 			<div className="margin-bottom-50 margin-top-30 table-container">
 
-				<div className="text-border1 padding-20">
-
 				<Blog />
+
+				<div className="text-border1 padding-20">
 
 					<div className="flex-container">
 
