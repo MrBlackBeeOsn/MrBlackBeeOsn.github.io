@@ -12,6 +12,7 @@ Gõ >Terminal: Select Default Profile
 
 git add .
 git commit -m "Nội dung commit"
+git push origin main
 
 Bash
 cd /D/Github/Black/MrBlackBeeOsn.github.io/mrblackbeeosn
