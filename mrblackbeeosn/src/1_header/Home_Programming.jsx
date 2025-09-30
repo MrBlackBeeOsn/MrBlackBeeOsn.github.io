@@ -78,9 +78,6 @@ export default function Home_Programming() {
 
       <li><Link to="/programming/backend/what-is-node.js?">Node.js</Link></li>
 
-      <li><Link to="/programming/backend/what-is-python?">Python</Link></li>
-
-
     </ul>
 
     {/* =============================
