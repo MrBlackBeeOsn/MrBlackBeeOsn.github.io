@@ -2,7 +2,7 @@
 export default function Programming_Posts() {
   return [
     { 
-      id: 1.1001,
+      id: 1.1_001,
       category: "Programming",
       title: "Programming", 
       content: "Programming is the process of creating a set of instructions that tells a computer how to perform a task.",
@@ -10,7 +10,7 @@ export default function Programming_Posts() {
       date: "2025-04-30"
     },
     { 
-      id: 1.1002,
+      id: 1.1_002,
       category: "Programming",
       title: "Programming language",
       content: "A programming language is a special set of instructions that people use to tell computers what to do.",
@@ -18,7 +18,7 @@ export default function Programming_Posts() {
       date: "2024-06-20"
     },
     { 
-      id: 1.1003,
+      id: 1.1_003,
       category: "Programming",
       title: "Programmer",
       content: "A programmer, also known as a software developer, is a professional who writes and tests code to create software programs.",
