@@ -10,13 +10,13 @@ export default function Home() {
 
       <p className="quote">
 
-        🐝 <Link to="/programming/what-is-programming?">Programming</Link> is the process of creating a set of <mark className="highlight-white-padding-0-4">instructions</mark> that tells a computer how to <mark className="highlight-white-padding-0-4">perform a task.</mark>
+        🐝 <Link to="/programming/what-is-programming?">Programming</Link> is the process of creating a set of <mark className="highlight-255-padding-0-4">instructions</mark> that tells a computer how to <mark className="highlight-255-padding-0-4">perform a task.</mark>
 
       </p>
       
       <p className="quote">
 
-        🐝 A <Link to="/spreadsheet/what-is-spreadsheet?">spreadsheet</Link> is a digital tool for <mark className="highlight-white-padding-0-4">organizing and working with information.</mark>
+        🐝 A <Link to="/spreadsheet/what-is-spreadsheet?">spreadsheet</Link> is a digital tool for <mark className="highlight-255-padding-0-4">organizing and working with information.</mark>
         
       </p>
 

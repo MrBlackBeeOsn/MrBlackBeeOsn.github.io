@@ -18,7 +18,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
         🚀 Giai đoạn 1: Củng cố nền tảng HTML & CSS
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-grey-padding-4-8 bee-container2">
+    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">🚀 Giai đoạn 1: Củng cố nền tảng HTML & CSS</h4>
 
@@ -42,7 +42,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
         ⚙️ Giai đoạn 2: Bắt đầu với JavaScript cơ bản
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-grey-padding-4-8 bee-container2">
+    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">⚙️ Giai đoạn 2: Bắt đầu với JavaScript cơ bản</h4>
 
@@ -68,7 +68,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
         🌐 Giai đoạn 3: Làm việc với dữ liệu và API
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-grey-padding-4-8 bee-container2">
+    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">🌐 Giai đoạn 3: Làm việc với dữ liệu và API</h4>
     
@@ -92,7 +92,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
         ⚛️ Giai đoạn 4: Học React
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-grey-padding-4-8 bee-container2">
+    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">⚛️ Giai đoạn 4: Học React (hoặc Vue nếu thích)</h4>
     
@@ -116,7 +116,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
         🧪 Giai đoạn 5: Dự án thực tế & Git
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-grey-padding-4-8 bee-container2">
+    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">🧪 Giai đoạn 5: Dự án thực tế & Git</h4>
     
