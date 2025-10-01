@@ -397,12 +397,11 @@ span.bee {
 ============================= */
 
 .table-container {
-	max-width: 1000px;
-	background-color: rgba(245, 245, 245, 0.5);
-	border-radius: 15px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-	padding: 3.0rem;
-	overflow: hidden;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    overflow: hidden;
 }
 
 table {
@@ -589,8 +588,8 @@ td:nth-child(1):hover {
 	background-color: rgba(255, 255, 255, 0.5); /* #f8f9fa; */
 	padding: 2.0rem;
 	margin: 2.0rem 0;
-	border-radius: 3px;
-	border-left: 4px solid var(--secondary-color);
+	border-radius: 0px;
+	border-left: 6px solid var(--secondary-color);
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
