@@ -18,8 +18,8 @@ export default function SpreadsheetIndex() {
           <mark className="highlight-tertiary-padding-2-4">Spreadsheet</mark>
         </Link>
 
-        <Link to="/functions">
-          <mark className="highlight-tertiary-padding-2-4">Functions</mark>
+        <Link to="/function">
+          <mark className="highlight-tertiary-padding-2-4">Function</mark>
         </Link>
       
       </div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function FunctionsIndex() {
+export default function FunctionIndex() {
   return (<>
      
   <main className="image image1 content">
@@ -18,8 +18,8 @@ export default function FunctionsIndex() {
           <mark className="highlight-tertiary-padding-2-4">Spreadsheet</mark>
         </Link>
 
-        <Link to="/functions">
-          <mark className="highlight-tertiary-padding-2-4">Functions</mark>
+        <Link to="/function">
+          <mark className="highlight-tertiary-padding-2-4">Function</mark>
         </Link>
       
       </div>
@@ -34,7 +34,7 @@ export default function FunctionsIndex() {
     
     <ul className="list-border1">
 
-      <li><Link to="/functions/what-is-XLOOKUP?">XLOOKUP</Link></li>
+      <li><Link to="/function/what-is-xlookup?">XLOOKUP</Link></li>
       
       <li><Link to=""></Link></li>
 

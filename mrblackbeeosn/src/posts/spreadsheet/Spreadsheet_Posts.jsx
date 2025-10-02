@@ -3,7 +3,8 @@ export default function Spreadsheet_Posts() {
   return [
     { 
       id: 2.1_001,
-      category: "Spreadsheet",
+      categoryDisplay: "Spreadsheet",
+      categorySlug: "spreadsheet",
       title: "Spreadsheet", 
       content: "A spreadsheet is a digital tool for organizing and working with information. It's like a giant table with squares you can fill in.",
       slug: "spreadsheet/what-is-spreadsheet",
@@ -11,7 +12,8 @@ export default function Spreadsheet_Posts() {
     },
     { 
       id: 2.1_002,
-      category: "Spreadsheet",
+      categoryDisplay: "Spreadsheet",
+      categorySlug: "spreadsheet",
       title: "Formula",
       content: "A formula in a spreadsheet is like a special instruction you give to a cell, telling it exactly what to calculate or do. It's like a secret recipe for the cell to follow!",
       slug: "spreadsheet/what-is-formula",
@@ -19,19 +21,12 @@ export default function Spreadsheet_Posts() {
     },
     { 
       id: 2.1_003,
-      category: "Spreadsheet",
+      categoryDisplay: "Spreadsheet",
+      categorySlug: "spreadsheet",
       title: "Function",
       content: "A function in a spreadsheet is like a little helper that can do special tricks with your numbers.",
       slug: "spreadsheet/what-is-function",
       date: "2025-08-29"
-    },
-    { 
-      id: 2.1_004,
-      category: "",
-      title: "",
-      content: "",
-      slug: "",
-      date: ""
     }
   ];
 }

@@ -6,7 +6,7 @@ export default function XLOOKUP() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/functions#function-terms"><mark className="highlight-tertiary-padding-4-8">Functions</mark></HashLink></h4>
+    <h4><HashLink smooth to="/function#function-terms"><mark className="highlight-tertiary-padding-4-8">Function</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is the XLOOKUP function?</h2>
 

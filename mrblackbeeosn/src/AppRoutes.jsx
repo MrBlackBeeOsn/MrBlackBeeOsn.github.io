@@ -51,13 +51,13 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
   // 1. Spreadsheet
-  import SpreadsheetIndex from "./2_main/spreadsheet/topics/SpreadsheetIndex";
+  import SpreadsheetIndex from "./2_main/spreadsheet/_indexes/SpreadsheetIndex";
   import Spreadsheet from "./2_main/spreadsheet/Spreadsheet";
   import Formula from "./2_main/spreadsheet/Formula";
   import Function_2 from "./2_main/spreadsheet/Function";
 
   // 2. Functions
-  import FunctionsIndex from "./2_main/spreadsheet/topics/FunctionsIndex";
+  import FunctionIndex from "./2_main/spreadsheet/_indexes/FunctionIndex";
   import XLOOKUP from "./2_main/spreadsheet/functions/XLOOKUP";
 
 // Xuất khẩu chức năng
@@ -126,8 +126,8 @@ export default function AppRoutes() {
           <Route path="/spreadsheet/what-is-function?" element={<Function_2 />} />
 
           {/* 2. Function */}
-          <Route path="/functions" element={<FunctionsIndex />} />
-          <Route path="/functions/what-is-XLOOKUP?" element={<XLOOKUP />} />
+          <Route path="/function" element={<FunctionIndex />} />
+          <Route path="/function/what-is-xlookup?" element={<XLOOKUP />} />
 
 
       </Route>
