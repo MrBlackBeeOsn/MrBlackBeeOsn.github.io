@@ -6,7 +6,7 @@ export default function HTML() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#pront-end-terms"><mark className="highlight-tertiary-padding-4-8">Pront-End</mark></HashLink></h4>
+    <h4><HashLink smooth to="/front-end#pront-end-terms"><mark className="highlight-tertiary-padding-4-8">Pront-End</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">What is HTML?</h2>
 
@@ -75,7 +75,7 @@ export default function HTML() {
 
       </ul>
 
-    <p className="margin-top-20">In essence, <strong>HTML</strong> provides the framework for web pages, defining their structure and content. It works in conjunction with <Link to="/programming/frontend/what-is-css?">CSS</Link> (for styling) and <Link to="/programming/frontend/what-is-javascript?">JavaScript</Link> (for interactivity) to create dynamic and visually appealing websites.</p>
+    <p className="margin-top-20">In essence, <strong>HTML</strong> provides the framework for web pages, defining their structure and content. It works in conjunction with <Link to="/front-end/what-is-css?">CSS</Link> (for styling) and <Link to="/front-end/what-is-javascript?">JavaScript</Link> (for interactivity) to create dynamic and visually appealing websites.</p>
 
     {/* =============================
           🌾 Think simply!

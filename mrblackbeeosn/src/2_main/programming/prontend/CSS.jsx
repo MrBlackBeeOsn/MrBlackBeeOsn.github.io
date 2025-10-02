@@ -6,13 +6,13 @@ export default function CSS() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#pront-end-terms"><mark className="highlight-tertiary-padding-4-8">Pront-End</mark></HashLink></h4>
+    <h4><HashLink smooth to="/front-end#pront-end-terms"><mark className="highlight-tertiary-padding-4-8">Pront-End</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">What is CSS?</h2>
 
     {/* This is the content of Pront-End Term. */}
 
-    <p><strong>CSS</strong> (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in <Link to="/programming/frontend/what-is-html?">HTML</Link>. It controls the appearance of an HTML element by specifying the font, color, layout, and more. Think of it as the "makeup" for your web page. </p>
+    <p><strong>CSS</strong> (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in <Link to="/front-end/what-is-html?">HTML</Link>. It controls the appearance of an HTML element by specifying the font, color, layout, and more. Think of it as the "makeup" for your web page. </p>
 
     <p className="margin-top-20">Key Features of <strong>CSS</strong>:</p>
     

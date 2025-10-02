@@ -6,7 +6,7 @@ export default function Lo_Trinh_Hoc_Backend() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#lap-trinh-terms"><mark className="highlight-tertiary-padding-4-8">Lập Trình</mark></HashLink></h4>
+    <h4><HashLink smooth to="/lap-trinh#lap-trinh-terms"><mark className="highlight-tertiary-padding-4-8">Lập Trình</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">Lộ trình học Backend là gì?</h2>
 

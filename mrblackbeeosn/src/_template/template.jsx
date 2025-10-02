@@ -5,7 +5,7 @@ export default function () {
 
   <main className="image image2">
   
-    <h4><Link to="/programming#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></Link></h4>
+    <h4><Link to="/back-end#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></Link></h4>
 
     <h2 className="margin-y-50 text-center">What is programming?</h2>
 

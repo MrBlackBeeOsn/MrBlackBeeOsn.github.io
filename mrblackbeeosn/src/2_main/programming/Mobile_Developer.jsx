@@ -6,7 +6,7 @@ export default function Mobile_Developer() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
+    <h4><HashLink smooth to="/back-end#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is a Mobile Developer?</h2>
 

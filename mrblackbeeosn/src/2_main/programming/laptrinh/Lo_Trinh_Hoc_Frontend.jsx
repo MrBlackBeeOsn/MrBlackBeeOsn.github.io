@@ -6,7 +6,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#lap-trinh-terms"><mark className="highlight-tertiary-padding-4-8">Lập Trình</mark></HashLink></h4>
+    <h4><HashLink smooth to="/lap-trinh#lap-trinh-terms"><mark className="highlight-tertiary-padding-4-8">Lập Trình</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">Lộ trình học Frontend là gì?</h2>
 
@@ -26,9 +26,9 @@ export default function Lo_Trinh_Hoc_Frontend() {
       
         <ul className="list-none">
 
-          <li>✅ <strong>Hiểu cấu trúc <Link to="/programming/frontend/what-is-html?">HTML</Link></strong>: thẻ div, section, header, footer, form, v.v.</li>
+          <li>✅ <strong>Hiểu cấu trúc <Link to="/front-end/what-is-html?">HTML</Link></strong>: thẻ div, section, header, footer, form, v.v.</li>
 
-          <li>✅ <strong>Nắm vững <Link to="/programming/frontend/what-is-css?">CSS</Link></strong>: Flexbox, Grid, Responsive, Animation</li>
+          <li>✅ <strong>Nắm vững <Link to="/front-end/what-is-css?">CSS</Link></strong>: Flexbox, Grid, Responsive, Animation</li>
 
           <li>✅ <strong>Thực hành</strong>: Tạo một trang portfolio cá nhân đơn giản</li>
 
@@ -60,7 +60,7 @@ export default function Lo_Trinh_Hoc_Frontend() {
 
         </ul>
 
-      <p className="margin-y-20">📌 <strong>Mục tiêu</strong>: Hiểu cách <Link to="/programming/frontend/what-is-javascript?">JavaScript</Link> điều khiển giao diện và tương tác người dùng.</p>
+      <p className="margin-y-20">📌 <strong>Mục tiêu</strong>: Hiểu cách <Link to="/front-end/what-is-javascript?">JavaScript</Link> điều khiển giao diện và tương tác người dùng.</p>
 
     </div>
 

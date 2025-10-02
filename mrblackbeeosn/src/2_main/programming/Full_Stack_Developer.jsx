@@ -6,7 +6,7 @@ export default function Full_Stack_Developer() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
+    <h4><HashLink smooth to="/back-end#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is a Full-Stack Developer?</h2>
 
@@ -23,11 +23,11 @@ export default function Full_Stack_Developer() {
     
       <ul className="list-square">
 
-        <li><strong><Link to="/programming/frontend/what-is-html?">HTML</Link></strong>: The building blocks that structure the content and layout of a webpage.</li>
+        <li><strong><Link to="/front-end/what-is-html?">HTML</Link></strong>: The building blocks that structure the content and layout of a webpage.</li>
 
-        <li><strong><Link to="/programming/frontend/what-is-css?">CSS</Link></strong>: Controls the visual design elements like fonts, colors, and animations, making the website visually appealing.</li>
+        <li><strong><Link to="/front-end/what-is-css?">CSS</Link></strong>: Controls the visual design elements like fonts, colors, and animations, making the website visually appealing.</li>
 
-        <li><strong><Link to="/programming/frontend/what-is-javascript?">JavaScript</Link></strong> (<strong>JS</strong>): Adds interactivity to the website, enabling features like clickable buttons, forms, and dynamic content updates.</li>
+        <li><strong><Link to="/front-end/what-is-javascript?">JavaScript</Link></strong> (<strong>JS</strong>): Adds interactivity to the website, enabling features like clickable buttons, forms, and dynamic content updates.</li>
       
       </ul>
 

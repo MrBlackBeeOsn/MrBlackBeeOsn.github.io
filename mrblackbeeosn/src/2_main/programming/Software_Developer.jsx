@@ -6,7 +6,7 @@ export default function Software_Developer() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/programming#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
+    <h4><HashLink smooth to="/back-end#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is a Software Developer?</h2>
 
@@ -34,11 +34,11 @@ export default function Software_Developer() {
 
     <p><strong>Software developers</strong> often specialize in a specific area:</p>
 
-    <h4 className="margin-y-50 text-center"><Link to="/programming/frontend/what-is-a-front-end-developer?">Front-End Developer</Link></h4>
+    <h4 className="margin-y-50 text-center"><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></h4>
           
     <p>Focuses on the user-facing part of an application, including the design and interactivity of a website. They work with HTML, CSS, and JavaScript to create what users see and interact with.</p>
 
-    <h4 className="margin-y-50 text-center"><Link to="/programming/backend/what-is-a-back-end-developer?">Back-End Developer</Link></h4>
+    <h4 className="margin-y-50 text-center"><Link to="/backend/what-is-a-back-end-developer?">Back-End Developer</Link></h4>
       
     <p>Deals with the server-side of an application, including databases, servers, and business logic. They ensure the core functionality of a website, such as user authentication or data storage, works correctly.</p>
 

@@ -20,15 +20,15 @@ export default function Home_Search() {
 
 					<div className="flex-container">
 
-						<HashLink smooth to="/programming#programming-terms">
+						<HashLink smooth to="/back-end#programming-terms">
 							<mark className="highlight-tertiary-padding-2-4">Programming</mark>
 						</HashLink>
 
-						<HashLink smooth to="/programming#pront-end-terms">
+						<HashLink smooth to="/front-end#pront-end-terms">
 							<mark className="highlight-tertiary-padding-2-4">Pront-End</mark>
 						</HashLink>
 
-						<HashLink smooth to="/programming#back-end-terms">
+						<HashLink smooth to="/back-end#back-end-terms">
 							<mark className="highlight-tertiary-padding-2-4">Back-End</mark>
 						</HashLink>
 
@@ -36,7 +36,7 @@ export default function Home_Search() {
 
 					<div className="flex-container">
 
-						<HashLink smooth to="/programming#lap-trinh-terms">
+						<HashLink smooth to="/back-end#lap-trinh-terms">
 							<mark className="highlight-tertiary-padding-2-4">Lập Trình</mark>
 						</HashLink>
 
