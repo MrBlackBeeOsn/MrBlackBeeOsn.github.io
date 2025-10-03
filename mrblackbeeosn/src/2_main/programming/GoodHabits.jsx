@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function Good_Habits() {
+export default function GoodHabits() {
   return (<>
 
   <main className="image image2">

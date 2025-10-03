@@ -1,5 +1,5 @@
 // Posts.jsx
-export default function Function_Posts() {
+export default function FunctionPosts() {
   return [
     { 
       id: 2.2_001,

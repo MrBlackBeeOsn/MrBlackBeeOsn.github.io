@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function Front_End_Developer() {
+export default function FrontEndDeveloper() {
   return (<>
 
   <main className="image image2">

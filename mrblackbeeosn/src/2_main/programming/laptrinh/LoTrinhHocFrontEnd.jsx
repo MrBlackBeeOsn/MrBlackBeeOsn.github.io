@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function Lo_Trinh_Hoc_Frontend() {
+export default function LoTrinhHocFrontEnd() {
   return (<>
 
   <main className="image image2">

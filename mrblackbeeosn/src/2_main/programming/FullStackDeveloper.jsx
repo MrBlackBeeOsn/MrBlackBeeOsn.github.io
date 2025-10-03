@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function Full_Stack_Developer() {
+export default function FullStackDeveloper() {
   return (<>
 
   <main className="image image2">

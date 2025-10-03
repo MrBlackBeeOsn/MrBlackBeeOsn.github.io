@@ -1,20 +1,20 @@
-import Programming_Posts from './programming/Programming_Posts';
-import Frontend_Posts from './programming/Frontend_Posts';
-import Backend_Posts from './programming/Backend_Posts';
-import Laptrinh_Posts from './laptrinh/Laptrinh_Posts';
+import ProgrammingPosts from './programming/ProgrammingPosts';
+import FrontEndPosts from './programming/FrontEndPosts';
+import BackEndPosts from './programming/BackEndPosts';
+import LapTrinhPosts from './laptrinh/LapTrinhPosts';
 
-import Spreadsheet_Posts from './spreadsheet/Spreadsheet_Posts';
-import Function_Posts from './spreadsheet/Function_Posts';
+import SpreadsheetPosts from './spreadsheet/SpreadsheetPosts';
+import FunctionPosts from './spreadsheet/FunctionPosts';
 
 export default function Posts() {
   return [
-    ...Programming_Posts (),
-    ...Frontend_Posts (),
-    ...Backend_Posts (),
+    ...ProgrammingPosts (),
+    ...FrontEndPosts (),
+    ...BackEndPosts (),
 
-    ...Spreadsheet_Posts (),
-    ...Function_Posts (),
+    ...SpreadsheetPosts (),
+    ...FunctionPosts (),
     
-    ...Laptrinh_Posts ()
+    ...LapTrinhPosts ()
   ];
 }

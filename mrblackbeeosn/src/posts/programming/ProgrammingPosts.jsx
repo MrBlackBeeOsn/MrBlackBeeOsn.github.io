@@ -1,5 +1,5 @@
 // Posts.jsx
-export default function Programming_Posts() {
+export default function ProgrammingPosts() {
   return [
     { 
       id: 1.1_001,

@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import SearchBar from "../components/SearchBar";
 import Blog from '../components/Blog';
 
-export default function Home_Search() {
+export default function SearchIndex() {
 	return (<>
 		 
 		<main className="image image3">

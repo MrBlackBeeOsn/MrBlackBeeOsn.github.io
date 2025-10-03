@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function If_Then_Else() {
+export default function IfThenElse() {
   return (<>
 
   <main className="image image2">

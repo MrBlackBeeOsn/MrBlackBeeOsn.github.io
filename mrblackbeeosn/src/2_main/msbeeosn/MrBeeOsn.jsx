@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import ExternalLink from '/src/components/ExternalLink';
 
-export default function Mr_Bee_Osn() {
+export default function MrBeeOsn() {
   return (<>
      
   <main className="image image4">

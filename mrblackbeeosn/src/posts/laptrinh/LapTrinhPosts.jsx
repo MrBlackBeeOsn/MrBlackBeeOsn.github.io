@@ -1,5 +1,5 @@
 // Posts.jsx
-export default function Laptrinh_Posts() {
+export default function LapTrinhPosts() {
   return [
     { 
       id: 3.1_001,

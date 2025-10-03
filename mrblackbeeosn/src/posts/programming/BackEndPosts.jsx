@@ -1,5 +1,5 @@
 // Posts.jsx
-export default function Backend_Posts() {
+export default function BackEndPosts() {
   return [
     { 
       id: 1.3_001,

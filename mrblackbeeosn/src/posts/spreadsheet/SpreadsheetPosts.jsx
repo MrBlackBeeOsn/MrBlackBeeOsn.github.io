@@ -1,5 +1,5 @@
 // Posts.jsx
-export default function Spreadsheet_Posts() {
+export default function SpreadsheetPosts() {
   return [
     { 
       id: 2.1_001,

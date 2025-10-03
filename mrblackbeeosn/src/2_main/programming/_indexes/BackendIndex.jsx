@@ -26,7 +26,7 @@ export default function BackendIndex() {
           <mark className="highlight-tertiary-padding-2-4">Back-End</mark>
         </HashLink>
 
-        <HashLink smooth to="/lap-trinh">
+        <HashLink smooth to="/lap-trinh#lap-trinh-terms">
           <mark className="highlight-tertiary-padding-2-4">Lập Trình</mark>
         </HashLink>
 
