@@ -1,13 +1,16 @@
+// import  from "";
+// const  = lazy(() => import(''))
+
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Posts from './posts/Posts';
 
 // 1_header import các chức năng và đường dẫn
-import Home from "./1_header/Home";
-import SearchIndex from "./1_header/SearchIndex";
+  import Home from "./1_header/Home";
+  import SearchIndex from "./1_header/SearchIndex";
 
 // 2_main import các chức năng và đường dẫn
-import MrBeeOsn from "./2_main/msbeeosn/MrBeeOsn";
+  import MrBeeOsn from "./2_main/msbeeosn/MrBeeOsn";
 
 // 2_main import các chức năng và đường dẫn Programming
 
