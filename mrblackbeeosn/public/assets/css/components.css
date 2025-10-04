@@ -660,19 +660,44 @@ td:nth-child(1):hover {
    Vocabulary
 ============================= */
 
-.flex-vocabulary {
+.flex-container {
 	display: flex;
-	gap: 2rem;
+	flex-direction: row;
 	justify-items: center;
 	align-items: center;
+	align-items: start;
+	gap: 2rem;
 	flex-wrap: wrap;
-    /* justify-content: space-between; */
+	justify-content: space-evenly;
+	flex-shrink: 1;
 }
 
-.vocabulary-container {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    padding: 0.5rem;
-    overflow: hidden;
+.sub-box {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 2px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+	padding: 0.5rem;
+	overflow: hidden;
+	flex: 1; /* Makes both columns take up equal available space */
+	width: 50rem;
+	flex-wrap: wrap;
+  	word-break: break-word;
+	display: flex;
+  	flex-direction: column;
+}
+
+.sub-box ul {
+  list-style-position: outside;
+  padding-left: 30px;
+}
+
+.sub-box li {
+  display: list-item; /* giữ kiểu danh sách */
+  
+}
+
+.li-content {
+  	display: flex;
+  	flex-direction: column;
+	
 }
