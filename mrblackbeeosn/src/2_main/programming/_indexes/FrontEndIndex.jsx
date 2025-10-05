@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import ProgrammingTopic from '/src/components/ProgrammingTopic';
 
 export default function FrontEndIndex() {
   return (<>
@@ -7,32 +8,10 @@ export default function FrontEndIndex() {
   <main className="image image1 content">
 
     {/* =============================
-        1. Programming Terms
+          Programming Topic
     ============================= */}
-
-    <div className="topic-container">
-			
-      <div className="flex-topic">
-
-        <HashLink smooth to="/programming">
-          <mark className="highlight-tertiary-padding-2-4">Programming</mark>
-        </HashLink>
-
-        <HashLink smooth to="/front-end">
-          <mark className="highlight-tertiary-padding-2-4">Pront-End</mark>
-        </HashLink>
-
-        <HashLink smooth to="/back-end">
-          <mark className="highlight-tertiary-padding-2-4">Back-End</mark>
-        </HashLink>
-
-        <HashLink smooth to="/lap-trinh">
-          <mark className="highlight-tertiary-padding-2-4">Lập Trình</mark>
-        </HashLink>
-
-      </div>
-
-    </div>
+            
+      <ProgrammingTopic/>
 
     {/* =============================
         2. Pront-End Terms

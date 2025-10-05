@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import SpreadsheetTopic from '/src/components/SpreadsheetTopic';
 
 export default function SpreadsheetIndex() {
   return (<>
@@ -7,24 +8,14 @@ export default function SpreadsheetIndex() {
   <main className="image image1 content">
 
     {/* =============================
-        1. Spreadsheet Terms
+				  Spreadsheet Topic
+		============================= */}
+
+		  <SpreadsheetTopic/>
+
+    {/* =============================
+        2. Spreadsheet Terms
     ============================= */}
-
-    <div className="topic-container">
-			
-      <div className="flex-topic">
-
-        <Link to="/spreadsheet">
-          <mark className="highlight-tertiary-padding-2-4">Spreadsheet</mark>
-        </Link>
-
-        <Link to="/function">
-          <mark className="highlight-tertiary-padding-2-4">Function</mark>
-        </Link>
-      
-      </div>
-
-		</div>
     
     <h3 className="margin-y-50 text-center" id="spreadsheet-terms">Spreadsheet Terms</h3>
     
