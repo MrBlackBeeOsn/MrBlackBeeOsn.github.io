@@ -18,14 +18,22 @@ export default function LapTrinhIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="lap-trinh-terms">Lập Trình Terms</h3>
-    
-    <ul className="list-border1">
 
-      <li><Link to="/lap-trinh/lo-trinh-hoc-front-end-la-gi?">Lộ trình học Frontend</Link></li>
-      
-      <li><Link to="/lap-trinh/lo-trinh-hoc-back-end-la-gi?">Lộ trình học Backend</Link></li>
+    <div className="flex-container">
 
-    </ul>
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/lap-trinh/lo-trinh-hoc-front-end-la-gi?">Lộ trình học Frontend</Link></li>
+          
+          <li><Link to="/lap-trinh/lo-trinh-hoc-back-end-la-gi?">Lộ trình học Backend</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 

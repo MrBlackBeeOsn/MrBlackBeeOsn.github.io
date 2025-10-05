@@ -18,20 +18,28 @@ export default function FrontEndIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Terms</h3>
-    
-    <ul className="list-border1">
+
+    <div className="flex-container">
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
       
-      <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
-      
-      <li><Link to="/front-end/what-is-html?">HTML</Link></li>
+          <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
+          
+          <li><Link to="/front-end/what-is-html?">HTML</Link></li>
 
-      <li><Link to="/front-end/what-is-css?">CSS</Link></li>
+          <li><Link to="/front-end/what-is-css?">CSS</Link></li>
 
-      <li><Link to="/front-end/what-is-javascript?">JavaScript</Link></li>
+          <li><Link to="/front-end/what-is-javascript?">JavaScript</Link></li>
 
-      <li><Link to="/front-end/what-is-react?">React</Link></li>
+          <li><Link to="/front-end/what-is-react?">React</Link></li>
 
-    </ul>
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 

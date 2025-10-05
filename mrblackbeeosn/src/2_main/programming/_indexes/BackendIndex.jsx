@@ -18,24 +18,32 @@ export default function BackendIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="back-end-terms">Back-End Terms</h3>
-    
-    <ul className="list-border1">
 
-      <li><Link to="/back-end/what-is-a-back-end-developer?">Back-End Developer</Link></li>
-      
-      <li><Link to="/back-end/what-is-github?">GitHub</Link></li>
+    <div className="flex-container">
 
-      <li><Link to="/back-end/what-is-sql?">SQL</Link></li>
+      <div className="sub-box">
 
-      <li><Link to="/back-end/what-is-python?">Python</Link></li>
+        <ul className="list-border1">
 
-      <li><Link to="/back-end/what-is-java?">Java</Link></li>
+          <li><Link to="/back-end/what-is-a-back-end-developer?">Back-End Developer</Link></li>
+          
+          <li><Link to="/back-end/what-is-github?">GitHub</Link></li>
 
-      <li><Link to="/back-end/what-is-php?">PHP</Link></li>
+          <li><Link to="/back-end/what-is-sql?">SQL</Link></li>
 
-      <li><Link to="/back-end/what-is-node.js?">Node.js</Link></li>
+          <li><Link to="/back-end/what-is-python?">Python</Link></li>
 
-    </ul>
+          <li><Link to="/back-end/what-is-java?">Java</Link></li>
+
+          <li><Link to="/back-end/what-is-php?">PHP</Link></li>
+
+          <li><Link to="/back-end/what-is-node.js?">Node.js</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 
