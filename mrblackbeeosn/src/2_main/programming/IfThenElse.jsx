@@ -6,7 +6,7 @@ export default function IfThenElse() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/back-end#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
+    <h4><HashLink smooth to="/programming#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center" id="programming-terms">What is If-Then-Else?</h2>
 
