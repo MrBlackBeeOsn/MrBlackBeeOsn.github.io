@@ -1,77 +1,82 @@
 // import  from "";
 // const  = lazy(() => import(''))
+// <Suspense fallback={<></>}></Suspense>
 
+import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Posts from './posts/Posts';
+
+  const Layout = lazy(() => import('./components/Layout'))
+  const Posts = lazy(() => import('./posts/Posts'))
 
 // 1_header import các chức năng và đường dẫn
-  import Home from "./1_header/Home";
-  import SearchIndex from "./1_header/SearchIndex";
+  const Home = lazy(() => import('./1_header/Home'))
+  const SearchIndex = lazy(() => import('./1_header/SearchIndex'))
 
 // 2_main import các chức năng và đường dẫn
-  import MrBeeOsn from "./2_main/msbeeosn/MrBeeOsn";
+  const MrBeeOsn = lazy(() => import('./2_main/msbeeosn/MrBeeOsn'))
 
 // 2_main import các chức năng và đường dẫn Programming
 
   // 1. Programming
-  import ProgrammingIndex from "./2_main/programming/_indexes/ProgrammingIndex";
-  import Programming from "./2_main/programming/Programming";
-  import ProgrammingLanguage from "./2_main/programming/ProgrammingLanguage";
-  import Programmer from "./2_main/programming/Programmer";
-  import SoftwareDeveloper from "./2_main/programming/SoftwareDeveloper";
-  import FullStackDeveloper from "./2_main/programming/FullStackDeveloper";
-  import MobileDeveloper from "./2_main/programming/MobileDeveloper";
-  import GoodHabits from "./2_main/programming/GoodHabits";
-  import IfThenElse from "./2_main/programming/IfThenElse";
-  import Git from "./2_main/programming/Git";
-  import Function from "./2_main/programming/Function";
+  const ProgrammingIndex = lazy(() => import('./2_main/programming/_indexes/ProgrammingIndex'))
+  const Programming = lazy(() => import('./2_main/programming/Programming'))
+  const ProgrammingLanguage = lazy(() => import('./2_main/programming/ProgrammingLanguage'))
+  const Programmer = lazy(() => import('./2_main/programming/Programmer'))
+  const SoftwareDeveloper = lazy(() => import('./2_main/programming/SoftwareDeveloper'))
+  const FullStackDeveloper = lazy(() => import('./2_main/programming/FullStackDeveloper'))
+  const MobileDeveloper = lazy(() => import('./2_main/programming/MobileDeveloper'))
+  const GoodHabits = lazy(() => import('./2_main/programming/GoodHabits'))
+  const IfThenElse = lazy(() => import('./2_main/programming/IfThenElse'))
+  const Git = lazy(() => import('./2_main/programming/Git'))
+  const Function = lazy(() => import('./2_main/programming/Function'))
 
   // 3. Frontend
-  import FrontEndIndex from "./2_main/programming/_indexes/FrontEndIndex";
-  import FrontEndDeveloper from "./2_main/programming/prontend/FrontEndDeveloper";
-  import HTML from "./2_main/programming/prontend/HTML";
-  import CSS from "./2_main/programming/prontend/CSS";
-  import JavaScript from "./2_main/programming/prontend/JavaScript";
-  import React from "./2_main/programming/prontend/React";
+  const FrontEndIndex = lazy(() => import('./2_main/programming/_indexes/FrontEndIndex'))
+  const FrontEndDeveloper = lazy(() => import('./2_main/programming/prontend/FrontEndDeveloper'))
+  const HTML = lazy(() => import('./2_main/programming/prontend/HTML'))
+  const CSS = lazy(() => import('./2_main/programming/prontend/CSS'))
+  const JavaScript = lazy(() => import('./2_main/programming/prontend/JavaScript'))
+  const React = lazy(() => import('./2_main/programming/prontend/React'))
 
   // 3. Backend
-  import BackendIndex from "./2_main/programming/_indexes/BackendIndex";
-  import BackEndDeveloper from "./2_main/programming/backend/BackEndDeveloper";
-  import GitHub from "./2_main/programming/backend/GitHub";
-  import SQL from "./2_main/programming/backend/SQL";
-  import Python from "./2_main/programming/backend/Python";
-  import Java from "./2_main/programming/backend/Java";
-  import PHP from "./2_main/programming/backend/PHP";
-  import NodeJS from "./2_main/programming/backend/NodeJS";
+  const BackendIndex = lazy(() => import('./2_main/programming/_indexes/BackendIndex'))
+  const BackEndDeveloper = lazy(() => import('./2_main/programming/backend/BackEndDeveloper'))
+  const GitHub = lazy(() => import('./2_main/programming/backend/GitHub'))
+  const SQL = lazy(() => import('./2_main/programming/backend/SQL'))
+  const Python = lazy(() => import('./2_main/programming/backend/Python'))
+  const Java = lazy(() => import('./2_main/programming/backend/Java'))
+  const PHP = lazy(() => import('./2_main/programming/backend/PHP'))
+  const NodeJS = lazy(() => import('./2_main/programming/backend/NodeJS'))
 
   // 4. Lập Trình
-  import LapTrinhIndex from "./2_main/programming/_indexes/LapTrinhIndex";
-  import LoTrinhHocFrontEnd from "./2_main/programming/laptrinh/LoTrinhHocFrontEnd";
-  import LoTrinhHocBackEnd from "./2_main/programming/laptrinh/LoTrinhHocBackEnd";
-
+  const LapTrinhIndex = lazy(() => import('./2_main/programming/_indexes/LapTrinhIndex'))
+  const LoTrinhHocFrontEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocFrontEnd'))
+  const LoTrinhHocBackEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocBackEnd'))
 
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
   // 1. Spreadsheet
-  import SpreadsheetIndex from "./2_main/spreadsheet/_indexes/SpreadsheetIndex";
-  import Spreadsheet from "./2_main/spreadsheet/Spreadsheet";
-  import Formula from "./2_main/spreadsheet/Formula";
-  import Function_2 from "./2_main/spreadsheet/Function";
+  const SpreadsheetIndex = lazy(() => import('./2_main/spreadsheet/_indexes/SpreadsheetIndex'))
+  const Spreadsheet = lazy(() => import('./2_main/spreadsheet/Spreadsheet'))
+  const Formula = lazy(() => import('./2_main/spreadsheet/Formula'))
+  const Function_2 = lazy(() => import('./2_main/spreadsheet/Function'))
 
   // 2. Functions
-  import FunctionIndex from "./2_main/spreadsheet/_indexes/FunctionIndex";
-  import XLOOKUP from "./2_main/spreadsheet/functions/XLOOKUP";
+  const FunctionIndex = lazy(() => import('./2_main/spreadsheet/_indexes/FunctionIndex'))
+  const XLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/XLOOKUP'))
 
 // Xuất khẩu chức năng
 export default function AppRoutes() {
   return (
 
+  <Suspense fallback={<></>}>
+
     <Routes>
 
       <Route path="/" element={<Layout />}>
-      <Route path="/:slug" element={<Posts />} />
-      <Route path="/:category" element={<Posts />} />
+
+        <Route path="/:slug" element={<Posts />} />
+        <Route path="/:category" element={<Posts />} />
 
         {/* 1_header Khai báo đường dẫn path cho Home */}
         <Route path="/" element={<Home />} />
@@ -132,10 +137,11 @@ export default function AppRoutes() {
           <Route path="/function" element={<FunctionIndex />} />
           <Route path="/function/what-is-xlookup?" element={<XLOOKUP />} />
 
-
       </Route>
 
     </Routes>
+
+  </Suspense>
 
   );
 }
