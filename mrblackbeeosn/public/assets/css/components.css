@@ -702,3 +702,26 @@ td:nth-child(1):hover {
 .li-content {
   	display: flex;
 }
+
+/* =============================
+   Viewcount
+============================= */
+
+.viewcounter {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 1.4rem;
+	margin-top: 5rem;
+}
+
+.post-date {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 0 !important;
+	padding-right: 1rem;
+	font-size: 1.4rem;
+}
