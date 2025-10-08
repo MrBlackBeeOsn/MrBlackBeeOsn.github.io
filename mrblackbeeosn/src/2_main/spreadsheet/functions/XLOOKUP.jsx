@@ -96,7 +96,25 @@ export default function XLOOKUP() {
 
     <p className="margin-top-20">So, <strong>XLOOKUP</strong> is like a super-smart search button that helps you find information in your giant checklist! It's a helpful tool for finding things quickly and easily, and it can do even more magic tricks than the regular search buttons!</p>
 
-    <p className="margin-top-50 text-small">August 18, 2024 · by 💎Gem ·</p>
+    <div className="viewcounter">
+        
+      <div className="post-date no-margin">
+        <span>August 18, 2024 · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
     
   </main>
 

@@ -96,12 +96,10 @@ export default function GitHub() {
 
     <p className="margin-top-20">So, <strong>GitHub</strong> in programming is like a giant online world where programmers can store, share, and work together on their Lego sets (code projects), just like you sharing your amazing Lego creations with other builder friends from all over the world!</p>
 
-    <p className="margin-top-50 text-small">April 25, 2024 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>April 25, 2024 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

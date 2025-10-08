@@ -68,12 +68,10 @@ export default function React() {
 
       </ul>
 
-    <p className="margin-top-50 text-small">September 25, 2025 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>September 25, 2025 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

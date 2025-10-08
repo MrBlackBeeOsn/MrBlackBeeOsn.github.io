@@ -76,12 +76,10 @@ export default function Java() {
 
     <p className="margin-top-20">So, <strong>Java</strong> is a secret language that helps you build things for computers that can be shared with everyone!</p>
 
-    <p className="margin-top-50 text-small">September 14, 2025 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>September 14, 2025 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

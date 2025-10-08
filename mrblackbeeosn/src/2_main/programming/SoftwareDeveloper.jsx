@@ -80,12 +80,10 @@ export default function SoftwareDeveloper() {
 
     <p className="margin-top-20">So, whenever you play a game on a tablet or watch a cartoon on a computer, a <strong>software developer</strong> helped make it happen!</p>
 
-    <p className="margin-y-50 text-small">August 31, 2025 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>August 31, 2025 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

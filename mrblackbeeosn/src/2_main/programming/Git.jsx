@@ -96,12 +96,10 @@ export default function Git() {
 
     <p className="margin-top-20">So, <strong>Git</strong> in programming is a super cool tool (like a special box) that helps programmers keep track of their work, fix mistakes, and even work together on building awesome things, just like you and your friend building the coolest Lego castle ever!</p>
 
-    <p className="margin-top-50 text-small">April 25, 2024 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>April 25, 2024 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

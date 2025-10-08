@@ -94,12 +94,10 @@ export default function JavaScript() {
 
     <p className="margin-top-20">So, next time you see a cool website with moving pictures or buttons that do something, remember that <strong>JavaScript</strong> is the magic behind it all!</p>
 
-    <p className="margin-top-50 text-small">April 15, 2024 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>April 15, 2024 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

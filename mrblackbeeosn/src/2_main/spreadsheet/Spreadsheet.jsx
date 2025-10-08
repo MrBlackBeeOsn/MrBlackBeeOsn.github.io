@@ -64,12 +64,10 @@ export default function Spreadsheet() {
 
     <p className="margin-top-20"><strong>Spreadsheets</strong> are like fancy checklists that help you keep track of all your stuff and even do cool tricks with numbers. It's like having a super-powered organizer at your fingertips!</p>
 
-    <p className="margin-top-50 text-small">July 19, 2024 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>July 19, 2024 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

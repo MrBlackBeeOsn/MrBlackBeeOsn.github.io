@@ -90,12 +90,10 @@ export default function CSS() {
     
     <p>Imagine you have a blank piece of paper (your website). You can use <strong>CSS</strong> to color it, add pictures, and make it look really cool! It's like using different colored markers to make your drawings look awesome.</p>
 
-    <p className="margin-top-50 text-small">April 15, 2024 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>April 15, 2024 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

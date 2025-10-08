@@ -76,12 +76,10 @@ export default function Python() {
 
     <p className="margin-top-20">It's an easy language to learn, like learning new words to tell your friend what to do. The computer listens to your <strong>Python</strong> words and does exactly what you tell it.</p>
 
-    <p className="margin-top-50 text-small">September 14, 2025 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>September 14, 2025 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">

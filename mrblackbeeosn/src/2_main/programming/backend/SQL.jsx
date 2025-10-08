@@ -94,12 +94,10 @@ export default function SQL() {
     
     <p className="margin-top-20">By using this secret code (<strong>SQL</strong>), programs can easily talk to databases and keep all the information organized, just like the giant toy box organizer! This helps them find the information they need quickly, whether it's for a website, a game, or even a library app.</p>
 
-    <p className="margin-top-50 text-small">April 25, 2024 · by 💎Gem ·</p>
-
-<div className="viewcounter">
+    <div className="viewcounter">
     
       <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+        <span>April 25, 2024 · by 💎Gem ·</span>
       </div>
 
       <div className="eye-icon no-margin">
