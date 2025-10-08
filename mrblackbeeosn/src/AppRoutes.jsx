@@ -5,143 +5,143 @@
 import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom';
 
-  const Layout = lazy(() => import('./components/Layout'))
-  const Posts = lazy(() => import('./posts/Posts'))
+	const Layout = lazy(() => import('./components/Layout'))
+	const Posts = lazy(() => import('./posts/Posts'))
 
 // 1_header import các chức năng và đường dẫn
-  const Home = lazy(() => import('./1_header/Home'))
-  const SearchIndex = lazy(() => import('./1_header/SearchIndex'))
+	const Home = lazy(() => import('./1_header/Home'))
+	const SearchIndex = lazy(() => import('./1_header/SearchIndex'))
 
 // 2_main import các chức năng và đường dẫn
-  const MrBeeOsn = lazy(() => import('./2_main/msbeeosn/MrBeeOsn'))
+	const MrBeeOsn = lazy(() => import('./2_main/msbeeosn/MrBeeOsn'))
 
 // 2_main import các chức năng và đường dẫn Programming
 
-  // 1. Programming
-  const ProgrammingIndex = lazy(() => import('./2_main/programming/_indexes/ProgrammingIndex'))
-  const Programming = lazy(() => import('./2_main/programming/Programming'))
-  const ProgrammingLanguage = lazy(() => import('./2_main/programming/ProgrammingLanguage'))
-  const Programmer = lazy(() => import('./2_main/programming/Programmer'))
-  const SoftwareDeveloper = lazy(() => import('./2_main/programming/SoftwareDeveloper'))
-  const FullStackDeveloper = lazy(() => import('./2_main/programming/FullStackDeveloper'))
-  const MobileDeveloper = lazy(() => import('./2_main/programming/MobileDeveloper'))
-  const GoodHabits = lazy(() => import('./2_main/programming/GoodHabits'))
-  const IfThenElse = lazy(() => import('./2_main/programming/IfThenElse'))
-  const Git = lazy(() => import('./2_main/programming/Git'))
-  const Function = lazy(() => import('./2_main/programming/Function'))
+	// 1. Programming
+	const ProgrammingIndex = lazy(() => import('./2_main/programming/_indexes/ProgrammingIndex'))
+	const Programming = lazy(() => import('./2_main/programming/Programming'))
+	const ProgrammingLanguage = lazy(() => import('./2_main/programming/ProgrammingLanguage'))
+	const Programmer = lazy(() => import('./2_main/programming/Programmer'))
+	const SoftwareDeveloper = lazy(() => import('./2_main/programming/SoftwareDeveloper'))
+	const FullStackDeveloper = lazy(() => import('./2_main/programming/FullStackDeveloper'))
+	const MobileDeveloper = lazy(() => import('./2_main/programming/MobileDeveloper'))
+	const GoodHabits = lazy(() => import('./2_main/programming/GoodHabits'))
+	const IfThenElse = lazy(() => import('./2_main/programming/IfThenElse'))
+	const Git = lazy(() => import('./2_main/programming/Git'))
+	const Function = lazy(() => import('./2_main/programming/Function'))
 
-  // 3. Frontend
-  const FrontEndIndex = lazy(() => import('./2_main/programming/_indexes/FrontEndIndex'))
-  const FrontEndDeveloper = lazy(() => import('./2_main/programming/prontend/FrontEndDeveloper'))
-  const HTML = lazy(() => import('./2_main/programming/prontend/HTML'))
-  const CSS = lazy(() => import('./2_main/programming/prontend/CSS'))
-  const JavaScript = lazy(() => import('./2_main/programming/prontend/JavaScript'))
-  const React = lazy(() => import('./2_main/programming/prontend/React'))
+	// 3. Frontend
+	const FrontEndIndex = lazy(() => import('./2_main/programming/_indexes/FrontEndIndex'))
+	const FrontEndDeveloper = lazy(() => import('./2_main/programming/prontend/FrontEndDeveloper'))
+	const HTML = lazy(() => import('./2_main/programming/prontend/HTML'))
+	const CSS = lazy(() => import('./2_main/programming/prontend/CSS'))
+	const JavaScript = lazy(() => import('./2_main/programming/prontend/JavaScript'))
+	const React = lazy(() => import('./2_main/programming/prontend/React'))
 
-  // 3. Backend
-  const BackendIndex = lazy(() => import('./2_main/programming/_indexes/BackendIndex'))
-  const BackEndDeveloper = lazy(() => import('./2_main/programming/backend/BackEndDeveloper'))
-  const GitHub = lazy(() => import('./2_main/programming/backend/GitHub'))
-  const SQL = lazy(() => import('./2_main/programming/backend/SQL'))
-  const Python = lazy(() => import('./2_main/programming/backend/Python'))
-  const Java = lazy(() => import('./2_main/programming/backend/Java'))
-  const PHP = lazy(() => import('./2_main/programming/backend/PHP'))
-  const NodeJS = lazy(() => import('./2_main/programming/backend/NodeJS'))
+	// 3. Backend
+	const BackendIndex = lazy(() => import('./2_main/programming/_indexes/BackendIndex'))
+	const BackEndDeveloper = lazy(() => import('./2_main/programming/backend/BackEndDeveloper'))
+	const GitHub = lazy(() => import('./2_main/programming/backend/GitHub'))
+	const SQL = lazy(() => import('./2_main/programming/backend/SQL'))
+	const Python = lazy(() => import('./2_main/programming/backend/Python'))
+	const Java = lazy(() => import('./2_main/programming/backend/Java'))
+	const PHP = lazy(() => import('./2_main/programming/backend/PHP'))
+	const NodeJS = lazy(() => import('./2_main/programming/backend/NodeJS'))
 
-  // 4. Lập Trình
-  const LapTrinhIndex = lazy(() => import('./2_main/programming/_indexes/LapTrinhIndex'))
-  const LoTrinhHocFrontEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocFrontEnd'))
-  const LoTrinhHocBackEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocBackEnd'))
+	// 4. Lập Trình
+	const LapTrinhIndex = lazy(() => import('./2_main/programming/_indexes/LapTrinhIndex'))
+	const LoTrinhHocFrontEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocFrontEnd'))
+	const LoTrinhHocBackEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocBackEnd'))
 
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
-  // 1. Spreadsheet
-  const SpreadsheetIndex = lazy(() => import('./2_main/spreadsheet/_indexes/SpreadsheetIndex'))
-  const Spreadsheet = lazy(() => import('./2_main/spreadsheet/Spreadsheet'))
-  const Formula = lazy(() => import('./2_main/spreadsheet/Formula'))
-  const Function2 = lazy(() => import('./2_main/spreadsheet/Function'))
+	// 1. Spreadsheet
+	const SpreadsheetIndex = lazy(() => import('./2_main/spreadsheet/_indexes/SpreadsheetIndex'))
+	const Spreadsheet = lazy(() => import('./2_main/spreadsheet/Spreadsheet'))
+	const Formula = lazy(() => import('./2_main/spreadsheet/Formula'))
+	const Function2 = lazy(() => import('./2_main/spreadsheet/Function2'))
 
-  // 2. Functions
-  const FunctionIndex = lazy(() => import('./2_main/spreadsheet/_indexes/FunctionIndex'))
-  const XLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/XLOOKUP'))
+	// 2. Functions
+	const FunctionIndex = lazy(() => import('./2_main/spreadsheet/_indexes/FunctionIndex'))
+	const XLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/XLOOKUP'))
 
 // Xuất khẩu chức năng
 export default function AppRoutes() {
-  return (
+	return (
 
-  <Suspense fallback={<></>}>
+	<Suspense fallback={<></>}>
 
-    <Routes>
+		<Routes>
 
-      <Route path="/" element={<Layout />}>
+			<Route path="/" element={<Layout />}>
 
-        <Route path="/:slug" element={<Posts />} />
-        <Route path="/:category" element={<Posts />} />
+				<Route path="/:slug" element={<Posts />} />
+				<Route path="/:category" element={<Posts />} />
 
-        {/* 1_header Khai báo đường dẫn path cho Home */}
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<SearchIndex />} />
+				{/* 1_header Khai báo đường dẫn path cho Home */}
+				<Route path="/" element={<Home />} />
+				<Route path="/search" element={<SearchIndex />} />
 
-        {/* 2_main Khai báo đường dẫn path cho Mr. Bee Osn */}
-        <Route path="/mrbeeosn" element={<MrBeeOsn />} />
+				{/* 2_main Khai báo đường dẫn path cho Mr. Bee Osn */}
+				<Route path="/mrbeeosn" element={<MrBeeOsn />} />
 
-        {/* 2_main Khai báo đường dẫn path cho Programming */}
+				{/* 2_main Khai báo đường dẫn path cho Programming */}
 
-        {/* 1. Programming */}
-        <Route path="/programming" element={<ProgrammingIndex />} />
-        <Route path="/programming/what-is-programming?" element={<Programming />} />
-        <Route path="/programming/what-is-a-programming-language?" element={<ProgrammingLanguage />} />
-        <Route path="/programming/what-is-a-programmer?" element={<Programmer />} />
-        <Route path="/programming/what-is-a-software-developer?" element={<SoftwareDeveloper />} />
-        <Route path="/programming/what-is-a-full-stack-developer?" element={<FullStackDeveloper />} />
-        <Route path="/programming/what-is-a-mobile-developer?" element={<MobileDeveloper />} />
-        <Route path="/programming/what-are-good-habits?" element={<GoodHabits />} />
-        <Route path="/programming/what-is-if-then-else?" element={<IfThenElse />} />
-        <Route path="/programming/what-is-Git?" element={<Git />} />
-        <Route path="/programming/what-is-a-function?" element={<Function />} />
+				{/* 1. Programming */}
+				<Route path="/programming" element={<ProgrammingIndex />} />
+				<Route path="/programming/what-is-programming?" element={<Programming />} />
+				<Route path="/programming/what-is-a-programming-language?" element={<ProgrammingLanguage />} />
+				<Route path="/programming/what-is-a-programmer?" element={<Programmer />} />
+				<Route path="/programming/what-is-a-software-developer?" element={<SoftwareDeveloper />} />
+				<Route path="/programming/what-is-a-full-stack-developer?" element={<FullStackDeveloper />} />
+				<Route path="/programming/what-is-a-mobile-developer?" element={<MobileDeveloper />} />
+				<Route path="/programming/what-are-good-habits?" element={<GoodHabits />} />
+				<Route path="/programming/what-is-if-then-else?" element={<IfThenElse />} />
+				<Route path="/programming/what-is-Git?" element={<Git />} />
+				<Route path="/programming/what-is-a-function?" element={<Function />} />
 
-        {/* 2. Frontend */}
-        <Route path="/front-end" element={<FrontEndIndex />} />
-        <Route path="/front-end/what-is-a-front-end-developer?" element={<FrontEndDeveloper />} />
-        <Route path="/front-end/what-is-html?" element={<HTML />} />
-        <Route path="/front-end/what-is-css?" element={<CSS />} />
-        <Route path="/front-end/what-is-javascript?" element={<JavaScript />} />
-        <Route path="/front-end/what-is-react?" element={<React />} />
-        
-        {/* 3. Backend */}
-        <Route path="/back-end" element={<BackendIndex />} />
-        <Route path="/back-end/what-is-a-back-end-developer?" element={<BackEndDeveloper />} />
-        <Route path="/back-end/what-is-github?" element={<GitHub />} />
-        <Route path="/back-end/what-is-sql?" element={<SQL />} />
-        <Route path="/back-end/what-is-python?" element={<Python />} />
-        <Route path="/back-end/what-is-java?" element={<Java />} />
-        <Route path="/back-end/what-is-php?" element={<PHP />} />
-        <Route path="/back-end/what-is-node.js?" element={<NodeJS />} />
-        
-        {/* 4. Lập Trình */}
-        <Route path="/lap-trinh" element={<LapTrinhIndex />} />
-        <Route path="/lap-trinh/lo-trinh-hoc-front-end-la-gi?" element={<LoTrinhHocFrontEnd />} />
-        <Route path="/lap-trinh/lo-trinh-hoc-back-end-la-gi?" element={<LoTrinhHocBackEnd />} />
+				{/* 2. Frontend */}
+				<Route path="/front-end" element={<FrontEndIndex />} />
+				<Route path="/front-end/what-is-a-front-end-developer?" element={<FrontEndDeveloper />} />
+				<Route path="/front-end/what-is-html?" element={<HTML />} />
+				<Route path="/front-end/what-is-css?" element={<CSS />} />
+				<Route path="/front-end/what-is-javascript?" element={<JavaScript />} />
+				<Route path="/front-end/what-is-react?" element={<React />} />
+				
+				{/* 3. Backend */}
+				<Route path="/back-end" element={<BackendIndex />} />
+				<Route path="/back-end/what-is-a-back-end-developer?" element={<BackEndDeveloper />} />
+				<Route path="/back-end/what-is-github?" element={<GitHub />} />
+				<Route path="/back-end/what-is-sql?" element={<SQL />} />
+				<Route path="/back-end/what-is-python?" element={<Python />} />
+				<Route path="/back-end/what-is-java?" element={<Java />} />
+				<Route path="/back-end/what-is-php?" element={<PHP />} />
+				<Route path="/back-end/what-is-node.js?" element={<NodeJS />} />
+				
+				{/* 4. Lập Trình */}
+				<Route path="/lap-trinh" element={<LapTrinhIndex />} />
+				<Route path="/lap-trinh/lo-trinh-hoc-front-end-la-gi?" element={<LoTrinhHocFrontEnd />} />
+				<Route path="/lap-trinh/lo-trinh-hoc-back-end-la-gi?" element={<LoTrinhHocBackEnd />} />
 
 
-        {/* 2_main Khai báo đường dẫn path cho Spreadsheet */}
+				{/* 2_main Khai báo đường dẫn path cho Spreadsheet */}
 
-          {/* 1. Spreadsheet */}
-          <Route path="/spreadsheet" element={<SpreadsheetIndex />} />
-          <Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
-          <Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
-          <Route path="/spreadsheet/what-is-formula?" element={<Formula />} />
-          <Route path="/spreadsheet/what-is-function?" element={<Function2 />} />
+					{/* 1. Spreadsheet */}
+					<Route path="/spreadsheet" element={<SpreadsheetIndex />} />
+					<Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
+					<Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
+					<Route path="/spreadsheet/what-is-formula?" element={<Formula />} />
+					<Route path="/spreadsheet/what-is-function?" element={<Function2 />} />
 
-          {/* 2. Function */}
-          <Route path="/function" element={<FunctionIndex />} />
-          <Route path="/function/what-is-xlookup?" element={<XLOOKUP />} />
+					{/* 2. Function */}
+					<Route path="/function" element={<FunctionIndex />} />
+					<Route path="/function/what-is-xlookup?" element={<XLOOKUP />} />
 
-      </Route>
+			</Route>
 
-    </Routes>
+		</Routes>
 
-  </Suspense>
+	</Suspense>
 
-  );
+	);
 }
