@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import ViewCounter from '/src/components/ViewCounter';
 import EyeIcon from '/src/components/EyeIcon';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Programming() {
 
@@ -71,12 +72,16 @@ export default function Programming() {
 				<span>August 30, 2025 · by 💎Gem ·</span>
 			</div>
 
-			<div className="post-date no-margin">
+			<div className="eye-icon no-margin">
      	 	<EyeIcon />
     	</div>
 
 			<div className="post-date no-margin">
 				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
 			</div>
 
 		</div>
