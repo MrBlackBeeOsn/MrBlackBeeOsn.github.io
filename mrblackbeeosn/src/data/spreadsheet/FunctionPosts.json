@@ -1,0 +1,13 @@
+{
+  "posts": [
+		{ 
+      "id": "XLOOKUP",
+      "categoryDisplay": "Function",
+      "categorySlug": "function",
+      "title": "XLOOKUP",
+      "content": "XLOOKUP is a versatile function in spreadsheets that allows you to search for a value in a range of cells and return a corresponding value from another range.",
+      "slug": "function/what-is-xlookup",
+      "date": "2025-08-29"
+    }
+  ]
+}
