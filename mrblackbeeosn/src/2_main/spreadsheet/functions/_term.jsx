@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function () {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">

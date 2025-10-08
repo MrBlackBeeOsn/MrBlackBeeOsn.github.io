@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Spreadsheet() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -59,6 +65,26 @@ export default function Spreadsheet() {
     <p className="margin-top-20"><strong>Spreadsheets</strong> are like fancy checklists that help you keep track of all your stuff and even do cool tricks with numbers. It's like having a super-powered organizer at your fingertips!</p>
 
     <p className="margin-top-50 text-small">July 19, 2024 · by 💎Gem ·</p>
+
+<div className="viewcounter">
+    
+      <div className="post-date no-margin">
+        <span> · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
 
   </main>
 

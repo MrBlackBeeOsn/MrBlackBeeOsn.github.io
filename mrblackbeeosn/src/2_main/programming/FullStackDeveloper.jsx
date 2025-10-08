@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function FullStackDeveloper() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -94,6 +100,26 @@ export default function FullStackDeveloper() {
     <p className="margin-top-20">So, a <strong>Full-Stack Developer</strong> is like your super sandcastle building buddy! They can help you with everything, from making a strong base to adding all the fun decorations and features, so you can build the most awesome website castle ever!</p>
 
     <p className="margin-top-50 text-small">April 23, 2024 · by 💎Gem ·</p>
+
+<div className="viewcounter">
+    
+      <div className="post-date no-margin">
+        <span> · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
     
   </main>
 

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Programmer() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -75,6 +81,26 @@ export default function Programmer() {
     <p>They build all the fun things you use every day, like your favorite video game, the cartoons you watch on a tablet, or the apps your parents use to order food! They are like builders who use code instead of wood and bricks.</p>
 
     <p className="margin-top-50 text-small">August 29, 2025 · by 💎Gem ·</p>
+
+<div className="viewcounter">
+    
+      <div className="post-date no-margin">
+        <span> · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
     
   </main>
 

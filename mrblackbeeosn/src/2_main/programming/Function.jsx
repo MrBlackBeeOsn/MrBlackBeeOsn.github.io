@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Function() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -70,6 +76,26 @@ export default function Function() {
     <p className="margin-top-20">So, <strong>functions</strong> are like cool tricks you can reuse to build different parts of your program quickly and easily.  They save you time and effort, and make your fort (program) much more fun and interesting!</p>
 
     <p className="margin-top-50 text-small">April 24, 2024 · by 💎Gem ·</p>
+
+<div className="viewcounter">
+    
+      <div className="post-date no-margin">
+        <span> · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
     
   </main>
 

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Git() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -91,6 +97,26 @@ export default function Git() {
     <p className="margin-top-20">So, <strong>Git</strong> in programming is a super cool tool (like a special box) that helps programmers keep track of their work, fix mistakes, and even work together on building awesome things, just like you and your friend building the coolest Lego castle ever!</p>
 
     <p className="margin-top-50 text-small">April 25, 2024 · by 💎Gem ·</p>
+
+<div className="viewcounter">
+    
+      <div className="post-date no-margin">
+        <span> · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
     
   </main>
 
