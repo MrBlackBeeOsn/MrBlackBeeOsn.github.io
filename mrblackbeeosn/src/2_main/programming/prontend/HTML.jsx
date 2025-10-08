@@ -91,7 +91,7 @@ export default function HTML() {
 
     <p>It has special words called tags that tell the computer to draw different things, like big letters for the title, lines for the walls, and even pictures of windows!</p>
 
-    <p className="margin-top-50 text-small">April 15, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">April 15, 2024 · by 💎Gem ·</p>
     
   </main>
 

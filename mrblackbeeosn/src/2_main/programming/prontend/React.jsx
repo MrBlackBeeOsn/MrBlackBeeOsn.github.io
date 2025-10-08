@@ -62,7 +62,7 @@ export default function React() {
 
       </ul>
 
-    <p className="margin-top-50 text-small">September 25, 2025 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">September 25, 2025 · by 💎Gem ·</p>
     
   </main>
 

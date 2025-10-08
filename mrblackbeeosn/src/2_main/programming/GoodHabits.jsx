@@ -116,7 +116,7 @@ export default function GoodHabits() {
 
     <p className="margin-top-20">By following these habits, programmers can build amazing and creative things with code, just like you can build incredible things with Legos!</p>
 
-    <p className="margin-top-50 text-small">May 4, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">May 4, 2024 · by 💎Gem ·</p>
     
   </main>
 

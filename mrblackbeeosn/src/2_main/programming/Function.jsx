@@ -69,7 +69,7 @@ export default function Function() {
 
     <p className="margin-top-20">So, <strong>functions</strong> are like cool tricks you can reuse to build different parts of your program quickly and easily.  They save you time and effort, and make your fort (program) much more fun and interesting!</p>
 
-    <p className="margin-top-50 text-small">April 24, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">April 24, 2024 · by 💎Gem ·</p>
     
   </main>
 

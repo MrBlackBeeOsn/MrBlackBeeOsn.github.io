@@ -68,7 +68,7 @@ export default function PHP() {
 
     <p className="margin-top-20">So, when a website seems smart and remembers what you like, it's because <strong>PHP</strong> is working hard behind the scenes!</p>
 
-    <p className="margin-top-50 text-small">September 14, 2025 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">September 14, 2025 · by 💎Gem ·</p>
     
   </main>
 

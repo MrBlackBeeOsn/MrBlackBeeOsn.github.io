@@ -74,7 +74,7 @@ export default function Programmer() {
     
     <p>They build all the fun things you use every day, like your favorite video game, the cartoons you watch on a tablet, or the apps your parents use to order food! They are like builders who use code instead of wood and bricks.</p>
 
-    <p className="margin-top-50 text-small">August 29, 2025 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 29, 2025 · by 💎Gem ·</p>
     
   </main>
 

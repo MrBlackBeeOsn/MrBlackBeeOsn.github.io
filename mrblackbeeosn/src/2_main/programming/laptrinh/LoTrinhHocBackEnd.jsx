@@ -166,7 +166,7 @@ export default function LoTrinhHocBackEnd() {
 
     </div>
 
-    <p className="margin-y-50 text-small">September 11, 2025 - by Copilot</p>
+    <p className="margin-y-50 text-small">September 11, 2025 · by Copilot</p>
     
   </main>
 

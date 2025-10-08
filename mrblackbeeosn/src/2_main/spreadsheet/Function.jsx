@@ -58,7 +58,7 @@ export default function Function_2() {
     
     <p className="margin-top-20">So, <strong>functions</strong> in a spreadsheet are like magic buttons that help you do cool tricks with your information, making it super easy and fun to keep track of all your stuff!</p>
 
-    <p className="margin-top-50 text-small">July 20, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">July 20, 2024 · by 💎Gem ·</p>
 
   </main>
 

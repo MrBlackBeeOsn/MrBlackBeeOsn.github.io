@@ -116,7 +116,7 @@ export default function IfThenElse() {
 
     <p className="margin-top-20">If-then-else is like a little helper that lets programs follow instructions and make choices based on those instructions. The more you learn about these helpers, the more complex and interesting programs you can build!</p>
 
-    <p className="margin-top-50 text-small">April 27, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">April 27, 2024 · by 💎Gem ·</p>
     
   </main>
 

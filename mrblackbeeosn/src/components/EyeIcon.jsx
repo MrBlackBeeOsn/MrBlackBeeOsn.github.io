@@ -1,4 +1,4 @@
-// EyeIcon.js
+// EyeIcon.jsx
 import React from 'react';
 
 export default function EyeIcon({ 

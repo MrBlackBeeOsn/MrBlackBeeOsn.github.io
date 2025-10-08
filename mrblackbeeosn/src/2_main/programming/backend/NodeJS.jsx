@@ -66,7 +66,7 @@ export default function NodeJS() {
 
     <p className="margin-top-20">So, with this magic box, a programmer can build a whole website using just one language, which makes building things a lot faster and easier.</p>
 
-    <p className="margin-top-50 text-small">September 14, 2025 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">September 14, 2025 · by 💎Gem ·</p>
     
   </main>
 

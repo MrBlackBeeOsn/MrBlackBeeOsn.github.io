@@ -74,7 +74,7 @@ export default function MobileDeveloper() {
 
     <p className="margin-top-20">So, a <strong>mobile developer</strong> is a person who builds all the cool apps and games you use every day!</p>
 
-    <p className="margin-top-50 text-small">August 31, 2025 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 31, 2025 · by 💎Gem ·</p>
 
     
   </main>

@@ -134,7 +134,7 @@ export default function LoTrinhHocFrontEnd() {
 
     </div>
 
-    <p className="margin-top-50 text-small">September 11, 2025 - by Copilot</p>
+    <p className="margin-top-50 text-small">September 11, 2025 · by Copilot</p>
     
   </main>
 

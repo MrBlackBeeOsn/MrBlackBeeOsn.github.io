@@ -68,7 +68,7 @@ export default function Programming() {
 		<div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 - by 💎Gem</span>
+				<span>August 30, 2025 · by 💎Gem ·</span>
 			</div>
 
 			<div className="post-date no-margin">

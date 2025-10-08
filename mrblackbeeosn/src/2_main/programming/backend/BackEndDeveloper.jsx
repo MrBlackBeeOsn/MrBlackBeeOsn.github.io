@@ -54,7 +54,7 @@ export default function BackEndDeveloper() {
     
     <p className="margin-top-20">So, while a front-end developer makes the pretty menu you see, a <strong>back-end developer</strong> builds the kitchen and all the tools inside it to make sure your food is made perfectly.</p>
 
-    <p className="margin-top-50 text-small">August 29, 2025 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 29, 2025 · by 💎Gem ·</p>
 
   </main>
 

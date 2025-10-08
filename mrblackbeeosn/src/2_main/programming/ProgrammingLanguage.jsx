@@ -102,7 +102,7 @@ export default function ProgrammingLanguage() {
 
     <p>By learning a <strong>programming language</strong>, you can become a computer whisperer, giving them instructions to create amazing things, just like building a cool robot adventure with your special code!</p>
 
-    <p className="margin-top-50 text-small">June 20, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">June 20, 2024 · by 💎Gem ·</p>
 
   </main>
 

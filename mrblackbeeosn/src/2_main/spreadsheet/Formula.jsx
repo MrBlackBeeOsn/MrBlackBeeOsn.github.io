@@ -58,7 +58,7 @@ export default function Formula() {
 
     <p className="margin-top-20">So, <strong>formulas</strong> in a spreadsheet are like secret whispers that tell cells to do cool tricks. They make your checklist super smart and help you keep track of things in a fun and easy way!</p>
 
-    <p className="margin-top-50 text-small">July 20, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">July 20, 2024 · by 💎Gem ·</p>
     
   </main>
 

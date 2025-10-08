@@ -93,7 +93,7 @@ export default function FullStackDeveloper() {
 
     <p className="margin-top-20">So, a <strong>Full-Stack Developer</strong> is like your super sandcastle building buddy! They can help you with everything, from making a strong base to adding all the fun decorations and features, so you can build the most awesome website castle ever!</p>
 
-    <p className="margin-top-50 text-small">April 23, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">April 23, 2024 · by 💎Gem ·</p>
     
   </main>
 
