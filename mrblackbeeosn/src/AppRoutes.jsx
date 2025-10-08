@@ -59,7 +59,7 @@ import { Routes, Route } from 'react-router-dom';
   const SpreadsheetIndex = lazy(() => import('./2_main/spreadsheet/_indexes/SpreadsheetIndex'))
   const Spreadsheet = lazy(() => import('./2_main/spreadsheet/Spreadsheet'))
   const Formula = lazy(() => import('./2_main/spreadsheet/Formula'))
-  const Function_2 = lazy(() => import('./2_main/spreadsheet/Function'))
+  const Function2 = lazy(() => import('./2_main/spreadsheet/Function'))
 
   // 2. Functions
   const FunctionIndex = lazy(() => import('./2_main/spreadsheet/_indexes/FunctionIndex'))
@@ -131,7 +131,7 @@ export default function AppRoutes() {
           <Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
           <Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
           <Route path="/spreadsheet/what-is-formula?" element={<Formula />} />
-          <Route path="/spreadsheet/what-is-function?" element={<Function_2 />} />
+          <Route path="/spreadsheet/what-is-function?" element={<Function2 />} />
 
           {/* 2. Function */}
           <Route path="/function" element={<FunctionIndex />} />

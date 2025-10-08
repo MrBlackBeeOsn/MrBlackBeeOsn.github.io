@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function XLOOKUP() {
 
-  const postId = "";
+  const postId = "XLOOKUP";
 
   return (<>
 

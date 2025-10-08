@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function IfThenElse() {
 
-  const postId = "";
+  const postId = "IfThenElse";
 
   return (<>
 

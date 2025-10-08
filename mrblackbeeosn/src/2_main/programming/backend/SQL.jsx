@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function SQL() {
 
-  const postId = "";
+  const postId = "SQL";
 
   return (<>
 

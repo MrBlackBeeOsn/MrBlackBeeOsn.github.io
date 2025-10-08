@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function Git() {
 
-  const postId = "";
+  const postId = "Git";
 
   return (<>
 

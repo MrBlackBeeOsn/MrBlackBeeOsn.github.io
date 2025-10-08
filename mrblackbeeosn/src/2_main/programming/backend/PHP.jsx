@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function PHP() {
 
-  const postId = "";
+  const postId = "PHP";
 
   return (<>
 

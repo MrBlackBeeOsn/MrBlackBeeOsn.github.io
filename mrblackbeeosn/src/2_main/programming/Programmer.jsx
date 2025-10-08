@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function Programmer() {
 
-  const postId = "";
+  const postId = "Programmer";
 
   return (<>
 

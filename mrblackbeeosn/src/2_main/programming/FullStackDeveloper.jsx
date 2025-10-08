@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function FullStackDeveloper() {
 
-  const postId = "";
+  const postId = "FullStackDeveloper";
 
   return (<>
 

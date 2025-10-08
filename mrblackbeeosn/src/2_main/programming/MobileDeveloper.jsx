@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function MobileDeveloper() {
 
-  const postId = "";
+  const postId = "MobileDeveloper";
 
   return (<>
 

@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function GoodHabits() {
 
-  const postId = "";
+  const postId = "GoodHabits";
 
   return (<>
 

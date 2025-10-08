@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function LoTrinhHocFrontEnd() {
 
-  const postId = "";
+  const postId = "LoTrinhHocFrontEnd";
 
   return (<>
 

@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function Spreadsheet() {
 
-  const postId = "";
+  const postId = "Spreadsheet";
 
   return (<>
 
