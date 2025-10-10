@@ -20,7 +20,7 @@ export default function HLOOKUP() {
 
     <p><strong>HLOOKUP</strong> is a powerful function in spreadsheets that allows you to search for a value in the top row of a table and return a corresponding value from a specified row. It's like having a magnifying glass that can scan across the top of your checklist and find the information you need.</p>
     
-    <p>Here's how it works:</p>
+    <p className="margin-top-20">Here's how it works:</p>
 
       <ul className="list-square">
 
