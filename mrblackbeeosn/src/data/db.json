@@ -292,8 +292,39 @@
       "categorySlug": "function",
       "title": "XLOOKUP",
       "content": "XLOOKUP is a versatile function in spreadsheets that allows you to search for a value in a range of cells and return a corresponding value from another range.",
-      "slug": "function/what-is-xlookup",
+      "slug": "function/what-is-the-xlookup-function",
       "date": "2025-08-29",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "VLOOKUP",
+      "categoryDisplay": "Function",
+      "categorySlug": "function",
+      "title": "VLOOKUP",
+      "content": "The VLOOKUP function in a spreadsheet is a powerful tool that allows you to search for a specific value in a table or range of cells and return a corresponding value from a different column.",
+      "slug": "function/what-is-the-vlookup-function.",
+      "date": "2024-08-18",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "HLOOKUP",
+      "categoryDisplay": "Function",
+      "categorySlug": "function",
+      "title": "HLOOKUP",
+      "content": "HLOOKUP is a powerful function in spreadsheets that allows you to search for a value in the top row of a table and return a corresponding value from a specified row.",
+      "date": "2024-08-18",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "DATE",
+      "categoryDisplay": "Function",
+      "categorySlug": "function",
+      "title": "DATE",
+      "content": "The DATE function is a powerful tool in spreadsheet software like Microsoft Excel or Google Sheets that allows you to create a date based on specific year, month, and day values.",
+      "date": "2024-08-18",
       "views": 0,
       "likes": 0
     },
