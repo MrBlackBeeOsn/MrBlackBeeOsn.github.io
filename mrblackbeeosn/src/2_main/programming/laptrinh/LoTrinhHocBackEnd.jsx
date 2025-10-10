@@ -152,7 +152,7 @@ export default function LoTrinhHocBackEnd() {
         🧠 Giai đoạn 6: Nâng cao & tối ưu
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
+    <div className="padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">🧠 Giai đoạn 6: Nâng cao & tối ưu</h4>
     

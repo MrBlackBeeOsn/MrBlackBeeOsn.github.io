@@ -122,7 +122,7 @@ export default function LoTrinhHocFrontEnd() {
         🧪 Giai đoạn 5: Dự án thực tế & Git
     ============================= */}
 
-    <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
+    <div className="padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
       <h4 className="margin-y-50 text-center">🧪 Giai đoạn 5: Dự án thực tế & Git</h4>
     
@@ -136,7 +136,7 @@ export default function LoTrinhHocFrontEnd() {
 
         </ul>
 
-      <p className="margin-y-20">📌 <strong>Mục tiêu</strong>: Có sản phẩm thật để khoe và dùng khi xin việc hoặc freelance.</p>
+      <p className="margin-top-20">📌 <strong>Mục tiêu</strong>: Có sản phẩm thật để khoe và dùng khi xin việc hoặc freelance.</p>
 
     </div>
 

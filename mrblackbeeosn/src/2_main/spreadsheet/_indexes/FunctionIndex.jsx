@@ -25,9 +25,13 @@ export default function FunctionIndex() {
 
         <ul className="list-border1">
 
-          <li><Link to="/function/what-is-xlookup?">XLOOKUP</Link></li>
+          <li><Link to="/function/what-is-the-xlookup-function?">XLOOKUP</Link></li>
           
-          <li><Link to=""></Link></li>
+          <li><Link to="/function/what-is-the-vlookup-function?">VLOOKUP</Link></li>
+
+          <li><Link to="/function/what-is-the-hlookup-function?">HLOOKUP</Link></li>
+
+          <li><Link to="/function/what-is-the-date-function?">DATE</Link></li>
 
         </ul>
 

@@ -64,6 +64,9 @@ import { Routes, Route } from 'react-router-dom';
 	// 2. Functions
 	const FunctionIndex = lazy(() => import('./2_main/spreadsheet/_indexes/FunctionIndex'))
 	const XLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/XLOOKUP'))
+	const VLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/VLOOKUP'))
+	const HLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/HLOOKUP'))
+	const DATE = lazy(() => import('./2_main/spreadsheet/functions/DATE'))
 
 // Xuất khẩu chức năng
 export default function AppRoutes() {
@@ -135,7 +138,10 @@ export default function AppRoutes() {
 
 					{/* 2. Function */}
 					<Route path="/function" element={<FunctionIndex />} />
-					<Route path="/function/what-is-xlookup?" element={<XLOOKUP />} />
+					<Route path="/function/what-is-the-xlookup-function?" element={<XLOOKUP />} />
+					<Route path="/function/what-is-the-vlookup-function?" element={<VLOOKUP />} />
+					<Route path="/function/what-is-the-hlookup-function?" element={<HLOOKUP />} />
+					<Route path="/function/what-is-the-date-function?" element={<DATE />} />
 
 			</Route>
 
