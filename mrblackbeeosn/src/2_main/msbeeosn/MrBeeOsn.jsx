@@ -112,7 +112,7 @@ export default function MrBeeOsn() {
     <div className="viewcounter">
         
       <div className="post-date no-margin">
-        <span>by Mr. Bee Osn ·</span>
+        <span>by 🐝Mr. Bee Osn ·</span>
       </div>
 
       <div className="eye-icon no-margin">
