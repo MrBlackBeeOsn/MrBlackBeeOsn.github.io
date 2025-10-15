@@ -7,7 +7,7 @@ export default function HeartIconColor({
   stroke = "var(--secondary-color)",  // Màu cho đường viền (stroke)
   fill = "var(--tertiary-color)",
 
-}) {
+}): React.JSX.Element {
 
   return (
     <svg
