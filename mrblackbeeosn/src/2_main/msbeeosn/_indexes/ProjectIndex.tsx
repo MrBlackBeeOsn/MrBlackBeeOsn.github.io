@@ -7,7 +7,7 @@ import EyeIcon from '@/components/EyeIcon';
 import ViewCounter from '@/components/ViewCounter';
 import LikeButton from '@/components/LikeButton';
 
-export default function ProjectIndex() {
+export default function ProjectIndex(): React.JSX.Element {
 
   const postId = "ProjectIndex";
 

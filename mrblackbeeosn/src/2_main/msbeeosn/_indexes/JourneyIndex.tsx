@@ -7,7 +7,7 @@ import EyeIcon from '@/components/EyeIcon';
 import ViewCounter from '@/components/ViewCounter';
 import LikeButton from '@/components/LikeButton';
 
-export default function JourneyIndex() {
+export default function JourneyIndex(): React.JSX.Element {
 
   const postId = "JourneyIndex";
 
@@ -45,12 +45,12 @@ export default function JourneyIndex() {
         <tbody>
 
           <tr>
-              <td>Aug.17</td>
+              <td>Aug. 17</td>
               <td>Diligently building valuable Accounting & English blogs.</td>
           </tr>
 
           <tr>
-              <td>Sept.20</td>
+              <td>Sept. 20</td>
               <td>Successfully migrated to React.</td>
           </tr>
 
@@ -72,6 +72,11 @@ export default function JourneyIndex() {
           <tr>
               <td>24</td>
               <td>Consistently sharing insights through blog posts.</td>
+          </tr>
+
+          <tr>
+              <td>Oct. 15</td>
+              <td>Successfully migrated to TypeScript.</td>
           </tr>
 
         </tbody>
