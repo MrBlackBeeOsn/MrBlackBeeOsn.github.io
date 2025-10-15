@@ -1,4 +1,4 @@
-// src/components/BeeSwarm.jsx
+import React from 'react';
 import { useEffect } from 'react';
 import { startBeeFlying } from '../utils/beeMotion';
 

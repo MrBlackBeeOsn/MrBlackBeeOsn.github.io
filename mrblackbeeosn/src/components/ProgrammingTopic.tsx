@@ -1,7 +1,8 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function ProgrammingTopic() {
+export default function ProgrammingTopic(): React.JSX.Element {
   return (
 
     <div className="topic-container">
