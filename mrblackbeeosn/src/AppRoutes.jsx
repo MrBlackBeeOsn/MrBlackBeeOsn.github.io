@@ -71,6 +71,9 @@ import { Routes, Route } from 'react-router-dom';
 	const HLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/HLOOKUP'))
 	const DATE = lazy(() => import('./2_main/spreadsheet/functions/DATE'))
 
+// 3. Test Tailwind
+	const TestTailwind = lazy(() => import('./components/TestTailwind'))
+
 // Xuất khẩu chức năng
 export default function AppRoutes() {
 	return (
@@ -148,6 +151,9 @@ export default function AppRoutes() {
 					<Route path="/function/what-is-the-vlookup-function?" element={<VLOOKUP />} />
 					<Route path="/function/what-is-the-hlookup-function?" element={<HLOOKUP />} />
 					<Route path="/function/what-is-the-date-function?" element={<DATE />} />
+
+					{/* 3. Test Tailwind */}
+					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />
 
 			</Route>
 
