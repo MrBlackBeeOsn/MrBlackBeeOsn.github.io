@@ -39,7 +39,10 @@ import { Routes, Route } from 'react-router-dom';
 	const HTML = lazy(() => import('./2_main/programming/prontend/HTML'))
 	const CSS = lazy(() => import('./2_main/programming/prontend/CSS'))
 	const JavaScript = lazy(() => import('./2_main/programming/prontend/JavaScript'))
+	const TypeScript = lazy(() => import('./2_main/programming/prontend/TypeScript'))
 	const React = lazy(() => import('./2_main/programming/prontend/React'))
+	const NextJS = lazy(() => import('./2_main/programming/prontend/NextJS'))
+	const TailwindCSS = lazy(() => import('./2_main/programming/prontend/TailwindCSS'))
 
 	// 3. Backend
 	const BackendIndex = lazy(() => import('./2_main/programming/_indexes/BackendIndex'))
@@ -118,7 +121,10 @@ export default function AppRoutes() {
 				<Route path="/front-end/what-is-html?" element={<HTML />} />
 				<Route path="/front-end/what-is-css?" element={<CSS />} />
 				<Route path="/front-end/what-is-javascript?" element={<JavaScript />} />
+				<Route path="/front-end/what-is-typescript?" element={<TypeScript />} />
 				<Route path="/front-end/what-is-react?" element={<React />} />
+				<Route path="/front-end/what-is-nextjs?" element={<NextJS />} />
+				<Route path="/front-end/what-is-tailwindcss?" element={<TailwindCSS />} />
 				
 				{/* 3. Backend */}
 				<Route path="/back-end" element={<BackendIndex />} />

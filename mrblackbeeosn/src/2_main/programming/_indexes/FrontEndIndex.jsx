@@ -33,7 +33,13 @@ export default function FrontEndIndex() {
 
           <li><Link to="/front-end/what-is-javascript?">JavaScript</Link></li>
 
+          <li><Link to="/front-end/what-is-typescript?">TypeScript</Link></li>
+
           <li><Link to="/front-end/what-is-react?">React</Link></li>
+
+          <li><Link to="/front-end/what-is-nextjs?">Next.js</Link></li>
+
+          <li><Link to="/front-end/what-is-tailwindcss?">Tailwind CSS</Link></li>
 
         </ul>
 

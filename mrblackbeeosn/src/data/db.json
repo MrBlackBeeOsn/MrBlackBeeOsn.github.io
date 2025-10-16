@@ -199,6 +199,17 @@
       "likes": 0
     },
     {
+      "id": "TypeScript",
+      "categoryDisplay": "Pront-End",
+      "categorySlug": "pront-end",
+      "title": "TypeScript",
+      "content": "TypeScript is an open-source programming language developed and maintained by Microsoft. It is a superset of JavaScript, meaning that any valid JavaScript code is also valid TypeScript code.",
+      "slug": "front-end/what-is-typescript",
+      "date": "2025-10-16",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "React",
       "categoryDisplay": "Pront-End",
       "categorySlug": "pront-end",
@@ -206,6 +217,28 @@
       "content": "React is a JavaScript library for building user interfaces (UIs).",
       "slug": "front-end/what-is-react",
       "date": "2025-09-25",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "NextJS",
+      "categoryDisplay": "Pront-End",
+      "categorySlug": "pront-end",
+      "title": "Next.js",
+      "content": "Next.js is an open-source React framework that enables developers to build server-rendered and static web applications using React.",
+      "slug": "front-end/what-is-nextjs",
+      "date": "2025-10-16",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TailwindCSS",
+      "categoryDisplay": "Pront-End",
+      "categorySlug": "pront-end",
+      "title": "Tailwind CSS",
+      "content": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.",
+      "slug": "front-end/what-is-tailwindcss",
+      "date": "2025-10-16",
       "views": 0,
       "likes": 0
     },

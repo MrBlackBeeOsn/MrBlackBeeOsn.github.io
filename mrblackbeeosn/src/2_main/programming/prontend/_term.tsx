@@ -1,10 +1,11 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import EyeIcon from '/src/components/EyeIcon';
-import ViewCounter from '/src/components/ViewCounter';
-import LikeButton from '/src/components/LikeButton';
+import EyeIcon from '@/components/EyeIcon';
+import ViewCounter from '@/components/ViewCounter';
+import LikeButton from '@/components/LikeButton';
 
-export default function () {
+export default function (): React.JSX.Element {
 
   const postId = "";
 
