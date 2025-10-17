@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../../components/SearchBar';
 import Posts from '../posts/Posts';
 
 export default function Blog() {

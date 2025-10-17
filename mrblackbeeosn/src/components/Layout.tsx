@@ -1,11 +1,11 @@
 import React from 'react';
 import '/public/assets/css/style.css'
 
-import Header from './Header';
-import Footer from './Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Outlet } from 'react-router-dom';
-import BackToTop from './BackToTop';
-import ViewCounter from './ViewCounter';
+import BackToTop from '@/components/BackToTop';
+import ViewCounter from '@/components/ViewCounter';
 
 export default function Layout(): React.JSX.Element {
   return (
