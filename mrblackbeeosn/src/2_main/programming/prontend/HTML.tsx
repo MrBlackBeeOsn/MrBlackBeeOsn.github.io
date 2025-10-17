@@ -1,0 +1,124 @@
+import React from 'react';
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '@/components/EyeIcon';
+import ViewCounter from '@/components/ViewCounter';
+import LikeButton from '@/components/LikeButton';
+
+export default function HTML(): React.JSX.Element {
+
+  const postId = "HTML";
+
+  return (<>
+
+  <main className="image image2">
+    
+    <h4><HashLink smooth to="/front-end#pront-end-terms"><mark className="highlight-tertiary-padding-4-8">Pront-End</mark></HashLink></h4>
+    
+    <h2 className="margin-y-50 text-center" id="programming-terms">What is HTML?</h2>
+
+    {/* This is the content of Pront-End Term. */}
+
+    <p><strong>HTML</strong> (HyperText Markup Language) is the standard markup language for creating web pages. It's like the blueprint or skeleton of a website, defining its structure and content.</p>
+  
+    <p className="margin-top-20">How <strong>HTML</strong> Works</p>
+    
+      <ul className="list-square">
+
+        <li><strong>Elements</strong>: <strong>HTML</strong> is composed of elements, which are enclosed in tags. These tags tell the web browser how to interpret and display the content.</li>
+
+        <li><strong>Tags</strong>: Tags are keywords surrounded by angle brackets, like <code className="text-border">&lt;p&gt;</code> , <code className="text-border">&lt;h1&gt;</code>, and <code className="text-border">&lt;img&gt;</code>.</li>
+
+        <li><strong>Content</strong>: The content of a webpage, such as text, images, and links, is placed within these elements.</li>
+
+      </ul>
+
+    <p className="margin-top-20">Basic Structure of an <strong>HTML</strong> Document</p>
+
+    <p><strong>HTML</strong></p>
+
+    <pre className="pre-border"><code>{`
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>My Web Page</title>
+      </head>
+      <body>
+        <h1>Welcome to my webpage!</h1>
+        <p>This is a paragraph of text.</p>
+      </body>
+      </html>
+      `}</code></pre>
+
+    <p className="margin-top-20">Use code with caution.</p>
+    
+      <ul className="list-square">
+
+        <li><code>&lt;!<strong>DOCTYPE html</strong>&gt;</code>: Declares the document type.</li>
+
+        <li><code>&lt;<strong>html</strong>&gt;&lt;/<strong>html</strong>&gt;</code>: The root element of an HTML page.</li>
+
+        <li><code>&lt;<strong>head</strong>&gt;&lt;/<strong>head</strong>&gt;</code>: Contains metadata about the page, like the title.</li>
+
+        <li><code>&lt;<strong>body</strong>&gt;&lt;/<strong>body</strong>&gt;</code>: Contains the visible content of the page.</li>
+
+      </ul>
+
+    <p className="margin-top-20">Common <strong>HTML</strong> Elements</p>
+    
+      <ul className="list-square">
+
+        <li><strong>Heading elements</strong>:  <code className="text-border">&lt;h1&gt;</code> ,  <code className="text-border">&lt;h2&gt;</code> ,  <code className="text-border">&lt;h3&gt;</code> , etc.</li>
+
+        <li><strong>Paragraph element</strong>:  <code className="text-border">&lt;p&gt;</code></li>
+
+        <li><strong>Image element</strong>:  <code className="text-border">&lt;img&gt;</code></li>
+
+        <li><strong>Link element</strong>:  <code className="text-border">&lt;a&gt;</code></li>
+
+        <li><strong>List elements</strong>:  <code className="text-border">&lt;ul&gt;</code>  (unordered list), <code className="text-border">&lt;ol&gt;</code> (ordered list)</li>
+
+        <li><strong>Div element</strong>:  <code className="text-border">&lt;div&gt;</code>  (generic container)</li>
+
+      </ul>
+
+    <p className="margin-top-20">In essence, <strong>HTML</strong> provides the framework for web pages, defining their structure and content. It works in conjunction with <Link to="/front-end/what-is-css?">CSS</Link> (for styling) and <Link to="/front-end/what-is-javascript?">JavaScript</Link> (for interactivity) to create dynamic and visually appealing websites.</p>
+
+    {/* =============================
+          🌾 Think simply!
+    ============================= */}
+    
+    <hr className="hr-short"/>
+
+    <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+    
+    <p><strong>HTML</strong> is like a magic book that tells your computer what to draw on the screen!</p>
+    
+    <p>Imagine you have a blank piece of paper and you want to draw a picture of a castle. You need to tell your friend where to put the blocks, the doors, and the windows. <strong>HTML</strong> is like a special language you can use to tell your computer what to draw on the screen.</p>
+
+    <p>It has special words called tags that tell the computer to draw different things, like big letters for the title, lines for the walls, and even pictures of windows!</p>
+
+    <div className="viewcounter">
+    
+      <div className="post-date no-margin">
+        <span>April 15, 2024 · by 💎Gem ·</span>
+      </div>
+
+      <div className="eye-icon no-margin">
+        <EyeIcon />
+      </div>
+
+      <div className="post-date no-margin">
+        <ViewCounter postId={postId} />
+      </div>
+
+      <div className="like-button no-margin">
+        <LikeButton postId={postId} />
+      </div>
+
+    </div>
+    
+  </main>
+
+  </>);
+}
