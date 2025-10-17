@@ -2,83 +2,84 @@
 // const  = lazy(() => import(''))
 // <Suspense fallback={<></>}></Suspense>
 
-import { lazy, Suspense } from 'react'
+import React from 'react';
+import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-	const Layout = lazy(() => import('./components/Layout'))
-	const Posts = lazy(() => import('./data/Posts'))
+	const Layout = lazy(() => import('@/components/Layout'));
+	const Posts = lazy(() => import('@/data/Posts'));
 
 // 1_header import các chức năng và đường dẫn
-	const Home = lazy(() => import('./1_header/Home'))
-	const SearchIndex = lazy(() => import('./1_header/SearchIndex'))
+	const Home = lazy(() => import('@/1_header/Home'));
+	const SearchIndex = lazy(() => import('@/1_header/SearchIndex'));
 
 // 2_main import các chức năng và đường dẫn
-	const MrBeeOsn = lazy(() => import('./2_main/msbeeosn/MrBeeOsn'))
-	const AboutIndex = lazy(() => import('./2_main/msbeeosn/_indexes/AboutIndex'))
-  const ProjectIndex = lazy(() => import('./2_main/msbeeosn/_indexes/ProjectIndex'))
-  const JourneyIndex = lazy(() => import('./2_main/msbeeosn/_indexes/JourneyIndex'))
+	const MrBeeOsn = lazy(() => import('@/2_main/msbeeosn/MrBeeOsn'));
+	const AboutIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/AboutIndex'));
+  const ProjectIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ProjectIndex'));
+  const JourneyIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/JourneyIndex'));
 
 // 2_main import các chức năng và đường dẫn Programming
 
 	// 1. Programming
-	const ProgrammingIndex = lazy(() => import('./2_main/programming/_indexes/ProgrammingIndex'))
-	const Programming = lazy(() => import('./2_main/programming/Programming'))
-	const ProgrammingLanguage = lazy(() => import('./2_main/programming/ProgrammingLanguage'))
-	const Programmer = lazy(() => import('./2_main/programming/Programmer'))
-	const SoftwareDeveloper = lazy(() => import('./2_main/programming/SoftwareDeveloper'))
-	const FullStackDeveloper = lazy(() => import('./2_main/programming/FullStackDeveloper'))
-	const MobileDeveloper = lazy(() => import('./2_main/programming/MobileDeveloper'))
-	const GoodHabits = lazy(() => import('./2_main/programming/GoodHabits'))
-	const IfThenElse = lazy(() => import('./2_main/programming/IfThenElse'))
-	const Git = lazy(() => import('./2_main/programming/Git'))
-	const Function = lazy(() => import('./2_main/programming/Function'))
+	const ProgrammingIndex = lazy(() => import('@/2_main/programming/_indexes/ProgrammingIndex'));
+	const Programming = lazy(() => import('@/2_main/programming/Programming'));
+	const ProgrammingLanguage = lazy(() => import('@/2_main/programming/ProgrammingLanguage'));
+	const Programmer = lazy(() => import('@/2_main/programming/Programmer'));
+	const SoftwareDeveloper = lazy(() => import('@/2_main/programming/SoftwareDeveloper'));
+	const FullStackDeveloper = lazy(() => import('@/2_main/programming/FullStackDeveloper'));
+	const MobileDeveloper = lazy(() => import('@/2_main/programming/MobileDeveloper'));
+	const GoodHabits = lazy(() => import('@/2_main/programming/GoodHabits'));
+	const IfThenElse = lazy(() => import('@/2_main/programming/IfThenElse'));
+	const Git = lazy(() => import('@/2_main/programming/Git'));
+	const Function = lazy(() => import('@/2_main/programming/Function'));
 
 	// 3. Frontend
-	const FrontEndIndex = lazy(() => import('./2_main/programming/_indexes/FrontEndIndex'))
-	const FrontEndDeveloper = lazy(() => import('./2_main/programming/prontend/FrontEndDeveloper'))
-	const HTML = lazy(() => import('./2_main/programming/prontend/HTML'))
-	const CSS = lazy(() => import('./2_main/programming/prontend/CSS'))
-	const JavaScript = lazy(() => import('./2_main/programming/prontend/JavaScript'))
-	const TypeScript = lazy(() => import('./2_main/programming/prontend/TypeScript'))
-	const ReactJS = lazy(() => import('./2_main/programming/prontend/ReactJS'))
-	const NextJS = lazy(() => import('./2_main/programming/prontend/NextJS'))
-	const TailwindCSS = lazy(() => import('./2_main/programming/prontend/TailwindCSS'))
+	const FrontEndIndex = lazy(() => import('@/2_main/programming/_indexes/FrontEndIndex'));
+	const FrontEndDeveloper = lazy(() => import('@/2_main/programming/prontend/FrontEndDeveloper'));
+	const HTML = lazy(() => import('@/2_main/programming/prontend/HTML'));
+	const CSS = lazy(() => import('@/2_main/programming/prontend/CSS'));
+	const JavaScript = lazy(() => import('@/2_main/programming/prontend/JavaScript'));
+	const TypeScript = lazy(() => import('@/2_main/programming/prontend/TypeScript'));
+	const ReactJS = lazy(() => import('@/2_main/programming/prontend/ReactJS'));
+	const NextJS = lazy(() => import('@/2_main/programming/prontend/NextJS'));
+	const TailwindCSS = lazy(() => import('@/2_main/programming/prontend/TailwindCSS'));
 
 	// 3. Backend
-	const BackendIndex = lazy(() => import('./2_main/programming/_indexes/BackendIndex'))
-	const BackEndDeveloper = lazy(() => import('./2_main/programming/backend/BackEndDeveloper'))
-	const GitHub = lazy(() => import('./2_main/programming/backend/GitHub'))
-	const SQL = lazy(() => import('./2_main/programming/backend/SQL'))
-	const Python = lazy(() => import('./2_main/programming/backend/Python'))
-	const Java = lazy(() => import('./2_main/programming/backend/Java'))
-	const PHP = lazy(() => import('./2_main/programming/backend/PHP'))
-	const NodeJS = lazy(() => import('./2_main/programming/backend/NodeJS'))
+	const BackendIndex = lazy(() => import('@/2_main/programming/_indexes/BackendIndex'));
+	const BackEndDeveloper = lazy(() => import('@/2_main/programming/backend/BackEndDeveloper'));
+	const GitHub = lazy(() => import('@/2_main/programming/backend/GitHub'));
+	const SQL = lazy(() => import('@/2_main/programming/backend/SQL'));
+	const Python = lazy(() => import('@/2_main/programming/backend/Python'));
+	const Java = lazy(() => import('@/2_main/programming/backend/Java'));
+	const PHP = lazy(() => import('@/2_main/programming/backend/PHP'));
+	const NodeJS = lazy(() => import('@/2_main/programming/backend/NodeJS'));
 
 	// 4. Lập Trình
-	const LapTrinhIndex = lazy(() => import('./2_main/programming/_indexes/LapTrinhIndex'))
-	const LoTrinhHocFrontEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocFrontEnd'))
-	const LoTrinhHocBackEnd = lazy(() => import('./2_main/programming/laptrinh/LoTrinhHocBackEnd'))
+	const LapTrinhIndex = lazy(() => import('@/2_main/programming/_indexes/LapTrinhIndex'));
+	const LoTrinhHocFrontEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocFrontEnd'));
+	const LoTrinhHocBackEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocBackEnd'));
 
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
 	// 1. Spreadsheet
-	const SpreadsheetIndex = lazy(() => import('./2_main/spreadsheet/_indexes/SpreadsheetIndex'))
-	const Spreadsheet = lazy(() => import('./2_main/spreadsheet/Spreadsheet'))
-	const Formula = lazy(() => import('./2_main/spreadsheet/Formula'))
-	const Function2 = lazy(() => import('./2_main/spreadsheet/Function2'))
+	const SpreadsheetIndex = lazy(() => import('@/2_main/spreadsheet/_indexes/SpreadsheetIndex'));
+	const Spreadsheet = lazy(() => import('@/2_main/spreadsheet/Spreadsheet'));
+	const Formula = lazy(() => import('@/2_main/spreadsheet/Formula'));
+	const Function2 = lazy(() => import('@/2_main/spreadsheet/Function2'));
 
 	// 2. Functions
-	const FunctionIndex = lazy(() => import('./2_main/spreadsheet/_indexes/FunctionIndex'))
-	const XLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/XLOOKUP'))
-	const VLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/VLOOKUP'))
-	const HLOOKUP = lazy(() => import('./2_main/spreadsheet/functions/HLOOKUP'))
-	const DATE = lazy(() => import('./2_main/spreadsheet/functions/DATE'))
+	const FunctionIndex = lazy(() => import('@/2_main/spreadsheet/_indexes/FunctionIndex'));
+	const XLOOKUP = lazy(() => import('@/2_main/spreadsheet/functions/XLOOKUP'));
+	const VLOOKUP = lazy(() => import('@/2_main/spreadsheet/functions/VLOOKUP'));
+	const HLOOKUP = lazy(() => import('@/2_main/spreadsheet/functions/HLOOKUP'));
+	const DATE = lazy(() => import('@/2_main/spreadsheet/functions/DATE'));
 
 // 3. Test Tailwind
-	const TestTailwind = lazy(() => import('./components/TestTailwind'))
+	const TestTailwind = lazy(() => import('@/components/TestTailwind'));
 
 // Xuất khẩu chức năng
-export default function AppRoutes() {
+export default function AppRoutes(): React.JSX.Element {
 	return (
 
 	<Suspense fallback={<></>}>
