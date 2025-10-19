@@ -25,6 +25,10 @@ export default function ProgrammingTopic(): React.JSX.Element {
           <mark className="highlight-tertiary-padding-2-4">Back-End</mark>
         </HashLink>
 
+        <HashLink smooth to="/learning">
+          <mark className="highlight-tertiary-padding-2-4">Learning</mark>
+        </HashLink>
+
         <HashLink smooth to="/lap-trinh">
           <mark className="highlight-tertiary-padding-2-4">Lập Trình</mark>
         </HashLink>

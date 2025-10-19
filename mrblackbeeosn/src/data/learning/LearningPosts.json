@@ -1,0 +1,31 @@
+{
+  "posts": [
+    { 
+    "id": "ComponentLearning",
+    "categoryDisplay": "Learning",
+    "categorySlug": "learning",
+    "title": "Component Learning",
+    "content": "Component learning is an educational or training approach that breaks down complex knowledge, skills, or tasks into smaller, discrete, manageable units, or \"components.\"",
+    "slug": "learning/what-is-component-learning",
+    "date": "2025-10-19"
+    },
+    { 
+      "id": "ProjectBasedLearning",
+      "categoryDisplay": "Learning",
+      "categorySlug": "learning",
+      "title": "Project-based learning (PBL)",
+      "content": "Project-based learning (PBL) is a dynamic and comprehensive instructional approach where students gain knowledge and skills by working for an extended period to investigate and respond to an authentic, engaging, and complex question, problem, or challenge.",
+      "slug": "learning/what-is-project-based-learning",
+      "date": "2025-10-19"
+    },
+    { 
+      "id": "MicroLearning",
+      "categoryDisplay": "Learning",
+      "categorySlug": "learning",
+      "title": "Micro-learning",
+      "content": "Micro-learning is an approach to education and training that focuses on delivering content in small, highly focused bursts of information, typically lasting from a few seconds up to a maximum of 10–15 minutes.",
+      "slug": "learning/what-is-micro-learning",
+      "date": "2025-10-19"
+    }
+  ]
+}

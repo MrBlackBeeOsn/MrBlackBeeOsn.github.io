@@ -55,7 +55,13 @@ import { Routes, Route } from 'react-router-dom';
 	const PHP = lazy(() => import('@/2_main/programming/backend/PHP'));
 	const NodeJS = lazy(() => import('@/2_main/programming/backend/NodeJS'));
 
-	// 4. Lập Trình
+	// 4. Learning
+	const LearningIndex = lazy(() => import('@/2_main/learning/_indexes/LearningIndex'));
+	const ComponentLearning = lazy(() => import('@/2_main/learning/ComponentLearning'));
+	const ProjectBasedLearning = lazy(() => import('@/2_main/learning/ProjectBasedLearning'));
+	const MicroLearning = lazy(() => import('@/2_main/learning/MicroLearning'));
+
+	// 5. Lập Trình
 	const LapTrinhIndex = lazy(() => import('@/2_main/programming/_indexes/LapTrinhIndex'));
 	const LoTrinhHocFrontEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocFrontEnd'));
 	const LoTrinhHocBackEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocBackEnd'));
@@ -136,12 +142,17 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/back-end/what-is-java?" element={<Java />} />
 				<Route path="/back-end/what-is-php?" element={<PHP />} />
 				<Route path="/back-end/what-is-node.js?" element={<NodeJS />} />
+
+				{/* 4. Learning */}
+				<Route path="/learning" element={<LearningIndex />} />
+				<Route path="/learning/what-is-component-learning?" element={<ComponentLearning />} />
+				<Route path="/learning/what-is-project-based-learning?" element={<ProjectBasedLearning />} />
+				<Route path="/learning/what-is-micro-learning?" element={<MicroLearning />} />
 				
-				{/* 4. Lập Trình */}
+				{/* 5. Lập Trình */}
 				<Route path="/lap-trinh" element={<LapTrinhIndex />} />
 				<Route path="/lap-trinh/lo-trinh-hoc-front-end-la-gi?" element={<LoTrinhHocFrontEnd />} />
 				<Route path="/lap-trinh/lo-trinh-hoc-back-end-la-gi?" element={<LoTrinhHocBackEnd />} />
-
 
 				{/* 2_main Khai báo đường dẫn path cho Spreadsheet */}
 
