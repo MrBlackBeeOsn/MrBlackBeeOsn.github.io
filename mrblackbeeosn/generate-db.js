@@ -34,6 +34,7 @@ function generateDB() {
   const ProgrammingPosts = readJSONFile('./src/data/programming/ProgrammingPosts.json');
   const FrontEndPosts = readJSONFile('./src/data/programming/FrontEndPosts.json');
   const BackEndPosts = readJSONFile('./src/data/programming/BackEndPosts.json');
+  const LearningPosts = readJSONFile('./src/data/learning/LearningPosts.json');
   const LapTrinhPosts = readJSONFile('./src/data/laptrinh/LapTrinhPosts.json');
   const SpreadsheetPosts = readJSONFile('./src/data/spreadsheet/SpreadsheetPosts.json');
   const FunctionPosts = readJSONFile('./src/data/spreadsheet/FunctionPosts.json');
@@ -44,6 +45,7 @@ function generateDB() {
     ...ProgrammingPosts,
     ...FrontEndPosts,
     ...BackEndPosts,
+    ...LearningPosts,
     ...SpreadsheetPosts,
     ...FunctionPosts,
     ...LapTrinhPosts
