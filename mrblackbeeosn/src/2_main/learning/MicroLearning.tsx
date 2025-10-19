@@ -19,7 +19,7 @@ export default function MicroLearning(): React.JSX.Element {
 
     {/* This is the content of Programming Term. */}
     
-    <p><strong>Micro-learning</strong> is an approach to education and training that focuses on delivering content in small, highly focused bursts of information, typically lasting from a few seconds up to a maximum of 10–15 minutes. Its design is centered on addressing specific learning objectives and fitting into the busy schedules of modern learners.</p>
+    <p><strong>Micro-learning</strong> is an approach to education and training that focuses on delivering content in <strong>small</strong>, <strong>highly focused bursts of information</strong>, typically lasting from a few seconds up to a maximum of 10–15 minutes. Its design is centered on addressing specific learning objectives and fitting into the busy schedules of modern learners.</p>
 
     <h4 className="margin-y-50 text-center">Core Characteristics</h4>
 
@@ -27,7 +27,7 @@ export default function MicroLearning(): React.JSX.Element {
 
         <li><strong>Duration</strong>: The content is brief and concise, often delivered in 1 to 5-minute segments. The short duration is the defining feature, aligning with the brain's capacity for focused attention.</li>
 
-        <li><strong>Focus</strong>: Each <strong>micro-learning</strong> unit addresses only one distinct skill, concept, or learning objective. This narrow scope ensures clarity and prevents cognitive overload.</li>
+        <li><strong>Focus</strong>: Each <strong>micro-learning</strong> unit addresses <strong>only one</strong> distinct skill, concept, or learning objective. This narrow scope ensures clarity and prevents cognitive overload.</li>
 
         <li><strong>Modularity</strong>: The small units are self-contained and stand alone. They can be consumed independently, but they can also be combined and sequenced into longer, comprehensive learning paths.</li>
 

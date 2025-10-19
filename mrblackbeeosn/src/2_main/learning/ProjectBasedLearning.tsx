@@ -15,11 +15,11 @@ export default function ProjectBasedLearning(): React.JSX.Element {
     
     <h4><HashLink smooth to="/learning#learning-terms"><mark className="highlight-tertiary-padding-4-8">Learning</mark></HashLink></h4>
     
-    <h2 className="margin-y-50 text-center">What is component learning?</h2>
+    <h2 className="margin-y-50 text-center">What is project-based learning?</h2>
 
     {/* This is the content of Programming Term. */}
     
-    <p><strong>Project-based learning</strong> (<strong>PBL</strong>) is a dynamic and comprehensive instructional approach where students gain knowledge and skills by working for an extended period to investigate and respond to an authentic, engaging, and complex question, problem, or challenge.</p>
+    <p><strong>Project-based learning</strong> (<strong>PBL</strong>) is a dynamic and comprehensive instructional approach where <strong>students gain knowledge and skills by working for an extended period to investigate and respond to an authentic</strong>, <strong>engaging</strong>, and <strong>complex question</strong>, <strong>problem</strong>, or <strong>challenge</strong>.</p>
 
     <h4 className="margin-y-50 text-center">Core Characteristics of PBL</h4>
     
@@ -29,13 +29,13 @@ export default function ProjectBasedLearning(): React.JSX.Element {
 
         <li><strong>Centrality</strong>: The project is the central instructional method, not a supplement or an end-of-unit activity. It is the vehicle for teaching the core curriculum content and skills.</li>
 
-        <li><strong>Driving Question</strong>/<strong>Challenge</strong>: Learning is initiated and sustained by a meaningful, open-ended question or problem that requires students to apply knowledge from multiple subjects. This challenge should be authentic, meaning it relates to real-world issues, contexts, or audiences.</li>
+        <li><strong>Driving Question</strong>/<strong>Challenge</strong>: Learning is initiated and sustained by a meaningful, open-ended question or problem that requires students to apply knowledge from multiple subjects. This challenge should be <strong>authentic</strong>, meaning it relates to real-world issues, contexts, or audiences.</li>
 
         <li><strong>Extended Inquiry</strong>: Students engage in a rigorous, extended process of research, questioning, and resource management. They do not merely follow a fixed set of instructions; they take ownership of the investigation process.</li>
 
         <li><strong>Student Voice and Choice</strong>: Students have a degree of influence over the project's direction, the resources used, and the final product. This fosters engagement and a sense of ownership.</li>
 
-        <li><strong>21st Century Skills</strong>: The methodology inherently builds crucial skills like collaboration, critical thinking, communication, and self-management.</li>
+        <li><strong>21st Century Skills</strong>: The methodology inherently builds crucial skills like <strong>collaboration</strong>, <strong>critical thinking</strong>, <strong>communication</strong>, and <strong>self-management</strong>.</li>
 
         <li><strong>Public Product</strong>: The learning culminates in a product or presentation shared with a genuine audience beyond the classroom. This public accountability motivates students to produce high-quality work and practice professional communication.</li>
 
@@ -69,7 +69,7 @@ export default function ProjectBasedLearning(): React.JSX.Element {
 
     <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
 
-    <p><strong>Project-based learning</strong> is like a big, fun adventure where you learn by doing something important! 🗺️</p>
+    <p><strong>Project-based learning</strong> is like a big, fun adventure where you learn by <strong>doing</strong> something important! 🗺️</p>
 
       <ul className="list-square">
 
