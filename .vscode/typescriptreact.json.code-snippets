@@ -1,0 +1,56 @@
+{
+	"template h4 p ul li": {
+		"prefix": ".h4pulli",
+		"body": [
+			"<h4 className=\"margin-y-50 text-center\">$1</h4>",
+			"    ",
+			"<p>$2</p>",
+			"",
+			"  <ul className=\"list-square\">",
+			"",
+			"    <li>$3</li>",
+			"",
+			"    <li>$4</li>",
+			"",
+			"    <li>$5</li>",
+			"",
+			"  </ul>$0"
+		],
+		"description": "h4 p ul li"
+	},
+
+	"template h4 p": {
+		"prefix": ".h4p",
+		"body": [
+			"<h4 className=\"margin-y-50 text-center\">$1</h4>",
+			"    ",
+			"<p>$2</p>"
+		],
+		"description": "h4 p"
+	},
+		
+		"template strong": {
+			"prefix": ".strong",
+			"body": [
+				"</strong>"
+			],
+			"description": "strong"
+		},
+
+		"template className mt20": {
+			"prefix": ".margintop20",
+			"body": [
+				" className=\"margin-top-20\""
+			],
+			"description": "className mt20"
+		},
+
+		"template text-indent-whole": {
+			"prefix": ".textindentwhole",
+			"body": [
+				" className=\"text-indent-whole\""
+			],
+			"description": "text-indent-whole"
+		}
+
+}
