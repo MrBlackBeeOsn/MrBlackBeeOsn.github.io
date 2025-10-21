@@ -25,8 +25,6 @@ export default function BackendIndex(): React.JSX.Element {
       <div className="sub-box">
 
         <ul className="list-border1">
-
-          <li><Link to="/back-end/what-is-a-back-end-developer?">Back-End Developer</Link></li>
           
           <li><Link to="/back-end/what-is-github?">GitHub</Link></li>
 
@@ -39,6 +37,16 @@ export default function BackendIndex(): React.JSX.Element {
           <li><Link to="/back-end/what-is-php?">PHP</Link></li>
 
           <li><Link to="/back-end/what-is-node.js?">Node.js</Link></li>
+
+        </ul>
+
+      </div>
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/back-end/what-is-a-back-end-developer?">Back-End Developer</Link></li>
 
         </ul>
 

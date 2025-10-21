@@ -29,14 +29,6 @@ export default function ProgrammingIndex(): React.JSX.Element {
           <li><Link to="/programming/what-is-programming?">Programming</Link></li>
           
           <li><Link to="/programming/what-is-a-programming-language?">Programming language</Link></li>
-          
-          <li><Link to="/programming/what-is-a-programmer?">Programmer</Link></li>
-
-          <li><Link to="/programming/what-is-a-software-developer?">Software Developer</Link></li>
-
-          <li><Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link></li>
-
-          <li><Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link></li>
 
           <li><Link to="/programming/what-are-good-habits?">Good habits</Link></li>
 
@@ -45,6 +37,22 @@ export default function ProgrammingIndex(): React.JSX.Element {
           <li><Link to="/programming/what-is-Git?">Git</Link></li>
 
           <li><Link to="/programming/what-is-a-function?">Function</Link></li>
+
+        </ul>
+
+      </div>
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+          
+          <li><Link to="/programming/what-is-a-programmer?">Programmer</Link></li>
+
+          <li><Link to="/programming/what-is-a-software-developer?">Software Developer</Link></li>
+
+          <li><Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link></li>
+
+          <li><Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link></li>
 
         </ul>
 

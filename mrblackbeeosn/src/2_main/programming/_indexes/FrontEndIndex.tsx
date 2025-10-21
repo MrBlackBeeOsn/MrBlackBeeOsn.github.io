@@ -25,8 +25,6 @@ export default function FrontEndIndex(): React.JSX.Element {
       <div className="sub-box">
 
         <ul className="list-border1">
-      
-          <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
           
           <li><Link to="/front-end/what-is-html?">HTML</Link></li>
 
@@ -41,6 +39,16 @@ export default function FrontEndIndex(): React.JSX.Element {
           <li><Link to="/front-end/what-is-nextjs?">Next.js</Link></li>
 
           <li><Link to="/front-end/what-is-tailwindcss?">Tailwind CSS</Link></li>
+
+        </ul>
+
+      </div>
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+      
+          <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
 
         </ul>
 
