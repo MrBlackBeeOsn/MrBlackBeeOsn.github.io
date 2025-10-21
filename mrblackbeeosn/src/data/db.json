@@ -450,6 +450,17 @@
       "date": "2025-09-11",
       "views": 0,
       "likes": 0
+    },
+    {
+      "id": "LapTrinhVien",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Lập trình viên",
+      "content": "Lập trình viên là những người sử dụng kiến thức về ngôn ngữ lập trình, thuật toán và cấu trúc dữ liệu để thiết kế, phát triển, thử nghiệm và bảo trì phần mềm máy tính.",
+      "slug": "lap-trinh/lap-trinh-vien-la-gi",
+      "date": "2024-04-27",
+      "views": 0,
+      "likes": 0
     }
   ]
 }

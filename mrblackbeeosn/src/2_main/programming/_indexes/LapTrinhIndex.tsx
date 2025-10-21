@@ -34,6 +34,17 @@ export default function LapTrinhIndex(): React.JSX.Element {
 
       </div>
 
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/lap-trinh/lap-trinh-vien-la-gi?">Lập trình viên</Link></li>
+        
+
+        </ul>
+
+      </div>
+
     </div>
     
   </main>

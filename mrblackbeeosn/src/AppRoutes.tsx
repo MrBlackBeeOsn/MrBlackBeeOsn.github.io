@@ -63,6 +63,7 @@ import { Routes, Route } from 'react-router-dom';
 
 	// 5. Lập Trình
 	const LapTrinhIndex = lazy(() => import('@/2_main/programming/_indexes/LapTrinhIndex'));
+	const LapTrinhVien = lazy(() => import('@/2_main/programming/laptrinh/LapTrinhVien'));
 	const LoTrinhHocFrontEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocFrontEnd'));
 	const LoTrinhHocBackEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocBackEnd'));
 
@@ -151,6 +152,7 @@ export default function AppRoutes(): React.JSX.Element {
 				
 				{/* 5. Lập Trình */}
 				<Route path="/lap-trinh" element={<LapTrinhIndex />} />
+				<Route path="/lap-trinh/lap-trinh-vien-la-gi?" element={<LapTrinhVien />} />
 				<Route path="/lap-trinh/lo-trinh-hoc-front-end-la-gi?" element={<LoTrinhHocFrontEnd />} />
 				<Route path="/lap-trinh/lo-trinh-hoc-back-end-la-gi?" element={<LoTrinhHocBackEnd />} />
 

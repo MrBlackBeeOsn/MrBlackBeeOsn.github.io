@@ -49,6 +49,14 @@
 		"description": "h4 ul li"
 	},
 
+	"template h4": {
+		"prefix": ".h4",
+		"body": [
+			"<h4 className=\"margin-y-50 text-center\">$1</h4>",
+		],
+		"description": "h4"
+	},
+
 	// p ul li
 	"template p ul li": {
 		"prefix": ".pulli",
