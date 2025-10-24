@@ -60,6 +60,7 @@ import { Routes, Route } from 'react-router-dom';
 	const ComponentLearning = lazy(() => import('@/2_main/learning/ComponentLearning'));
 	const ProjectBasedLearning = lazy(() => import('@/2_main/learning/ProjectBasedLearning'));
 	const MicroLearning = lazy(() => import('@/2_main/learning/MicroLearning'));
+	const ToxicDigitalHabitsToQuit = lazy(() => import('@/2_main/learning/ToxicDigitalHabitsToQuit'));
 
 	// 5. Lập Trình
 	const LapTrinhIndex = lazy(() => import('@/2_main/programming/_indexes/LapTrinhIndex'));
@@ -149,6 +150,7 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/learning/what-is-component-learning?" element={<ComponentLearning />} />
 				<Route path="/learning/what-is-project-based-learning?" element={<ProjectBasedLearning />} />
 				<Route path="/learning/what-is-micro-learning?" element={<MicroLearning />} />
+				<Route path="/learning/toxic-digital-habits-to-quit" element={<ToxicDigitalHabitsToQuit />} />
 				
 				{/* 5. Lập Trình */}
 				<Route path="/lap-trinh" element={<LapTrinhIndex />} />

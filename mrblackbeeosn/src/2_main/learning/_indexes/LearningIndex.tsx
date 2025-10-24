@@ -36,6 +36,16 @@ export default function ProgrammingIndex(): React.JSX.Element {
 
       </div>
 
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/learning/toxic-digital-habits-to-quit?">Toxic Digital Habits To Quit</Link></li>
+
+        </ul>
+
+      </div>
+
     </div>
     
   </main>
