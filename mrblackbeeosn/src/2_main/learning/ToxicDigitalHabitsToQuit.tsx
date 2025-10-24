@@ -105,7 +105,21 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 	
 		<p className="margin-top-20"><strong>Mỗi phút giây bạn dành cho những thói quen trên là một phút giây bị lấy đi khỏi những điều thực sự quan trọng</strong>: phát triển kỹ năng, xây dựng sự nghiệp, chăm sóc sức khỏe, và nuôi dưỡng các mối quan hệ ý nghĩa.</p>
 
-		<p>Đừng để các thuật toán quyết định cuộc đời bạn. Hãy là người chủ động lựa chọn những gì mình tiêu thụ.</p>
+		<p className="margin-y-50 text-center">
+
+			<span className="highlight-255-padding-0-4 text-border">
+				<strong>Đừng để các thuật toán quyết định cuộc đời bạn.</strong>
+			</span>
+      
+    </p>
+
+		<p className="margin-bottom-50 text-center">
+
+			<span className="highlight-255-padding-0-4 text-border">
+				<strong>Hãy là người chủ động lựa chọn những gì mình tiêu thụ.</strong>
+			</span>
+      
+    </p>
 
 		<p><strong>Hành động ngay hôm nay</strong>: Chọn một trong năm thói quen trên và cam kết từ bỏ nó trong 30 ngày tới. Bạn sẽ ngạc nhiên với lượng thời gian và năng lượng mà mình lấy lại được.</p>
 
