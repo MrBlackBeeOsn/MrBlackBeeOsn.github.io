@@ -26,6 +26,15 @@
       "content": "Lập trình viên là những người sử dụng kiến thức về ngôn ngữ lập trình, thuật toán và cấu trúc dữ liệu để thiết kế, phát triển, thử nghiệm và bảo trì phần mềm máy tính.",
       "slug": "lap-trinh/lap-trinh-vien-la-gi",
       "date": "2024-04-27"
+    },
+    { 
+      "id": "BiQuyetHocLapTrinhHieuQua",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Bí Quyết Học Lập Trình Hiệu Quả",
+      "content": "Phương Pháp Đa Chiều Đã Được Chứng Minh",
+      "slug": "lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua",
+      "date": "2025-10-24"
     }
   ]
 }

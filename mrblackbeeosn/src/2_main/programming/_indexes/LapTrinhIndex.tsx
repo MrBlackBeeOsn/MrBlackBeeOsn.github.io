@@ -30,6 +30,8 @@ export default function LapTrinhIndex(): React.JSX.Element {
           
           <li><Link to="/lap-trinh/lo-trinh-hoc-back-end-la-gi?">Lộ trình học Backend</Link></li>
 
+          <li><Link to="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua">Bí Quyết Học Lập Trình Hiệu Quả</Link></li>
+
         </ul>
 
       </div>
