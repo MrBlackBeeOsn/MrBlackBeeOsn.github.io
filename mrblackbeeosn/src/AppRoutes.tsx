@@ -18,6 +18,7 @@ import { Routes, Route } from 'react-router-dom';
 	const AboutIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/AboutIndex'));
   const ProjectIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ProjectIndex'));
   const JourneyIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/JourneyIndex'));
+	const ContactIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ContactIndex'));
 
 // 2_main import các chức năng và đường dẫn Programming
 
@@ -109,6 +110,7 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/about" element={<AboutIndex />} />
         <Route path="/project" element={<ProjectIndex />} />
         <Route path="/journey" element={<JourneyIndex />} />
+				<Route path="/contact" element={<ContactIndex />} />
 
 				{/* 2_main Khai báo đường dẫn path cho Programming */}
 
