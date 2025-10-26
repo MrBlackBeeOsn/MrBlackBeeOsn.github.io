@@ -23,7 +23,7 @@ export default function SQL(): React.JSX.Element {
 
       <p><strong>SQL</strong> (Structured Query Language) is a special language programmers use to talk to databases. It's like having a secret code to ask the database for information or tell it to do things. Here's a breakdown without metaphors:</p>
 
-      <h4 className="margin-y-50 text-center">Function:</h4>
+      <h3 className="margin-y-50 text-center">Function:</h3>
 
       <p><strong>SQL</strong> allows programs to perform various tasks on databases, such as:</p>
       
@@ -39,11 +39,11 @@ export default function SQL(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Structure of SQL statements:</h4>
+      <h3 className="margin-y-50 text-center">Structure of SQL statements:</h3>
       
       <p><strong>SQL</strong> statements are like instructions written in a specific format that the database understands. They typically include keywords like  SELECT ,  INSERT ,  UPDATE , and  DELETE , followed by details about what data to work with and how.</p>
       
-      <h4 className="margin-y-50 text-center">Benefits of using SQL:</h4>
+      <h3 className="margin-y-50 text-center">Benefits of using SQL:</h3>
       
         <ul className="list-square">
 
@@ -55,7 +55,7 @@ export default function SQL(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">How programs use <strong>SQL</strong>:</h4>
+      <h3 className="margin-y-50 text-center">How programs use <strong>SQL</strong>:</h3>
       
       <p>Programs don't directly use <strong>SQL</strong> statements within their code. Instead, they use libraries or frameworks that translate their requests into <strong>SQL</strong> and communicate with the database.</p>
       

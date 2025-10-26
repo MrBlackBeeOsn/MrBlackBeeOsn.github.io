@@ -23,7 +23,7 @@ export default function ProjectBasedLearning(): React.JSX.Element {
       
       <p><strong>Project-based learning</strong> (<strong>PBL</strong>) is a dynamic and comprehensive instructional approach where <strong>students gain knowledge and skills by working for an extended period to investigate and respond to an authentic</strong>, <strong>engaging</strong>, and <strong>complex question</strong>, <strong>problem</strong>, or <strong>challenge</strong>.</p>
 
-      <h4 className="margin-y-50 text-center">Core Characteristics of PBL</h4>
+      <h3 className="margin-y-50 text-center">Core Characteristics of PBL</h3>
       
       <p><strong>PBL</strong> differs significantly from traditional instruction, which often involves passive reception of facts. Its defining features include:</p>
 
@@ -43,7 +43,7 @@ export default function ProjectBasedLearning(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">The Process</h4>
+      <h3 className="margin-y-50 text-center">The Process</h3>
 
       <p>A typical <strong>PBL</strong> cycle involves several stages:</p>
 

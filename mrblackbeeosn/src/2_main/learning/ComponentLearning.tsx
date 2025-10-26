@@ -23,7 +23,7 @@ export default function ComponentLearning(): React.JSX.Element {
 			
 			<p><strong>Component learning</strong> is an educational or training approach that <strong>breaks down complex knowledge</strong>, <strong>skills</strong>, or <strong>tasks into smaller</strong>, <strong>discrete</strong>, <strong>manageable units</strong>, or "<strong>components</strong>." The instruction focuses on mastering each individual component before integrating them into the larger whole.</p>
 
-			<h4 className="margin-y-50 text-center">Principles of Component Learning</h4>
+			<h3 className="margin-y-50 text-center">Principles of Component Learning</h3>
 
 				<ol>
 
@@ -37,7 +37,7 @@ export default function ComponentLearning(): React.JSX.Element {
 
 				</ol>
 
-			<h4 className="margin-y-50 text-center">Benefits and Application</h4>
+			<h3 className="margin-y-50 text-center">Benefits and Application</h3>
 
 				<ul className="list-square">
 

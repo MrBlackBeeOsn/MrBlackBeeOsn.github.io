@@ -37,7 +37,7 @@ export default function BackEndDeveloper(): React.JSX.Element {
 
         </ul> 
 
-      <h4 className="margin-y-50 text-center">Technologies and Skills</h4>
+      <h3 className="margin-y-50 text-center">Technologies and Skills</h3>
 
       <p><strong>Back-end developers</strong> use various technologies, including programming languages like Python, Java, PHP, Ruby, and Node.js. They also work with different databases like MySQL, PostgreSQL, and MongoDB. Strong problem-solving skills, logical thinking, and a solid understanding of algorithms are essential for success in this role. They work closely with Front-End Developers to integrate the user interface with the server-side logic.</p>
 

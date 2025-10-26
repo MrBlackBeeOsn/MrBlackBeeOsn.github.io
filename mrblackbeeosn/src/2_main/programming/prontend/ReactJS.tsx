@@ -25,27 +25,27 @@ export default function ReactJS(): React.JSX.Element {
 
       <p className="margin-top-20">Key Concepts</p>
 
-      <h4 className="margin-y-50 text-center">Component-Based Architecture:</h4>
+      <h3 className="margin-y-50 text-center">Component-Based Architecture:</h3>
       
       <p><strong>React</strong>'s core philosophy is to build UIs using reusable, self-contained pieces of code called components. A component can be a button, a form, or an entire page. This approach makes it easier to manage and maintain large applications, as you can break down the UI into smaller, logical parts.</p>
 
-      <h4 className="margin-y-50 text-center">Declarative Views:</h4>
+      <h3 className="margin-y-50 text-center">Declarative Views:</h3>
       
       <p><strong>React</strong> uses a declarative approach. Instead of telling the application "how" to change the UI, you simply describe "what" the UI should look like for a given state. <strong>React</strong> then efficiently updates and renders the right components when the data changes. This simplifies development and debugging.</p>
 
-      <h4 className="margin-y-50 text-center">Virtual DOM:</h4>
+      <h3 className="margin-y-50 text-center">Virtual DOM:</h3>
       
       <p><strong>React</strong> uses a Virtual Document Object Model (DOM). The Virtual DOM is a lightweight copy of the actual DOM. When the state of an application changes, <strong>React</strong> first updates the Virtual DOM, compares it to the previous version, and then only updates the real DOM with the specific changes. This process, known as reconciliation, is highly efficient and significantly improves performance.</p>
       
-      <h4 className="margin-y-50 text-center">JSX (JavaScript XML):</h4>
+      <h3 className="margin-y-50 text-center">JSX (JavaScript XML):</h3>
       
       <p><strong>React</strong> uses JSX, a syntax extension for JavaScript. JSX allows you to write HTML-like code within your JavaScript files, making it easier to define the structure of your components. It is not required to use <strong>React</strong>, but it's a common practice.</p>
       
-      <h4 className="margin-y-50 text-center">State and Props:</h4>
+      <h3 className="margin-y-50 text-center">State and Props:</h3>
       
       <p>State is an object that holds data that can change over the lifetime of a component. Props (short for properties) are used to pass data from a parent component to a child component. This mechanism enables data flow and communication between components.</p>
       
-      <h4 className="margin-y-50 text-center">How It Works</h4>
+      <h3 className="margin-y-50 text-center">How It Works</h3>
 
       <p>A <strong>React</strong> application is essentially a tree of components. When a user interacts with the app (e.g., clicks a button), the component's state is updated. <strong>React</strong> then automatically re-renders the component and any child components that depend on that state, ensuring the UI stays in sync with the data. <strong>React</strong> handles all the complex UI updates behind the scenes, allowing developers to focus on the application's logic.</p>
 

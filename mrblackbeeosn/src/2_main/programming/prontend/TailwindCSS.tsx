@@ -23,13 +23,13 @@ export default function TailwindCSS(): React.JSX.Element {
       
       <p><strong>Tailwind CSS</strong> is a utility-first CSS framework for rapidly building custom user interfaces. Unlike traditional CSS frameworks like Bootstrap that provide pre-designed components (like buttons or cards), <strong>Tailwind CSS</strong> offers a low-level set of utility classes that are directly applied to HTML elements to build unique styles.</p>
       
-      <h4 className="margin-y-50 text-center">Core Concept: Utility-First</h4>
+      <h3 className="margin-y-50 text-center">Core Concept: Utility-First</h3>
 
       <p>The term "utility-first" means that instead of writing custom CSS rules for every component, you apply numerous pre-defined utility classes directly in your HTML. Each class corresponds to a single, specific CSS property and value.</p>
 
       <p className="margin-top-20">Example of styling a button in traditional CSS vs. <strong>Tailwind</strong>:</p>
 
-      <h4 className="margin-y-50 text-center">Traditional</h4>
+      <h3 className="margin-y-50 text-center">Traditional</h3>
 
         <ul className="list-square">
 
@@ -39,7 +39,7 @@ export default function TailwindCSS(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tailwind</h4>
+      <h3 className="margin-y-50 text-center">Tailwind</h3>
 
         <ul className="list-square">
 

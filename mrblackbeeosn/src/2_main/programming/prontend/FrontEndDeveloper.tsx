@@ -45,7 +45,7 @@ export default function FrontEndDeveloper(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">In Summary:</h4>
+      <h3 className="margin-y-50 text-center">In Summary:</h3>
 
       <p className="text-indent-whole">Front-End Development is a creative and technical field that plays a crucial role in building user-friendly and visually appealing websites. By using HTML, CSS, and JavaScript, <strong>Front-End Developers</strong> bring websites to life, making them interactive and enjoyable for users to explore.</p>
 

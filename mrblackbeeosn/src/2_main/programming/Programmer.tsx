@@ -71,15 +71,15 @@ export default function Programmer(): React.JSX.Element {
 
       <p>A <strong>programmer</strong> is like a teacher for a computer! They use a special secret language called code to tell the computer exactly what to do.</p>
 
-      <h4 className="margin-y-50 text-center">Why do they do it?</h4>
+      <h3 className="margin-y-50 text-center">Why do they do it?</h3>
 
       <p>Computers are smart, but they don't know how to do things on their own. A <strong>programmer</strong> gives them a list of instructions, step-by-step, to make a game, a movie, a website, or an app!</p> 
 
-      <h4 className="margin-y-50 text-center">What's the secret language like?</h4>
+      <h3 className="margin-y-50 text-center">What's the secret language like?</h3>
 
       <p>It's not like talking or writing. It uses special words and symbols that the computer understands perfectly.</p>
 
-      <h4 className="margin-y-50 text-center">What do they build?</h4>
+      <h3 className="margin-y-50 text-center">What do they build?</h3>
       
       <p>They build all the fun things you use every day, like your favorite video game, the cartoons you watch on a tablet, or the apps your parents use to order food! They are like builders who use code instead of wood and bricks.</p>
 

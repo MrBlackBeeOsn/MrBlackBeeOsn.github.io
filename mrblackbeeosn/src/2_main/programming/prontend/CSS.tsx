@@ -53,7 +53,7 @@ export default function CSS(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Example:</h4>
+      <h3 className="margin-y-50 text-center">Example:</h3>
 
       <pre className="pre-border"><code>{`
       HTML

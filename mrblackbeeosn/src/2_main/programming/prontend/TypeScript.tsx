@@ -25,7 +25,7 @@ export default function TypeScript(): React.JSX.Element {
 
       <p className="margin-top-20">Key Features</p>
 
-      <h4 className="margin-y-50 text-center">Static Typing:</h4>
+      <h3 className="margin-y-50 text-center">Static Typing:</h3>
       
       <p>This is the most defining feature. Unlike standard JavaScript (which is dynamically typed), <strong>TypeScript</strong> allows you to declare variables with explicit types (e.g., string, number, boolean).</p>
 
@@ -35,15 +35,15 @@ export default function TypeScript(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Compilation (Transpilation):</h4>
+      <h3 className="margin-y-50 text-center">Compilation (Transpilation):</h3>
       
       <p>Since browsers cannot directly execute <strong>TypeScript</strong>, the code must be converted into plain JavaScript. This process is called transpilation, and it is handled by the <strong>TypeScript</strong> compiler. The resulting JavaScript code is then executed by the browser or a runtime environment like Node.js.</p>
       
-      <h4 className="margin-y-50 text-center">Object-Oriented Features:</h4>
+      <h3 className="margin-y-50 text-center">Object-Oriented Features:</h3>
       
       <p><strong>TypeScript</strong> supports advanced object-oriented programming concepts like interfaces, generics, and access modifiers (public, private), which are not fully present in standard JavaScript.</p>
 
-      <h4 className="margin-y-50 text-center">Tooling and IDE Support:</h4>
+      <h3 className="margin-y-50 text-center">Tooling and IDE Support:</h3>
       
       <p>Because of the static types, developer tools (like Visual Studio Code) can provide much better features, including:</p>
 
@@ -57,7 +57,7 @@ export default function TypeScript(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Superset of JavaScript:</h4>
+      <h3 className="margin-y-50 text-center">Superset of JavaScript:</h3>
       
       <p><strong>TypeScript</strong> includes all the features of the latest ECMAScript (JavaScript standard) versions, meaning developers can use modern JavaScript features while also benefiting from <strong>TypeScript</strong>'s type system.</p>
       

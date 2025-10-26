@@ -25,7 +25,7 @@ export default function FullStackDeveloper(): React.JSX.Element {
       
       <p className="margin-top-20">Here's a breakdown of what <strong>Full-Stack Developers</strong> typically do:</p>
 
-      <h4 className="margin-y-50 text-center">Front-End Skills:</h4>
+      <h3 className="margin-y-50 text-center">Front-End Skills:</h3>
 
       <p>They are masters of the tools that make up the user interface (UI) and user experience (UX) of a website, including:</p>
 
@@ -40,7 +40,7 @@ export default function FullStackDeveloper(): React.JSX.Element {
         
         </ul>
 
-      <h4 className="margin-y-50 text-center">Back-End Skills:</h4>
+      <h3 className="margin-y-50 text-center">Back-End Skills:</h3>
       
       <p>They also have a solid understanding of the technologies that power the behind-the-scenes functionality of a website, including:</p>
 
@@ -76,7 +76,7 @@ export default function FullStackDeveloper(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">In Summary:</h4>
+      <h3 className="margin-y-50 text-center">In Summary:</h3>
 
       <p>Full-Stack Development is a demanding but rewarding career path.  These developers are like the all-in-one players of the web development world, bringing a comprehensive skillset to the table and playing a crucial role in building and maintaining websites and applications.</p>
 

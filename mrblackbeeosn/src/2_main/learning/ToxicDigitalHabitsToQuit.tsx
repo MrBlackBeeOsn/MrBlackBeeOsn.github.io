@@ -31,7 +31,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">1. Tìm Kiếm Vô Định Hướng Trên YouTube</h4>
+				<h3 className="margin-y-50 text-center">1. Tìm Kiếm Vô Định Hướng Trên YouTube</h3>
 			
 				<p>Bạn mở YouTube với mục đích tìm một video hướng dẫn về kỹ năng chuyên môn, nhưng rồi lại sa đà vào những video giải trí, clip hài, hoặc những nội dung không liên quan gì đến mục tiêu học tập của mình.</p>
 
@@ -45,7 +45,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">2. Để TikTok Quyết Định Những Gì Bạn Xem</h4>
+				<h3 className="margin-y-50 text-center">2. Để TikTok Quyết Định Những Gì Bạn Xem</h3>
 			
 				<p>Mỗi lần vuốt màn hình trên TikTok, bạn đang trao quyền kiểm soát tâm trí mình cho thuật toán. Những video 15-60 giây liên tục được đẩy đến bạn không phải do bạn lựa chọn, mà do một hệ thống máy tính quyết định dựa trên hành vi của bạn.</p>
 
@@ -59,7 +59,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">3. Google Search Những Thứ Không Liên Quan Đến Kỹ Năng Của Bạn</h4>
+				<h3 className="margin-y-50 text-center">3. Google Search Những Thứ Không Liên Quan Đến Kỹ Năng Của Bạn</h3>
 			
 				<p>Google là công cụ tuyệt vời, nhưng chỉ khi bạn biết cách sử dụng nó đúng mục đích. Vấn đề là: bạn thường xuyên tìm kiếm tin tức giải trí, scandal của người nổi tiếng, hoặc những câu hỏi tò mò không liên quan gì đến công việc hay sự nghiệp.</p>
 
@@ -73,7 +73,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">4. Lướt Facebook và Đọc Những Bài Viết Không Liên Quan</h4>
+				<h3 className="margin-y-50 text-center">4. Lướt Facebook và Đọc Những Bài Viết Không Liên Quan</h3>
 			
 				<p>Facebook feed được thiết kế để khai thác sự tò mò của con người. Những tiêu đề hấp dẫn, câu chuyện drama, hay những bài viết viral khiến bạn không ngừng kéo xuống và nhấp vào.</p>
 
@@ -87,7 +87,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">5. Nghe Nhạc Tình Yêu Một Cách Thụ Động</h4>
+				<h3 className="margin-y-50 text-center">5. Nghe Nhạc Tình Yêu Một Cách Thụ Động</h3>
 
 				<p>Âm nhạc là một phần đẹp đẽ của cuộc sống, nhưng khi bạn liên tục nghe những bài hát về yêu đương thất bại, chia tay, hay những cảm xúc tiêu cực mà không có mục đích rõ ràng, bạn đang vô thức hấp thụ những thông điệp ảnh hưởng đến tâm trạng và tư duy.</p>
 
@@ -101,7 +101,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 
 			{/* Kết Luận: Lấy Lại Quyền Kiểm Soát Cuộc Đời Bạn */}
 
-			<h4 className="margin-bottom-50 text-center">Kết Luận:</h4>
+			<h3 className="margin-bottom-50 text-center">Kết Luận:</h3>
 
 			<p><strong>Lấy Lại Quyền Kiểm Soát Cuộc Đời Bạn</strong></p>
 		

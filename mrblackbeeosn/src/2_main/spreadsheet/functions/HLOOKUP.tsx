@@ -35,7 +35,7 @@ export default function HLOOKUP(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">For example:</h4>
+      <h3 className="margin-y-50 text-center">For example:</h3>
       
       <p>Imagine you have a table of employee information with their names in the first row and their salaries in the second row. If you want to find the salary of an employee named "John," you could use the <strong>HLOOKUP</strong> function:</p>
 
@@ -43,7 +43,7 @@ export default function HLOOKUP(): React.JSX.Element {
 
       <p>This formula would search for "John" in the first row (A1:B1) of the table, and if found, it would return the corresponding value from the second row (B2). The FALSE argument specifies that you want an exact match for "John."</p>
 
-      <h4 className="margin-y-50 text-center">Key points to remember:</h4>
+      <h3 className="margin-y-50 text-center">Key points to remember:</h3>
 
         <ul className="list-square">
 
@@ -67,11 +67,11 @@ export default function HLOOKUP(): React.JSX.Element {
       
       <p>Imagine your giant checklist for toys is on a tablet. You have a box for the name of each toy, a box for its color, and a box for how much it costs.</p>
 
-      <h4 className="margin-y-50 text-center">Finding a Toy's Price:</h4>
+      <h3 className="margin-y-50 text-center">Finding a Toy's Price:</h3>
       
       <p>The <strong>HLOOKUP</strong> function is like a magic search button! You can use it to find the price of a toy if you know its name.</p>
 
-      <h4 className="margin-y-50 text-center">Telling the Magic Button:</h4>
+      <h3 className="margin-y-50 text-center">Telling the Magic Button:</h3>
       
       <p>You need to tell the magic button (<strong>HLOOKUP</strong>) three things:</p>
 
@@ -85,7 +85,7 @@ export default function HLOOKUP(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Magic!</h4>
+      <h3 className="margin-y-50 text-center">Magic!</h3>
       
       <p>When you tell the magic button these things, it searches for the toy's name in the boxes you told it to look in. If it finds the name, it shows you the price from the box you told it to look for!</p>
 

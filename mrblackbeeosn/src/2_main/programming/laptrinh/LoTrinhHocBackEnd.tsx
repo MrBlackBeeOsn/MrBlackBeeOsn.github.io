@@ -31,7 +31,7 @@ export default function LoTrinhHocBackEnd(): React.JSX.Element {
 
       <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-        <h4 className="margin-y-50 text-center">🧱 Giai đoạn 1: Nền tảng cơ bản</h4>
+        <h3 className="margin-y-50 text-center">🧱 Giai đoạn 1: Nền tảng cơ bản</h3>
 
         <p>1. <strong>Hiểu về Internet</strong> & <strong>Web</strong>: HTTP, DNS, domain, hosting, client-server</p>
 
@@ -61,7 +61,7 @@ export default function LoTrinhHocBackEnd(): React.JSX.Element {
 
       <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-        <h4 className="margin-y-50 text-center">🗃️ Giai đoạn 2: Làm việc với cơ sở dữ liệu</h4>
+        <h3 className="margin-y-50 text-center">🗃️ Giai đoạn 2: Làm việc với cơ sở dữ liệu</h3>
       
           <ul className="list-square">
 
@@ -83,7 +83,7 @@ export default function LoTrinhHocBackEnd(): React.JSX.Element {
 
       <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-        <h4 className="margin-y-50 text-center">🔌 Giai đoạn 3: Xây dựng API</h4>
+        <h3 className="margin-y-50 text-center">🔌 Giai đoạn 3: Xây dựng API</h3>
       
           <ul className="list-square">
 
@@ -105,7 +105,7 @@ export default function LoTrinhHocBackEnd(): React.JSX.Element {
 
       <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-        <h4 className="margin-y-50 text-center">🛠️ Giai đoạn 4: Framework & thực hành</h4>
+        <h3 className="margin-y-50 text-center">🛠️ Giai đoạn 4: Framework & thực hành</h3>
       
         <p>1. <strong>Chọn framework phù hợp</strong>:</p>
         
@@ -133,7 +133,7 @@ export default function LoTrinhHocBackEnd(): React.JSX.Element {
 
       <div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-        <h4 className="margin-y-50 text-center">🚀 Giai đoạn 5: DevOps & triển khai</h4>
+        <h3 className="margin-y-50 text-center">🚀 Giai đoạn 5: DevOps & triển khai</h3>
       
           <ul className="list-square">
 
@@ -157,7 +157,7 @@ export default function LoTrinhHocBackEnd(): React.JSX.Element {
 
       <div className="padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-        <h4 className="margin-y-50 text-center">🧠 Giai đoạn 6: Nâng cao & tối ưu</h4>
+        <h3 className="margin-y-50 text-center">🧠 Giai đoạn 6: Nâng cao & tối ưu</h3>
       
           <ul className="list-square">
 

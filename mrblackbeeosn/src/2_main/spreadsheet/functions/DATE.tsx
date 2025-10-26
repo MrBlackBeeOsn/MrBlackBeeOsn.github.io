@@ -35,7 +35,7 @@ export default function DATE(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Syntax</h4>
+      <h3 className="margin-y-50 text-center">Syntax</h3>
       
       <p>The basic syntax for the <strong>DATE</strong> function is:</p>
 
@@ -51,7 +51,7 @@ export default function DATE(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Examples</h4>
+      <h3 className="margin-y-50 text-center">Examples</h3>
 
       <p>To create a date for January 1, 2024:</p>
 
@@ -61,7 +61,7 @@ export default function DATE(): React.JSX.Element {
 
       <p className="margin-y-50 text-center"><mark  className="highlight-255-padding-4-8 text-border1">=<strong>DATE</strong>(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY()) + 100)</mark></p>
       
-      <h4 className="margin-y-50 text-center">Additional Notes</h4>
+      <h3 className="margin-y-50 text-center">Additional Notes</h3>
 
         <ul className="list-square">
 

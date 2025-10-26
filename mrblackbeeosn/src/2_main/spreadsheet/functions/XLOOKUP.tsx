@@ -39,7 +39,7 @@ export default function XLOOKUP(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Example:</h4>
+      <h3 className="margin-y-50 text-center">Example:</h3>
 
       <p>Imagine you have a table with product names in column A and their prices in column B. To find the price of a product named "Laptop," you could use the <strong>XLOOKUP</strong> function:</p>
 
@@ -73,11 +73,11 @@ export default function XLOOKUP(): React.JSX.Element {
       
       <p>Imagine your giant checklist for toys is on a tablet. You have a box for the name of each toy, a box for its color, and a box for how much it costs.</p>
 
-      <h4 className="margin-y-50 text-center">Finding a Toy's Price:</h4>
+      <h3 className="margin-y-50 text-center">Finding a Toy's Price:</h3>
 
       <p>The <strong>XLOOKUP</strong> function is like a super-smart search button! It can help you find the price of a toy if you know its name.</p>
 
-      <h4 className="margin-y-50 text-center">Telling the Super-Smart Button:</h4>
+      <h3 className="margin-y-50 text-center">Telling the Super-Smart Button:</h3>
 
       <p>You need to tell the super-smart button (<strong>XLOOKUP</strong>) four things:</p>
 
@@ -93,7 +93,7 @@ export default function XLOOKUP(): React.JSX.Element {
 
         </ol>
 
-      <h4 className="margin-y-50 text-center">Magic!</h4>
+      <h3 className="margin-y-50 text-center">Magic!</h3>
 
       <p>When you tell the super-smart button these things, it searches for the toy's name in the boxes you told it to look in. If it finds the name, it shows you the price from the box you told it to look for!</p>
 

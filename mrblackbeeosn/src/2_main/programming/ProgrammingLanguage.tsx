@@ -25,7 +25,7 @@ export default function ProgrammingLanguage(): React.JSX.Element {
 
       <p className="margin-top-20">Here's a breakdown to make it easier to understand:</p>
 
-      <h4 className="margin-y-50 text-center">Why do we need programming languages?</h4>
+      <h3 className="margin-y-50 text-center">Why do we need programming languages?</h3>
       
         <ul className="list-square">
 
@@ -35,7 +35,7 @@ export default function ProgrammingLanguage(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">What are programming languages made of?</h4>
+      <h3 className="margin-y-50 text-center">What are programming languages made of?</h3>
       
         <ul className="list-square">
 
@@ -79,11 +79,11 @@ export default function ProgrammingLanguage(): React.JSX.Element {
 
       <p>Have you ever given instructions to your favorite toy robot? A <strong>programming language</strong> is kind of like a special way to talk to computers so they know what to do, just like you give instructions to your robot!</p>
 
-      <h4 className="margin-y-50 text-center">Why do we need special talk?</h4>
+      <h3 className="margin-y-50 text-center">Why do we need special talk?</h3>
       
       <p>Imagine you can't talk to your robot with words, you can only give simple commands. A <strong>programming language</strong> lets you give clear instructions to the computer, even though it doesn't understand regular words like us. It's like a secret code that computers can understand!</p>
 
-      <h4 className="margin-y-50 text-center">What's in this secret code?</h4>
+      <h3 className="margin-y-50 text-center">What's in this secret code?</h3>
       
         <ul className="list-square">
 

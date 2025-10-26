@@ -91,35 +91,35 @@ export default function GoodHabits(): React.JSX.Element {
       
       <p>Programmers are like builders who create awesome things with code, but just like any builder, they need <strong>good habits</strong> to build the best things possible! Here are some ways programmers can be super builders:</p>
 
-      <h4 className="margin-y-50 text-center">Clear Labels for Your Tools (Write clean and concise code):</h4>
+      <h3 className="margin-y-50 text-center">Clear Labels for Your Tools (Write clean and concise code):</h3>
       
       <p>Imagine a toolbox with everything mixed together. It's hard to find what you need! Programmers use clear names for things in their code, like "redShirt" or "happySound," so they (and others) can easily understand what each part does.</p>
 
-      <h4 className="margin-y-50 text-center">Double Checking Your Work (Testing Code):</h4>
+      <h3 className="margin-y-50 text-center">Double Checking Your Work (Testing Code):</h3>
       
       <p>Before a builder lets someone live in a house, they check everything works properly. Programmers do this too! They write tests to see if their code does what it's supposed to, like making sure a button press plays a sound.</p>
 
-      <h4 className="margin-y-50 text-center">Building One Block at a Time (Breaking problems down):</h4>
+      <h3 className="margin-y-50 text-center">Building One Block at a Time (Breaking problems down):</h3>
       
       <p>Building a whole house at once can be overwhelming! Builders break it down into smaller tasks. Programmers do this too! They take big problems and break them into smaller, easier-to-solve steps, making coding less scary.</p>
 
-      <h4 className="margin-y-50 text-center">Learning New Things All the Time (Learning Continuously):</h4>
+      <h3 className="margin-y-50 text-center">Learning New Things All the Time (Learning Continuously):</h3>
       
       <p>The world of building keeps changing, with new tools and materials. Builders need to learn about these new things. Programmers are like that too! They always try to learn new tricks so they can keep building amazing programs.</p>
       
-      <h4 className="margin-y-50 text-center">Practice Makes Perfect (Practicing Regularly):</h4>
+      <h3 className="margin-y-50 text-center">Practice Makes Perfect (Practicing Regularly):</h3>
       
       <p>The more you build with Legos, the better you get at it. Programmers practice coding every day, even if it's just for a little while. This helps them get better and better at building programs.</p>
       
-      <h4 className="margin-y-50 text-center">Keeping Track of Your Blocks (Version control):</h4>
+      <h3 className="margin-y-50 text-center">Keeping Track of Your Blocks (Version control):</h3>
       
       <p>Imagine you build a cool Lego creation, but then you accidentally knock it over! With a special box, you could rewind time and go back to how it was before. Programmers use something like this with code, called version control. It lets them track changes and go back to an earlier version if they mess something up.</p>
 
-      <h4 className="margin-y-50 text-center">Taking Breaks for Snacks (Taking Breaks):</h4>
+      <h3 className="margin-y-50 text-center">Taking Breaks for Snacks (Taking Breaks):</h3>
       
       <p>Building can be tiring! Sometimes you need a break to come back with fresh eyes. Programmers do this too! Staring at code for too long can make it hard to see mistakes. Taking breaks helps them come back with a new perspective.</p>
 
-      <h4 className="margin-y-50 text-center">Asking for Help from Friends (Asking for Help):</h4>
+      <h3 className="margin-y-50 text-center">Asking for Help from Friends (Asking for Help):</h3>
       
       <p>Even the best builders sometimes need help from a friend. Programmers are the same! If they get stuck on something, they don't hesitate to ask other programmers or look for answers online. There's no shame in asking for help!</p>
 

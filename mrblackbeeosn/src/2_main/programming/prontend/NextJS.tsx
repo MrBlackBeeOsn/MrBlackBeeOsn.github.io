@@ -45,7 +45,7 @@ export default function NextJS(): React.JSX.Element {
 			
 			<p className="text-indent-whole"><strong>Next.js</strong> offers flexible data fetching and rendering options:</p>
 			
-			<h4 className="margin-y-50 text-center">Pre-rendering:</h4>
+			<h3 className="margin-y-50 text-center">Pre-rendering:</h3>
 			
 			<p>The process of rendering HTML ahead of time, which can be done in two ways:</p>
 
@@ -57,7 +57,7 @@ export default function NextJS(): React.JSX.Element {
 
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Client-Side Rendering (CSR):</h4>
+			<h3 className="margin-y-50 text-center">Client-Side Rendering (CSR):</h3>
 			
 			<p>After the initial page load, parts of the page or subsequent navigation can be rendered by the browser's JavaScript, similar to a typical React application.</p>
 

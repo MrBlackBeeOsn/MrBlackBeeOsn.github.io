@@ -55,7 +55,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">1. Đọc Documentation - 70% Thời Gian (Nền Tảng Vững Chắc)</h4>
+				<h3 className="margin-y-50 text-center">1. Đọc Documentation - 70% Thời Gian (Nền Tảng Vững Chắc)</h3>
 					
 				<p>Documentation chính thức là kho báu thường bị đánh giá thấp. Đây là nguồn thông tin đáng tin cậy nhất, được viết bởi những người tạo ra công nghệ đó. Nhưng làm thế nào để đọc docs hiệu quả?</p>
 
@@ -87,7 +87,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 				
 			</div>
 			
-			<h4 className="margin-bottom-50 text-center">Tại sao docs quan trọng đến vậy?</h4>
+			<h3 className="margin-bottom-50 text-center">Tại sao docs quan trọng đến vậy?</h3>
 					
 			<p>Docs cung cấp thông tin chính xác, đầy đủ về API, best practices và edge cases. Video có thể hết hạn sau 6 tháng, nhưng docs luôn được cập nhật. Hơn nữa, việc đọc và code theo giúp bạn ghi nhớ lâu hơn nhiều so với chỉ xem video.</p>
 
@@ -95,7 +95,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 
 			<div className="margin-y-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">2. Xem YouTube - 20% Thời Gian (Mở Rộng Góc Nhìn)</h4>
+				<h3 className="margin-y-50 text-center">2. Xem YouTube - 20% Thời Gian (Mở Rộng Góc Nhìn)</h3>
 					
 				<p>Video tutorial không phải là kẻ thù - chúng chỉ không nên là nguồn học chính của bạn. Sử dụng YouTube một cách chiến lược:</p>
 				
@@ -145,7 +145,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">3. Thực Hành - 10% Thời Gian Nhưng 100% Giá Trị</h4>
+				<h3 className="margin-y-50 text-center">3. Thực Hành - 10% Thời Gian Nhưng 100% Giá Trị</h3>
 			
 				<p>Con số 10% có thể gây hiểu lầm - đây không phải là phần ít quan trọng nhất, mà là phần <strong>tổng hợp</strong> tất cả những gì bạn đã học.</p>
 
@@ -179,11 +179,11 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 
 			</div>
 			
-			<h4 className="margin-bottom-50 text-center">Tại sao lại chỉ 10%?</h4>
+			<h3 className="margin-bottom-50 text-center">Tại sao lại chỉ 10%?</h3>
 					
 			<p>Bởi vì thực hành hiệu quả cần nền tảng vững. Nếu bạn code mà không hiểu gì, bạn chỉ đang copy-paste và cầu nguyện cho nó chạy. 70% đọc docs + 20% xem video sẽ trang bị cho bạn kiến thức để 10% thực hành trở nên vô cùng có giá trị.</p>
 
-			<h4 className="margin-y-50 text-center">Những Sai Lầm Phổ Biến Cần Tránh</h4>
+			<h3 className="margin-y-50 text-center">Những Sai Lầm Phổ Biến Cần Tránh</h3>
 					
 			<p><strong>Tutorial Hell</strong>: Xem hàng chục video mà không code theo là cách chắc chắn để không học được gì. Bạn sẽ có cảm giác "hiểu rồi" nhưng khi ngồi vào bàn phím, não trống rỗng.</p>
 
@@ -193,7 +193,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 
 			<p><strong>Không ghi chú</strong>: Não bạn không phải là ổ cứng. Ghi chú bằng chính ngôn ngữ của bạn giúp củng cố kiến thức và là tài liệu tham khảo sau này.</p>
 			
-			<h4 className="margin-y-50 text-center">Lộ Trình Học Cụ Thể: Ví Dụ Với React</h4>
+			<h3 className="margin-y-50 text-center">Lộ Trình Học Cụ Thể: Ví Dụ Với React</h3>
 			
 			<p>Giả sử bạn muốn học React, đây là cách áp dụng phương pháp <strong>70-20-10</strong>:</p>
 
@@ -233,7 +233,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 			
 				</ul>
 			
-			<h4 className="margin-y-50 text-center">Kết Luận:</h4>
+			<h3 className="margin-y-50 text-center">Kết Luận:</h3>
 
 			<p><strong>Tạo Thói Quen</strong>, <strong>Không Chỉ Học Kiến Thức</strong></p>
 					

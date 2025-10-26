@@ -23,7 +23,7 @@ export default function MicroLearning(): React.JSX.Element {
       
       <p><strong>Micro-learning</strong> is an approach to education and training that focuses on delivering content in <strong>small</strong>, <strong>highly focused bursts of information</strong>, typically lasting from a few seconds up to a maximum of 10–15 minutes. Its design is centered on addressing specific learning objectives and fitting into the busy schedules of modern learners.</p>
 
-      <h4 className="margin-y-50 text-center">Core Characteristics</h4>
+      <h3 className="margin-y-50 text-center">Core Characteristics</h3>
 
         <ul className="list-square">
 
@@ -41,19 +41,19 @@ export default function MicroLearning(): React.JSX.Element {
       
       <p className="margin-top-20">Advantages and Applications</p>
       
-      <h4 className="margin-y-50 text-center">Increased Retention:</h4>
+      <h3 className="margin-y-50 text-center">Increased Retention:</h3>
       
       <p>By presenting information in smaller chunks followed by short periods of reflection or application, <strong>micro-learning</strong> aligns with principles of cognitive science, often leading to better information retention and recall than lengthy training sessions.</p>
 
-      <h4 className="margin-y-50 text-center">Flexibility and Accessibility:</h4>
+      <h3 className="margin-y-50 text-center">Flexibility and Accessibility:</h3>
       
       <p>Learners can access content on mobile devices during short breaks, commutes, or in between tasks. This flexibility improves completion rates and allows learning to be seamlessly integrated into the workflow.</p>
 
-      <h4 className="margin-y-50 text-center">Efficiency:</h4>
+      <h3 className="margin-y-50 text-center">Efficiency:</h3>
       
       <p>It saves both the learner's and the organization's time by eliminating unnecessary padding often found in longer modules.</p>
 
-      <h4 className="margin-y-50 text-center">Workplace Training:</h4>
+      <h3 className="margin-y-50 text-center">Workplace Training:</h3>
       
       <p>It is widely used in corporate environments for things like:</p>
 

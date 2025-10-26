@@ -25,15 +25,15 @@ export default function Git(): React.JSX.Element {
 
       <p className="margin-top-20">Here's how <strong>Git</strong> works:</p>
       
-      <h4 className="margin-y-50 text-center">The Most Popular Box:</h4>
+      <h3 className="margin-y-50 text-center">The Most Popular Box:</h3>
       
       <p>Imagine there are many different giant boxes with shelves for saving your drawings (version control systems). <strong>Git</strong> is like the most well-known and widely used brand of these boxes (the most popular version control system).</p>
 
-      <h4 className="margin-y-50 text-center">Keeping Track of Changes:</h4>
+      <h3 className="margin-y-50 text-center">Keeping Track of Changes:</h3>
       
       <p>Just like any version control system, <strong>Git</strong> tracks changes made to your program code. It remembers different versions as you make edits and saves them like snapshots in time.</p>
 
-      <h4 className="margin-y-50 text-center">More Than Just Saving:</h4>
+      <h3 className="margin-y-50 text-center">More Than Just Saving:</h3>
       
       <p><strong>Git</strong> offers some extra features compared to a simple box. It allows you to:</p>
       
@@ -83,7 +83,7 @@ export default function Git(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Why Use the Special <strong>Git</strong> Box?</h4>
+      <h3 className="margin-y-50 text-center">Why Use the Special <strong>Git</strong> Box?</h3>
 
       <p>There are a few reasons why the <strong>Git</strong> box is important:</p>
       

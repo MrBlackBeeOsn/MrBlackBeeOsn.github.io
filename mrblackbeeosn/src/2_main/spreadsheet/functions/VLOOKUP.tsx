@@ -23,7 +23,7 @@ export default function VLOOKUP(): React.JSX.Element {
 
       <p>The <strong>VLOOKUP</strong> function in a spreadsheet is a powerful tool that allows you to search for a specific value in a table or range of cells and return a corresponding value from a different column. It's particularly useful when you have a large dataset and need to quickly find information based on a specific criterion.</p>
 
-      <h4 className="margin-y-50 text-center">Syntax</h4>
+      <h3 className="margin-y-50 text-center">Syntax</h3>
       
       <p>The basic syntax for the <strong>VLOOKUP</strong> function is:</p>
         
@@ -41,7 +41,7 @@ export default function VLOOKUP(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Example</h4>
+      <h3 className="margin-y-50 text-center">Example</h3>
       
       <p>Imagine you have a table of employee information with columns for Employee ID, Name, Department, and Salary. To find the salary of an employee with a specific ID, you could use the <strong>VLOOKUP</strong> function:</p>
 
@@ -63,7 +63,7 @@ export default function VLOOKUP(): React.JSX.Element {
 
       <p className="margin-top-20">The <strong>VLOOKUP</strong> function will search for the employee ID in column B, and if it finds a match, it will return the corresponding salary from column E.</p>
 
-      <h4 className="margin-y-50 text-center">Additional Notes</h4>
+      <h3 className="margin-y-50 text-center">Additional Notes</h3>
 
         <ul className="list-square">
 
@@ -87,11 +87,11 @@ export default function VLOOKUP(): React.JSX.Element {
 
       <p>Imagine your giant checklist for toys is on a tablet. You have a box for the name of each toy, a box for its color, and a box for how much it costs.</p>
 
-      <h4 className="margin-y-50 text-center">Finding a Toy's Price:</h4>
+      <h3 className="margin-y-50 text-center">Finding a Toy's Price:</h3>
       
       <p>The <strong>VLOOKUP</strong> function is like a magic search button! You can use it to find the price of a toy if you know its name.</p>
       
-      <h4 className="margin-y-50 text-center">Telling the Magic Button:</h4>
+      <h3 className="margin-y-50 text-center">Telling the Magic Button:</h3>
       
       <p>You need to tell the magic button (<strong>VLOOKUP</strong>) three things:</p>
 
@@ -105,7 +105,7 @@ export default function VLOOKUP(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Magic!</h4>
+      <h3 className="margin-y-50 text-center">Magic!</h3>
       
       <p>When you tell the magic button these things, it searches for the toy's name in the boxes you told it to look in. If it finds the name, it shows you the price from the box you told it to look for!</p>
 

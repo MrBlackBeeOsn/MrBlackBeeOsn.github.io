@@ -85,7 +85,7 @@ export default function LapTrinhVien(): React.JSX.Element {
 
 			<p>Con hãy tưởng tượng con đang chơi trò chơi xếp hình với nhiều mảnh ghép khác nhau. Để hoàn thành trò chơi, con cần sắp xếp các mảnh ghép một cách chính xác để tạo ra hình ảnh mong muốn. <strong>Lập trình viên</strong> cũng giống như vậy, họ sử dụng các khối lệnh (giống như các mảnh ghép) để xây dựng các chương trình máy tính, giúp tạo ra các ứng dụng, trò chơi, trang web và nhiều thứ thú vị khác mà con sử dụng hàng ngày.</p>
 
-			<h4 className="margin-y-50 text-center">Lập trình viên là ai?</h4>
+			<h3 className="margin-y-50 text-center">Lập trình viên là ai?</h3>
 					
 			<p><strong>Lập trình viên</strong> là những người "xây dựng" thế giới kỹ thuật số. Họ sử dụng các "mảnh ghép" đặc biệt gọi là ngôn ngữ lập trình để tạo ra các chương trình máy tính. Các chương trình này giống như những bản hướng dẫn chi tiết cho máy tính biết cách thực hiện các nhiệm vụ cụ thể, ví dụ như:</p>
 			
@@ -103,7 +103,7 @@ export default function LapTrinhVien(): React.JSX.Element {
 			
 				</ul>
 			
-			<h4 className="margin-y-50 text-center">Làm thế nào để trở thành lập trình viên?</h4>
+			<h3 className="margin-y-50 text-center">Làm thế nào để trở thành lập trình viên?</h3>
 					
 				<ul className="list-square">
 			
@@ -113,7 +113,7 @@ export default function LapTrinhVien(): React.JSX.Element {
 			
 				</ul>
 			
-			<h4 className="margin-y-50 text-center">Lập trình viên làm gì?</h4>
+			<h3 className="margin-y-50 text-center">Lập trình viên làm gì?</h3>
 					
 			<p>Công việc của <strong>lập trình viên</strong> không chỉ đơn giản là viết code. Họ cần làm việc với nhiều người khác, bao gồm:</p>
 			

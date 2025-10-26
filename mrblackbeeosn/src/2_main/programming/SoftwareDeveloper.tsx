@@ -43,19 +43,19 @@ export default function SoftwareDeveloper(): React.JSX.Element {
 
       <p><strong>Software developers</strong> often specialize in a specific area:</p>
 
-      <h4 className="margin-y-50 text-center"><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></h4>
+      <h3 className="margin-y-50 text-center"><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></h3>
             
       <p>Focuses on the user-facing part of an application, including the design and interactivity of a website. They work with HTML, CSS, and JavaScript to create what users see and interact with.</p>
 
-      <h4 className="margin-y-50 text-center"><Link to="/backend/what-is-a-back-end-developer?">Back-End Developer</Link></h4>
+      <h3 className="margin-y-50 text-center"><Link to="/backend/what-is-a-back-end-developer?">Back-End Developer</Link></h3>
         
       <p>Deals with the server-side of an application, including databases, servers, and business logic. They ensure the core functionality of a website, such as user authentication or data storage, works correctly.</p>
 
-      <h4 className="margin-y-50 text-center"><Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link></h4>
+      <h3 className="margin-y-50 text-center"><Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link></h3>
         
       <p>Has knowledge of both front-end and back-end development, allowing them to work on all parts of a software application.</p>
 
-      <h4 className="margin-y-50 text-center"><Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link></h4>
+      <h3 className="margin-y-50 text-center"><Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link></h3>
             
       <p>Specializes in creating applications for mobile platforms like iOS and Android.</p>
 

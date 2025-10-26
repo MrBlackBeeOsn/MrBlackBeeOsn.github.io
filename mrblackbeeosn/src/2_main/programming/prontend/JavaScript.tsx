@@ -25,7 +25,7 @@ export default function JavaScript(): React.JSX.Element {
 
       <p><strong>JavaScript</strong> is a high-level programming language that's primarily used to add interactivity and dynamic content to web pages. It's one of the core technologies of the web, alongside <Link to="/front-end/what-is-html?">HTML</Link> and <Link to="/front-end/what-is-css?">CSS</Link>.</p>
 
-      <h4 className="margin-y-50 text-center">How Does JavaScript Work?</h4>
+      <h3 className="margin-y-50 text-center">How Does JavaScript Work?</h3>
       
         <ul className="list-square">
 

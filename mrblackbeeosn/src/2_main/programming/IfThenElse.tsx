@@ -23,11 +23,11 @@ export default function IfThenElse(): React.JSX.Element {
 
       <p>If-then-else is a fundamental control flow statement in programming. It allows a program to make decisions and execute different code blocks based on certain conditions. Here's a breakdown:</p>
 
-      <h4 className="margin-y-50 text-center">Core Idea:</h4>
+      <h3 className="margin-y-50 text-center">Core Idea:</h3>
       
       <p><strong>The if-then-else</strong> statement checks a condition. If the condition is true, the program executes a block of code (the "then" part). If the condition is false, the program might optionally execute a different block of code (the "else" part).</p>
       
-      <h4 className="margin-y-50 text-center">Structure:</h4>
+      <h3 className="margin-y-50 text-center">Structure:</h3>
 
       <pre className="pre-border"><code>{`
         if (condition) {
@@ -41,7 +41,7 @@ export default function IfThenElse(): React.JSX.Element {
         }
       `}</code></pre>
 
-      <h4 className="margin-y-50 text-center">Example:</h4>
+      <h3 className="margin-y-50 text-center">Example:</h3>
 
       <pre className="pre-border"><code>{`
         age = 10
@@ -67,7 +67,7 @@ export default function IfThenElse(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Why Use If-Then-Else?</h4>
+      <h3 className="margin-y-50 text-center">Why Use If-Then-Else?</h3>
       
         <ul className="list-square">
 
@@ -77,7 +77,7 @@ export default function IfThenElse(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Things to Consider:</h4>
+      <h3 className="margin-y-50 text-center">Things to Consider:</h3>
       
         <ul className="list-square">
 
