@@ -12,44 +12,48 @@ export default function (): React.JSX.Element {
   return (<>
 
   <main className="image image2">
-    
-    <h4><HashLink smooth to="/function#function-terms"><mark className="highlight-tertiary-padding-4-8">Function</mark></HashLink></h4>
-    
-    <h2 className="margin-y-50 text-center">What is the XLOOKUP function?</h2>
 
-    {/* This is the content of Spreadsheet Term. */}
+    <article>
     
-    
+      <h4><HashLink smooth to="/function#function-terms"><mark className="highlight-tertiary-padding-4-8">Function</mark></HashLink></h4>
+      
+      <h2 className="margin-y-50 text-center">What is the XLOOKUP function?</h2>
 
-    {/* =============================
-          🌾 Think simply!
-    ============================= */}
-    
-    <hr className="hr-short"/>
+      {/* This is the content of Spreadsheet Term. */}
+      
+      
 
-    <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
-    
-    
+      {/* =============================
+            🌾 Think simply!
+      ============================= */}
+      
+      <hr className="hr-short"/>
 
-    <div className="viewcounter">
-        
-      <div className="post-date no-margin">
-        <span> · by 💎Gem ·</span>
+      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      
+      
+
+      <div className="viewcounter">
+          
+        <div className="post-date no-margin">
+          <span> · by 💎Gem ·</span>
+        </div>
+
+        <div className="eye-icon no-margin">
+          <EyeIcon />
+        </div>
+
+        <div className="post-date no-margin">
+          <ViewCounter postId={postId} />
+        </div>
+
+        <div className="like-button no-margin">
+          <LikeButton postId={postId} />
+        </div>
+
       </div>
 
-      <div className="eye-icon no-margin">
-        <EyeIcon />
-      </div>
-
-      <div className="post-date no-margin">
-        <ViewCounter postId={postId} />
-      </div>
-
-      <div className="like-button no-margin">
-        <LikeButton postId={postId} />
-      </div>
-
-    </div>
+    </article>
     
   </main>
 

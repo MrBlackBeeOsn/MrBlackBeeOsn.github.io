@@ -8,37 +8,41 @@ export default function FunctionIndex(): React.JSX.Element {
      
   <main className="image image1 content">
 
-    {/* =============================
-          Spreadsheet Topic
-    ============================= */}
-    
-      <SpreadsheetTopic/>
+    <article>
 
-    {/* =============================
-        1. Function Terms
-    ============================= */}
+      {/* =============================
+            Spreadsheet Topic
+      ============================= */}
+      
+        <SpreadsheetTopic/>
 
-    <h3 className="margin-y-50 text-center" id="function-terms">Function Terms</h3>
+      {/* =============================
+          1. Function Terms
+      ============================= */}
 
-    <div className="flex-container">
+      <h3 className="margin-y-50 text-center" id="function-terms">Function Terms</h3>
 
-      <div className="sub-box">
+      <div className="flex-container">
 
-        <ul className="list-border1">
+        <div className="sub-box">
 
-          <li><Link to="/function/what-is-the-xlookup-function?">XLOOKUP</Link></li>
-          
-          <li><Link to="/function/what-is-the-vlookup-function?">VLOOKUP</Link></li>
+          <ul className="list-border1">
 
-          <li><Link to="/function/what-is-the-hlookup-function?">HLOOKUP</Link></li>
+            <li><Link to="/function/what-is-the-xlookup-function?">XLOOKUP</Link></li>
+            
+            <li><Link to="/function/what-is-the-vlookup-function?">VLOOKUP</Link></li>
 
-          <li><Link to="/function/what-is-the-date-function?">DATE</Link></li>
+            <li><Link to="/function/what-is-the-hlookup-function?">HLOOKUP</Link></li>
 
-        </ul>
+            <li><Link to="/function/what-is-the-date-function?">DATE</Link></li>
+
+          </ul>
+
+        </div>
 
       </div>
 
-    </div>
+    </article>
     
   </main>
 

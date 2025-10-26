@@ -8,35 +8,39 @@ export default function SpreadsheetIndex(): React.JSX.Element {
      
   <main className="image image1 content">
 
-    {/* =============================
-				  Spreadsheet Topic
-		============================= */}
+    <article>
 
-		  <SpreadsheetTopic/>
+      {/* =============================
+            Spreadsheet Topic
+      ============================= */}
 
-    {/* =============================
-        2. Spreadsheet Terms
-    ============================= */}
-    
-    <h3 className="margin-y-50 text-center" id="spreadsheet-terms">Spreadsheet Terms</h3>
+        <SpreadsheetTopic/>
 
-    <div className="flex-container">
+      {/* =============================
+          2. Spreadsheet Terms
+      ============================= */}
+      
+      <h3 className="margin-y-50 text-center" id="spreadsheet-terms">Spreadsheet Terms</h3>
 
-      <div className="sub-box">
+      <div className="flex-container">
 
-        <ul className="list-border1">
+        <div className="sub-box">
 
-          <li><Link to="/spreadsheet/what-is-spreadsheet?">Spreadsheet</Link></li>
-          
-          <li><Link to="/spreadsheet/what-is-formula?">Formula</Link></li>
+          <ul className="list-border1">
 
-          <li><Link to="/spreadsheet/what-is-function?">Function</Link></li>
+            <li><Link to="/spreadsheet/what-is-spreadsheet?">Spreadsheet</Link></li>
+            
+            <li><Link to="/spreadsheet/what-is-formula?">Formula</Link></li>
 
-        </ul>
+            <li><Link to="/spreadsheet/what-is-function?">Function</Link></li>
+
+          </ul>
+
+        </div>
 
       </div>
 
-    </div>
+    </article>
     
   </main>
 

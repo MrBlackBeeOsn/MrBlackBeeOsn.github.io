@@ -8,53 +8,57 @@ export default function FrontEndIndex(): React.JSX.Element {
      
   <main className="image image1 content">
 
-    {/* =============================
-          Programming Topic
-    ============================= */}
+    <article>
+
+      {/* =============================
+            Programming Topic
+      ============================= */}
+              
+        <ProgrammingTopic/>
+
+      {/* =============================
+          2. Pront-End Terms
+      ============================= */}
+
+      <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Terms</h3>
+
+      <div className="flex-container">
+
+        <div className="sub-box">
+
+          <ul className="list-border1">
             
-      <ProgrammingTopic/>
+            <li><Link to="/front-end/what-is-html?">HTML</Link></li>
 
-    {/* =============================
-        2. Pront-End Terms
-    ============================= */}
+            <li><Link to="/front-end/what-is-css?">CSS</Link></li>
 
-    <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Terms</h3>
+            <li><Link to="/front-end/what-is-javascript?">JavaScript</Link></li>
 
-    <div className="flex-container">
+            <li><Link to="/front-end/what-is-typescript?">TypeScript</Link></li>
 
-      <div className="sub-box">
+            <li><Link to="/front-end/what-is-react?">React</Link></li>
 
-        <ul className="list-border1">
-          
-          <li><Link to="/front-end/what-is-html?">HTML</Link></li>
+            <li><Link to="/front-end/what-is-nextjs?">Next.js</Link></li>
 
-          <li><Link to="/front-end/what-is-css?">CSS</Link></li>
+            <li><Link to="/front-end/what-is-tailwindcss?">Tailwind CSS</Link></li>
 
-          <li><Link to="/front-end/what-is-javascript?">JavaScript</Link></li>
+          </ul>
 
-          <li><Link to="/front-end/what-is-typescript?">TypeScript</Link></li>
+        </div>
 
-          <li><Link to="/front-end/what-is-react?">React</Link></li>
+        <div className="sub-box">
 
-          <li><Link to="/front-end/what-is-nextjs?">Next.js</Link></li>
+          <ul className="list-border1">
+        
+            <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
 
-          <li><Link to="/front-end/what-is-tailwindcss?">Tailwind CSS</Link></li>
+          </ul>
 
-        </ul>
+        </div>
 
       </div>
 
-      <div className="sub-box">
-
-        <ul className="list-border1">
-      
-          <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
-
-        </ul>
-
-      </div>
-
-    </div>
+    </article>
     
   </main>
 

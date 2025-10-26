@@ -5,15 +5,20 @@ import SearchBar from "@/components/SearchBar";
 import SearchComponent from '@/components/SearchComponent';
 
 export default function SearchIndex(): React.JSX.Element {
+	
 	return (<>
 		 
 		<main className="image image3">
 
-			<div className="table-search">
+			<article>
 
-				<SearchComponent />
-			
-			</div>
+				<div className="table-search">
+
+					<SearchComponent />
+				
+				</div>
+
+			</article>
 
 		</main>
 

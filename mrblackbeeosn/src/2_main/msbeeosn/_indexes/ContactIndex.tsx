@@ -15,59 +15,63 @@ export default function ContactIndex(): React.JSX.Element {
 		 
 	<main className="image image4">
 
-		{/* =============================
-				Mr.Bee Osn Topic
-		============================= */}
-		
-			<MrBeeOsnTopic />
+		<article>
 
-		{/* =============================
-				About
-		============================= */}
+			{/* =============================
+					Mr.Bee Osn Topic
+			============================= */}
+			
+				<MrBeeOsnTopic />
 
-		<h2 className="margin-y-50 text-center">Contact</h2>
-		
-			<ul className="list-border">
+			{/* =============================
+					About
+			============================= */}
 
-				<li>
+			<h2 className="margin-y-50 text-center">Contact</h2>
+			
+				<ul className="list-border">
+
+					<li>
+						
+						📧👥 <strong>Teams</strong>:&nbsp;
+
+						<Link 
+							to="#" 
+							onClick={(e) => {
+								window.location.href = "mailto:Hieu.Dev202@outlook.com";
+								e.preventDefault();
+							}}
+						>
+
+							Gửi email
+
+						</Link>
+						
+					</li>
+
+				</ul>
+
+			<div className="viewcounter">
 					
-					📧👥 <strong>Teams</strong>:&nbsp;
+				<div className="post-date no-margin">
+					<span>by 🐝Mr. Bee Osn ·</span>
+				</div>
 
-					<Link 
-						to="#" 
-						onClick={(e) => {
-							window.location.href = "mailto:Hieu.Dev202@outlook.com";
-							e.preventDefault();
-						}}
-					>
+				<div className="eye-icon no-margin">
+					<EyeIcon />
+				</div>
 
-						Gửi email
+				<div className="post-date no-margin">
+					<ViewCounter postId={postId} />
+				</div>
 
-					</Link>
-					
-				</li>
+				<div className="like-button no-margin">
+					<LikeButton postId={postId} />
+				</div>
 
-			</ul>
-
-		<div className="viewcounter">
-				
-			<div className="post-date no-margin">
-				<span>by 🐝Mr. Bee Osn ·</span>
 			</div>
 
-			<div className="eye-icon no-margin">
-				<EyeIcon />
-			</div>
-
-			<div className="post-date no-margin">
-				<ViewCounter postId={postId} />
-			</div>
-
-			<div className="like-button no-margin">
-				<LikeButton postId={postId} />
-			</div>
-
-		</div>
+		</article>
 		
 	</main>
 

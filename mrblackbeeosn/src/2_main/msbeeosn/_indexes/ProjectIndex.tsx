@@ -15,51 +15,55 @@ export default function ProjectIndex(): React.JSX.Element {
      
   <main className="image image4">
 
-    {/* =============================
-        Mr.Bee Osn Topic
-    ============================= */}
-    
-      <MrBeeOsnTopic />
+    <article>
 
-    {/* =============================
-        About
-    ============================= */}
+      {/* =============================
+          Mr.Bee Osn Topic
+      ============================= */}
+      
+        <MrBeeOsnTopic />
 
-    <h2 className="margin-top-50 text-center">Project</h2>
+      {/* =============================
+          About
+      ============================= */}
 
-    <p className="margin-bottom-50 text-center">(by 🐝 Mr. Bee - 🅾ng siêng năng)</p>
+      <h2 className="margin-top-50 text-center">Project</h2>
 
-    <h2 className="year" id="2025">2025</h2>
+      <p className="margin-bottom-50 text-center">(by 🐝 Mr. Bee - 🅾ng siêng năng)</p>
 
-      <ul className="month-list">
+      <h2 className="year" id="2025">2025</h2>
 
-        <li><span className="month"></span>🚀 What is <Link to="https://mrgreenbeeosn.github.io/#/accounting/what-is-accounting">accounting <sup><ExternalLink /></sup></Link>?</li>
+        <ul className="month-list">
 
-        <li><span className="month"></span>🚀 What is <Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">bookkeeping <sup><ExternalLink /></sup></Link>?</li>
+          <li><span className="month"></span>🚀 What is <Link to="https://mrgreenbeeosn.github.io/#/accounting/what-is-accounting">accounting <sup><ExternalLink /></sup></Link>?</li>
 
-        <li><span className="month"></span>🚀 What is <Link to="/programming/what-is-programming?">programming</Link>?</li>
+          <li><span className="month"></span>🚀 What is <Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">bookkeeping <sup><ExternalLink /></sup></Link>?</li>
 
-      </ul>
+          <li><span className="month"></span>🚀 What is <Link to="/programming/what-is-programming?">programming</Link>?</li>
 
-    <div className="viewcounter">
-        
-      <div className="post-date no-margin">
-        <span>by 🐝Mr. Bee Osn ·</span>
+        </ul>
+
+      <div className="viewcounter">
+          
+        <div className="post-date no-margin">
+          <span>by 🐝Mr. Bee Osn ·</span>
+        </div>
+
+        <div className="eye-icon no-margin">
+          <EyeIcon />
+        </div>
+
+        <div className="post-date no-margin">
+          <ViewCounter postId={postId} />
+        </div>
+
+        <div className="like-button no-margin">
+          <LikeButton postId={postId} />
+        </div>
+
       </div>
 
-      <div className="eye-icon no-margin">
-        <EyeIcon />
-      </div>
-
-      <div className="post-date no-margin">
-        <ViewCounter postId={postId} />
-      </div>
-
-      <div className="like-button no-margin">
-        <LikeButton postId={postId} />
-      </div>
-
-    </div>
+    </article>
     
   </main>
 
