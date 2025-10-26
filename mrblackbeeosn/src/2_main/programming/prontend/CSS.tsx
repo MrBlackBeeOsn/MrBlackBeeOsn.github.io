@@ -17,7 +17,7 @@ export default function CSS(): React.JSX.Element {
     
       <h4><HashLink smooth to="/front-end#pront-end-terms"><mark className="highlight-tertiary-padding-4-8">Pront-End</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center" id="programming-terms">What is CSS?</h2>
+      <h1 className="margin-y-50 text-center" id="programming-terms">What is CSS?</h1>
 
       {/* This is the content of Pront-End Term. */}
 

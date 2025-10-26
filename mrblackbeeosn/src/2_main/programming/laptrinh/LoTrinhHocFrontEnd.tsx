@@ -17,7 +17,7 @@ export default function LoTrinhHocFrontEnd(): React.JSX.Element {
     
       <h4><HashLink smooth to="/lap-trinh#lap-trinh-terms"><mark className="highlight-tertiary-padding-4-8">Lập Trình</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center" id="programming-terms">Lộ trình học Frontend là gì?</h2>
+      <h1 className="margin-y-50 text-center" id="programming-terms">Lộ trình học Frontend là gì?</h1>
 
       {/* This is the content of Programming Term. */}
 

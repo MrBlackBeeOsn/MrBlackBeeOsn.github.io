@@ -17,7 +17,7 @@ export default function XLOOKUP(): React.JSX.Element {
     
       <h4><HashLink smooth to="/function#function-terms"><mark className="highlight-tertiary-padding-4-8">Function</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is the XLOOKUP function?</h2>
+      <h1 className="margin-y-50 text-center">What is the XLOOKUP function?</h1>
 
       {/* This is the content of Spreadsheet Term. */}
       

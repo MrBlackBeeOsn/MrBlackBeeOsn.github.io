@@ -17,7 +17,7 @@ export default function BackEndDeveloper(): React.JSX.Element {
     
       <h4><HashLink smooth to="/back-end#back-end-terms"><mark className="highlight-tertiary-padding-4-8">Back-End</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is a Back-End Developer?</h2>
+      <h1 className="margin-y-50 text-center">What is a Back-End Developer?</h1>
 
       {/* This is the content of Back-End Term. */}
       

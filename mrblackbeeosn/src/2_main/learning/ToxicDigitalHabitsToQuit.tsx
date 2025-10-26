@@ -17,7 +17,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 		
 			<h4><HashLink smooth to="/learning#learning-terms"><mark className="highlight-tertiary-padding-4-8">Learning</mark></HashLink></h4>
 			
-			<h2 className="margin-y-50 text-center">Toxic Digital Habits To Quit</h2>
+			<h1 className="margin-y-50 text-center">Toxic Digital Habits To Quit</h1>
 
 			{/* This is the content of Programming Term. */}
 

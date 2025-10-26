@@ -17,7 +17,7 @@ export default function Formula(): React.JSX.Element {
     
       <h4><HashLink smooth to="/spreadsheet#spreadsheet-terms"><mark className="highlight-tertiary-padding-4-8">Spreadsheet</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is a formula in a spreadsheet?</h2>
+      <h1 className="margin-y-50 text-center">What is a formula in a spreadsheet?</h1>
 
       {/* This is the content of Spreadsheet Term. */}
 

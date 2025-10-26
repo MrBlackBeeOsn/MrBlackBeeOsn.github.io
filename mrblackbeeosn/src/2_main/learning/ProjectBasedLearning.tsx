@@ -17,7 +17,7 @@ export default function ProjectBasedLearning(): React.JSX.Element {
     
       <h4><HashLink smooth to="/learning#learning-terms"><mark className="highlight-tertiary-padding-4-8">Learning</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is project-based learning?</h2>
+      <h1 className="margin-y-50 text-center">What is project-based learning?</h1>
 
       {/* This is the content of Programming Term. */}
       

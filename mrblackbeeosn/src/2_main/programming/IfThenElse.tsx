@@ -17,7 +17,7 @@ export default function IfThenElse(): React.JSX.Element {
     
       <h4><HashLink smooth to="/programming#programming-terms"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center" id="programming-terms">What is If-Then-Else?</h2>
+      <h1 className="margin-y-50 text-center" id="programming-terms">What is If-Then-Else?</h1>
 
       {/* This is the content of Programming Term. */}
 
