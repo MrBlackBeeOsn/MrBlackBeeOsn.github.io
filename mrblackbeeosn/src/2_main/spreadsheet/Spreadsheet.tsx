@@ -16,12 +16,18 @@ export default function Spreadsheet(): React.JSX.Element {
     <article>
     
       <h4><HashLink smooth to="/spreadsheet#spreadsheet-terms"><mark className="highlight-tertiary-padding-4-8">Spreadsheet</mark></HashLink></h4>
+
+      <header>
       
-      <h2 className="margin-y-50 text-center">What is a spreadsheet?</h2>
+      <h1 className="margin-y-50 text-center">What is a spreadsheet?</h1>
 
       {/* This is the content of Spreadsheet Term. */}
       
       <p>A <strong>spreadsheet</strong> is a digital tool for organizing and working with information. It's like a giant table with squares you can fill in.</p>
+
+      </header>
+
+      <section>
 
       <p className="margin-top-20">Here's a breakdown:</p>
       
@@ -39,6 +45,8 @@ export default function Spreadsheet(): React.JSX.Element {
 
         </ul>
 
+      </section>
+
       <p className="margin-top-20"><strong>Spreadsheets</strong> are like digital organizers that can help you with all sorts of tasks!</p>
 
       {/* =============================
@@ -48,6 +56,8 @@ export default function Spreadsheet(): React.JSX.Element {
       <hr className="hr-short"/>
 
       <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+
+      <section>
       
       <p>A <strong>spreadsheet</strong> is like a giant checklist at school, but way cooler! Remember how your teacher has those big sheets with squares to mark stuff off? A <strong>spreadsheet</strong> is like that, but on a computer.</p>
       
@@ -64,6 +74,8 @@ export default function Spreadsheet(): React.JSX.Element {
           <li><strong>Fun Colors and Pictures</strong>: Your teacher might use colored pens on the checklist. <strong>Spreadsheets</strong> let you change the colors and even add little pictures to your cells, making it extra fun!</li>
 
         </ul>
+
+      </section>
 
       <p className="margin-top-20"><strong>Spreadsheets</strong> are like fancy checklists that help you keep track of all your stuff and even do cool tricks with numbers. It's like having a super-powered organizer at your fingertips!</p>
 
