@@ -86,7 +86,7 @@ export default function FullStackDeveloper(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>Imagine you're building the coolest sandcastle on the beach ever! A <strong>Full-Stack Developer</strong> is like a super friend who can help you with everything you need to make it the best.</p>
       

@@ -79,7 +79,7 @@ export default function JavaScript(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
       
       <p><strong>JavaScript</strong> is like a magic wand for your computer!</p>
 

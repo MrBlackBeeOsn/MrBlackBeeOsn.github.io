@@ -63,7 +63,7 @@ export default function GitHub(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>Imagine you're a master Lego builder, and you've created the coolest things ever - a giant castle and a rocket ship that can fly to the moon! <strong>GitHub</strong> is like a giant online world, just for awesome Lego creations, built by kids from all over the world!</p>
 

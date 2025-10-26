@@ -69,7 +69,7 @@ export default function NextJS(): React.JSX.Element {
 			
 			<hr className="hr-short"/>
 
-			<h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+			<h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
 			<p><strong>Next.js</strong> is like a super-powered builder that helps make websites using LEGOs (which is what React is). 🚀</p>
 

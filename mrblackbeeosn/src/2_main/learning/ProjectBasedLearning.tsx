@@ -69,7 +69,7 @@ export default function ProjectBasedLearning(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>Project-based learning</strong> is like a big, fun adventure where you learn by <strong>doing</strong> something important! 🗺️</p>
 

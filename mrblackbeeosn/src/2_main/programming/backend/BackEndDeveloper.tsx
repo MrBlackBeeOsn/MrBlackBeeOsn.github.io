@@ -47,7 +47,7 @@ export default function BackEndDeveloper(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>A <strong>Back-End Developer</strong> is like the person who works behind the scenes at a restaurant.</p>
       

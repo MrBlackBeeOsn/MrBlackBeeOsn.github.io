@@ -69,7 +69,7 @@ export default function XLOOKUP(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
       
       <p>Imagine your giant checklist for toys is on a tablet. You have a box for the name of each toy, a box for its color, and a box for how much it costs.</p>
 

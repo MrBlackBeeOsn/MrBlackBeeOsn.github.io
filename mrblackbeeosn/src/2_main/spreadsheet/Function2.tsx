@@ -47,7 +47,7 @@ export default function Function2(): React.JSX.Element {
 			
 			<hr className="hr-short"/>
 
-			<h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+			<h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
 			<p>A <strong>function</strong> in a spreadsheet is like a magic button on your checklist! Remember how you use your checklist to keep track of your toys? A spreadsheet is like a giant checklist, but with special buttons that can help you with your toys.</p>
 			

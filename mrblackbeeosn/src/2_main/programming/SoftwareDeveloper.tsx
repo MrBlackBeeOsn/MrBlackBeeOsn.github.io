@@ -67,7 +67,7 @@ export default function SoftwareDeveloper(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
       
       <p>A <strong>software developer</strong> is a person who builds and fixes computer programs. They're like builders, but instead of using wood and nails, they use a special secret language called code.</p>
       

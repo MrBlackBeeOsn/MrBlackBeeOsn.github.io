@@ -89,7 +89,7 @@ export default function TailwindCSS(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>Tailwind CSS</strong> is like having a big box of super-fast stickers for your website! 🎨</p>
 

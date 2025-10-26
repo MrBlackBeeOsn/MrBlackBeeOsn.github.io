@@ -87,7 +87,7 @@ export default function GoodHabits(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
       
       <p>Programmers are like builders who create awesome things with code, but just like any builder, they need <strong>good habits</strong> to build the best things possible! Here are some ways programmers can be super builders:</p>
 

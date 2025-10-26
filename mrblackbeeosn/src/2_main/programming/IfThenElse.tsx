@@ -95,7 +95,7 @@ export default function IfThenElse(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>Imagine you're playing a game with a friend! You get to decide what happens next, but only if you follow certain rules. If-then-else in programming is like that! It lets the program make choices based on simple rules, like this:</p>
       

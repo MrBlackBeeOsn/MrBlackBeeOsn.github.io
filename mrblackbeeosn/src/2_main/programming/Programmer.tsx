@@ -67,7 +67,7 @@ export default function Programmer(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>A <strong>programmer</strong> is like a teacher for a computer! They use a special secret language called code to tell the computer exactly what to do.</p>
 

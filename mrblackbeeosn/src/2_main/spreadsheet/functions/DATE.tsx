@@ -81,7 +81,7 @@ export default function DATE(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
       
       <p>Imagine your giant checklist for toys has a special magic wand. This magic wand is called the <strong>DATE</strong> function! It can help you with your toys in a fun way.</p>
 

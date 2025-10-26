@@ -60,7 +60,7 @@ export default function Function(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>Imagine you're building a super fun fort out of blankets and pillows! A <strong>function</strong> in programming is like a special trick you can do to build different parts of your fort easily.</p>
       

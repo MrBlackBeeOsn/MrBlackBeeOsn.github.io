@@ -63,7 +63,7 @@ export default function Java(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>Java</strong> is a special kind of magic that helps you build amazing things for the computer. It's like having a big box of super cool building blocks.</p>
       

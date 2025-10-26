@@ -63,7 +63,7 @@ export default function PHP(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>PHP</strong> is a secret language that helps websites remember things and make them fun to use. It's like a magic helper that lives on the computer's brain (called a server).</p>
       

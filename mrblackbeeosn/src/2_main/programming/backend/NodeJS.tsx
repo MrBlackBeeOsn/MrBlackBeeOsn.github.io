@@ -61,7 +61,7 @@ export default function NodeJS(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>Node.js</strong> is like a magic box that lets your computer's brain use the same language it uses to make websites pretty, to also make websites smart.</p>
       

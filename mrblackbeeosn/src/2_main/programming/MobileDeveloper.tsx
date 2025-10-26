@@ -67,7 +67,7 @@ export default function MobileDeveloper(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>A <strong>mobile developer</strong> is like a toy maker who builds apps for your parents' phones and tablets. They're the ones who make sure the buttons work, the games are fun, and everything looks nice on the screen.</p>
       

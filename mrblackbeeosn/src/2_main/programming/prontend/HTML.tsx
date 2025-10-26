@@ -92,7 +92,7 @@ export default function HTML(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
       
       <p><strong>HTML</strong> is like a magic book that tells your computer what to draw on the screen!</p>
       

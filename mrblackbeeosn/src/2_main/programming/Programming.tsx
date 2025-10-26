@@ -63,7 +63,7 @@ export default function Programming(): React.JSX.Element {
 			
 			<hr className="hr-short"/>
 
-			<h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+			<h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 			
 			<p><strong>Programming</strong> is like teaching a robot what to do. You use a special language to give the robot very clear, step-by-step instructions. If you want the robot to sing, you have to tell it exactly how to do it: "open mouth, make a high sound, then make a low sound."</p>
 

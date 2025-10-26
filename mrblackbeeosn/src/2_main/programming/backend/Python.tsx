@@ -63,7 +63,7 @@ export default function Python(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>Python</strong> is a special secret language that helps you talk to computers. It's like a magic spell you can write to make the computer do cool things.</p>
       

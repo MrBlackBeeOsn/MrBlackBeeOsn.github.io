@@ -67,7 +67,7 @@ export default function Git(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>Imagine you're building the coolest castle ever out of Legos! You built a giant tower, a long wall, and maybe even a moat with a working drawbridge. But what if you accidentally knock over a tower while building something new? Version control, and specifically <strong>Git</strong>, is like a special box that helps you keep track of your castle building journey!</p>
 

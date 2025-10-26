@@ -57,7 +57,7 @@ export default function ReactJS(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>React</strong> is a special toolbox for building websites. It's like having a big box of LEGOs where each LEGO piece is a part of a website, like a button, a picture, or a whole page!</p>
 

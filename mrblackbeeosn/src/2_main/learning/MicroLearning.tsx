@@ -77,7 +77,7 @@ export default function MicroLearning(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p><strong>Micro-learning</strong> is like eating a giant cake, but in tiny, yummy bites! 🍰</p>
 

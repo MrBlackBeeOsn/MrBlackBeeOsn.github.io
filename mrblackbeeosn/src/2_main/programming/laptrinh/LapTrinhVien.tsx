@@ -79,7 +79,7 @@ export default function LapTrinhVien(): React.JSX.Element {
 			
 			<hr className="hr-short"/>
 
-			<h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+			<h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
 			<p><strong>Lập trình viên</strong> như thợ xây dựng thế giới kỹ thuật số</p>
 

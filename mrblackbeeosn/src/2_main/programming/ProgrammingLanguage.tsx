@@ -75,7 +75,7 @@ export default function ProgrammingLanguage(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">🌾 Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">🌾 Think simply!</h2>
 
       <p>Have you ever given instructions to your favorite toy robot? A <strong>programming language</strong> is kind of like a special way to talk to computers so they know what to do, just like you give instructions to your robot!</p>
 
