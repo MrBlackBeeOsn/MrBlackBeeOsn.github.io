@@ -27,17 +27,99 @@ export default function AboutIndex(): React.JSX.Element {
           About
       ============================= */}
 
-      <h1 className="margin-y-50 text-center">About</h1>
+      <div className="container">
+
+        <h1 className="margin-y-50 text-center">Programming Bee</h1>
+
+        <div className="header">
+
+        {/* <h1 className="margin-y-50 text-center">About</h1> */}
       
-        <ul className="list-border">
+          <ul className="list-border">
 
-          <li>Welcome everyone!</li>
+            <li>Welcome everyone!</li>
 
-          <li>Đây là website <mark className="highlight-tertiary-padding-0-4">Programming + Spreadsheet</mark> nhiều trang nội bộ đầu tiên của mình!</li>
+            <li>Đây là website <mark className="highlight-255-padding-0-4">Programming + Spreadsheet</mark> nhiều trang nội bộ đầu tiên của mình!</li>
           
-          <li>Trang web này được xây dựng để học <mark className="highlight-tertiary-padding-0-4">Programming & Spreadsheet</mark> cơ bản.</li>
+          <li>Trang web này được xây dựng để học <mark className="highlight-255-padding-0-4">Programming & Spreadsheet</mark> cơ bản.</li>
 
-        </ul>
+          </ul>
+
+        </div>
+        
+        <div className="group-container">
+
+          <h3 className="margin-top-50 text-center">Cộng đồng chính thức của Programming Bee</h3>
+          <p className="margin-bottom-50 text-center">(WhatsApp của Facebook)</p>
+
+          <div className="group-title">
+            <h2>Group chính</h2>
+          </div>
+          
+          <div className="group-card">
+            <h3>🐝 
+              <a href="" target="_blank">
+                Programming Bee📓 — Hub (thông báo chính)
+              </a>
+            </h3>
+            <p>Thông báo Lập trình chính thức, quy định!</p>
+          </div>
+          
+          <div className="subgroups">
+            <div className="group-title">
+                <h2>Group con</h2>
+            </div>
+            
+            <div className="subgroup-card">
+              <div className="subgroup-icon">💬</div>
+              <div className="subgroup-content">
+                <h4>
+                  <a href="" target="_blank">
+                    Internal Chat — Kênh trao đổi nhanh!
+                  </a>
+                </h4>
+                <p>Kênh trao đổi nhanh chóng và tiện lợi!</p>
+              </div>
+            </div>
+            
+            <div className="subgroup-card">
+              <div className="subgroup-icon">🌾</div>
+              <div className="subgroup-content">
+                <h4>
+                  <a href="" target="_blank">
+                    VN — Lập Trình
+                  </a>
+                </h4>
+                <p>Thảo luận Lập trình, hướng dẫn nội bộ!</p>
+              </div>
+            </div>
+            
+            <div className="subgroup-card">
+              <div className="subgroup-icon">🌾</div>
+              <div className="subgroup-content">
+                <h4>
+                  <a href="" target="_blank">
+                    EN — Programming
+                  </a>
+                </h4>
+                <p>Thảo luận Programming, hướng dẫn quốc tế!</p>
+              </div>
+            </div>
+            
+            <div className="subgroup-card">
+              <div className="subgroup-icon">📁</div>
+              <div className="subgroup-content">
+                <h4>
+                  <a href="" target="_blank">
+                    Files — Nơi lưu tài liệu
+                  </a>
+                </h4>
+                <p>Chia sẻ tài liệu!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="viewcounter">
           
