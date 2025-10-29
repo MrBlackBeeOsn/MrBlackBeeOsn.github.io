@@ -41,7 +41,7 @@ export default function ContactIndex(): React.JSX.Element {
       
       <div className="container">
 
-        <header>
+        <header className="title">
 
           <h1 className="name">HIEU DEV</h1>
           <div className="title">Programmer | Web Development | API Integration | Software Engineering</div>
@@ -68,7 +68,7 @@ export default function ContactIndex(): React.JSX.Element {
               <Link to="/" className="email-link">
                 Programming Bee
               </Link>
-              <FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faBookOpenReader} />
+              {/* <FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faBookOpenReader} /> */}
             </div>
 
           </div>
@@ -98,11 +98,11 @@ export default function ContactIndex(): React.JSX.Element {
 
           </div>
 
-					<div className="bee-wrapper1">
-          	<img src="/assets/images/bee1.png" alt="Mr. Bee Osn"/>
-      		</div>
-
         </header>
+
+				<div className="bee-wrapper1">
+          <img src="/assets/images/bee1.png" alt="Mr. Bee Osn"/>
+      	</div>
 
     	</div>
 
