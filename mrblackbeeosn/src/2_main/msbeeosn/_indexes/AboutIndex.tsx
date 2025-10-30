@@ -50,7 +50,7 @@ export default function AboutIndex(): React.JSX.Element {
         <div className="group-container">
 
           <h3 className="margin-top-50 text-center">Cộng đồng chính thức của Programming Bee</h3>
-          <p className="margin-bottom-50 text-center">(WA Business của Facebook)</p>
+          <p className="margin-bottom-50 text-center">(Discord)</p>
 
           <div className="group-title">
             <h2>Group chính</h2>
@@ -58,7 +58,7 @@ export default function AboutIndex(): React.JSX.Element {
           
           <div className="group-card">
             <h3>🐝 
-              <a href="" target="_blank">
+              <a href="https://discord.gg/KS8KyYMa8S" target="_blank">
                 Programming Bee📓 — Hub (thông báo chính)
               </a>
             </h3>
@@ -74,7 +74,7 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">💬</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="" target="_blank">
+                  <a href="https://discord.gg/66ad6e6gSs" target="_blank">
                     Internal Chat — Kênh trao đổi nhanh!
                   </a>
                 </h4>
@@ -86,7 +86,7 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">🌾</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="" target="_blank">
+                  <a href="https://discord.gg/Hv6SrBd8gv" target="_blank">
                     VN — Lập Trình
                   </a>
                 </h4>
@@ -98,7 +98,7 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">🌾</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="" target="_blank">
+                  <a href="https://discord.gg/r4DyMaBRUQ" target="_blank">
                     EN — Programming
                   </a>
                 </h4>
@@ -110,7 +110,7 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">📁</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="" target="_blank">
+                  <a href="https://discord.gg/GCM38dvFFT" target="_blank">
                     Files — Nơi lưu tài liệu
                   </a>
                 </h4>
