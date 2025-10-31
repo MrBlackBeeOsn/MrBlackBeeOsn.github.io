@@ -58,9 +58,9 @@ export default function AboutIndex(): React.JSX.Element {
           
           <div className="group-card">
             <h3>🐝 
-              <a href="https://discord.gg/KS8KyYMa8S" target="_blank">
+              <Link to="https://discord.gg/KS8KyYMa8S" target="_blank">
                 Programming Bee📓 — Hub (thông báo chính)
-              </a>
+              </Link>
             </h3>
             <p>Thông báo Lập trình chính thức, quy định!</p>
           </div>
@@ -74,9 +74,9 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">💬</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="https://discord.gg/66ad6e6gSs" target="_blank">
+                  <Link to="https://discord.gg/66ad6e6gSs" target="_blank">
                     Internal Chat — Kênh trao đổi nhanh!
-                  </a>
+                  </Link>
                 </h4>
                 <p>Kênh trao đổi nhanh chóng và tiện lợi!</p>
               </div>
@@ -86,9 +86,9 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">🌾</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="https://discord.gg/Hv6SrBd8gv" target="_blank">
+                  <Link to="https://discord.gg/Hv6SrBd8gv" target="_blank">
                     VN — Lập Trình
-                  </a>
+                  </Link>
                 </h4>
                 <p>Thảo luận Lập trình, hướng dẫn nội bộ!</p>
               </div>
@@ -98,9 +98,9 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">🌾</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="https://discord.gg/r4DyMaBRUQ" target="_blank">
+                  <Link to="https://discord.gg/r4DyMaBRUQ" target="_blank">
                     EN — Programming
-                  </a>
+                  </Link>
                 </h4>
                 <p>Thảo luận Programming, hướng dẫn quốc tế!</p>
               </div>
@@ -110,9 +110,9 @@ export default function AboutIndex(): React.JSX.Element {
               <div className="subgroup-icon">📁</div>
               <div className="subgroup-content">
                 <h4>
-                  <a href="https://discord.gg/GCM38dvFFT" target="_blank">
+                  <Link to="https://discord.gg/GCM38dvFFT" target="_blank">
                     Files — Nơi lưu tài liệu
-                  </a>
+                  </Link>
                 </h4>
                 <p>Chia sẻ tài liệu!</p>
               </div>
