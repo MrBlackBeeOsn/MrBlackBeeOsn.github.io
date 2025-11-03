@@ -16,8 +16,8 @@ import { Routes, Route } from 'react-router-dom';
 // 2_main import các chức năng và đường dẫn
 	const MrBeeOsn = lazy(() => import('@/2_main/msbeeosn/MrBeeOsn'));
 	const AboutIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/AboutIndex'));
-  const ProjectIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ProjectIndex'));
-  const JourneyIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/JourneyIndex'));
+	const ProjectIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ProjectIndex'));
+	const JourneyIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/JourneyIndex'));
 	const ContactIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ContactIndex'));
 
 // 2_main import các chức năng và đường dẫn Programming
@@ -88,6 +88,8 @@ import { Routes, Route } from 'react-router-dom';
 // 3. Test Tailwind
 	const TestTailwind = lazy(() => import('@/components/TestTailwind'));
 
+	const AppContent = lazy(() => import('@/components/AppContent'));
+
 // Xuất khẩu chức năng
 export default function AppRoutes(): React.JSX.Element {
 	return (
@@ -108,8 +110,8 @@ export default function AppRoutes(): React.JSX.Element {
 				{/* 2_main Khai báo đường dẫn path cho Mr. Bee Osn */}
 				<Route path="/mrbeeosn" element={<MrBeeOsn />} />
 				<Route path="/about" element={<AboutIndex />} />
-        <Route path="/project" element={<ProjectIndex />} />
-        <Route path="/journey" element={<JourneyIndex />} />
+				<Route path="/project" element={<ProjectIndex />} />
+				<Route path="/journey" element={<JourneyIndex />} />
 				<Route path="/contact" element={<ContactIndex />} />
 
 				{/* 2_main Khai báo đường dẫn path cho Programming */}
@@ -180,6 +182,8 @@ export default function AppRoutes(): React.JSX.Element {
 
 					{/* 3. Test Tailwind */}
 					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />
+
+					<Route path="/app-content" element={<AppContent />} />
 
 			</Route>
 
