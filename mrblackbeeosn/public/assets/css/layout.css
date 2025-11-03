@@ -20,7 +20,7 @@
 .site-header {
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--primary-color) 100%);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
@@ -142,7 +142,7 @@ main {
 }
 
 main:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); */
   transform: translateY(-4px);
   transition: all 0.3s ease;
 }
