@@ -1,3 +1,7 @@
+// =============================
+//    EyeIcon · by DPSK
+// =============================
+
 import React from 'react';
 
 export default function EyeIcon({ 
