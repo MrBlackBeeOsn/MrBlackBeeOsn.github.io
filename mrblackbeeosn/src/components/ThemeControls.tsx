@@ -11,32 +11,49 @@ const ThemeControls: React.FC = () => {
     setBackgroundColor,
   } = useTheme();
 
-  const themes: Theme[] = ['whatsapp', 'telegram', 'pink', 'mint', 'lavender', 'peach'];
+  const themes: Theme[] = ['purple', 'timhoaca', 'raisinblack', 'lavender', 'secondary', 'tertiary'];
   const names = {
-    whatsapp: 'WhatsApp',
-    telegram: 'Telegram',
-    pink: 'Pink',
-    mint: 'Mint',
+    purple: 'Purple',
+    timhoaca: 'Tím hoa cà',
+    raisinblack: 'Raisin Black',
     lavender: 'Lavender',
-    peach: 'Peach',
+    secondary: 'Secondary',
+    tertiary: 'Tertiary',
   };
 
   const patternMap = {
-    whatsapp: '#D9D9D9',
-    telegram: '#1E2A38',
-    pink: '#FFB6C1',
-    mint: '#20B2AA',
-    lavender: '#9C27B0',
-    peach: '#FF9A76',
+    purple: 'rgba(121, 113, 234, 1)',
+    timhoaca: 'rgba(135, 86, 169, 1)',
+    raisinblack: 'rgba(33, 33, 33, 1)',
+    lavender: 'rgba(156, 39, 176, 1)',
+    secondary: 'rgba(168, 164, 242, 1)',
+    tertiary: 'rgba(214, 211, 249, 1)',
   };
   const bgMap = {
-    whatsapp: '#F0F0F0',
-    telegram: '#17212B',
-    pink: '#FFE4E1',
-    mint: '#E0FFFF',
-    lavender: '#E6E6FA',
-    peach: '#FFDAB9',
+    purple: 'rgba(121, 113, 234, 0.1)',
+    timhoaca: 'rgba(135, 86, 169, 0.1)',
+    raisinblack: 'rgba(33, 33, 33, 0.1)',
+    lavender: 'rgba(156, 39, 176, 0.1)',
+    secondary: 'rgba(168, 164, 242, 0.1)',
+    tertiary: 'rgba(214, 211, 249, 0.1)',
   };
+
+  // const patternMap = {
+  //   whatsapp: '#D9D9D9',
+  //   telegram: '#1E2A38',
+  //   pink: '#FFB6C1',
+  //   mint: '#20B2AA',
+  //   lavender: '#9C27B0',
+  //   peach: '#FF9A76',
+  // };
+  // const bgMap = {
+  //   whatsapp: '#F0F0F0',
+  //   telegram: '#17212B',
+  //   pink: '#FFE4E1',
+  //   mint: '#E0FFFF',
+  //   lavender: '#E6E6FA',
+  //   peach: '#FFDAB9',
+  // };
 
   return (
     <div
