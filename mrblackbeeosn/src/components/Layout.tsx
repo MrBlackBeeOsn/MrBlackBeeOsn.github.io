@@ -19,9 +19,15 @@ export default function Layout() {
 }
 
 const MainLayout: React.FC = () => {
-  // Nếu bạn không cần sử dụng theme data ở đây, có thể xóa hoàn toàn
+  const { themeConfig } = useTheme();
+
+  // Set CSS variable cho root
+  React.useEffect(() => {
+    document.documentElement.style.setProperty('--theme-bg-color', themeConfig.backgroundColor);
+  }, [themeConfig.backgroundColor]);
+
   return (
-    <div>
+    <div style={{ minHeight: '100vh' }}>
       <PatternBackground />
       <ThemeControls />
 

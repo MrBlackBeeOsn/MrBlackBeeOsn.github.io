@@ -88,8 +88,6 @@ import { Routes, Route } from 'react-router-dom';
 // 3. Test Tailwind
 	const TestTailwind = lazy(() => import('@/components/TestTailwind'));
 
-	const AppContent = lazy(() => import('@/components/AppContent'));
-
 // Xuất khẩu chức năng
 export default function AppRoutes(): React.JSX.Element {
 	return (
@@ -182,8 +180,6 @@ export default function AppRoutes(): React.JSX.Element {
 
 					{/* 3. Test Tailwind */}
 					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />
-
-					<Route path="/app-content" element={<AppContent />} />
 
 			</Route>
 

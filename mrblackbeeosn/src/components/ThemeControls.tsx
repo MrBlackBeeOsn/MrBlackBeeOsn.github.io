@@ -3,15 +3,15 @@ import React from 'react';
 import { useTheme } from '@/components/ThemeContext';
 
 const ThemeControls: React.FC = () => {
-  const { currentTheme, changeTheme, patternColor } = useTheme();
+  const { currentTheme, changeTheme} = useTheme();
 
   const themeConfigs = {
-    whatsapp: { color: '#D9D9D9', name: 'WhatsApp' },
-    telegram: { color: '#1E2A38', name: 'Telegram' },
-    pink: { color: '#FFB6C1', name: 'Pink' },
-    mint: { color: '#20B2AA', name: 'Mint' },
-    lavender: { color: '#9C27B0', name: 'Lavender' },
-    peach: { color: '#FF9A76', name: 'Peach' }
+    whatsapp: { color: '#D9D9D9', backgroundColor: '#f0f2f5', name: 'WhatsApp' },
+    telegram: { color: '#1E2A38', backgroundColor: '#18222d', name: 'Telegram' },
+    pink: { color: '#FFB6C1', backgroundColor: '#fff5f7', name: 'Pink' },
+    mint: { color: '#20B2AA', backgroundColor: '#f0fffd', name: 'Mint' },
+    lavender: { color: '#9C27B0', backgroundColor: '#faf5ff', name: 'Lavender' },
+    peach: { color: '#FF9A76', backgroundColor: '#fff5f0', name: 'Peach' }
   };
 
   return (

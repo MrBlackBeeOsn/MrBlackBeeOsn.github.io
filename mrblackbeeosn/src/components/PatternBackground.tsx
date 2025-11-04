@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from '@/components/ThemeContext';
 
 const PatternBackground: React.FC = () => {
-  const { patternColor } = useTheme(); // Đổi từ themeConfig thành patternColor
+  const { themeConfig } = useTheme();
 
   const generateSVGPattern = (color: string): string => {
     const svgContent = `
@@ -215,15 +215,16 @@ const PatternBackground: React.FC = () => {
     position: 'fixed',
     top: 0,
     left: 0,
-    width: '100vw',
-    height: '100vh',
-    backgroundImage: generateSVGPattern(patternColor), // Sử dụng patternColor
+    width: '100%',
+    height: '100%',
+    backgroundImage: generateSVGPattern(themeConfig.color),
+    backgroundColor: themeConfig.backgroundColor,
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'fixed',
     backgroundSize: '200px 200px',
     opacity: 0.15,
-    zIndex: 0,
-    pointerEvents: 'none'
+    zIndex: -1,
+    transition: 'all 0.5s ease-in-out'
   };
 
   return <div style={patternStyle} />;
