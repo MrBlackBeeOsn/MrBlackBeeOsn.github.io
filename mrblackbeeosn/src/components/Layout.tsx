@@ -5,7 +5,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Outlet } from 'react-router-dom';
 import BackToTop from '@/components/BackToTop';
-import ViewCounter from '@/components/ViewCounter';
 import { ThemeProvider, useTheme } from '@/components/ThemeContext';
 import PatternBackground from '@/components/PatternBackground';
 import ThemeControls from '@/components/ThemeControls';
@@ -26,19 +25,18 @@ const MainLayout: React.FC = () => {
     document.documentElement.style.setProperty('--theme-bg-color', themeConfig.backgroundColor);
   }, [themeConfig.backgroundColor]);
 
-  return (
-    <div style={{ minHeight: '100vh' }}>
-      <PatternBackground />
-      <ThemeControls />
+  return (<>
+    <PatternBackground />
+    <ThemeControls />
 
-      <div>
-        <Header />
-        <main>
-          <Outlet />
-        </main>
-        <BackToTop />
-        <Footer />
-      </div>
+    <div className="layout">
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <BackToTop />
+      <Footer />
     </div>
-  );
-};
+    
+  </>);
+}
