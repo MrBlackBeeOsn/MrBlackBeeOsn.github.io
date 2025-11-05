@@ -1,5 +1,5 @@
 // components/ThemeControls.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import { useTheme } from '@/components/ThemeContext';
 import type { Theme } from '@/components/ThemeContext';
 
@@ -11,49 +11,56 @@ const ThemeControls: React.FC = () => {
     setBackgroundColor,
   } = useTheme();
 
-  const themes: Theme[] = ['purple', 'timhoaca', 'raisinblack', 'lavender', 'secondary', 'tertiary'];
-  const names = {
-    purple: 'Purple',
-    timhoaca: 'Tím hoa cà',
-    raisinblack: 'Raisin Black',
-    lavender: 'Lavender',
-    secondary: 'Secondary',
-    tertiary: 'Tertiary',
-  };
+  const [isVisible, setIsVisible] = useState(true);
 
-  const patternMap = {
-    purple: 'rgba(121, 113, 234, 1)',
-    timhoaca: 'rgba(135, 86, 169, 1)',
-    raisinblack: 'rgba(33, 33, 33, 1)',
-    lavender: 'rgba(156, 39, 176, 1)',
-    secondary: 'rgba(168, 164, 242, 1)',
-    tertiary: 'rgba(214, 211, 249, 1)',
-  };
-  const bgMap = {
-    purple: 'rgba(121, 113, 234, 0.1)',
-    timhoaca: 'rgba(135, 86, 169, 0.1)',
-    raisinblack: 'rgba(33, 33, 33, 0.1)',
-    lavender: 'rgba(156, 39, 176, 0.1)',
-    secondary: 'rgba(168, 164, 242, 0.1)',
-    tertiary: 'rgba(214, 211, 249, 0.1)',
-  };
+  const themes: Theme[] = ['indigo', 'purple', 'violet', 'secondary', 'tertiary', 'raisinblack'];
+    const names = {
+      indigo: 'Indigo',
+      purple: 'Royal Purple',
+      violet: 'Violet Dark',
+      secondary: 'Secondary',
+      tertiary: 'Tertiary',
+      raisinblack: 'Raisin Black',
+    };
+  
+    const patternMap = {
+      indigo: 'rgba(121, 113, 234, 1)',
+      purple: 'rgba(135, 86, 169, 1)',
+      violet: 'rgba(42, 21, 48, 0.1)',
+      secondary: 'rgba(168, 164, 242, 1)',
+      tertiary: 'rgba(214, 211, 249, 1)',
+      raisinblack: 'rgba(33, 33, 33, 1)',
+    };
+    const bgMap = {
+      indigo: 'rgba(121, 113, 234, 0.1)',
+      purple: 'rgba(135, 86, 169, 0.1)',
+      violet: 'rgba(42, 21, 48, 1)',
+      secondary: 'rgba(168, 164, 242, 0.1)',
+      tertiary: 'rgba(214, 211, 249, 0.1)',
+      raisinblack: 'rgba(33, 33, 33, 1)',
+    };
+  
+    // const patternMap = {
+    //   whatsapp: '#D9D9D9',
+    //   telegram: '#1E2A38',
+    //   pink: '#FFB6C1',
+    //   mint: '#20B2AA',
+    //   lavender: '#9C27B0',
+    //   peach: '#FF9A76',
+    // };
+    // const bgMap = {
+    //   whatsapp: '#F0F0F0',
+    //   telegram: '#17212B',
+    //   pink: '#FFE4E1',
+    //   mint: '#E0FFFF',
+    //   lavender: '#E6E6FA',
+    //   peach: '#FFDAB9',
+    // };
 
-  // const patternMap = {
-  //   whatsapp: '#D9D9D9',
-  //   telegram: '#1E2A38',
-  //   pink: '#FFB6C1',
-  //   mint: '#20B2AA',
-  //   lavender: '#9C27B0',
-  //   peach: '#FF9A76',
-  // };
-  // const bgMap = {
-  //   whatsapp: '#F0F0F0',
-  //   telegram: '#17212B',
-  //   pink: '#FFE4E1',
-  //   mint: '#E0FFFF',
-  //   lavender: '#E6E6FA',
-  //   peach: '#FFDAB9',
-  // };
+  // Nếu không hiển thị, trả về null
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <div
@@ -72,6 +79,37 @@ const ThemeControls: React.FC = () => {
         color: 'white',
       }}
     >
+      {/* Nút đóng */}
+      <button
+        onClick={() => setIsVisible(false)}
+        style={{
+          position: 'absolute',
+          top: 8,
+          right: 8,
+          background: 'rgba(255,255,255,0.1)',
+          border: 'none',
+          borderRadius: '50%',
+          width: 24,
+          height: 24,
+          color: 'white',
+          cursor: 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '16px',
+          fontWeight: 'bold',
+          transition: 'all 0.2s',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = 'rgba(255,255,255,0.2)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = 'rgba(255,255,255,0.1)';
+        }}
+      >
+        ×
+      </button>
+
       {/* PATTERN ROW */}
       <div style={{ marginBottom: 20 }}>
         <h3 style={{ margin: '0 0 10px', fontSize: '0.95rem', textAlign: 'center' }}>
@@ -82,7 +120,7 @@ const ThemeControls: React.FC = () => {
             <button
               key={`p-${t}`}
               onClick={() => {
-                console.log('SET PATTERN:', patternMap[t]);   // <-- LOG
+                console.log('SET PATTERN:', patternMap[t]);
                 setPatternColor(patternMap[t]);
               }}
               style={{
@@ -117,7 +155,7 @@ const ThemeControls: React.FC = () => {
             <button
               key={`b-${t}`}
               onClick={() => {
-                console.log('SET BACKGROUND:', bgMap[t]);     // <-- LOG
+                console.log('SET BACKGROUND:', bgMap[t]);
                 setBackgroundColor(bgMap[t]);
               }}
               style={{
