@@ -9,8 +9,6 @@ const ThemeControls: React.FC = () => {
     setPatternColor,
     backgroundColor,
     setBackgroundColor,
-    backgroundMainColor,
-    setBackgroundMainColor,
   } = useTheme();
 
   const [isVisible, setIsVisible] = useState(true);
@@ -40,14 +38,6 @@ const ThemeControls: React.FC = () => {
       secondary: 'rgba(168, 164, 242, 0.1)',
       tertiary: 'rgba(214, 211, 249, 0.1)',
       raisinblack: 'rgba(33, 33, 33, 1)',
-    };
-    const bgMainMap = {
-      indigo: 'rgba(121, 113, 234, 0.1)',
-      purple: 'rgba(135, 86, 169, 0.1)',
-      violet: 'rgba(42, 21, 48, 0.1)',
-      secondary: 'rgba(168, 164, 242, 0.1)',
-      tertiary: 'rgba(214, 211, 249, 0.1)',
-      raisinblack: 'rgba(33, 33, 33, 0.1)',
     };
   
     // const patternMap = {
@@ -156,7 +146,7 @@ const ThemeControls: React.FC = () => {
       </div>
 
       {/* BACKGROUND ROW */}
-      <div style={{ marginBottom: 20 }}>
+      <div>
         <h3 style={{ margin: '0 0 10px', fontSize: '0.95rem', textAlign: 'center' }}>
           Background
         </h3>
@@ -189,42 +179,6 @@ const ThemeControls: React.FC = () => {
           ))}
         </div>
       </div>
-
-      {/* BACKGROUND MAIN ROW */}
-      <div style={{ marginBottom: 20 }}>
-        <h3 style={{ margin: '0 0 10px', fontSize: '0.95rem', textAlign: 'center' }}>
-          Main
-        </h3>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 8 }}>
-          {themes.map(t => (
-            <button
-              key={`b-${t}`}
-              onClick={() => {
-                console.log('SET BACKGROUNDMAIN:', bgMainMap[t]);
-                setBackgroundMainColor(bgMainMap[t]);
-              }}
-              style={{
-                width: 50,
-                height: 50,
-                backgroundColor: bgMainMap[t],
-                border: backgroundMainColor === bgMainMap[t] ? '3px solid white' : '2px solid rgba(255,255,255,0.3)',
-                borderRadius: 10,
-                cursor: 'pointer',
-                fontSize: '0.65rem',
-                fontWeight: 'bold',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                transition: 'all .2s',
-              }}
-              title={names[t]}
-            >
-              {names[t].slice(0, 3)}
-            </button>
-          ))}
-        </div>
-      </div>
-
     </div>
   );
 };
