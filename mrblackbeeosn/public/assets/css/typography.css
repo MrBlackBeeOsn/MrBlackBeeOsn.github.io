@@ -34,6 +34,11 @@
     --border-color: rgba(168, 164, 242, 0.3); /* #A8A4F2 - Màu viền - Màu tím nhạt hơn */
     --logo-text-color: rgba(33, 33, 33, 0.7); /* #212121 - Màu nền logo text */
     --logo-text-color: rgba(33, 33, 33, 0.7); /* #212121 - Màu nền logo text */
+
+    --primary-color-header: rgba(135, 86, 169, 0.6);
+    --accent-color-header:	rgba(121, 113, 234, 0.6);
+
+    --background-color-footer: rgba(51, 51, 51, 0.6);
 }
         
 /* Hoặc có thể dùng:
