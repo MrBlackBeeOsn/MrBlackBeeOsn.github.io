@@ -15,7 +15,7 @@ const BackgroundMain: React.FC = () => {
       left: 0,
       width: '100vw',
       height: '100vh',
-      backgroundMainColor,               // <-- màu thực tế
+      backgroundColor: backgroundMainColor, // <-- màu thực tế
       opacity: 1,
       zIndex: -1,
       pointerEvents: 'none' as const,
