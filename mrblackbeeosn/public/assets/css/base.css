@@ -40,8 +40,7 @@ body, html {
     width: 100%;
     overflow-x: hidden;
     /* background: var(--background-color); */
-    background: var(--theme-bg-color);
-    transition: background-color 0.5s ease-in-out;
+    /* transition: background-color 0.5s ease-in-out; */
     font-family: Bellota, sans-serif;
     font-size: 1.8rem; /* 18px; */
 }
@@ -96,6 +95,38 @@ a.speaker-link:hover .fa-volume-high {
   color: var(--accent-color);
 	transform: scale(1.08);
 } */
+
+/* =============================
+   .link
+============================= */
+
+.link-rounded {
+  padding: 4px 4px;          /* khoảng trong: trên/dưới 8px, trái/phải 12px */
+  border-radius: 4px;         /* bo tròn */
+  display: inline-block;      /* để padding và background hoạt động tốt trên <a> */
+  background: var(--accent-color);
+  text-decoration: none;
+  color: white;
+  transition: background 0.15s ease, transform 0.08s ease;
+}
+
+/* trạng thái hover/active/selected */
+.link-rounded:hover {
+  background: var(--tertiary-color);
+}
+
+.link-rounded.selected {
+  background: var(--tertiary-color);
+}
+
+/* nếu muốn hiệu ứng khi bấm */
+.link-rounded:active {
+  transform: translateY(1px);
+}
+
+/* =============================
+   speaker
+============================= */
 
 .speaker-link {
   position: relative;

@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
+import { useState } from "react";
 
 export default function ProgrammingTopic(): React.JSX.Element {
+  const [selected, setSelected] = useState(false);
   return (
 
     <div className="topic-container">
@@ -13,25 +16,105 @@ export default function ProgrammingTopic(): React.JSX.Element {
 			
       <div className="flex-topic">
 
-        <HashLink smooth to="/programming">
+        {/* Programming */}
+        <NavLink to="/programming"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Programming</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/front-end">
+        {/* Front-end */}
+        <NavLink to="/front-end"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Pront-End</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/back-end">
+        {/* Back-end */}
+        <NavLink to="/back-end"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Back-End</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/learning">
+        {/* Learning */}
+        <NavLink to="/learning"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Learning</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/lap-trinh">
+        {/* Lập trình */}
+        <NavLink to="/lap-trinh"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Lập Trình</mark>
-        </HashLink>
+        </NavLink>
 
       </div>
 
