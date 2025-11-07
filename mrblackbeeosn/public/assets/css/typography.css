@@ -27,8 +27,8 @@
     --primary-color-50: rgba(121, 113, 234, 0.5); /* #8756A9 - Màu màu chính - Tím hoa cà */
     --secondary-color: rgba(168, 164, 242, 0.5); /* #A8A4F2 - Màu màu phụ - Màu tím nhạt hơn */
     --tertiary-color: rgba(214, 211, 249, 0.5); /* #D6D3F9 - Màu cấp ba - Màu tím rất nhạt, dùng để bổ sung hoặc nhấn nhẹ */
-    --accent-color:rgba(42, 21, 48, 1); /* #2a1530 - Màu nhấn - Purple, thường dùng cho nút, link */
-    --accent-color-50:rgba(42, 21, 48, 0.5); /* #7971EA - Màu nhấn - Purple, thường dùng cho nút, link */
+    --accent-color:rgba(135, 86, 169, 1); /* #2a1530 - Màu nhấn - Purple, thường dùng cho nút, link */
+    --accent-color-50:rgba(135, 86, 169, 0.5); /* #7971EA - Màu nhấn - Purple, thường dùng cho nút, link */
     --text-color: rgba(0, 0, 0, 1); /* #000 Màu chữ chính */
     --border-color: rgba(168, 164, 242, 0.3); /* #A8A4F2 - Màu viền - Màu tím nhạt hơn */
     --logo-text-color: rgba(33, 33, 33, 0.7); /* #212121 - Màu nền logo text */
