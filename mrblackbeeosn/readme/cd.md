@@ -1,4 +1,4 @@
-PS
+npm install -g npm@11.6.2
 
 cd D:\GitHub\Black\MrBlackBeeOsn.github.io\mrblackbeeosn
 cd D:\GitHub\Blue\MrBlueBeeOsn.github.io\mrbluebeeosn
@@ -44,5 +44,3 @@ npm run db:update-likes
 
 npm run build
 npm run deploy
-
-npm install -g npm@11.6.2
