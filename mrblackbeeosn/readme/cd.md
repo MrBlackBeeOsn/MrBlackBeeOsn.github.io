@@ -44,3 +44,5 @@ npm run db:update-likes
 
 npm run build
 npm run deploy
+
+npm install -g npm@11.6.2
