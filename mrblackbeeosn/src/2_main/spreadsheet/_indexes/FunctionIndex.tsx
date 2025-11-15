@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import SpreadsheetTopic from '@/components/SpreadsheetTopic';
-import SearchComponent from '@/components/SearchComponent';
+import SpreadsheetTopic from '@/components/topic/SpreadsheetTopic';
+import SearchComponent from '@/components/search/SearchComponent';
 
 export default function FunctionIndex(): React.JSX.Element {
   return (<>

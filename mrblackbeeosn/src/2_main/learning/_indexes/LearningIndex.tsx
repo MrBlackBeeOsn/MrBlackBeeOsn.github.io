@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import ProgrammingTopic from '@/components/ProgrammingTopic';
-import SearchComponent from '@/components/SearchComponent';
+import ProgrammingTopic from '@/components/topic/ProgrammingTopic';
+import SearchComponent from '@/components/search/SearchComponent';
 
 export default function ProgrammingIndex(): React.JSX.Element {
   

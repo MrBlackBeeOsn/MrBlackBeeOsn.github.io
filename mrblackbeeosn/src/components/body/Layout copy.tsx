@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import '/public/assets/css/style.css'
 
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '@/components/body/Header';
+import Footer from '@/components/body/Footer';
 import { Outlet } from 'react-router-dom';
-import BackToTop from '@/components/BackToTop';
-import { ThemeProvider, useTheme } from '@/components/ThemeContext';
-import Background from '@/components/Background';
-import BackgroundMain from '@/components/BackgroundMain';
-import Pattern from '@/components/Pattern';
-import ThemeControls from '@/components/ThemeControls';
-import ToggleButton from '@/components/ToggleButton';
+import BackToTop from '@/components/backtotop/BackToTop';
+import { ThemeProvider } from '@/components/color/ThemeContext';
+import Background from '@/components/color/Background';
+import BackgroundMain from '@/components/color/BackgroundMain';
+import Pattern from '@/components/color/Pattern';
+import ThemeControls from '@/components/color/ThemeControls';
+import ToggleButton from '@/components/color/ToggleButton';
 
 export default function Layout() {
   return (
@@ -22,11 +22,11 @@ export default function Layout() {
 
 const MainLayout: React.FC = () => {
   const [showControls, setShowControls] = useState(false); // Chỉ control ThemeControls
-  const { backgroundMainColor } = useTheme();
 
   return (
     <>
       {/* Pattern LUÔN HIỆN - không phụ thuộc vào showControls */}
+      <BackgroundMain />
       <Background />
       <Pattern />
 
@@ -45,7 +45,7 @@ const MainLayout: React.FC = () => {
           showControls={showControls}
           onToggleControls={() => setShowControls(!showControls)}
         />
-      <main style={{ backgroundColor: backgroundMainColor }}>
+      <main>
         <Outlet />
       </main>
       <BackToTop />

@@ -6,7 +6,7 @@ import React from 'react';
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-	const Layout = lazy(() => import('@/components/Layout'));
+	const Layout = lazy(() => import('@/components/body/Layout'));
 	import Posts from '@/data/Posts';
 
 // 1_header import các chức năng và đường dẫn
@@ -86,7 +86,7 @@ import { Routes, Route } from 'react-router-dom';
 	const DATE = lazy(() => import('@/2_main/spreadsheet/functions/DATE'));
 
 // 3. Test Tailwind
-	const TestTailwind = lazy(() => import('@/components/TestTailwind'));
+	const TestTailwind = lazy(() => import('@/components/test/TestTailwind'));
 
 // Xuất khẩu chức năng
 export default function AppRoutes(): React.JSX.Element {
