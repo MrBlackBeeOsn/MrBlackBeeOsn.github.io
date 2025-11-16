@@ -3,15 +3,14 @@
 
 // components/VideoSearch.tsx
 import React, { useState } from 'react';
-import SearchIcon from '@/components/icon/SearchIcon';
 
 // Simple SVG Icons
-// const SearchIcon = () => (
-//   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-//     <circle cx="11" cy="11" r="8" />
-//     <path d="m21 21-4.35-4.35" />
-//   </svg>
-// );
+const SearchIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <circle cx="11" cy="11" r="8" />
+    <path d="m21 21-4.35-4.35" />
+  </svg>
+);
 
 const ClearIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -69,7 +68,7 @@ const VideoSearch: React.FC = () => {
     setTimestamps({});
     
     try {
-      // Search chính xác hơn với dấu ngoặc kép
+      // Tìm kiếm chính xác hơn với dấu ngoặc kép
       const response = await fetch(
         `https://www.googleapis.com/youtube/v3/search?` +
         `part=snippet&type=video&videoCaption=closedCaption&` +
@@ -233,14 +232,12 @@ const VideoSearch: React.FC = () => {
   };
 
   return (
-    <div>
-      <div>
-    {/* <div className="video-search-container">
-      <div className="container"> */}
+    <div className="video-search-container">
+      <div className="container">
         {/* Header */}
-        <header>
+        <header className="header">
           <h1 className="margin-y-50 text-center">YouTube Video Search</h1>
-          <p className="message-button-below">Find videos and browse the table of contents.</p>
+          <p>Tìm kiếm video và View the table of contents</p>
         </header>
 
         {/* Search Bar */}
@@ -250,7 +247,7 @@ const VideoSearch: React.FC = () => {
               onClick={handleSearch}
               disabled={loading || !searchWord.trim()}
               className="search-button"
-              aria-label="Search"
+              aria-label="Tìm kiếm"
             >
               {loading ? (
                 <div className="spinner"></div>
@@ -264,7 +261,7 @@ const VideoSearch: React.FC = () => {
               value={searchWord}
               onChange={(e) => setSearchWord(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder="Type words"
+              placeholder="Nhập từ tiếng Anh... (ví dụ: however, although, get along)"
               className="search-input"
             />
             
@@ -377,7 +374,7 @@ const VideoSearch: React.FC = () => {
         )}
 
         {/* Empty State */}
-        {/* {videos.length === 0 && !loading && !error && (
+        {videos.length === 0 && !loading && !error && (
           <div className="empty-state">
             <SearchIcon />
             <p className="empty-title">
@@ -387,7 +384,7 @@ const VideoSearch: React.FC = () => {
               {searchWord ? 'Thử từ khóa khác' : 'Nhập từ vựng tiếng Anh để tìm video'}
             </p>
           </div>
-        )} */}
+        )}
       </div>
     </div>
   );
