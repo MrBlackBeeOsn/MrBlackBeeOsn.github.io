@@ -17,7 +17,9 @@ export default function SearchIndex(): React.JSX.Element {
 
 					{/* <SearchComponent /> */}
 
-					<VideoSearch />
+					<SearchComponent />
+        
+        	<VideoSearch />
 				
 				</div>
 
