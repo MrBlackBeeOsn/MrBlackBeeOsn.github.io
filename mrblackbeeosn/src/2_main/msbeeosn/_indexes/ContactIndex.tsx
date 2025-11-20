@@ -13,130 +13,230 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
 import { faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
+import { faAt } from '@fortawesome/free-solid-svg-icons'
 
 export default function ContactIndex(): React.JSX.Element {
 
-  const postId = "ContactIndex";
+	const postId = "ContactIndex";
 
-  return (<>
-     
-  <main className="image image4">
+	return (<>
+		 
+	<main className="image image4">
 
-    <article>
-    
-      {/* =============================
-          Mr.Bee Osn Topic
-      ============================= */}
-      
-        <MrBeeOsnTopic />
+		<article>
+		
+			{/* =============================
+					Mr.Bee Osn Topic
+			============================= */}
+			
+				<MrBeeOsnTopic />
 
-      {/* =============================
-          Portfolio
-      ============================= */}
+			{/* =============================
+					Portfolio
+			============================= */}
 
-      <h1 className="margin-y-50 text-center">Contact</h1>
-      
-      <div className="container">
+			<h1 className="margin-y-50 text-center">Contact</h1>
+			
+			<div className="container">
 
-        <header className="portfolio-header title">
+				<header className="portfolio-header title">
 
-          <h1 className="name">HIEU DEV</h1>
-          <div className="title">Programmer | Web Development | API Integration | Software Engineering</div>
-          <div className="location"><FontAwesomeIcon icon={faLocationDot} /> Hoc Mon District, HCMC</div>
-          
-          <div className="contact-info">
+					<h1 className="name">HIEU DEV</h1>
+					<div className="title">Programmer | Web Development | API Integration | Software Engineering</div>
+					<div className="location"><FontAwesomeIcon icon={faLocationDot} /> Hoc Mon District, HCMC</div>
+					
+					<div className="contact-info">
 
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faInstagram} />
-              <Link to="https://www.instagram.com/mr.blackbee.ongsiengnang/" className="email-link" target="_blank">
-                Instagram
-              </Link>
-            </div>
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faAt} />
+							<Link to="mailto:Hieu.Dev202@outlook.com" className="email-link">
+								Outlook
+							</Link>
+						</div>
 
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faFacebook} /> 
-              <Link to="https://www.facebook.com/aProgrammingBee" className="email-link" target="_blank">
-                Facebook
-              </Link>
-            </div>
-
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faGlobe} />
-              <Link to="/" className="email-link">
-                Programming Bee
-              </Link>
-              {/* <FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faBookOpenReader} /> */}
-            </div>
-
-          </div>
-
-          <div className="contact-info">
-
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faLinkedin} />  
-              <Link to="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
-                LinkedIn
-              </Link>
-            </div>
-
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faGithub} />
-              <Link to="https://github.com/MrBlackBeeOsn" className="email-link" target="_blank">
-                GitHub
-              </Link>
-            </div>
-
-            <div className="contact-item">
+						<div className="contact-item">
               <FontAwesomeIcon icon={faWhatsapp} />
-              <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link" target="_blank">
+              <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
                 WA Business
               </Link>
             </div>
 
-						<div className="contact-item">
+            <div className="contact-item">
               <FontAwesomeIcon icon={faTelegram} />
               <Link to="https://t.me/MrBeeOsn" className="email-link" target="_blank">
                 Telegram
               </Link>
             </div>
 
-          </div>
+					</div>
 
-        </header>
+					<div className="contact-info">
+
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faInstagram} />
+							<Link to="https://www.instagram.com/mr.blackbee.ongsiengnang/" className="email-link" target="_blank">
+								Instagram
+							</Link>
+						</div>
+
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faFacebook} /> 
+							<Link to="https://www.facebook.com/aProgrammingBee" className="email-link" target="_blank">
+								Facebook
+							</Link>
+						</div>
+
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faGithub} />
+							<Link to="https://github.com/MrBlackBeeOsn" className="email-link" target="_blank">
+								GitHub
+							</Link>
+						</div>
+
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faLinkedin} />  
+							<Link to="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
+								LinkedIn
+							</Link>
+						</div>
+
+					</div>
+
+					<div className="contact-info">
+
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faGlobe} />
+							<Link to="/" className="email-link">
+								Programming Bee
+							</Link>
+							{/* <FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faBookOpenReader} /> */}
+						</div>
+
+						<div className="contact-item">
+							<FontAwesomeIcon icon={faYoutube} />
+							<Link to="https://www.youtube.com/@Mr.GreenBee.Ongsiengnang" className="email-link">
+								YouTube
+							</Link>
+						</div>
+
+					</div>
+
+				</header>
+
+				{/* =============================
+						Programming Bee
+				============================= */}
+	
+				<div className="container">
+					
+					<div className="group-container">
+	
+						<h3 className="margin-y-50 text-center">Cộng đồng chính thức của Programming Bee</h3>
+						{/* <p className="margin-bottom-50 text-center">(Discord)</p> */}
+	
+						<div className="group-title">
+							<h2>Group chính</h2>
+						</div>
+						
+						<div className="group-card">
+							<h3>🐝 
+								<Link to="https://discord.gg/KS8KyYMa8S" target="_blank">
+									Programming Bee📓 — Hub (thông báo chính)
+								</Link>
+							</h3>
+							<p>Thông báo Lập trình chính thức, quy định!</p>
+						</div>
+						
+						<div className="subgroups">
+							<div className="group-title">
+									<h2>Group con</h2>
+							</div>
+							
+							<div className="subgroup-card">
+								<div className="subgroup-icon">💬</div>
+								<div className="subgroup-content">
+									<h4>
+										<Link to="https://discord.gg/66ad6e6gSs" target="_blank">
+											Internal Chat — Kênh trao đổi nhanh!
+										</Link>
+									</h4>
+									<p>Kênh trao đổi nhanh chóng và tiện lợi!</p>
+								</div>
+							</div>
+							
+							<div className="subgroup-card">
+								<div className="subgroup-icon">🌾</div>
+								<div className="subgroup-content">
+									<h4>
+										<Link to="https://discord.gg/Hv6SrBd8gv" target="_blank">
+											VN — Lập Trình
+										</Link>
+									</h4>
+									<p>Thảo luận Lập trình, hướng dẫn nội bộ!</p>
+								</div>
+							</div>
+							
+							<div className="subgroup-card">
+								<div className="subgroup-icon">🌾</div>
+								<div className="subgroup-content">
+									<h4>
+										<Link to="https://discord.gg/r4DyMaBRUQ" target="_blank">
+											EN — Programming
+										</Link>
+									</h4>
+									<p>Thảo luận Programming, hướng dẫn quốc tế!</p>
+								</div>
+							</div>
+							
+							<div className="subgroup-card">
+								<div className="subgroup-icon">📁</div>
+								<div className="subgroup-content">
+									<h4>
+										<Link to="https://discord.gg/GCM38dvFFT" target="_blank">
+											Files — Nơi lưu tài liệu
+										</Link>
+									</h4>
+									<p>Chia sẻ tài liệu!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<div className="bee-wrapper1">
-          <img src="/assets/images/bee1.png" alt="Mr. Bee Osn"/>
-      	</div>
+					<img src="/assets/images/bee1.png" alt="Mr. Bee Osn"/>
+				</div>
 
-    	</div>
+			</div>
 
-      <div className="viewcounter">
-      
-        <div className="post-date no-margin">
-          <span>October 27, 2025 · by 🐝Mr. Bee Osn ·</span>
-        </div>
+			<div className="viewcounter">
+			
+				<div className="post-date no-margin">
+					<span>October 27, 2025 · by 🐝Mr. Bee Osn ·</span>
+				</div>
 
-        <div className="eye-icon no-margin">
-          <EyeIcon />
-        </div>
+				<div className="eye-icon no-margin">
+					<EyeIcon />
+				</div>
 
-        <div className="post-date no-margin">
-          <ViewCounter postId={postId} />
-        </div>
+				<div className="post-date no-margin">
+					<ViewCounter postId={postId} />
+				</div>
 
-        <div className="like-button no-margin">
-          <LikeButton postId={postId} />
-        </div>
+				<div className="like-button no-margin">
+					<LikeButton postId={postId} />
+				</div>
 
-      </div>
+			</div>
 
-    </article>
-    
-  </main>
+		</article>
+		
+	</main>
 
-  </>);
+	</>);
 }
