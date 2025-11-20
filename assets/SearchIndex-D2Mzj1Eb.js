@@ -1,1 +1,0 @@
-import{j as e}from"./index-BaKdFX9U.js";import{S as a,V as r}from"./VideoSearch-CzSVD_7w.js";import"./SearchIcon-Ctn1ommi.js";function n(){return e.jsx(e.Fragment,{children:e.jsx("main",{className:"image image3",children:e.jsx("article",{children:e.jsxs("div",{className:"table-search",children:[e.jsx(a,{}),e.jsx(r,{})]})})})})}export{n as default};
