@@ -1,0 +1,3 @@
+https://console.cloud.google.com/apis/credentials
+API key 1: REACT_APP_YOUTUBE_API_KEY=AIzaSyAOmUMZVxLkKBRqJxHJi89wPoTV6yIcqBE
+API key 2: REACT_APP_YOUTUBE_API_KEY=AIzaSyCK0bTii1sblXN9cuc3nft2XMYYEZ4akk8

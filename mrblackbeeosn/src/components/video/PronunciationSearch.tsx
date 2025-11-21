@@ -1,378 +1,417 @@
-// components/VideoSearch.tsx / BY Grok
-// YOUTUBE_API_KEY = 'AIzaSyAOmUMZVxLkKBRqJxHJi89wPoTV6yIcqBE';
+import React, { useState, useRef } from 'react';
+import { Search, ChevronLeft, ChevronRight, Pause, Play, AlertCircle } from 'lucide-react';
 
-import React, { useState, useRef, ChangeEvent, FormEvent, useEffect, MouseEvent } from 'react';
-import { Video } from './types';
-import { YouTubeAPI } from './youtubeApi';
+interface VideoResult {
+  id: string;
+  title: string;
+  timestamp: number;
+  duration: number;
+  thumbnail: string;
+  channelTitle: string;
+}
 
-const YouglishClone: React.FC = () => {
-  const [searchTerm, setSearchTerm] = useState<string>('');
-  const [results, setResults] = useState<Video[]>([]);
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const [isPlaying, setIsPlaying] = useState<boolean>(false);
-  const [searched, setSearched] = useState<boolean>(false);
-  const [playbackRate, setPlaybackRate] = useState<number>(1);
-  const [subtitlesEnabled, setSubtitlesEnabled] = useState<boolean>(false);
-  const [loading, setLoading] = useState<boolean>(false);
-  const [error, setError] = useState<string>('');
-  const [apiReady, setApiReady] = useState<boolean>(false);
-  const [apiChecked, setApiChecked] = useState<boolean>(false);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
+interface CaptionItem {
+  text: string;
+  start: number;
+  duration: number;
+}
 
-  // Kiểm tra API Key khi component mount
-  useEffect(() => {
-    const checkAPI = async () => {
-      try {
-        setLoading(true);
-        const isApiValid = await YouTubeAPI.testAPIKey();
-        setApiReady(isApiValid);
-        if (!isApiValid) {
-          setError('YouTube API chưa được cấu hình đúng. Vui lòng làm theo hướng dẫn bên dưới.');
-        }
-      } catch (err) {
-        console.error('API check failed:', err);
-        setApiReady(false);
-        setError('Không thể kết nối đến YouTube API. Vui lòng kiểm tra kết nối mạng.');
-      } finally {
-        setLoading(false);
-        setApiChecked(true);
+const styles = {
+  container: "min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6",
+  maxWidth: "max-w-5xl mx-auto",
+  header: "text-center mb-8",
+  title: "text-4xl font-bold text-indigo-900 mb-2",
+  subtitle: "text-gray-600",
+  searchSection: "mb-8",
+  searchContainer: "flex gap-2 max-w-2xl mx-auto",
+  inputWrapper: "flex-1 relative",
+  input: "w-full px-4 py-3 pr-12 rounded-lg border-2 border-indigo-200 focus:border-indigo-500 focus:outline-none text-lg",
+  searchIcon: "absolute right-4 top-1/2 -translate-y-1/2 text-gray-400",
+  searchButton: "px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors disabled:bg-gray-400 font-semibold",
+  apiKeySection: "mb-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg",
+  apiKeyLabel: "block text-sm font-semibold text-gray-700 mb-2",
+  apiKeyInput: "w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500",
+  apiKeyNote: "text-xs text-gray-600 mt-2",
+  resultCard: "bg-white rounded-2xl shadow-xl overflow-hidden",
+  videoWrapper: "relative bg-black aspect-video",
+  videoIframe: "w-full h-full",
+  controlsSection: "p-6",
+  videoTitle: "text-xl font-semibold text-gray-800 mb-2",
+  timestamp: "text-gray-600",
+  timestampHighlight: "font-semibold text-indigo-600",
+  navControls: "flex items-center justify-between",
+  buttonGroup: "flex items-center gap-4",
+  navButton: "p-3 rounded-full bg-indigo-100 hover:bg-indigo-200 disabled:bg-gray-100 disabled:text-gray-400 transition-colors",
+  playButton: "p-4 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white transition-colors",
+  counter: "text-gray-600 font-semibold",
+  progressSection: "mt-4",
+  progressBar: "w-full bg-gray-200 rounded-full h-2",
+  progressFill: "bg-indigo-600 h-2 rounded-full transition-all",
+  resultsList: "border-t border-gray-200 p-6",
+  resultsTitle: "text-lg font-semibold mb-4 text-gray-800",
+  resultsScroll: "space-y-2 max-h-64 overflow-y-auto",
+  resultItem: "w-full text-left p-3 rounded-lg transition-colors",
+  resultItemActive: "bg-indigo-100 border-2 border-indigo-500",
+  resultItemInactive: "bg-gray-50 hover:bg-gray-100 border-2 border-transparent",
+  resultItemTitle: "font-medium text-gray-800",
+  resultItemMeta: "text-sm text-gray-600 mt-1",
+  emptyState: "text-center py-12 bg-white rounded-2xl shadow-lg",
+  emptyIcon: "mx-auto mb-4 text-gray-400",
+  emptyTitle: "text-xl font-semibold text-gray-700 mb-2",
+  emptyText: "text-gray-500",
+  errorCard: "bg-red-50 border border-red-200 rounded-lg p-4 mb-6",
+  errorTitle: "flex items-center gap-2 text-red-800 font-semibold mb-2",
+  errorText: "text-red-700 text-sm"
+};
+
+const YouGlishClone = () => {
+  const [apiKey, setApiKey] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [results, setResults] = useState<VideoResult[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+  const videoRef = useRef<HTMLIFrameElement>(null);
+
+  // Hàm lấy captions từ video
+  const fetchCaptions = async (videoId: string): Promise<CaptionItem[]> => {
+    try {
+      // YouTube API không trực tiếp cung cấp captions với timestamp
+      // Cần sử dụng thư viện bên thứ 3 hoặc YouTube Transcript API
+      const response = await fetch(
+        `https://www.googleapis.com/youtube/v3/captions?videoId=${videoId}&part=snippet&key=${apiKey}`
+      );
+      
+      if (!response.ok) throw new Error('Không thể lấy captions');
+      
+      const data = await response.json();
+      
+      // Lưu ý: YouTube API không cung cấp nội dung caption trực tiếp
+      // Bạn cần sử dụng youtube-transcript hoặc API khác
+      // Đây là placeholder cho demo
+      return [];
+    } catch (err) {
+      console.error('Lỗi khi lấy captions:', err);
+      return [];
+    }
+  };
+
+  // Tìm timestamp của từ khóa trong captions
+  const findKeywordTimestamp = (captions: CaptionItem[], keyword: string): number => {
+    const lowerKeyword = keyword.toLowerCase();
+    for (const caption of captions) {
+      if (caption.text.toLowerCase().includes(lowerKeyword)) {
+        return Math.floor(caption.start);
       }
-    };
+    }
+    return 0;
+  };
 
-    checkAPI();
-  }, []);
+  const searchYouTube = async () => {
+    if (!apiKey.trim()) {
+      setError('Vui lòng nhập YouTube API Key');
+      return;
+    }
 
-  // Tìm kiếm video từ YouTube API
-  const handleSearch = async (e: FormEvent) => {
-    e.preventDefault();
     if (!searchTerm.trim()) {
       setError('Vui lòng nhập từ khóa tìm kiếm');
       return;
     }
 
-    if (!apiReady) {
-      setError('YouTube API chưa sẵn sàng. Vui lòng làm theo hướng dẫn bên dưới để cấu hình API Key.');
-      return;
-    }
-
-    setLoading(true);
+    setIsLoading(true);
     setError('');
-    setSearched(false);
-    
+
     try {
-      console.log('Starting search for:', searchTerm);
-      const foundResults = await YouTubeAPI.searchVideos(searchTerm);
-      
-      if (foundResults.length === 0) {
-        setError('Không tìm thấy video nào phù hợp với từ khóa của bạn. Vui lòng thử từ khóa khác.');
-        setSearched(false);
-      } else {
-        setResults(foundResults);
-        setCurrentIndex(0);
-        setSearched(true);
-        setIsPlaying(true);
-        setError('');
+      // Tìm kiếm video với caption
+      const searchResponse = await fetch(
+        `https://www.googleapis.com/youtube/v3/search?` +
+        `part=snippet&q=${encodeURIComponent(searchTerm)}&` +
+        `type=video&videoCaption=closedCaption&maxResults=10&key=${apiKey}`
+      );
+
+      if (!searchResponse.ok) {
+        const errorData = await searchResponse.json();
+        throw new Error(errorData.error?.message || 'Lỗi khi tìm kiếm video');
       }
+
+      const searchData = await searchResponse.json();
+
+      if (!searchData.items || searchData.items.length === 0) {
+        setError('Không tìm thấy video nào với từ khóa này');
+        setResults([]);
+        setIsLoading(false);
+        return;
+      }
+
+      // Lấy chi tiết video
+      const videoIds = searchData.items.map((item: any) => item.id.videoId).join(',');
+      const detailsResponse = await fetch(
+        `https://www.googleapis.com/youtube/v3/videos?` +
+        `part=contentDetails,snippet&id=${videoIds}&key=${apiKey}`
+      );
+
+      if (!detailsResponse.ok) {
+        throw new Error('Lỗi khi lấy thông tin video');
+      }
+
+      const detailsData = await detailsResponse.json();
+
+      // Xử lý kết quả
+      const processedResults: VideoResult[] = await Promise.all(
+        detailsData.items.map(async (item: any) => {
+          // Parse duration từ ISO 8601
+          const duration = parseDuration(item.contentDetails.duration);
+          
+          // Lấy captions và tìm timestamp (simplified version)
+          // Trong thực tế cần dùng thư viện như youtube-transcript
+          const captions = await fetchCaptions(item.id);
+          const timestamp = findKeywordTimestamp(captions, searchTerm);
+
+          return {
+            id: item.id,
+            title: item.snippet.title,
+            timestamp: timestamp,
+            duration: duration,
+            thumbnail: item.snippet.thumbnails.medium.url,
+            channelTitle: item.snippet.channelTitle
+          };
+        })
+      );
+
+      setResults(processedResults);
+      setCurrentIndex(0);
+      setIsPlaying(true);
+      setIsLoading(false);
     } catch (err: any) {
-      console.error('Lỗi khi tìm kiếm video:', err);
-      
-      let errorMessage = 'Có lỗi xảy ra khi tìm kiếm video. ';
-      
-      if (err.message.includes('API Key chưa được cấu hình')) {
-        errorMessage = err.message;
-      } else if (err.message.includes('API Key không hợp lệ')) {
-        errorMessage = 'API Key không hợp lệ. Vui lòng kiểm tra lại API Key.';
-      } else if (err.message.includes('hạn mức')) {
-        errorMessage = 'Đã vượt quá hạn mức API. Vui lòng thử lại sau.';
-      } else if (err.message.includes('mạng')) {
-        errorMessage = 'Lỗi kết nối mạng. Vui lòng kiểm tra kết nối internet.';
-      } else {
-        errorMessage += err.message || 'Vui lòng thử lại.';
-      }
-      
-      setError(errorMessage);
-      setSearched(false);
-    } finally {
-      setLoading(false);
+      setError(err.message || 'Có lỗi xảy ra khi tìm kiếm');
+      setResults([]);
+      setIsLoading(false);
     }
   };
 
-  // Chuyển video trước
-  const handlePrevious = (e: MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
+  // Parse ISO 8601 duration (PT1H2M10S -> seconds)
+  const parseDuration = (duration: string): number => {
+    const match = duration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
+    if (!match) return 0;
+    
+    const hours = parseInt(match[1]) || 0;
+    const minutes = parseInt(match[2]) || 0;
+    const seconds = parseInt(match[3]) || 0;
+    
+    return hours * 3600 + minutes * 60 + seconds;
+  };
+
+  const handleSearch = (e?: React.MouseEvent | React.KeyboardEvent) => {
+    if (e) e.preventDefault();
+    searchYouTube();
+  };
+
+  const handlePrevious = () => {
     if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
       setIsPlaying(true);
     }
   };
 
-  // Chuyển video sau
-  const handleNext = (e: MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
+  const handleNext = () => {
     if (currentIndex < results.length - 1) {
       setCurrentIndex(currentIndex + 1);
       setIsPlaying(true);
     }
   };
 
-  // Toggle play/pause
-  const togglePlay = (e: MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
+  const togglePlayPause = () => {
     setIsPlaying(!isPlaying);
-  };
-
-  // Xử lý thay đổi tốc độ phát
-  const handlePlaybackRateChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const rate = parseFloat(e.target.value);
-    setPlaybackRate(rate);
-    console.log(`Tốc độ phát đã thay đổi thành: ${rate}x`);
-  };
-
-  // Xử lý thay đổi phụ đề
-  const handleSubtitlesChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const enabled = e.target.value === '1';
-    setSubtitlesEnabled(enabled);
-  };
-
-  // Tìm kiếm lại với từ khóa khác
-  const handleSearchDifferent = () => {
-    setSearched(false);
-    setResults([]);
-    setCurrentIndex(0);
   };
 
   const currentVideo = results[currentIndex];
 
-  // Tạo URL YouTube với thời gian bắt đầu (giống Youglish)
-  const getVideoUrl = (): string => {
-    if (!currentVideo) return '';
-    const autoplay = isPlaying ? 1 : 0;
-    const ccLoadPolicy = subtitlesEnabled ? 1 : 0;
-    // Thêm thời gian bắt đầu vào URL (tính bằng giây)
-    return `https://www.youtube.com/embed/${currentVideo.videoId}?start=${currentVideo.start}&autoplay=${autoplay}&rel=0&cc_load_policy=${ccLoadPolicy}`;
-  };
-
-  // Định dạng thời gian (giây -> phút:giây)
-  const formatTime = (seconds: number): string => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins}:${secs.toString().padStart(2, '0')}`;
-  };
-
   return (
-    <div className="youglish-container">
-      <div className="youglish-main-container">
+    <div className={styles.container}>
+      <div className={styles.maxWidth}>
         {/* Header */}
-        <div className="youglish-header">
-          <div className="youglish-logo">
-            <i className="fas fa-volume-up youglish-logo-icon"></i>
-            <h1 className="youglish-logo-text">VideoSearch</h1>
-          </div>
-          <p className="youglish-subtitle">Tìm kiếm và học từ video YouTube có phụ đề - Giống Youglish</p>
+        <div className={styles.header}>
+          <h1 className={styles.title}>
+            YouTube Video Search
+          </h1>
+          <p className={styles.subtitle}>
+            Tìm kiếm từ khóa trong video và xem ngay tại thời điểm từ được nói
+          </p>
         </div>
 
-        {/* API Configuration Guide */}
-        {!apiReady && apiChecked && (
-          <div className="youglish-error" style={{marginTop: '20px', maxWidth: '800px', margin: '20px auto'}}>
-            <i className="fas fa-exclamation-triangle youglish-error-icon"></i>
-            <h3 style={{color: '#dc2626', marginBottom: '15px'}}>Cấu hình YouTube API</h3>
-            <div style={{textAlign: 'left', fontSize: '0.9rem', lineHeight: '1.6'}}>
-              <p><strong>Để sử dụng ứng dụng, bạn cần:</strong></p>
-              <ol style={{marginLeft: '20px', marginBottom: '15px'}}>
-                <li>Truy cập <a href="https://console.cloud.google.com/" target="_blank" rel="noopener noreferrer" style={{color: '#7c3aed'}}>Google Cloud Console</a></li>
-                <li>Tạo project mới hoặc chọn project có sẵn</li>
-                <li>Kích hoạt "YouTube Data API v3" trong thư viện APIs</li>
-                <li>Tạo API Key trong mục Credentials</li>
-                <li>Thay thế API Key trong file <code>youtubeApi.ts</code></li>
-              </ol>
-              <p><strong>File cần sửa: </strong><code>src/youtubeApi.ts</code></p>
-              <p><strong>Dòng cần thay thế: </strong><code>const YOUTUBE_API_KEY = 'YOUR_ACTUAL_YOUTUBE_API_KEY_HERE';</code></p>
+        {/* API Key Input */}
+        <div className={styles.apiKeySection}>
+          <label className={styles.apiKeyLabel}>
+            YouTube API Key
+          </label>
+          <input
+            type="password"
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+            placeholder="Nhập API key của bạn..."
+            className={styles.apiKeyInput}
+          />
+          <p className={styles.apiKeyNote}>
+            💡 Lấy API key miễn phí tại: 
+            <a 
+              href="https://console.cloud.google.com/apis/credentials" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:underline ml-1"
+            >
+              Google Cloud Console
+            </a>
+          </p>
+        </div>
+
+        {/* Error Message */}
+        {error && (
+          <div className={styles.errorCard}>
+            <div className={styles.errorTitle}>
+              <AlertCircle size={20} />
+              Lỗi
             </div>
+            <p className={styles.errorText}>{error}</p>
           </div>
         )}
 
         {/* Search Bar */}
-        <div className="youglish-search-container">
-          <form onSubmit={handleSearch} className="youglish-search-box">
-            <input
-              type="text"
-              value={searchTerm}
-              onChange={(e: ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
-              placeholder="Nhập từ hoặc cụm từ tiếng Anh bạn muốn tìm... (vd: hello, thank you, how are you)"
-              className="youglish-search-input"
-              disabled={loading || !apiReady}
-            />
+        <div className={styles.searchSection}>
+          <div className={styles.searchContainer}>
+            <div className={styles.inputWrapper}>
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                onKeyPress={(e) => e.key === 'Enter' && handleSearch(e)}
+                placeholder="Nhập từ khóa cần tìm..."
+                className={styles.input}
+              />
+              <Search className={styles.searchIcon} size={20} />
+            </div>
             <button
-              type="submit"
-              className="youglish-search-button"
-              disabled={loading || !searchTerm.trim() || !apiReady}
+              onClick={handleSearch}
+              disabled={isLoading}
+              className={styles.searchButton}
             >
-              <i className={`fas ${loading ? 'fa-spinner fa-spin' : 'fa-search'}`}></i>
+              {isLoading ? 'Đang tìm...' : 'Tìm kiếm'}
             </button>
-          </form>
+          </div>
         </div>
 
-        {/* Loading State */}
-        {loading && (
-          <div className="youglish-loading">
-            <i className="fas fa-spinner youglish-loading-spinner"></i>
-            <p className="youglish-loading-text">Đang tìm kiếm video phù hợp...</p>
-          </div>
-        )}
-
-        {/* Error State */}
-        {error && !loading && (
-          <div className="youglish-error">
-            <i className="fas fa-exclamation-triangle youglish-error-icon"></i>
-            <p className="youglish-error-text">{error}</p>
-            {!error.includes('API Key chưa được cấu hình') && (
-              <p className="youglish-error-text" style={{fontSize: '0.9rem', marginTop: '10px'}}>
-                💡 Mẹo: Thử các từ/cụm từ đơn giản như "hello", "thank you", "how are you", "good morning"
-              </p>
-            )}
-          </div>
-        )}
-
-        {/* Video Player */}
-        {!loading && searched && currentVideo && (
-          <div className="youglish-video-player-container">
-            <div className="youglish-video-wrapper">
+        {/* Results Section */}
+        {results.length > 0 && (
+          <div className={styles.resultCard}>
+            {/* Video Player */}
+            <div className={styles.videoWrapper}>
               <iframe
-                ref={iframeRef}
-                key={`${currentVideo.videoId}-${currentVideo.start}-${isPlaying}-${subtitlesEnabled}`}
-                src={getVideoUrl()}
-                className="youglish-video-iframe"
+                ref={videoRef}
+                className={styles.videoIframe}
+                src={`https://www.youtube.com/embed/${currentVideo.id}?start=${currentVideo.timestamp}&autoplay=${isPlaying ? 1 : 0}`}
+                title="Video player"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                title={`Video: ${currentVideo.title}`}
               />
             </div>
 
-            {/* Video Info */}
-            <div className="youglish-video-info">
-              <h2 className="youglish-video-title">
-                {currentVideo.title}
-              </h2>
-              <p className="youglish-video-channel">
-                {currentVideo.channel} • {currentVideo.duration} • {currentVideo.publishedAt}
-              </p>
-              
-              <div className="youglish-controls-container">
-                <div className="youglish-video-count">
-                  Video <span>{currentIndex + 1}</span> / {results.length}
-                </div>
+            {/* Controls */}
+            <div className={styles.controlsSection}>
+              <div className="mb-4">
+                <h2 className={styles.videoTitle}>
+                  {currentVideo.title}
+                </h2>
+                <p className={styles.timestamp}>
+                  Kênh: {currentVideo.channelTitle} | 
+                  Từ khóa xuất hiện tại: <span className={styles.timestampHighlight}>{currentVideo.timestamp}s</span>
+                </p>
+              </div>
 
-                {/* Controls */}
-                <div className="youglish-controls">
+              {/* Navigation Controls */}
+              <div className={styles.navControls}>
+                <div className={styles.buttonGroup}>
                   <button
                     onClick={handlePrevious}
                     disabled={currentIndex === 0}
-                    className="youglish-control-button"
+                    className={styles.navButton}
+                    title="Video trước"
                   >
-                    <i className="fas fa-chevron-left"></i>
-                    <span>Trước</span>
+                    <ChevronLeft size={24} />
                   </button>
 
                   <button
-                    onClick={togglePlay}
-                    className="youglish-control-button youglish-play-button"
+                    onClick={togglePlayPause}
+                    className={styles.playButton}
+                    title={isPlaying ? 'Dừng' : 'Phát'}
                   >
-                    {isPlaying ? (
-                      <>
-                        <i className="fas fa-pause"></i>
-                        <span>Dừng</span>
-                      </>
-                    ) : (
-                      <>
-                        <i className="fas fa-play"></i>
-                        <span>Phát</span>
-                      </>
-                    )}
+                    {isPlaying ? <Pause size={24} /> : <Play size={24} />}
                   </button>
 
                   <button
                     onClick={handleNext}
                     disabled={currentIndex === results.length - 1}
-                    className="youglish-control-button"
+                    className={styles.navButton}
+                    title="Video tiếp theo"
                   >
-                    <span>Sau</span>
-                    <i className="fas fa-chevron-right"></i>
+                    <ChevronRight size={24} />
                   </button>
                 </div>
-              </div>
 
-              {/* Settings */}
-              <div className="youglish-settings-container">
-                <div className="youglish-setting">
-                  <i className="fas fa-tachometer-alt"></i>
-                  <span>Tốc độ:</span>
-                  <select 
-                    value={playbackRate} 
-                    onChange={handlePlaybackRateChange}
-                    className="youglish-setting-select"
-                  >
-                    <option value={0.25}>0.25x</option>
-                    <option value={0.5}>0.5x</option>
-                    <option value={0.75}>0.75x</option>
-                    <option value={1}>1x</option>
-                    <option value={1.25}>1.25x</option>
-                    <option value={1.5}>1.5x</option>
-                    <option value={1.75}>1.75x</option>
-                    <option value={2}>2x</option>
-                  </select>
-                </div>
-
-                <div className="youglish-setting">
-                  <i className="fas fa-closed-captioning"></i>
-                  <span>Phụ đề:</span>
-                  <select 
-                    value={subtitlesEnabled ? 1 : 0} 
-                    onChange={handleSubtitlesChange}
-                    className="youglish-setting-select"
-                  >
-                    <option value={0}>Tắt</option>
-                    <option value={1}>Bật (nếu có)</option>
-                  </select>
+                <div className={styles.counter}>
+                  {currentIndex + 1} / {results.length} kết quả
                 </div>
               </div>
 
-              {/* Word highlight với thời gian bắt đầu */}
-              <div className="youglish-keyword-highlight">
-                <p className="youglish-keyword-text">
-                  <span className="youglish-keyword">Từ khóa:</span> "{searchTerm}"
-                  <span style={{marginLeft: '15px', color: '#666'}}>
-                    <i className="fas fa-clock" style={{marginRight: '5px'}}></i>
-                    Bắt đầu từ {formatTime(currentVideo.start)}
-                  </span>
-                </p>
-                <button 
-                  onClick={handleSearchDifferent}
-                  className="youglish-control-button"
-                  style={{marginTop: '10px', fontSize: '0.8rem', padding: '5px 10px'}}
-                >
-                  <i className="fas fa-redo" style={{marginRight: '5px'}}></i>
-                  Tìm kiếm từ khác
-                </button>
+              {/* Progress Bar */}
+              <div className={styles.progressSection}>
+                <div className={styles.progressBar}>
+                  <div
+                    className={styles.progressFill}
+                    style={{ width: `${((currentIndex + 1) / results.length) * 100}%` }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Results List */}
+            <div className={styles.resultsList}>
+              <h3 className={styles.resultsTitle}>
+                Tất cả kết quả cho "{searchTerm}"
+              </h3>
+              <div className={styles.resultsScroll}>
+                {results.map((result, index) => (
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setCurrentIndex(index);
+                      setIsPlaying(true);
+                    }}
+                    className={`${styles.resultItem} ${
+                      index === currentIndex ? styles.resultItemActive : styles.resultItemInactive
+                    }`}
+                  >
+                    <div className={styles.resultItemTitle}>{result.title}</div>
+                    <div className={styles.resultItemMeta}>
+                      {result.channelTitle} | Thời gian: {result.timestamp}s | Độ dài: {Math.floor(result.duration / 60)}:{(result.duration % 60).toString().padStart(2, '0')}
+                    </div>
+                  </button>
+                ))}
               </div>
             </div>
           </div>
         )}
 
-        {/* Initial State */}
-        {!loading && !searched && !error && apiReady && (
-          <div className="youglish-initial-state">
-            <div className="youglish-initial-box">
-              <i className="fas fa-search youglish-initial-icon"></i>
-              <h3 className="youglish-initial-title">
-                Bắt đầu tìm kiếm
-              </h3>
-              <p className="youglish-initial-text">
-                Nhập từ hoặc cụm từ tiếng Anh để tìm video có phát âm
-              </p>
-              <p className="youglish-initial-hint">
-                Thử: hello, thank you, how are you, good morning, I love you
-              </p>
-            </div>
+        {/* Empty State */}
+        {results.length === 0 && !isLoading && (
+          <div className={styles.emptyState}>
+            <Search className={styles.emptyIcon} size={64} />
+            <h3 className={styles.emptyTitle}>
+              Bắt đầu tìm kiếm
+            </h3>
+            <p className={styles.emptyText}>
+              Nhập API key và từ khóa, sau đó nhấn tìm kiếm để xem video
+            </p>
           </div>
         )}
       </div>
@@ -380,4 +419,4 @@ const YouglishClone: React.FC = () => {
   );
 };
 
-export default YouglishClone;
+export default YouGlishClone;
