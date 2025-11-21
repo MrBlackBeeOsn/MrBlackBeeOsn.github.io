@@ -15,9 +15,7 @@ export default function SearchIndex(): React.JSX.Element {
 
 			<article>
 
-				<div className="table-search">
-
-					{/* <SearchComponent /> */}
+				<div className="margin-top-40 table-search">
 
 					<YouGlishWidget />
 				
