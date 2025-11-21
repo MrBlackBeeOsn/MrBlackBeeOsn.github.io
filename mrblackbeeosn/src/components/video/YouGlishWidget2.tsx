@@ -33,21 +33,20 @@ const YouGlishWidget = () => {
         data-lang="english"
         data-accent="us"
         data-zones="all"
-        data-components="8415"
-        // data-components="19343"
+        data-components="19343"
         data-video-quality="highres"
         
         // Sử dụng format màu đúng cho YouGlish
         data-bkg-color="theme_light"  // hoặc "theme_dark"
-        data-link-color="rgba(135, 86, 169, 1)"    // Màu dạng decimal (#FF5732 = 16744782)
-        data-ttl-color="rgba(121, 113, 234, 1)"       // Hex không có #
-        data-cap-color="rgba(121, 113, 234, 1)"       // Hex không có #
-        data-marker-color="rgba(168, 164, 242, 0.5)"    // Hex không có #
-        data-panels-bkg-color="rgba(248, 249, 250, 0.5)" // Màu nền panel
-        data-text-color="rgba(42, 21, 48, 1)"      // Màu chữ
-        data-keyword-color="rgba(121, 113, 234, 1)"   // Màu keyword
-        data-search-bkg-color="rgba(255, 255, 255, 0.5)" // Màu nền search
-        data-search-text-color="rgba(135, 86, 169, 1)" // Màu chữ search
+        data-link-color="#16744782"    // Màu dạng decimal (#FF5732 = 16744782)
+        data-ttl-color="#7971EA"       // Hex không có #
+        data-cap-color="#7971EA"       // Hex không có #
+        data-marker-color="#A8A4F2"    // Hex không có #
+        data-panels-bkg-color="#F8F9FA" // Màu nền panel
+        data-text-color="#2A1530"      // Màu chữ
+        data-keyword-color="#2A1530"   // Màu keyword
+        data-search-bkg-color="#FFFFFF" // Màu nền search
+        data-search-text-color="#2A1530" // Màu chữ search
         
         rel="nofollow"
         href="https://youglish.com"
