@@ -30,6 +30,7 @@
       {
         "select-name": "off"
       }
-    ]
+    ],
+    "typescript-config/strict": "off"
   }
 }
