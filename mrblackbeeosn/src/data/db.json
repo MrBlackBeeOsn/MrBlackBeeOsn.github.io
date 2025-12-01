@@ -483,6 +483,17 @@
       "date": "2025-10-24",
       "views": 0,
       "likes": 0
+    },
+    {
+      "id": "TutorialCourseQuestion",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Nên học qua Tutorial, Course hay Question-based?",
+      "content": "1. Tutorial – “Thuốc giảm đau” tức thì. 2. Course – Xây nhà từ móng 3. Question-based & Project-based – Cách nhanh nhất để “pro”",
+      "slug": "lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based",
+      "date": "2025-12-01",
+      "views": 0,
+      "likes": 0
     }
   ]
 }

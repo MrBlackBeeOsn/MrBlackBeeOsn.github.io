@@ -35,15 +35,31 @@ export default function SpreadsheetIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Spreadsheet Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/spreadsheet/what-is-spreadsheet?">Spreadsheet</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/spreadsheet/what-is-spreadsheet?">Spreadsheet</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/spreadsheet/what-is-formula?">Formula</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/spreadsheet/what-is-function?">Function</Link>
+              </div>
+            </li>
             
-            <li><Link to="/spreadsheet/what-is-formula?">Formula</Link></li>
-
-            <li><Link to="/spreadsheet/what-is-function?">Function</Link></li>
-
           </ul>
 
         </div>

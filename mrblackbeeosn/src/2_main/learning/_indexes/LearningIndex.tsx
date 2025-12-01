@@ -36,25 +36,49 @@ export default function ProgrammingIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Learning Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/learning/what-is-component-learning?">Component Learning</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/learning/what-is-component-learning?">Component Learning</Link>
+              </div>
+            </li>
 
-            <li><Link to="/learning/what-is-project-based-learning?">Project-based learning</Link> (LPB)</li>
+            <li>
+              <div className="li-content">
+                <Link to="/learning/what-is-project-based-learning?">Project-based learning</Link>&nbsp;(LPB)
+              </div>
+            </li>
 
-            <li><Link to="/learning/what-is-micro-learning?">Micro-learning</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/learning/what-is-micro-learning?">Micro-learning</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Learning
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/learning/toxic-digital-habits-to-quit?">Toxic Digital Habits To Quit</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/learning/toxic-digital-habits-to-quit?">Toxic Digital Habits To Quit</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

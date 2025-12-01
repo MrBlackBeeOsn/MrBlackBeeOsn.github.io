@@ -69,6 +69,7 @@ import { Routes, Route } from 'react-router-dom';
 	const LoTrinhHocFrontEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocFrontEnd'));
 	const LoTrinhHocBackEnd = lazy(() => import('@/2_main/programming/laptrinh/LoTrinhHocBackEnd'));
 	const BiQuyetHocLapTrinhHieuQua = lazy(() => import('@/2_main/programming/laptrinh/BiQuyetHocLapTrinhHieuQua'));
+	const TutorialCourseQuestion = lazy(() => import('@/2_main/programming/laptrinh/TutorialCourseQuestion'));
 
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
@@ -161,6 +162,7 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/lap-trinh/lo-trinh-hoc-front-end-la-gi?" element={<LoTrinhHocFrontEnd />} />
 				<Route path="/lap-trinh/lo-trinh-hoc-back-end-la-gi?" element={<LoTrinhHocBackEnd />} />
 				<Route path="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua" element={<BiQuyetHocLapTrinhHieuQua />} />
+				<Route path="/lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based?" element={<TutorialCourseQuestion />} />
 
 				{/* 2_main Khai báo đường dẫn path cho Spreadsheet */}
 

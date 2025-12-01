@@ -35,17 +35,37 @@ export default function FunctionIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Function Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/function/what-is-the-xlookup-function?">XLOOKUP</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/function/what-is-the-xlookup-function?">XLOOKUP</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/function/what-is-the-vlookup-function?">VLOOKUP</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/function/what-is-the-hlookup-function?">HLOOKUP</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/function/what-is-the-date-function?">DATE</Link>
+              </div>
+            </li>
             
-            <li><Link to="/function/what-is-the-vlookup-function?">VLOOKUP</Link></li>
-
-            <li><Link to="/function/what-is-the-hlookup-function?">HLOOKUP</Link></li>
-
-            <li><Link to="/function/what-is-the-date-function?">DATE</Link></li>
-
           </ul>
 
         </div>

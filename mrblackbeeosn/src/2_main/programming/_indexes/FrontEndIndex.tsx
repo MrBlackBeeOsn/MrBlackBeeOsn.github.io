@@ -35,33 +35,73 @@ export default function FrontEndIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Front-End Terms
+          ============================= */}
 
           <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-html?">HTML</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-css?">CSS</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-javascript?">JavaScript</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-typescript?">TypeScript</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-react?">React</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-nextjs?">Next.js</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-tailwindcss?">Tailwind CSS</Link>
+              </div>
+            </li>
             
-            <li><Link to="/front-end/what-is-html?">HTML</Link></li>
-
-            <li><Link to="/front-end/what-is-css?">CSS</Link></li>
-
-            <li><Link to="/front-end/what-is-javascript?">JavaScript</Link></li>
-
-            <li><Link to="/front-end/what-is-typescript?">TypeScript</Link></li>
-
-            <li><Link to="/front-end/what-is-react?">React</Link></li>
-
-            <li><Link to="/front-end/what-is-nextjs?">Next.js</Link></li>
-
-            <li><Link to="/front-end/what-is-tailwindcss?">Tailwind CSS</Link></li>
-
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Front-End Developer
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link></li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/front-end/what-is-a-front-end-developer?">Front-End Developer</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

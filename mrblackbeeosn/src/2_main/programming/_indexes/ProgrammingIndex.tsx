@@ -35,37 +35,85 @@ export default function ProgrammingIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Programming Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/programming/what-is-programming?">Programming</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-programming?">Programming</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-a-programming-language?">Programming language</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-are-good-habits?">Good habits</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-if-then-else?">If-Then-Else</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-Git?">Git</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-a-function?">Function</Link>
+              </div>
+            </li>
             
-            <li><Link to="/programming/what-is-a-programming-language?">Programming language</Link></li>
-
-            <li><Link to="/programming/what-are-good-habits?">Good habits</Link></li>
-
-            <li><Link to="/programming/what-is-if-then-else?">If-Then-Else</Link></li>
-
-            <li><Link to="/programming/what-is-Git?">Git</Link></li>
-
-            <li><Link to="/programming/what-is-a-function?">Function</Link></li>
-
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Programmer Terms
+          ============================= */}
 
           <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-a-programmer?">Programmer</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-a-software-developer?">Software Developer</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link>
+              </div>
+            </li>
             
-            <li><Link to="/programming/what-is-a-programmer?">Programmer</Link></li>
-
-            <li><Link to="/programming/what-is-a-software-developer?">Software Developer</Link></li>
-
-            <li><Link to="/programming/what-is-a-full-stack-developer?">Full-Stack Developer</Link></li>
-
-            <li><Link to="/programming/what-is-a-mobile-developer?">Mobile Developer</Link></li>
-
           </ul>
 
         </div>

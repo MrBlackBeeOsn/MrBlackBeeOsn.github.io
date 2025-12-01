@@ -36,25 +36,54 @@ export default function LapTrinhIndex(): React.JSX.Element {
 
         <div className="sub-box">
 
+          {/* =============================
+              Cách học Lập trình
+          ============================= */}
+
           <ul className="list-border1">
 
-            <li><Link to="/lap-trinh/lo-trinh-hoc-front-end-la-gi?">Lộ trình học Frontend</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/lo-trinh-hoc-front-end-la-gi?">Lộ trình học Frontend</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/lo-trinh-hoc-back-end-la-gi?">Lộ trình học Backend</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua">Bí Quyết Học Lập Trình Hiệu Quả</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based?">Nên học qua Tutorial, Course hay Question-based?</Link>
+              </div>
+            </li>
             
-            <li><Link to="/lap-trinh/lo-trinh-hoc-back-end-la-gi?">Lộ trình học Backend</Link></li>
-
-            <li><Link to="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua">Bí Quyết Học Lập Trình Hiệu Quả</Link></li>
-
           </ul>
 
         </div>
 
         <div className="sub-box">
 
+          {/* =============================
+              Người lập trình
+          ============================= */}
+
           <ul className="list-border1">
 
-            <li><Link to="/lap-trinh/lap-trinh-vien-la-gi?">Lập trình viên</Link></li>
-          
-
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/lap-trinh-vien-la-gi?">Lập trình viên</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

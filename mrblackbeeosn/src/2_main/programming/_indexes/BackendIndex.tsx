@@ -35,31 +35,67 @@ export default function BackendIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Back-End Terms
+          ============================= */}
 
           <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-github?">GitHub</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-sql?">SQL</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-python?">Python</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-java?">Java</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-php?">PHP</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-node.js?">Node.js</Link>
+              </div>
+            </li>
             
-            <li><Link to="/back-end/what-is-github?">GitHub</Link></li>
-
-            <li><Link to="/back-end/what-is-sql?">SQL</Link></li>
-
-            <li><Link to="/back-end/what-is-python?">Python</Link></li>
-
-            <li><Link to="/back-end/what-is-java?">Java</Link></li>
-
-            <li><Link to="/back-end/what-is-php?">PHP</Link></li>
-
-            <li><Link to="/back-end/what-is-node.js?">Node.js</Link></li>
-
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Back-End Developer
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/back-end/what-is-a-back-end-developer?">Back-End Developer</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/back-end/what-is-a-back-end-developer?">Back-End Developer</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
