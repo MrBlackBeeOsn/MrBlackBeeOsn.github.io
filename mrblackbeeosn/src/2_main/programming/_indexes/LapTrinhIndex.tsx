@@ -53,18 +53,6 @@ export default function LapTrinhIndex(): React.JSX.Element {
                 <Link to="/lap-trinh/lo-trinh-hoc-back-end-la-gi?">Lộ trình học Backend</Link>
               </div>
             </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua">Bí Quyết Học Lập Trình Hiệu Quả</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based?">Nên học qua Tutorial, Course hay Question-based?</Link>
-              </div>
-            </li>
             
           </ul>
 
@@ -87,6 +75,36 @@ export default function LapTrinhIndex(): React.JSX.Element {
           </ul>
 
         </div>
+
+      </div>
+
+      <div className="flex-container">
+
+        <div className="sub-box">
+
+          {/* =============================
+              Cách học Lập trình
+          ============================= */}
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua">Bí Quyết Học Lập Trình Hiệu Quả</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based?">Nên học qua Tutorial, Course hay Question-based?</Link>
+              </div>
+            </li>
+            
+          </ul>
+
+        </div>
+
+        
 
       </div>
 
