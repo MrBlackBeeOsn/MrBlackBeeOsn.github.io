@@ -27,5 +27,5 @@
   },
   "include": [
     "src", 
-    "src/declarations.d.ts"  ]
+    "src/declarations.d.ts", "../../../Green/MrGreenBeeOsn.github.io/mrgreenbeeosn/src/2_main/accounting/quiz/test/AccountingQuizDPSK.tsx"  ]
 }
