@@ -35,6 +35,9 @@ import { Routes, Route } from 'react-router-dom';
 	const Git = lazy(() => import('@/2_main/programming/Git'));
 	const Function = lazy(() => import('@/2_main/programming/Function'));
 
+	// Quiz
+	const ProgrammingQuiz0110 = lazy(() => import('@/2_main/programming/quiz/ProgrammingQuiz0110'));
+
 	// 3. Frontend
 	const FrontEndIndex = lazy(() => import('@/2_main/programming/_indexes/FrontEndIndex'));
 	const FrontEndDeveloper = lazy(() => import('@/2_main/programming/prontend/FrontEndDeveloper'));
@@ -127,6 +130,9 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/programming/what-is-if-then-else?" element={<IfThenElse />} />
 				<Route path="/programming/what-is-Git?" element={<Git />} />
 				<Route path="/programming/what-is-a-function?" element={<Function />} />
+
+				{/* Quiz */}
+				<Route path="/programming/programming-quiz-01-10" element={<ProgrammingQuiz0110 />} />
 
 				{/* 2. Frontend */}
 				<Route path="/front-end" element={<FrontEndIndex />} />

@@ -32,6 +32,32 @@ export default function ProgrammingIndex(): React.JSX.Element {
                           
       </div>
 
+      <div className="vocabulary-container">
+
+				{/* =============================
+              Programming Quiz
+        ============================= */}
+
+				<details className="sub-box-fix">
+			
+					<summary><mark className="highlight-secondary-padding-2-4">Programming Quiz</mark></summary>
+
+					<ul className="list-border1">
+
+						<li>
+              <div className="li-content">
+                <Link to="/programming/programming-quiz-01-10">1-10</Link>
+              </div>
+            </li>
+
+
+						
+					</ul>
+
+				</details>
+
+      </div>
+
       <div className="flex-container">
 
         <div className="sub-box">
