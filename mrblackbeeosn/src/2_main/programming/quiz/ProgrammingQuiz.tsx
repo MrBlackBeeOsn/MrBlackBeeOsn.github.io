@@ -264,14 +264,6 @@ const ProgrammingQuiz: React.FC<ProgrammingQuizProps> = ({ questions }) => {
 				{/* <p>Interactive Programming Quiz • Designed for learning basic programming concepts in English</p> */}
 			</footer>
 		</div>
-
-		<div className="viewcounter">
-
-			<div className="post-date no-margin">
-				<span>December 04, 2025 · by DPSK ·</span>
-			</div>
-
-		</div>
 	
 	</>);
 };

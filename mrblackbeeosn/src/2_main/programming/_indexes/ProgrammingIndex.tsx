@@ -46,7 +46,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
 
 						<li>
               <div className="li-content">
-                <Link to="/programming/programming-quiz-01-10">1-10</Link>
+                <Link to="/programming/programming-quiz-01-10">React: 1-10</Link>
               </div>
             </li>
 
