@@ -38,9 +38,9 @@ export default function ProgrammingIndex(): React.JSX.Element {
               Programming Quiz
         ============================= */}
 
-				<details className="sub-box-fix">
+				<details className="sub-box-fix margin-bottom-20">
 			
-					<summary><mark className="highlight-secondary-padding-2-4">Programming Quiz</mark></summary>
+					<summary id="programming-quiz-01-10"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
 					<ul className="list-border1">
 
