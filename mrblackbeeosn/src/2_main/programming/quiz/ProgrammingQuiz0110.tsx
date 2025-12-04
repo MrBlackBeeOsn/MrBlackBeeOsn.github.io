@@ -18,127 +18,127 @@ interface Question {
 }
 
 const ProgrammingQuiz0110: React.FC = () => {
-	// Danh sách câu hỏi về kế toán cơ bản
+	// Danh sách câu hỏi về lập trình cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "Which of the following is NOT a core financial statement?",
+			question: "What is the correct command to create a new React app using Create React App?",
 			options: [
-				"The Income Statement",
-				"The Balance Sheet",
-				"The Trial Balance",
-				"The Cash Flow Statement"
+				"npm new react-app",
+				"npm start react-app",
+				"npx create-react-app my-app",
+				"npm init react-app"
 			],
 			correctAnswer: 2,
-			explanation: "The Trial Balance is an internal report used to ensure debits equal credits, but it's not one of the core financial statements presented to external users. The core statements are Income Statement, Balance Sheet, Cash Flow Statement, and Statement of Changes in Equity."
+			explanation: "The official way to bootstrap a new React app is using npx create-react-app <app-name>. This command sets up a modern React project with no build configuration."
 		},
 		{
 			id: 2,
-			question: "What is the basic accounting equation?",
+			question: "In React, which hook is used to manage state in a functional component?",
 			options: [
-				"Assets = Liabilities + Owner's Equity",
-				"Assets + Liabilities = Owner's Equity",
-				"Assets = Liabilities - Owner's Equity",
-				"Assets + Owner's Equity = Liabilities"
+				"useEffect",
+				"useContext",
+				"useReducer",
+				"useState"
 			],
-			correctAnswer: 0,
-			explanation: "The basic accounting equation is Assets = Liabilities + Owner's Equity. This equation must always balance and forms the foundation of double-entry bookkeeping."
+			correctAnswer: 3,
+			explanation: "The useState hook is the primary way to add state to functional components. It returns a state variable and a function to update it."
 		},
 		{
 			id: 3,
-			question: "Which principle states that revenue should be recognized when it is earned, not necessarily when cash is received?",
+			question: "What will happen when the following code runs? setCount(count + 1); setCount(count + 1);",
 			options: [
-				"Matching Principle",
-				"Revenue Recognition Principle",
-				"Cost Principle",
-				"Consistency Principle"
+				"count increases by 1.",
+				"count increases by 2.",
+				"It causes an error.",
+				"count does not change."
 			],
-			correctAnswer: 1,
-			explanation: "The Revenue Recognition Principle states that revenue should be recorded when it is earned, regardless of when payment is received. This is part of accrual accounting."
+			correctAnswer: 0,
+			explanation: "React batches state updates, and since count is stale in both calls, they both set the same value. To update twice, use a function: setCount(prev => prev + 1)."
 		},
 		{
 			id: 4,
-			question: "Which of the following accounts is a permanent (real) account?",
+			question: "Which method is invoked right after a component is mounted (inserted into the DOM)?",
 			options: [
-				"Revenue",
-				"Expenses",
-				"Accounts Payable",
-				"Dividends"
+				"componentWillMount",
+				"componentDidUpdate",
+				"componentDidMount",
+				"render"
 			],
 			correctAnswer: 2,
-			explanation: "Accounts Payable is a permanent (real) account because its balance carries forward to the next accounting period. Revenue, expenses, and dividends are temporary (nominal) accounts that are closed at the end of each period."
+			explanation: "In class components, componentDidMount is called after the component output has been rendered to the DOM. In functional components, the useEffect hook with an empty dependency array mimics this."
 		},
 		{
 			id: 5,
-			question: "What does GAAP stand for?",
+			question: "How do you pass data from a parent component to a child component?",
 			options: [
-				"Generally Accepted Accounting Principles",
-				"General Accounting Assessment Procedures",
-				"Governmental Accounting Auditing Practices",
-				"Global Accounting and Auditing Protocol"
+				"Using state",
+				"Using refs",
+				"Using props",
+				"Using context"
 			],
-			correctAnswer: 0,
-			explanation: "GAAP stands for Generally Accepted Accounting Principles, which are the standard framework of guidelines for financial accounting used in the United States."
+			correctAnswer: 2,
+			explanation: "Props are the primary mechanism for passing data from parent to child components in React."
 		},
 		{
 			id: 6,
-			question: "The process of transferring journal entries to ledger accounts is called:",
+			question: "What is the purpose of the key prop when rendering a list of elements?",
 			options: [
-				"Journalizing",
-				"Posting",
-				"Balancing",
-				"Adjusting"
+				"To improve component styling.",
+				"To identify which items have changed, are added, or are removed.",
+				"To make items clickable.",
+				"To store additional data about the element."
 			],
 			correctAnswer: 1,
-			explanation: "Posting is the process of transferring information from journal entries to ledger accounts. Journalizing is the initial recording of transactions in the journal."
+			explanation: "Keys help React track elements in a list, optimizing re-rendering by identifying changes efficiently."
 		},
 		{
 			id: 7,
-			question: "Which financial statement shows a company's financial position at a specific point in time?",
+			question: "Which of the following is true about React fragments?",
 			options: [
-				"Income Statement",
-				"Statement of Cash Flows",
-				"Balance Sheet",
-				"Statement of Retained Earnings"
+				"They create an extra DOM element.",
+				"They are used to group multiple elements without adding a wrapper node.",
+				"They improve performance by reducing CSS overhead.",
+				"They can only contain two elements."
 			],
-			correctAnswer: 2,
-			explanation: "The Balance Sheet (also called Statement of Financial Position) shows a company's assets, liabilities, and equity at a specific point in time (as of a certain date)."
+			correctAnswer: 1,
+			explanation: "Fragments (<>...</>) let you group children without adding extra DOM nodes, keeping the HTML clean."
 		},
 		{
 			id: 8,
-			question: "The matching principle in accounting requires:",
+			question: "What does the useEffect hook do?",
 			options: [
-				"Assets to be matched with liabilities",
-				"Expenses to be matched with the revenues they help generate",
-				"Cash inflows to be matched with cash outflows",
-				"Debits to be matched with credits"
+				"It performs side effects in functional components.",
+				"It optimizes component rendering.",
+				"It manages component state.",
+				"It creates reusable logic."
 			],
-			correctAnswer: 1,
-			explanation: "The Matching Principle requires that expenses be recorded in the same accounting period as the revenues they helped generate, ensuring accurate profit measurement."
+			correctAnswer: 0,
+			explanation: "useEffect handles side effects like data fetching, subscriptions, or manually changing the DOM in functional components."
 		},
 		{
 			id: 9,
-			question: "Which type of account normally has a credit balance?",
+			question: "How can you prevent a component from re-rendering unnecessarily?",
 			options: [
-				"Assets",
-				"Expenses",
-				"Liabilities",
-				"Dividends"
+				"Using React.forwardRef",
+				"Using React.memo",
+				"Using React.fragment",
+				"Using React.createRef"
 			],
-			correctAnswer: 2,
-			explanation: "Liabilities, equity, and revenue accounts normally have credit balances. Assets, expenses, and dividends normally have debit balances."
+			correctAnswer: 1,
+			explanation: "React.memo is a higher-order component that memoizes the result, preventing re-renders if props haven’t changed."
 		},
 		{
 			id: 10,
-			question: "What is the purpose of the statement of cash flows?",
+			question: "In React, what is Context used for?",
 			options: [
-				"To show the profitability of a company",
-				"To show changes in equity over a period",
-				"To show sources and uses of cash during a period",
-				"To show assets and liabilities at a point in time"
+				"To replace Redux in all applications.",
+				"To pass data through the component tree without prop drilling.",
+				"To manage component state locally.",
+				"To handle routing between pages."
 			],
-			correctAnswer: 2,
-			explanation: "The Statement of Cash Flows shows how changes in balance sheet accounts and income affect cash and cash equivalents, breaking down analysis to operating, investing, and financing activities."
+			correctAnswer: 1,
+			explanation: "Context provides a way to share values (like themes, authentication) between components without passing props manually at every level."
 		}
 	];
 
@@ -148,7 +148,7 @@ const ProgrammingQuiz0110: React.FC = () => {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/programming#programming-quiz-01-10"><mark className="highlight-tertiary-padding-4-8">Programming</mark></HashLink></h4>
+				<h4><HashLink smooth to="/programming#programming-quiz-01-10"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
 				{/* This is the content of Programming Quiz. */}
 	
