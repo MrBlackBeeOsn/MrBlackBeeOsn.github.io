@@ -36,7 +36,8 @@ import { Routes, Route } from 'react-router-dom';
 	const Function = lazy(() => import('@/2_main/programming/Function'));
 
 	// Quiz
-	const ProgrammingQuiz0110 = lazy(() => import('@/2_main/programming/quiz/ProgrammingQuiz0110'));
+	const ReactJSPractice = lazy(() => import('@/2_main/programming/quiz/ReactJSPractice'));
+	const ReactJSFundamentals = lazy(() => import('@/2_main/programming/quiz/ReactJSFundamentals'));
 
 	// 3. Frontend
 	const FrontEndIndex = lazy(() => import('@/2_main/programming/_indexes/FrontEndIndex'));
@@ -132,7 +133,8 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/programming/what-is-a-function?" element={<Function />} />
 
 				{/* Quiz */}
-				<Route path="/programming/programming-quiz-01-10" element={<ProgrammingQuiz0110 />} />
+				<Route path="/programming/react-js-practice" element={<ReactJSPractice />} />
+				<Route path="/programming/react-js-fundamentals" element={<ReactJSFundamentals />} />
 
 				{/* 2. Frontend */}
 				<Route path="/front-end" element={<FrontEndIndex />} />

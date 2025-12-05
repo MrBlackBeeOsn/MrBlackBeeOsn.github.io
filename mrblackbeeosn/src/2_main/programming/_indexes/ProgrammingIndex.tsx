@@ -38,19 +38,23 @@ export default function ProgrammingIndex(): React.JSX.Element {
               Programming Quiz
         ============================= */}
 
-				<details className="sub-box-fix margin-bottom-20">
+				<details className="sub-box-fix-2 margin-bottom-20">
 			
-					<summary id="programming-quiz-01-10"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+					<summary id="react-js-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
 					<ul className="list-border1">
 
 						<li>
               <div className="li-content">
-                <Link to="/programming/programming-quiz-01-10">React: 1-10</Link>
+                <Link to="/programming/react-js-practice">React JS Practice</Link>
               </div>
             </li>
 
-
+            <li>
+              <div className="li-content">
+                <Link to="/programming/react-js-fundamentals">React JS Fundamentals</Link>
+              </div>
+            </li>
 						
 					</ul>
 

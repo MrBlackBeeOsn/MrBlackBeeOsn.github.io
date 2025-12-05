@@ -1,0 +1,169 @@
+// ProgrammingQuizDPDK.tsx
+
+import React, { useState, useEffect } from 'react';
+import ProgrammingQuiz from './ProgrammingQuiz';
+
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '@/components/view/EyeIcon';
+import ViewCounter from '@/components/view/ViewCounter';
+import LikeButton from '@/components/like/LikeButton';
+
+interface Question {
+	id: number;
+	question: string;
+	options: string[];
+	correctAnswer: number;
+	explanation: string;
+}
+
+export default function ReactJSFundamentals(): React.JSX.Element {
+	// Danh sách câu hỏi về Programming cơ bản
+	const questions: Question[] = [
+		{
+			id: 1,
+			question: "What is the primary purpose of JSX in React?",
+			options: [
+				"To write HTML elements inside JavaScript code.",
+				"To compile JavaScript code into HTML.",
+				"To directly manipulate the DOM.",
+				"To handle server-side routing."
+			],
+			correctAnswer: 0,
+			explanation: "JSX is a syntax extension for JavaScript that allows developers to write HTML-like markup directly within JavaScript files. This makes the code easier to visualize and understand compared to using raw React.createElement calls."
+		},
+		{
+			id: 2,
+			question: "Which hook is used to manage state in a functional component?",
+			options: [
+				"useEffect",
+				"useContext",
+				"useState",
+				"useReducer"
+			],
+			correctAnswer: 2,
+			explanation: "The useState hook allows functional components to declare state variables and provides a function to update them. useEffect is for side effects, and useContext is for global data."
+		},
+		{
+			id: 3,
+			question: "Why is the Virtual DOM important in React?",
+			options: [
+				"It allows React to directly modify the browser's DOM for every change.",
+				"It improves performance by minimizing direct manipulation of the actual DOM.",
+				"It completely replaces the browser's DOM API.",
+				"It is used to store data in the browser's local storage."
+			],
+			correctAnswer: 1,
+			explanation: "Direct manipulation of the real DOM is slow. React uses the Virtual DOM to calculate the minimal set of changes needed (a process called \"diffing\") and then updates the real DOM efficiently in a batch."
+		},
+		{
+			id: 4,
+			question: "What is the main difference between Props and State?",
+			options: [
+				"Props are mutable, while State is immutable.",
+				"Props are passed from parent to child, whereas State is managed internally by the component.",
+				"State can be accessed by child components directly, but Props cannot.",
+				"There is no difference; they are interchangeable."
+			],
+			correctAnswer: 1,
+			explanation: "Props are \"read-only\" data passed down from a parent component to configure a child. State is local data managed within a component that can change over time (mutable via setter functions)."
+		},
+		{
+			id: 5,
+			question: "Which of the following is a strict rule when using React Hooks?",
+			options: [
+				"Hooks can be called inside loops, conditions, or nested functions.",
+				"Hooks must only be called at the top level of a React function.",
+				"Hooks can be used in Class components.",
+				"Hooks must be imported from 'react-dom'."
+			],
+			correctAnswer: 1,
+			explanation: "You must call Hooks at the top level of your React function. You should not call Hooks inside loops, conditions, or nested functions. This ensures that Hooks are called in the same order each time a component renders."
+		},
+		{
+			id: 6,
+			question: "What is the purpose of the 'key' prop in React lists?",
+			options: [
+				"To style the list items specifically.",
+				"To help React identify which items have changed, are added, or are removed.",
+				"To sort the list automatically.",
+				"To pass the index to the list item component."
+			],
+			correctAnswer: 1,
+			explanation: "Keys help React identify which items have changed, are added, or are removed. They should be given to the elements inside the array to give the elements a stable identity, which optimizes rendering performance."
+		},
+		{
+			id: 7,
+			question: "What is 'Prop Drilling'?",
+			options: [
+				"A method to validate props using PropTypes.",
+				"The process of passing data from a parent to a deeply nested child through intermediate components.",
+				"A way to directly modify props inside a child component.",
+				"Using the Context API to avoid passing props."
+			],
+			correctAnswer: 1,
+			explanation: "Prop drilling occurs when you need to get data from a top-level component to a deeply nested component, forcing you to pass that data through every intermediate component in between, even if those intermediates don't need the data themselves."
+		},
+		{
+			id: 8,
+			question: "What does the useEffect hook do by default if no dependency array is provided?",
+			options: [
+				"It runs only once after the initial render.",
+				"It never runs.",
+				"It runs after every single render.",
+				"It runs only when the component unmounts."
+			],
+			correctAnswer: 2,
+			explanation: "If you omit the dependency array (the second argument), useEffect runs after every render. To run it only once (like componentDidMount), you must pass an empty array []."
+		},
+		{
+			id: 9,
+			question: "What is a React Fragment used for?",
+			options: [
+				"To create a new DOM node for styling purposes.",
+				"To cache component states.",
+				"To group a list of children without adding extra nodes to the DOM.",
+				"To split code into lazy-loaded chunks."
+			],
+			correctAnswer: 2,
+			explanation: "A common pattern in React is for a component to return multiple elements. Fragments (<>...</> or <React.Fragment>) let you group a list of children without adding extra nodes (like an unnecessary div) to the DOM."
+		},
+		{
+			id: 10,
+			question: "In React, data flows...",
+			options: [
+				"Bi-directionally (Two-way binding).",
+				"Unidirectionally (One-way binding) from parent to child.",
+				"Unidirectionally from child to parent.",
+				"Randomly depending on the component hierarchy."
+			],
+			correctAnswer: 1,
+			explanation: "React implements one-way data flow (downwards). Data is passed from parent components to child components via props. This makes the data flow explicit and easier to debug compared to two-way binding."
+		}
+	];
+
+	return (
+
+		<main className="image image2">
+		
+			<article>
+				
+				<h4><HashLink smooth to="/programming#react-js-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+	
+				{/* This is the content of Programming Quiz. */}
+	
+				<ProgrammingQuiz questions={questions} />
+	
+				<div className="viewcounter">
+	
+					<div className="post-date no-margin">
+						<span>December 05, 2025 · by 💎Gem ·</span>
+					</div>
+	
+				</div>
+	
+			</article>
+	
+		</main>
+	);
+};
