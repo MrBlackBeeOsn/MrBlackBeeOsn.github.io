@@ -17,8 +17,8 @@ interface Question {
 	explanation: string;
 }
 
-const ProgrammingQuiz0110: React.FC = () => {
-	// Danh sách câu hỏi về lập trình cơ bản
+export default function ProgrammingQuiz0110(): React.JSX.Element {
+	// Danh sách câu hỏi về Programming cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
@@ -167,5 +167,3 @@ const ProgrammingQuiz0110: React.FC = () => {
 		</main>
 	);
 };
-
-export default ProgrammingQuiz0110;
