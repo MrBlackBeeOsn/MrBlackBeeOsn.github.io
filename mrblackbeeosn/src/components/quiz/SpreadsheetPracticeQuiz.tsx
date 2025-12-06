@@ -1,4 +1,4 @@
-// ProgrammingQuizDPDK.tsx
+// SpreadsheetPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
 
@@ -16,11 +16,11 @@ interface Question {
 	explanation: string;
 }
 
-interface ProgrammingQuizProps {
+interface SpreadsheetPracticeQuizProps {
 	questions: Question[];
 }
 
-const ProgrammingQuiz: React.FC<ProgrammingQuizProps> = ({ questions }) => {
+const SpreadsheetPracticeQuiz: React.FC<SpreadsheetPracticeQuizProps> = ({ questions }) => {
 
 	// State management
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -103,11 +103,11 @@ const ProgrammingQuiz: React.FC<ProgrammingQuizProps> = ({ questions }) => {
 
 	return (<>
 	
-		<div className="programming-quiz-container">
+		<div className="practice-quiz-container">
 
 			<header className="quiz-header">
-				<h1 className="margin-y-50 text-center">Programming Basic Practice</h1>
-				<p className="subtitle text-center">Test your knowledge of fundamental programming concepts</p>
+				<h1 className="margin-y-50 text-center">Spreadsheet Basic Practice</h1>
+				<p className="subtitle text-center">Test your knowledge of fundamental spreadsheet concepts</p>
 			</header>
 
 			<div className="quiz-content">
@@ -221,13 +221,13 @@ const ProgrammingQuiz: React.FC<ProgrammingQuizProps> = ({ questions }) => {
 							
 							<div className="performance-message">
 								{score === questions.length ? (
-									<p className="excellent">Excellent! You have mastered the basics of programming!</p>
+									<p className="excellent">Excellent! You have mastered the basics of spreadsheet!</p>
 								) : score >= questions.length * 0.7 ? (
-									<p className="good">Good job! You have a solid understanding of programming fundamentals.</p>
+									<p className="good">Good job! You have a solid understanding of spreadsheet fundamentals.</p>
 								) : score >= questions.length * 0.5 ? (
 									<p className="average">Not bad! Review the explanations to improve your understanding.</p>
 								) : (
-									<p className="needs-improvement">Keep practicing! Review basic programming concepts and try again.</p>
+									<p className="needs-improvement">Keep practicing! Review basic spreadsheet concepts and try again.</p>
 								)}
 							</div>
 							
@@ -261,11 +261,11 @@ const ProgrammingQuiz: React.FC<ProgrammingQuizProps> = ({ questions }) => {
 			</div>
 			
 			<footer className="quiz-footer">
-				{/* <p>Interactive Programming Quiz • Designed for learning basic programming concepts in English</p> */}
+				{/* <p>Interactive Spreadsheet Quiz • Designed for learning basic programming concepts in English</p> */}
 			</footer>
 		</div>
 	
 	</>);
 };
 
-export default ProgrammingQuiz;
+export default SpreadsheetPracticeQuiz;
