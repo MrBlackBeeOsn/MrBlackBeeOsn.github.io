@@ -1,7 +1,7 @@
-// ProgrammingPracticeQuizDPDK.tsx
+// SpreadsheetPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import ProgrammingPracticeQuiz from '../../../components/quiz/ProgrammingPracticeQuiz';
+import SpreadsheetPracticeQuiz from '../../../components/quiz/SpreadsheetPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -152,7 +152,7 @@ export default function (): React.JSX.Element {
 	
 				{/* This is the content of Programming Quiz. */}
 	
-				<ProgrammingPracticeQuiz questions={questions} />
+				<SpreadsheetPracticeQuiz questions={questions} />
 	
 				<div className="viewcounter">
 	
