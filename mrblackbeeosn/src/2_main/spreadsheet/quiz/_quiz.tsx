@@ -149,6 +149,11 @@ export default function (): React.JSX.Element {
 			<article>
 				
 				<h4><HashLink smooth to="/spreadsheet#spreadsheet-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center">Spreadsheet Basic Practice</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental spreadsheet concepts</p>
+				</header>
 	
 				{/* This is the content of Programming Quiz. */}
 	

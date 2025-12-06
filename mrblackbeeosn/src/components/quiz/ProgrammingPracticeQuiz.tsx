@@ -105,10 +105,10 @@ const ProgrammingPracticeQuiz: React.FC<ProgrammingPracticeQuizProps> = ({ quest
 	
 		<div className="practice-quiz-container">
 
-			<header className="quiz-header">
+			{/* <header className="quiz-header">
 				<h1 className="margin-y-50 text-center">Programming Basic Practice</h1>
 				<p className="subtitle text-center">Test your knowledge of fundamental programming concepts</p>
-			</header>
+			</header> */}
 
 			<div className="quiz-content">
 				{!quizCompleted ? (

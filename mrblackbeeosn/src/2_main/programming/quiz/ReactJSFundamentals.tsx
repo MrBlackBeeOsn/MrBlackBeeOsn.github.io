@@ -149,6 +149,11 @@ export default function ReactJSFundamentals(): React.JSX.Element {
 			<article>
 				
 				<h4><HashLink smooth to="/programming#react-js-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center">React JS Fundamentals</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental programming concepts</p>
+				</header>
 	
 				{/* This is the content of Programming Quiz. */}
 	
