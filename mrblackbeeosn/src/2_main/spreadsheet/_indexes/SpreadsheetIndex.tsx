@@ -46,7 +46,7 @@ export default function SpreadsheetIndex(): React.JSX.Element {
 
             <li>
               <div className="li-content">
-                <Link to="/spreadsheet/react-js-practice">React JS Practice</Link>
+                <Link to="/spreadsheet/excel-multiple-choice-questions">Excel Multiple Choice Questions</Link>
               </div>
             </li>
 

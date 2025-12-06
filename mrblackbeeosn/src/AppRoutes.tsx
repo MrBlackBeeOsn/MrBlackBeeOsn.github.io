@@ -83,6 +83,9 @@ import { Routes, Route } from 'react-router-dom';
 	const Formula = lazy(() => import('@/2_main/spreadsheet/Formula'));
 	const Function2 = lazy(() => import('@/2_main/spreadsheet/Function2'));
 
+	// Quiz
+	const ExcelMultipleChoiceQuestions = lazy(() => import('@/2_main/spreadsheet/quiz/ExcelMultipleChoiceQuestions'));
+
 	// 2. Functions
 	const FunctionIndex = lazy(() => import('@/2_main/spreadsheet/_indexes/FunctionIndex'));
 	const XLOOKUP = lazy(() => import('@/2_main/spreadsheet/functions/XLOOKUP'));
@@ -180,6 +183,9 @@ export default function AppRoutes(): React.JSX.Element {
 					<Route path="/spreadsheet/what-is-spreadsheet?" element={<Spreadsheet />} />
 					<Route path="/spreadsheet/what-is-formula?" element={<Formula />} />
 					<Route path="/spreadsheet/what-is-function?" element={<Function2 />} />
+
+					{/* Quiz */}
+					<Route path="/spreadsheet/excel-multiple-choice-questions" element={<ExcelMultipleChoiceQuestions />} />
 
 					{/* 2. Function */}
 					<Route path="/function" element={<FunctionIndex />} />
