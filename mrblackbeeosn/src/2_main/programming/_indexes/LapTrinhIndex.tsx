@@ -46,7 +46,7 @@ export default function LapTrinhIndex(): React.JSX.Element {
 
             <li>
               <div className="li-content">
-                <Link to="/programming/react-js-practice"></Link>
+                <Link to="/lap-trinh/trac-nghiem-react-js">Trắc Nghiệm React</Link>
               </div>
             </li>
 
