@@ -39,6 +39,9 @@ import { Routes, Route } from 'react-router-dom';
 	const ReactJSPractice = lazy(() => import('@/2_main/programming/quiz/ReactJSPractice'));
 	const ReactJSFundamentals = lazy(() => import('@/2_main/programming/quiz/ReactJSFundamentals'));
 
+	// CSS
+	const CSSQuestions = lazy(() => import('@/2_main/programming/quiz/css/CSSQuestions'));
+
 	// 3. Frontend
 	const FrontEndIndex = lazy(() => import('@/2_main/programming/_indexes/FrontEndIndex'));
 	const FrontEndDeveloper = lazy(() => import('@/2_main/programming/prontend/FrontEndDeveloper'));
@@ -96,6 +99,9 @@ import { Routes, Route } from 'react-router-dom';
 	const HLOOKUP = lazy(() => import('@/2_main/spreadsheet/functions/HLOOKUP'));
 	const DATE = lazy(() => import('@/2_main/spreadsheet/functions/DATE'));
 
+	// Quiz
+	const ExcelFunctions = lazy(() => import('@/2_main/spreadsheet/functions/quiz/ExcelFunctions'));
+
 // 3. Test Tailwind
 	const TestTailwind = lazy(() => import('@/components/test/TestTailwind'));
 
@@ -141,6 +147,9 @@ export default function AppRoutes(): React.JSX.Element {
 				{/* Quiz */}
 				<Route path="/programming/react-js-practice" element={<ReactJSPractice />} />
 				<Route path="/programming/react-js-fundamentals" element={<ReactJSFundamentals />} />
+
+				{/* CSS */}
+				<Route path="/programming/css-questions" element={<CSSQuestions />} />
 
 				{/* 2. Frontend */}
 				<Route path="/front-end" element={<FrontEndIndex />} />
@@ -199,6 +208,9 @@ export default function AppRoutes(): React.JSX.Element {
 					<Route path="/function/what-is-the-vlookup-function?" element={<VLOOKUP />} />
 					<Route path="/function/what-is-the-hlookup-function?" element={<HLOOKUP />} />
 					<Route path="/function/what-is-the-date-function?" element={<DATE />} />
+
+					{/* Quiz */}
+					<Route path="/function/excel-functions" element={<ExcelFunctions />} />
 
 					{/* 3. Test Tailwind */}
 					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />

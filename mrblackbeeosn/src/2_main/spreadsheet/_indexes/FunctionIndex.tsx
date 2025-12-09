@@ -46,7 +46,7 @@ export default function FunctionIndex(): React.JSX.Element {
 
             <li>
               <div className="li-content">
-                <Link to="/spreadsheet/excel-multiple-choice-questions"></Link>
+                <Link to="/function/excel-functions">Excel Functions</Link>
               </div>
             </li>
 

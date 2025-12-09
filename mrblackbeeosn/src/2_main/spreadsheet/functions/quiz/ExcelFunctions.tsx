@@ -1,0 +1,174 @@
+// FunctionsPracticeQuizDPDK.tsx
+
+import React, { useState, useEffect } from 'react';
+import SpreadsheetPracticeQuiz from '../../../../components/quiz/SpreadsheetPracticeQuiz';
+
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '@/components/view/EyeIcon';
+import ViewCounter from '@/components/view/ViewCounter';
+import LikeButton from '@/components/like/LikeButton';
+
+interface Question {
+	id: number;
+	question: string;
+	options: string[];
+	correctAnswer: number;
+	explanation: string;
+}
+
+export default function ExcelFunctions(): React.JSX.Element {
+	// Danh sách câu hỏi về Functions cơ bản
+	const questions: Question[] = [
+		{
+			id: 1,
+			question: "Which function is used to find the highest value in a range of cells?",
+			options: [
+				"AVERAGE",
+				"SUM",
+				"MAX",
+				"COUNT"
+			],
+			correctAnswer: 2,
+			explanation: "The MAX function in Excel is specifically designed to determine and return the largest numerical value from a set of values or a range of cells."
+		},
+		{
+			id: 2,
+			question: "Which function is used to count the number of cells within a range that meet a given criterion?",
+			options: [
+				"COUNT",
+				"COUNTA",
+				"COUNTIF",
+				"SUMIF"
+			],
+			correctAnswer: 2,
+			explanation: "The COUNTIF function counts the number of cells in a range that satisfy a single condition or criterion that you specify."
+		},
+		{
+			id: 3,
+			question: "To combine the text from two or more cells into one cell, which function is commonly used?",
+			options: [
+				"CONCATENATE (or CONCAT)",
+				"COMBINE",
+				"JOIN",
+				"TEXT"
+			],
+			correctAnswer: 0,
+			explanation: "The CONCATENATE function (or the newer, simpler CONCAT function) links or joins several text strings or cell values into one text string."
+		},
+		{
+			id: 4,
+			question: "What does the VLOOKUP function stand for?",
+			options: [
+				"Value Lookup",
+				"Variable Lookup",
+				"Vertical Lookup",
+				"Vector Lookup"
+			],
+			correctAnswer: 2,
+			explanation: "VLOOKUP is used to search for a value in the first column of a range and return a value in the same row from a specified column, hence \"Vertical Lookup.\""
+		},
+		{
+			id: 5,
+			question: "Which formula will return the current date and time in an Excel cell?",
+			options: [
+				"=DATE()",
+				"=TIME()",
+				"=NOW()",
+				"=TODAY()"
+			],
+			correctAnswer: 2,
+			explanation: "The NOW function returns the serial number of the current date and time. The TODAY function only returns the current date."
+		},
+		{
+			id: 6,
+			question: "If cell A1 contains the number 123.456, what will the formula =ROUND(A1, 1) return?",
+			options: [
+				"123",
+				"123.4",
+				"123.5",
+				"123.46"
+			],
+			correctAnswer: 2,
+			explanation: "The ROUND function rounds a number to a specified number of digits. Rounding 123.456 to one decimal place means the 5 causes the 4 to round up to 5."
+		},
+		{
+			id: 7,
+			question: "What is the result of the formula =IF(5 > 10, \"Yes\", \"No\")?",
+			options: [
+				"Yes",
+				"No",
+				"True",
+				"False"
+			],
+			correctAnswer: 1,
+			explanation: "The IF function checks if a condition is met. The logical test (5 > 10) is FALSE. Therefore, the function returns the value specified for FALSE, which is \"No\"."
+		},
+		{
+			id: 8,
+			question: "Which function is used to extract a specified number of characters from the beginning (left side) of a text string?",
+			options: [
+				"RIGHT",
+				"MID",
+				"LEFT",
+				"START"
+			],
+			correctAnswer: 2,
+			explanation: "The LEFT function returns a specified number of characters from the start (left side) of a text string. The syntax is LEFT(text, num_chars)."
+		},
+		{
+			id: 9,
+			question: "Which of the following functions is considered a Statistical function?",
+			options: [
+				"NETWORKDAYS",
+				"AVERAGEIF",
+				"PMT",
+				"OFFSET"
+			],
+			correctAnswer: 1,
+			explanation: "AVERAGEIF calculates the average of all cells in a range that meet a given criterion, placing it in the Statistical category of Excel functions."
+		},
+		{
+			id: 10,
+			question: "In the formula =SUM(A1:A10), what does the colon (:) symbol represent?",
+			options: [
+				"A division operator",
+				"A non-contiguous selection",
+				"A range operator",
+				"An absolute reference indicator"
+			],
+			correctAnswer: 2,
+			explanation: "In Excel formulas, the colon (:) is the range operator, which defines a rectangular block of cells. A1:A10 refers to all cells from A1 through A10, inclusive."
+		}
+	];
+
+	return (
+
+		<main className="image image2">
+		
+			<article>
+				
+				<h4><HashLink smooth to="/functions#functions-basic-practice"><mark className="highlight-tertiary-padding-4-8">Functions</mark></HashLink></h4>
+
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center">Excel Functions</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental functions concepts</p>
+				</header>
+	
+				{/* This is the content of Functions Quiz. */}
+	
+				<SpreadsheetPracticeQuiz questions={questions} />
+	
+				<div className="viewcounter">
+	
+					<div className="post-date no-margin">
+						<span>December 09, 2025 · by 💎Gem ·</span>
+					</div>
+	
+				</div>
+	
+			</article>
+	
+		</main>
+	);
+};
