@@ -38,7 +38,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
               Programming Quiz
         ============================= */}
 
-				<details className="sub-box-fix-2 margin-bottom-20">
+				<details className="sub-box-fix-2">
 			
 					<summary id="react-js-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
@@ -64,7 +64,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
               CSS Quiz
         ============================= */}
 
-				<details className="sub-box-fix-2 margin-bottom-20">
+				<details className="sub-box-fix-2">
 			
 					<summary id="css-basic-practice"><mark className="highlight-secondary-padding-2-4">CSS</mark></summary>
 
@@ -82,7 +82,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
 
       </div>
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
         <div className="sub-box">
         
