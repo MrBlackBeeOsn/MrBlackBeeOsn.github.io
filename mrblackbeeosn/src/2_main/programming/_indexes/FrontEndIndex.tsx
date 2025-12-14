@@ -40,13 +40,13 @@ export default function FrontEndIndex(): React.JSX.Element {
 
         <details className="sub-box-fix-2">
       
-          <summary id="front-end-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+          <summary id="front-end-basic-practice"><mark className="highlight-secondary-padding-2-4">Front-End</mark></summary>
 
           <ul className="list-border1">
 
             <li>
               <div className="li-content">
-                <Link to="/programming/react-js-practice"></Link>
+                <Link to="/front-end/front-end-quiz">Front-End Development</Link>
               </div>
             </li>
 

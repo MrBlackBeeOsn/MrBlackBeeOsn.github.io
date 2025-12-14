@@ -53,6 +53,9 @@ import { Routes, Route } from 'react-router-dom';
 	const NextJS = lazy(() => import('@/2_main/programming/prontend/NextJS'));
 	const TailwindCSS = lazy(() => import('@/2_main/programming/prontend/TailwindCSS'));
 
+	// Quiz
+	const FrontEndQuiz = lazy(() => import('@/2_main/programming/prontend/quiz/FrontEndQuiz'));
+
 	// 3. Backend
 	const BackendIndex = lazy(() => import('@/2_main/programming/_indexes/BackendIndex'));
 	const BackEndDeveloper = lazy(() => import('@/2_main/programming/backend/BackEndDeveloper'));
@@ -150,6 +153,7 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* CSS */}
 				<Route path="/programming/css-questions" element={<CSSQuestions />} />
+		
 
 				{/* 2. Frontend */}
 				<Route path="/front-end" element={<FrontEndIndex />} />
@@ -161,6 +165,9 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/front-end/what-is-react?" element={<ReactJS />} />
 				<Route path="/front-end/what-is-nextjs?" element={<NextJS />} />
 				<Route path="/front-end/what-is-tailwindcss?" element={<TailwindCSS />} />
+
+				{/* Quiz */}
+				<Route path="/front-end/front-end-quiz" element={<FrontEndQuiz />} />
 				
 				{/* 3. Backend */}
 				<Route path="/back-end" element={<BackendIndex />} />
