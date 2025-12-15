@@ -95,6 +95,12 @@ import { Routes, Route } from 'react-router-dom';
 	// Quiz
 	const TracNghiemReactJS = lazy(() => import('@/2_main/programming/laptrinh/quiz/TracNghiemReactJS'));
 
+	// CSS
+	const TracNghiemCSS = lazy(() => import('@/2_main/programming/laptrinh/quiz/css/TracNghiemCSS'));
+
+	// HTML
+	const TracNghiemHTML = lazy(() => import('@/2_main/programming/laptrinh/quiz/html/TracNghiemHTML'));
+
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
 	// 1. Spreadsheet
@@ -216,6 +222,12 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* Quiz */}
 				<Route path="/lap-trinh/trac-nghiem-react-js" element={<TracNghiemReactJS />} />
+
+				{/* CSS */}
+				<Route path="/lap-trinh/trac-nghiem-css" element={<TracNghiemCSS />} />
+
+				{/* HTML */}
+				<Route path="/lap-trinh/trac-nghiem-html" element={<TracNghiemHTML />} />
 
 				{/* 2_main Khai báo đường dẫn path cho Spreadsheet */}
 

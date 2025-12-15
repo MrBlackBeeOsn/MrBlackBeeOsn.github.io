@@ -56,6 +56,50 @@ export default function LapTrinhIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              CSS Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="css-basic-practice"><mark className="highlight-secondary-padding-2-4">CSS</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/trac-nghiem-css">Trắc Nghiệm CSS</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+        {/* =============================
+              HTML Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="html-basic-practice"><mark className="highlight-secondary-padding-2-4">HTML</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/lap-trinh/trac-nghiem-html">Trắc Nghiệm HTML</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
       </div>
 
       <div className="flex-container margin-top-20">
