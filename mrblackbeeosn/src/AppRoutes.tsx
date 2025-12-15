@@ -42,6 +42,10 @@ import { Routes, Route } from 'react-router-dom';
 	// CSS
 	const CSSQuestions = lazy(() => import('@/2_main/programming/quiz/css/CSSQuestions'));
 
+	// HTML
+	const HTMLQuiz = lazy(() => import('@/2_main/programming/quiz/html/HTMLQuiz'));
+
+
 	// 3. Frontend
 	const FrontEndIndex = lazy(() => import('@/2_main/programming/_indexes/FrontEndIndex'));
 	const FrontEndDeveloper = lazy(() => import('@/2_main/programming/prontend/FrontEndDeveloper'));
@@ -65,6 +69,9 @@ import { Routes, Route } from 'react-router-dom';
 	const Java = lazy(() => import('@/2_main/programming/backend/Java'));
 	const PHP = lazy(() => import('@/2_main/programming/backend/PHP'));
 	const NodeJS = lazy(() => import('@/2_main/programming/backend/NodeJS'));
+
+	// Quiz
+	const BackEndQuiz = lazy(() => import('@/2_main/programming/backend/quiz/BackEndQuiz'));
 
 	// 4. Learning
 	const LearningIndex = lazy(() => import('@/2_main/learning/_indexes/LearningIndex'));
@@ -153,6 +160,9 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* CSS */}
 				<Route path="/programming/css-questions" element={<CSSQuestions />} />
+
+				{/* HTML */}
+				<Route path="/programming/html-quiz" element={<HTMLQuiz />} />
 		
 
 				{/* 2. Frontend */}
@@ -178,6 +188,9 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/back-end/what-is-java?" element={<Java />} />
 				<Route path="/back-end/what-is-php?" element={<PHP />} />
 				<Route path="/back-end/what-is-node.js?" element={<NodeJS />} />
+
+				{/* Quiz */}
+				<Route path="/back-end/back-end-quiz" element={<BackEndQuiz />} />
 
 				{/* 4. Learning */}
 				<Route path="/learning" element={<LearningIndex />} />

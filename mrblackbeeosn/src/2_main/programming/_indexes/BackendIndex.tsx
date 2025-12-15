@@ -40,13 +40,13 @@ export default function BackendIndex(): React.JSX.Element {
 
         <details className="sub-box-fix-2">
       
-          <summary id="back-end-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+          <summary id="back-end-basic-practice"><mark className="highlight-secondary-padding-2-4">Back-End</mark></summary>
 
           <ul className="list-border1">
 
             <li>
               <div className="li-content">
-                <Link to="/programming/react-js-practice"></Link>
+                <Link to="/back-end/back-end-quiz">Back-End Development Quiz</Link>
               </div>
             </li>
 

@@ -1,4 +1,4 @@
-// BackendPracticeQuizDPDK.tsx
+// ProgrammingPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
 import ProgrammingPracticeQuiz from '../../../../components/quiz/ProgrammingPracticeQuiz';
@@ -18,7 +18,7 @@ interface Question {
 }
 
 export default function (): React.JSX.Element {
-	// Danh sách câu hỏi về Backend cơ bản
+	// Danh sách câu hỏi về HTML cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
@@ -148,14 +148,14 @@ export default function (): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/back-end#back-end-basic-practice"><mark className="highlight-tertiary-padding-4-8">Back-End</mark></HashLink></h4>
+				<h4><HashLink smooth to="/programming#html-basic-practice"><mark className="highlight-tertiary-padding-4-8">HTML</mark></HashLink></h4>
 
 				<header className="quiz-header">
 					<h1 className="margin-y-50 text-center"></h1>
-					<p className="subtitle text-center">Test your knowledge of fundamental backend concepts</p>
+					<p className="subtitle text-center">Test your knowledge of fundamental HTML concepts</p>
 				</header>
 	
-				{/* This is the content of Backend Quiz. */}
+				{/* This is the content of HTML Quiz. */}
 	
 				<ProgrammingPracticeQuiz questions={questions} />
 	
