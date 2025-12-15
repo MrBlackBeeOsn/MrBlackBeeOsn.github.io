@@ -45,6 +45,10 @@ import { Routes, Route } from 'react-router-dom';
 	// HTML
 	const HTMLQuiz = lazy(() => import('@/2_main/programming/quiz/html/HTMLQuiz'));
 
+	// JS
+	const JavaScriptQuiz = lazy(() => import('@/2_main/programming/quiz/js/JavaScriptQuiz'));
+
+
 
 	// 3. Frontend
 	const FrontEndIndex = lazy(() => import('@/2_main/programming/_indexes/FrontEndIndex'));
@@ -163,6 +167,9 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* HTML */}
 				<Route path="/programming/html-quiz" element={<HTMLQuiz />} />
+
+				{/* JS */}
+				<Route path="/programming/javascript-quiz" element={<JavaScriptQuiz />} />
 		
 
 				{/* 2. Frontend */}

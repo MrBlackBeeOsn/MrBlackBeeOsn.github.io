@@ -60,45 +60,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
 
 				</details>
 
-        {/* =============================
-              CSS Quiz
-        ============================= */}
-
-				<details className="sub-box-fix-2">
-			
-					<summary id="css-basic-practice"><mark className="highlight-secondary-padding-2-4">CSS</mark></summary>
-
-					<ul className="list-border1">
-
-            <li>
-              <div className="li-content">
-                <Link to="/programming/css-questions">CSS Multiple-Choice Questions</Link>
-              </div>
-            </li>
-						
-					</ul>
-
-				</details>
-
-        {/* =============================
-              HTML Quiz
-        ============================= */}
-
-				<details className="sub-box-fix-2">
-			
-					<summary id="html-basic-practice"><mark className="highlight-secondary-padding-2-4">HTML</mark></summary>
-
-					<ul className="list-border1">
-
-            <li>
-              <div className="li-content">
-                <Link to="/programming/html-quiz">HTML Quiz</Link>
-              </div>
-            </li>
-						
-					</ul>
-
-				</details>
+        
 
       </div>
 
