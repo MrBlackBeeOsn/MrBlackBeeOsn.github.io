@@ -151,7 +151,7 @@ export default function TracNghiemCSS(): React.JSX.Element {
 				<h4><HashLink smooth to="/lap-trinh#css-basic-practice"><mark className="highlight-tertiary-padding-4-8">CSS</mark></HashLink></h4>
 
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">CSS Multiple Choice Questions</h1>
+					<h1 className="margin-y-50 text-center">Trắc Nghiệm CSS</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental CSS concepts</p>
 				</header>
 	

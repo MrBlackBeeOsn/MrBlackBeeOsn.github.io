@@ -101,6 +101,9 @@ import { Routes, Route } from 'react-router-dom';
 	// HTML
 	const TracNghiemHTML = lazy(() => import('@/2_main/programming/laptrinh/quiz/html/TracNghiemHTML'));
 
+	// HTML
+	const TracNghiemJS = lazy(() => import('@/2_main/programming/laptrinh/quiz/js/TracNghiemJS'));
+
 // 2_main import các chức năng và đường dẫn Spreadsheet
 
 	// 1. Spreadsheet
@@ -228,6 +231,9 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* HTML */}
 				<Route path="/lap-trinh/trac-nghiem-html" element={<TracNghiemHTML />} />
+
+				{/* JS */}
+				<Route path="/lap-trinh/trac-nghiem-js" element={<TracNghiemJS />} />
 
 				{/* 2_main Khai báo đường dẫn path cho Spreadsheet */}
 
