@@ -1,7 +1,7 @@
 // ProgrammingPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import ProgrammingPracticeQuiz from '../../../components/quiz/ProgrammingPracticeQuiz';
+import ProgrammingPracticeQuiz from '../../../../../components/quiz/ProgrammingPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -18,7 +18,7 @@ interface Question {
 }
 
 export default function (): React.JSX.Element {
-	// Danh sách câu hỏi về Programming cơ bản
+	// Danh sách câu hỏi về VS Code cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
@@ -148,14 +148,14 @@ export default function (): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/programming#react-js-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+				<h4><HashLink smooth to="/programming#vscode-basic-practice"><mark className="highlight-tertiary-padding-4-8">VS Code</mark></HashLink></h4>
 
 				<header className="quiz-header">
 					<h1 className="margin-y-50 text-center"></h1>
-					<p className="subtitle text-center">Test your knowledge of fundamental programming concepts</p>
+					<p className="subtitle text-center">Test your knowledge of fundamental VS Code</p>
 				</header>
 	
-				{/* This is the content of Programming Quiz. */}
+				{/* This is the content of VS Code Quiz. */}
 	
 				<ProgrammingPracticeQuiz questions={questions} />
 	

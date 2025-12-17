@@ -68,7 +68,7 @@ export default function FrontEndIndex(): React.JSX.Element {
 
             <li>
               <div className="li-content">
-                <Link to="/programming/css-questions">CSS Multiple-Choice Questions</Link>
+                <Link to="/front-end/css-questions">CSS Multiple-Choice Questions</Link>
               </div>
             </li>
             
@@ -88,7 +88,7 @@ export default function FrontEndIndex(): React.JSX.Element {
 
             <li>
               <div className="li-content">
-                <Link to="/programming/html-quiz">HTML Quiz</Link>
+                <Link to="/front-end/html-quiz">HTML Quiz</Link>
               </div>
             </li>
             
@@ -108,7 +108,7 @@ export default function FrontEndIndex(): React.JSX.Element {
 
             <li>
               <div className="li-content">
-                <Link to="/programming/javascript-quiz">JavaScript Multiple-Choice</Link>
+                <Link to="/front-end/javascript-quiz">JavaScript Multiple-Choice</Link>
               </div>
             </li>
             

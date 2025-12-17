@@ -40,7 +40,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
 
 				<details className="sub-box-fix-2">
 			
-					<summary id="react-js-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+					<summary id="react-js-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
 					<ul className="list-border1">
 
@@ -53,6 +53,26 @@ export default function ProgrammingIndex(): React.JSX.Element {
             <li>
               <div className="li-content">
                 <Link to="/programming/react-js-fundamentals">React JS Fundamentals</Link>
+              </div>
+            </li>
+						
+					</ul>
+
+				</details>
+
+        {/* =============================
+              VS Code Quiz
+        ============================= */}
+
+				<details className="sub-box-fix-2">
+			
+					<summary id="vs-code-basic-practice"><mark className="highlight-secondary-padding-2-4">VS Code</mark></summary>
+
+					<ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/vscode-quiz">VS Code Multiple Choice Quiz</Link>
               </div>
             </li>
 						

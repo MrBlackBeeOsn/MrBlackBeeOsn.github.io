@@ -39,14 +39,10 @@ import { Routes, Route } from 'react-router-dom';
 	const ReactJSPractice = lazy(() => import('@/2_main/programming/quiz/ReactJSPractice'));
 	const ReactJSFundamentals = lazy(() => import('@/2_main/programming/quiz/ReactJSFundamentals'));
 
-	// CSS
-	const CSSQuestions = lazy(() => import('@/2_main/programming/quiz/css/CSSQuestions'));
+	// VS Code
+	const VSCodeQuiz = lazy(() => import('@/2_main/programming/quiz/vscode/VSCodeQuiz'));
 
-	// HTML
-	const HTMLQuiz = lazy(() => import('@/2_main/programming/quiz/html/HTMLQuiz'));
-
-	// JS
-	const JavaScriptQuiz = lazy(() => import('@/2_main/programming/quiz/js/JavaScriptQuiz'));
+	
 
 
 
@@ -63,6 +59,15 @@ import { Routes, Route } from 'react-router-dom';
 
 	// Quiz
 	const FrontEndQuiz = lazy(() => import('@/2_main/programming/prontend/quiz/FrontEndQuiz'));
+
+	// CSS
+	const CSSQuestions = lazy(() => import('@/2_main/programming/quiz/css/CSSQuestions'));
+
+	// HTML
+	const HTMLQuiz = lazy(() => import('@/2_main/programming/quiz/html/HTMLQuiz'));
+
+	// JS
+	const JavaScriptQuiz = lazy(() => import('@/2_main/programming/quiz/js/JavaScriptQuiz'));
 
 	// 3. Backend
 	const BackendIndex = lazy(() => import('@/2_main/programming/_indexes/BackendIndex'));
@@ -171,14 +176,10 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/programming/react-js-practice" element={<ReactJSPractice />} />
 				<Route path="/programming/react-js-fundamentals" element={<ReactJSFundamentals />} />
 
-				{/* CSS */}
-				<Route path="/programming/css-questions" element={<CSSQuestions />} />
+				{/* VS Code */}
+				<Route path="/programming/vscode-quiz" element={<VSCodeQuiz />} />
 
-				{/* HTML */}
-				<Route path="/programming/html-quiz" element={<HTMLQuiz />} />
-
-				{/* JS */}
-				<Route path="/programming/javascript-quiz" element={<JavaScriptQuiz />} />
+				
 		
 
 				{/* 2. Frontend */}
@@ -194,6 +195,15 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* Quiz */}
 				<Route path="/front-end/front-end-quiz" element={<FrontEndQuiz />} />
+
+				{/* CSS */}
+				<Route path="/front-end/css-questions" element={<CSSQuestions />} />
+
+				{/* HTML */}
+				<Route path="/front-end/html-quiz" element={<HTMLQuiz />} />
+
+				{/* JS */}
+				<Route path="/front-end/javascript-quiz" element={<JavaScriptQuiz />} />
 				
 				{/* 3. Backend */}
 				<Route path="/back-end" element={<BackendIndex />} />
