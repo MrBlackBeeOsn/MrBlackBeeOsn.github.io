@@ -26,6 +26,15 @@
 			"content": "A function in a spreadsheet is like a little helper that can do special tricks with your numbers.",
 			"slug": "spreadsheet/what-is-function",
 			"date": "2025-08-29"
+		},
+		{ 
+			"id": "ExcelMultipleChoiceQuestions",
+			"categoryDisplay": "Spreadsheet",
+			"categorySlug": "spreadsheet",
+			"title": "Quiz",
+			"content": "Excel Multiple Choice Questions",
+			"slug": "spreadsheet/excel-multiple-choice-questions",
+			"date": "2025-12-06"
 		}
 	]
 }

@@ -151,7 +151,7 @@ export default function ExcelFunctions(): React.JSX.Element {
 				<h4><HashLink smooth to="/functions#functions-basic-practice"><mark className="highlight-tertiary-padding-4-8">Functions</mark></HashLink></h4>
 
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Excel Functions</h1>
+					<h1 className="margin-y-50 text-center">Excel Functions Quiz</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental functions concepts</p>
 				</header>
 	

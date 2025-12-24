@@ -496,6 +496,17 @@
       "likes": 0
     },
     {
+      "id": "ExcelMultipleChoiceQuestions",
+      "categoryDisplay": "Spreadsheet",
+      "categorySlug": "spreadsheet",
+      "title": "Quiz",
+      "content": "Excel Multiple Choice Questions",
+      "slug": "spreadsheet/excel-multiple-choice-questions",
+      "date": "2025-12-06",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "XLOOKUP",
       "categoryDisplay": "Function",
       "categorySlug": "function",
@@ -536,6 +547,17 @@
       "content": "The DATE function is a powerful tool in spreadsheet software like Microsoft Excel or Google Sheets that allows you to create a date based on specific year, month, and day values.",
       "slug": "function/what-is-the-date-function",
       "date": "2024-08-18",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "ExcelFunctions",
+      "categoryDisplay": "Function",
+      "categorySlug": "function",
+      "title": "Quiz",
+      "content": "Excel Functions Quiz",
+      "slug": "function/excel-functions",
+      "date": "2025-12-09",
       "views": 0,
       "likes": 0
     },
