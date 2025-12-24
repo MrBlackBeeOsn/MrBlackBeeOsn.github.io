@@ -71,6 +71,42 @@
 			"content": "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.",
 			"slug": "front-end/what-is-tailwindcss",
 			"date": "2025-10-16"
+		},
+		{ 
+			"id": "FrontEndQuiz",
+			"categoryDisplay": "Pront-End",
+			"categorySlug": "pront-end",
+			"title": "Quiz",
+			"content": "Front-End Development Quiz",
+			"slug": "front-end/front-end-quiz",
+			"date": "2025-12-14"
+		},
+		{ 
+			"id": "CSSQuestions",
+			"categoryDisplay": "Pront-End",
+			"categorySlug": "pront-end",
+			"title": "Quiz",
+			"content": "CSS Multiple-Choice Questions",
+			"slug": "front-end/css-questions",
+			"date": "2025-12-09"
+		},
+		{ 
+			"id": "HTMLQuiz",
+			"categoryDisplay": "Pront-End",
+			"categorySlug": "pront-end",
+			"title": "Quiz",
+			"content": "HTML Quiz",
+			"slug": "front-end/html-quiz",
+			"date": "2025-12-15"
+		},
+		{ 
+			"id": "JavaScriptQuiz",
+			"categoryDisplay": "Pront-End",
+			"categorySlug": "pront-end",
+			"title": "Quiz",
+			"content": "JavaScript Quiz",
+			"slug": "front-end/javascript-quiz",
+			"date": "2025-12-15"
 		}
 	]
 }

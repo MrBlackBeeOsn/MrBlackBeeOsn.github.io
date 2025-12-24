@@ -1,7 +1,7 @@
 // ProgrammingPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import ProgrammingPracticeQuiz from '../../../../components/quiz/ProgrammingPracticeQuiz';
+import ProgrammingPracticeQuiz from '../../../../../components/quiz/ProgrammingPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';

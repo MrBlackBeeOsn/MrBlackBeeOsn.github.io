@@ -61,13 +61,13 @@ import { Routes, Route } from 'react-router-dom';
 	const FrontEndQuiz = lazy(() => import('@/2_main/programming/prontend/quiz/FrontEndQuiz'));
 
 	// CSS
-	const CSSQuestions = lazy(() => import('@/2_main/programming/quiz/css/CSSQuestions'));
+	const CSSQuestions = lazy(() => import('@/2_main/programming/prontend/quiz/css/CSSQuestions'));
 
 	// HTML
-	const HTMLQuiz = lazy(() => import('@/2_main/programming/quiz/html/HTMLQuiz'));
+	const HTMLQuiz = lazy(() => import('@/2_main/programming/prontend/quiz/html/HTMLQuiz'));
 
 	// JS
-	const JavaScriptQuiz = lazy(() => import('@/2_main/programming/quiz/js/JavaScriptQuiz'));
+	const JavaScriptQuiz = lazy(() => import('@/2_main/programming/prontend/quiz/js/JavaScriptQuiz'));
 
 	// 3. Backend
 	const BackendIndex = lazy(() => import('@/2_main/programming/_indexes/BackendIndex'));

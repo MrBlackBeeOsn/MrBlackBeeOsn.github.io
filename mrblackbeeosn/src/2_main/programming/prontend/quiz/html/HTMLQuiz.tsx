@@ -1,7 +1,7 @@
 // ProgrammingPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import ProgrammingPracticeQuiz from '../../../../components/quiz/ProgrammingPracticeQuiz';
+import ProgrammingPracticeQuiz from '../../../../../components/quiz/ProgrammingPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -151,7 +151,7 @@ export default function HTMLQuiz(): React.JSX.Element {
 				<h4><HashLink smooth to="/programming#html-basic-practice"><mark className="highlight-tertiary-padding-4-8">HTML</mark></HashLink></h4>
 
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">HTMLQuiz</h1>
+					<h1 className="margin-y-50 text-center">HTML Quiz</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental HTML concepts</p>
 				</header>
 	
