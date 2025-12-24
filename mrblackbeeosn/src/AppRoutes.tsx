@@ -36,8 +36,8 @@ import { Routes, Route } from 'react-router-dom';
 	const Function = lazy(() => import('@/2_main/programming/Function'));
 
 	// Quiz
-	const ReactJSPractice = lazy(() => import('@/2_main/programming/quiz/ReactJSPractice'));
-	const ReactJSFundamentals = lazy(() => import('@/2_main/programming/quiz/ReactJSFundamentals'));
+	const ReactJSPractice = lazy(() => import('@/2_main/programming/prontend/quiz/react/ReactJSPractice'));
+	const ReactJSFundamentals = lazy(() => import('@/2_main/programming/prontend/quiz/react/ReactJSFundamentals'));
 
 	// VS Code
 	const VSCodeQuiz = lazy(() => import('@/2_main/programming/quiz/vscode/VSCodeQuiz'));
@@ -173,8 +173,7 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/programming/what-is-a-function?" element={<Function />} />
 
 				{/* Quiz */}
-				<Route path="/programming/react-js-practice" element={<ReactJSPractice />} />
-				<Route path="/programming/react-js-fundamentals" element={<ReactJSFundamentals />} />
+	
 
 				{/* VS Code */}
 				<Route path="/programming/vscode-quiz" element={<VSCodeQuiz />} />
@@ -195,6 +194,10 @@ export default function AppRoutes(): React.JSX.Element {
 
 				{/* Quiz */}
 				<Route path="/front-end/front-end-quiz" element={<FrontEndQuiz />} />
+
+				{/* React */}
+				<Route path="/front-end/react-js-practice" element={<ReactJSPractice />} />
+				<Route path="/front-end/react-js-fundamentals" element={<ReactJSFundamentals />} />
 
 				{/* CSS */}
 				<Route path="/front-end/css-questions" element={<CSSQuestions />} />

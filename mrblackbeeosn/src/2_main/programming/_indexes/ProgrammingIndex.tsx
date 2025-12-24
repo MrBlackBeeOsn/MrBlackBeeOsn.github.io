@@ -38,27 +38,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
               Programming Quiz
         ============================= */}
 
-				<details className="sub-box-fix-2">
-			
-					<summary id="react-js-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
-					<ul className="list-border1">
-
-						<li>
-              <div className="li-content">
-                <Link to="/programming/react-js-practice">React JS Practice</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/programming/react-js-fundamentals">React JS Fundamentals</Link>
-              </div>
-            </li>
-						
-					</ul>
-
-				</details>
 
         {/* =============================
               VS Code Quiz

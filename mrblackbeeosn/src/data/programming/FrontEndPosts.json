@@ -82,6 +82,24 @@
 			"date": "2025-12-14"
 		},
 		{ 
+			"id": "ReactJSPractice",
+			"categoryDisplay": "Pront-End",
+			"categorySlug": "pront-end",
+			"title": "Quiz",
+			"content": "React JS Practice",
+			"slug": "front-end/react-js-practice",
+			"date": "2025-12-04"
+		},
+		{ 
+			"id": "ReactJSFundamentals",
+			"categoryDisplay": "Pront-End",
+			"categorySlug": "pront-end",
+			"title": "Quiz",
+			"content": "React JS Fundamentals",
+			"slug": "front-end/react-js-fundamentals",
+			"date": "2025-12-05"
+		},
+		{ 
 			"id": "CSSQuestions",
 			"categoryDisplay": "Pront-End",
 			"categorySlug": "pront-end",
