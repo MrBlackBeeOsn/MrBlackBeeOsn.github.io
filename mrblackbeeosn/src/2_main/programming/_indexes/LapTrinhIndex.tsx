@@ -40,7 +40,7 @@ export default function LapTrinhIndex(): React.JSX.Element {
 
         <details className="sub-box-fix-2">
       
-          <summary id="lap-trinh-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+          <summary id="react-basic-practice"><mark className="highlight-secondary-padding-2-4">React</mark></summary>
 
           <ul className="list-border1">
 

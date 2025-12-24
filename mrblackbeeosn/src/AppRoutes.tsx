@@ -97,8 +97,8 @@ import { Routes, Route } from 'react-router-dom';
 	const BiQuyetHocLapTrinhHieuQua = lazy(() => import('@/2_main/programming/laptrinh/BiQuyetHocLapTrinhHieuQua'));
 	const TutorialCourseQuestion = lazy(() => import('@/2_main/programming/laptrinh/TutorialCourseQuestion'));
 
-	// Quiz
-	const TracNghiemReactJS = lazy(() => import('@/2_main/programming/laptrinh/quiz/TracNghiemReactJS'));
+	// React
+	const TracNghiemReactJS = lazy(() => import('@/2_main/programming/laptrinh/quiz/react/TracNghiemReactJS'));
 
 	// CSS
 	const TracNghiemCSS = lazy(() => import('@/2_main/programming/laptrinh/quiz/css/TracNghiemCSS'));
@@ -236,7 +236,7 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/lap-trinh/bi-quyet-hoc-lap-trinh-hieu-qua" element={<BiQuyetHocLapTrinhHieuQua />} />
 				<Route path="/lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based?" element={<TutorialCourseQuestion />} />
 
-				{/* Quiz */}
+				{/* React */}
 				<Route path="/lap-trinh/trac-nghiem-react-js" element={<TracNghiemReactJS />} />
 
 				{/* CSS */}

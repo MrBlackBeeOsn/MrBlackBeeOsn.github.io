@@ -44,6 +44,42 @@
       "content": "1. Tutorial – “Thuốc giảm đau” tức thì. 2. Course – Xây nhà từ móng 3. Question-based & Project-based – Cách nhanh nhất để “pro”",
       "slug": "lap-trinh/nen-hoc-qua-tutorial-course-hay-question-based",
       "date": "2025-12-01"
+    },
+    { 
+      "id": "TracNghiemReactJS",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm React JS",
+      "slug": "lap-trinh/trac-nghiem-react-js",
+      "date": "2025-12-08"
+    },
+    { 
+      "id": "TracNghiemCSS",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm CSS",
+      "slug": "lap-trinh/trac-nghiem-css",
+      "date": "2025-12-15"
+    },
+    { 
+      "id": "TracNghiemHTML",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm HTML",
+      "slug": "lap-trinh/trac-nghiem-html",
+      "date": "2025-12-15"
+    },
+    { 
+      "id": "TracNghiemJS",
+      "categoryDisplay": "Lập Trình",
+      "categorySlug": "lap-trinh",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm JavaScript",
+      "slug": "lap-trinh/trac-nghiem-js",
+      "date": "2025-12-16"
     }
   ]
 }
