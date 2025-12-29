@@ -133,6 +133,24 @@
 		"description": "className mt20"
 	},
 
+	// .list-none
+	"template className ln": {
+		"prefix": ".list-none",
+		"body": [
+			" className=\"list-none\""
+		],
+		"description": "className list-none"
+	},
+
+	// .value="1"
+	"template value": {
+		"prefix": ".value",
+		"body": [
+			" value=\"1\""
+		],
+		"description": "className value"
+	},
+
 	// .textindentwhole
 	"template text-indent-whole": {
 		"prefix": ".textindentwhole",
