@@ -46,23 +46,23 @@ export default function ContactIndex(): React.JSX.Element {
 
 				<header className="portfolio-header title">
 
-					<h1 className="name">HIEU DEV</h1>
-					<div className="title">Programmer | Web Development | API Integration | Software Engineering</div>
+					<h1 className="name">ßee Dev</h1>
+					<div className="title">Programmer | Eng/Acc Development | API Integration | Software Engineering</div>
 					<div className="location"><FontAwesomeIcon icon={faLocationDot} /> Hoc Mon District, HCMC</div>
 					
 					<div className="contact-info">
 
-						<div className="contact-item">
+						{/* <div className="contact-item">
 							<FontAwesomeIcon icon={faAt} />
 							<Link to="mailto:Hieu.Dev202@outlook.com" className="email-link">
 								Outlook
 							</Link>
-						</div>
+						</div> */}
 
 						<div className="contact-item">
               <FontAwesomeIcon icon={faWhatsapp} />
               <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
-                WA Business
+                WhatsApp
               </Link>
             </div>
 
@@ -100,7 +100,7 @@ export default function ContactIndex(): React.JSX.Element {
 
 						<div className="contact-item">
 							<FontAwesomeIcon icon={faLinkedin} />  
-							<Link to="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
+							<Link to="https://www.linkedin.com/in/anAccountingBee/" className="email-link" target="_blank">
 								LinkedIn
 							</Link>
 						</div>
