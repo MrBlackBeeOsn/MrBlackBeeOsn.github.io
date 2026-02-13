@@ -141,8 +141,8 @@ span.bee {
 	position: absolute; /* Định vị tuyệt đối */
 	/* top: 40px; 15px; Gắn sát góc trên */
 	/* right: -45px; */
-	top: 45px;
-	left: 160px;
+	top: 115px;
+	left: 183px;
 	width: 150px; /* Kích thước hình ảnh */
 	height: auto;
 	transform: translateY(-50%); /* Căn giữa theo chiều dọc */
