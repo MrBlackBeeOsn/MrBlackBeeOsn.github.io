@@ -79,19 +79,19 @@ export default function Home(): React.JSX.Element {
 					
 					<div className="contact-info">
 
-						<div className="contact-item">
-              <FontAwesomeIcon icon={faWhatsapp} />
-              <Link to="https://wa.me/84906920292?text=Hello! What Sapp chưa nè?" className="email-link" target="_blank">
-                WhatsApp
-              </Link>
-            </div>
-
             <div className="contact-item">
 							<FontAwesomeIcon icon={faInstagram} />
 							<Link to="https://www.instagram.com/mr.blackbee.ongsiengnang/" className="email-link" target="_blank">
 								Instagram
 							</Link>
 						</div>
+
+            <div className="contact-item">
+              <FontAwesomeIcon icon={faWhatsapp} />
+              <Link to="https://wa.me/84906920292?text=Hello! What Sapp chưa nè?" className="email-link" target="_blank">
+                WhatsApp
+              </Link>
+            </div>
 
 						<div className="contact-item">
 							<FontAwesomeIcon icon={faGithub} />
