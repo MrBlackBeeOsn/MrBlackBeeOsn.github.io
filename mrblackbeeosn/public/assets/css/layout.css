@@ -23,12 +23,12 @@
   background: linear-gradient(135deg, var(--primary-color-header) 0%, var(--accent-color-header) 100%);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  position: relative;
-  transition: all 0.3s ease;
-  width: 100%;
-  height: 8rem;
-  padding: 1rem;
-  margin-bottom: 2.0rem;
+	position: relative;
+	transition: all 0.3s ease;
+	width: 100%;
+	height: 8rem;
+	padding: 1rem;
+	margin-bottom: 2.0rem;
 }
 
 /* Hiệu ứng hover */
