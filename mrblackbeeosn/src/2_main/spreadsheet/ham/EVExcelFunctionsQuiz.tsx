@@ -22,123 +22,123 @@ export default function EVExcelFunctionsQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "Which function would you use to find the highest value in a range of cells?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"MAXIMUM()",
+				"HIGH()",
+				"MAX()",
+				"LARGE()"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Trong Excel, hàm MAX() được dùng để trả về giá trị lớn nhất trong một vùng dữ liệu."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "What is the correct syntax for the VLOOKUP function?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])",
+				"=VLOOKUP(table_array, lookup_value, col_index_num)",
+				"=VLOOKUP(lookup_value, col_index_num, table_array)",
+				"=VLOOKUP(range_lookup, lookup_value, table_array)"
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Đây là cấu trúc chuẩn để tìm kiếm dữ liệu theo cột."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "If cell A1 contains \"Excel\" and B1 contains \"Functions\", which formula joins them as \"Excel Functions\"?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"=A1+B1",
+				"=JOIN(A1, B1)",
+				"=A1 & \" \" & B1",
+				"=CONCAT(A1, B1)"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Sử dụng toán tử & kết hợp với khoảng trắng nằm trong dấu ngoặc kép."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Which function counts the number of cells that contain numbers in a range?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"COUNTA()",
+				"COUNT()",
+				"COUNTBLANK()",
+				"COUNTIF()"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Hàm COUNT() chỉ đếm các ô có chứa giá trị là số."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "What will be the result of the formula: =IF(10>5, \"Yes\", \"No\")?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"10",
+				"5",
+				"No",
+				"Yes"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 3,
+			explanation: "Vì biểu thức so sánh 10 > 5 là đúng, hàm trả về kết quả ở vế \"Value_if_true\"."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "Which function is used to calculate the arithmetic mean of a group of cells?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"SUM()",
+				"MEDIAN()",
+				"AVERAGE()",
+				"MODE()"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Hàm AVERAGE() dùng để tính số trung bình cộng của các đối số hoặc vùng dữ liệu."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "What does the #VALUE! error usually mean in Excel?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"The formula cannot find what it is asked to look for.",
+				"You are dividing by zero.",
+				"The formula has the wrong type of argument (e.g., adding text to a number).",
+				"The column is not wide enough."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Xuất hiện khi bạn thực hiện toán tử toán học trên các ô chứa văn bản hoặc kiểu dữ liệu không phù hợp."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "Which function returns the current date and time?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"TODAY()",
+				"DATE()",
+				"TIME()",
+				"NOW()"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 3,
+			explanation: "Hàm NOW() cung cấp cả ngày và giờ hệ thống hiện tại, trong khi TODAY() chỉ cho ngày."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "In the formula =SUMIF(A1:A10, \">50\", B1:B10), what is B1:B10?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"The range to be evaluated by the criteria.",
+				"The criteria itself.",
+				"The actual cells to add if the condition is met.",
+				"The range of cells to count."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Đây là vùng tính tổng (sum_range), nơi chứa các con số sẽ được cộng lại nếu điều kiện tương ứng ở cột A thỏa mãn."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "Which function can be used to convert text to all uppercase letters?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"UP()",
+				"UPPER()",
+				"CAPS()",
+				"BIG()"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Hàm UPPER() chuyển đổi toàn bộ chuỗi văn bản thành chữ hoa."
 		}
 	];
 

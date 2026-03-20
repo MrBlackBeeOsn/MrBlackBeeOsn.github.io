@@ -62,7 +62,7 @@ export default function SpreadsheetIndex(): React.JSX.Element {
 
         <details className="sub-box-fix-2">
       
-          <summary id="ev-spreadsheet-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+          <summary id="ev-spreadsheet-basic-practice"><mark className="highlight-secondary-padding-2-4">EV - Quiz</mark></summary>
 
           <ul className="list-border1">
 
