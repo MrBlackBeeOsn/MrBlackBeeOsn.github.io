@@ -35,6 +35,15 @@
 			"content": "Excel Multiple Choice Questions",
 			"slug": "spreadsheet/excel-multiple-choice-questions",
 			"date": "2025-12-06"
+		},
+		{ 
+			"id": "EVExcelQuiz",
+			"categoryDisplay": "Spreadsheet",
+			"categorySlug": "spreadsheet",
+			"title": "Quiz",
+			"content": "Excel Quiz",
+			"slug": "spreadsheet/ev-excel-quiz",
+			"date": "2026-03-20"
 		}
 	]
 }

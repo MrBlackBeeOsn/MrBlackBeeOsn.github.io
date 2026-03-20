@@ -56,6 +56,28 @@ export default function SpreadsheetIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              EV Spreadsheet Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="ev-spreadsheet-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/spreadsheet/ev-excel-quiz">EV Excel Quiz</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
       </div>
 
       <div className="flex-container margin-top-20">

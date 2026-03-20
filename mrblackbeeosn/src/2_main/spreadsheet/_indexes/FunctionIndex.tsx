@@ -56,6 +56,28 @@ export default function FunctionIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              EV Function Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="ham-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/function/ev-excel-functions-quiz">Excel Hàm Quiz</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
       </div>
 
       <div className="flex-container margin-top-20">

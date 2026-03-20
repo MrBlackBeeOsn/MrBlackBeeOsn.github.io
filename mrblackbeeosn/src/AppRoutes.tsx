@@ -120,6 +120,9 @@ import { Routes, Route } from 'react-router-dom';
 	// Quiz
 	const ExcelMultipleChoiceQuestions = lazy(() => import('@/2_main/spreadsheet/quiz/ExcelMultipleChoiceQuestions'));
 
+	// EV - Quiz
+	const EVExcelQuiz = lazy(() => import('@/2_main/spreadsheet/evquiz/EVExcelQuiz'));
+
 	// 2. Functions
 	const FunctionIndex = lazy(() => import('@/2_main/spreadsheet/_indexes/FunctionIndex'));
 	const XLOOKUP = lazy(() => import('@/2_main/spreadsheet/functions/XLOOKUP'));
@@ -129,6 +132,10 @@ import { Routes, Route } from 'react-router-dom';
 
 	// Quiz
 	const ExcelFunctions = lazy(() => import('@/2_main/spreadsheet/functions/quiz/ExcelFunctions'));
+
+	// EV - Quiz
+	const EVExcelFunctionsQuiz = lazy(() => import('@/2_main/spreadsheet/ham/EVExcelFunctionsQuiz'));
+
 
 // 3. Test Tailwind
 	const TestTailwind = lazy(() => import('@/components/test/TestTailwind'));
@@ -260,6 +267,9 @@ export default function AppRoutes(): React.JSX.Element {
 					{/* Quiz */}
 					<Route path="/spreadsheet/excel-multiple-choice-questions" element={<ExcelMultipleChoiceQuestions />} />
 
+					{/* EV - Quiz */}
+					<Route path="/spreadsheet/ev-excel-quiz" element={<EVExcelQuiz />} />
+
 					{/* 2. Function */}
 					<Route path="/function" element={<FunctionIndex />} />
 					<Route path="/function/what-is-the-xlookup-function?" element={<XLOOKUP />} />
@@ -269,6 +279,9 @@ export default function AppRoutes(): React.JSX.Element {
 
 					{/* Quiz */}
 					<Route path="/function/excel-functions" element={<ExcelFunctions />} />
+
+					{/* EV - Quiz */}
+					<Route path="/function/ev-excel-functions-quiz" element={<EVExcelFunctionsQuiz />} />
 
 					{/* 3. Test Tailwind */}
 					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />
