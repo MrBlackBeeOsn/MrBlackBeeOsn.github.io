@@ -97,6 +97,25 @@
 		"description": "p ul li"
 	},
 
+	// p ol li
+	"template p ol li": {
+		"prefix": ".polli",
+		"body": [
+			"<p className=\"margin-top-20\">$2</p>",
+			"",
+			"  <ol>",
+			"",
+			"    <li>$3</li>",
+			"",
+			"    <li>$4</li>",
+			"",
+			"    <li>$5</li>",
+			"",
+			"  </ol>$0"
+		],
+		"description": "p ul li"
+	},
+
 	// pmargintop20
 	"template p margintop20": {
 		"prefix": ".pmargintop20",
