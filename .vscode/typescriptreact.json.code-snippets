@@ -84,6 +84,32 @@
 		"description": "p p ul li"
 	},
 
+	// p p ul li 2
+	"template p p ul li 2": {
+		"prefix": ".ppulli2",
+		"body": [
+			"<p>$1</p>",
+			"    ",
+			"<p className=\"text-indent-whole\">$2</p>",
+			"",
+			"  <ul className=\"list-square\">",
+			"",
+			"    <li>$3</li>",
+			"    <li className=\"margin-top-20 list-none\">$3</li>",
+			"",
+			"    <li>$4</li>",
+			"    <li className=\"margin-top-20 list-none\">$4</li>",
+			"",
+			"    <li>$5</li>",
+			"    <li className=\"list-none\">$5</li>",
+			"",
+			"  </ul>$0",
+			"",
+			"<p className=\"margin-top-20\">$2</p>"
+		],
+		"description": "p p ul li 2"
+	},
+
 	// p ul li
 	"template p ul li": {
 		"prefix": ".pulli",
@@ -93,16 +119,43 @@
 			"  <ul className=\"list-square\">",
 			"",
 			"    <li>$3</li>",
+			"    <li>$4</li>",
 			"",
+			"    <li>$4</li>",
 			"    <li>$4</li>",
 			"",
 			"    <li>$5</li>",
+			"    <li className=\"list-none\">$5</li>",
 			"",
 			"  </ul>$0",
 			"",
 			"<p className=\"margin-top-20\">$2</p>"
 		],
 		"description": "p ul li"
+	},
+
+	// p ul li 2
+	"template p ul li 2": {
+		"prefix": ".pulli2",
+		"body": [
+			"<p className=\"margin-top-20\">$2</p>",
+			"",
+			"  <ul className=\"list-square\">",
+			"",
+			"    <li>$3</li>",
+			"    <li className=\"margin-top-20 list-none\">$3</li>",
+			"",
+			"    <li>$4</li>",
+			"    <li className=\"margin-top-20 list-none\">$4</li>",
+			"",
+			"    <li>$5</li>",
+			"    <li className=\"list-none\">$5</li>",
+			"",
+			"  </ul>$0",
+			"",
+			"<p className=\"margin-top-20\">$2</p>"
+		],
+		"description": "p ul li 2"
 	},
 
 	// p ol li
