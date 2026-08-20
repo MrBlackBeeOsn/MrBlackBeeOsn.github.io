@@ -33,7 +33,7 @@ export default function ProgrammingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Programming</mark>
+          <mark className="highlight-tertiary-padding-2-4">PROgramming</mark>
         </NavLink>
 
         {/* Front-end */}
@@ -53,7 +53,7 @@ export default function ProgrammingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Pront-End</mark>
+          <mark className="highlight-tertiary-padding-2-4">FRONT-END</mark>
         </NavLink>
 
         {/* Back-end */}
@@ -73,7 +73,7 @@ export default function ProgrammingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Back-End</mark>
+          <mark className="highlight-tertiary-padding-2-4">BACK-END</mark>
         </NavLink>
 
         {/* Learning */}
@@ -93,7 +93,7 @@ export default function ProgrammingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Learning</mark>
+          <mark className="highlight-tertiary-padding-2-4">LEARNing</mark>
         </NavLink>
 
         {/* Lập trình */}

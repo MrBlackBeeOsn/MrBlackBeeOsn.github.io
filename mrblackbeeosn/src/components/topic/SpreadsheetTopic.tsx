@@ -33,7 +33,7 @@ export default function SpreadsheetTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Spreadsheet</mark>
+          <mark className="highlight-tertiary-padding-2-4">SPREADsheet</mark>
         </NavLink>
 
         {/* Function */}
@@ -53,7 +53,7 @@ export default function SpreadsheetTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Function</mark>
+          <mark className="highlight-tertiary-padding-2-4">FUNCtion</mark>
         </NavLink>
       
       </div>
