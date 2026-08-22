@@ -76,7 +76,7 @@ export default function Spreadsheet(): React.JSX.Element {
 			<div className="viewcounter">
 			
 				<div className="post-date no-margin">
-					<span>July 19, 2024 · by 💎Gem ·</span>
+					<span>July 19, 2024 · by 💎GEM ·</span>
 				</div>
 
 				<div className="eye-icon no-margin">

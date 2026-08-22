@@ -162,7 +162,7 @@ export default function TracNghiemJS(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>Demcember 16, 2025 · by 💎Gem ·</span>
+						<span>Demcember 16, 2025 · by 💎GEM ·</span>
 					</div>
 	
 				</div>

@@ -96,7 +96,7 @@ export default function HLOOKUP(): React.JSX.Element {
         <div className="post-date no-margin">
           <span>August 18, 2024
 
-  · by 💎Gem ·</span>
+  · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

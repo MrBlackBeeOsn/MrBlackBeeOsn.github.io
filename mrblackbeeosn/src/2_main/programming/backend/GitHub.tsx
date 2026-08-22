@@ -102,7 +102,7 @@ export default function GitHub(): React.JSX.Element {
       <div className="viewcounter">
       
         <div className="post-date no-margin">
-          <span>April 25, 2024 · by 💎Gem ·</span>
+          <span>April 25, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

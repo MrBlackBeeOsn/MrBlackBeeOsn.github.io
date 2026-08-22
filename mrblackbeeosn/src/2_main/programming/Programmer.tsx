@@ -86,7 +86,7 @@ export default function Programmer(): React.JSX.Element {
       <div className="viewcounter">
       
         <div className="post-date no-margin">
-          <span>August 29, 2025 · by 💎Gem ·</span>
+          <span>August 29, 2025 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">
