@@ -28,7 +28,7 @@ export default function LapTrinhIndex(): React.JSX.Element {
                         
         <SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
                           
       </div>
 

@@ -29,7 +29,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
                               
         <SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
                           
       </div>
 

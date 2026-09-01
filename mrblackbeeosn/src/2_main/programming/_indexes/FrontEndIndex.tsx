@@ -28,7 +28,7 @@ export default function FrontEndIndex(): React.JSX.Element {
                         
         <SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
                           
       </div>
 
