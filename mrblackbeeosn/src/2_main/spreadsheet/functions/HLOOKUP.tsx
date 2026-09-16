@@ -94,7 +94,7 @@ export default function HLOOKUP(): React.JSX.Element {
       <div className="viewcounter">
           
         <div className="post-date no-margin">
-          <span>August 18, 2024
+          <span>AUgust 18, 2024
 
   · by 💎GEM ·</span>
         </div>

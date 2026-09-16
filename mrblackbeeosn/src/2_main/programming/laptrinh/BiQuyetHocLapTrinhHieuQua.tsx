@@ -260,7 +260,7 @@ export default function BiQuyetHocLapTrinhHieuQua(): React.JSX.Element {
 			<div className="viewcounter">
 			
 				<div className="post-date no-margin">
-					<span>October 25, 2025 · by Claude ·</span>
+					<span>ocTOber 25, 2025 · by Claude ·</span>
 				</div>
 
 				<div className="eye-icon no-margin">

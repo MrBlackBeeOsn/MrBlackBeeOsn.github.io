@@ -146,7 +146,7 @@ export default function LoTrinhHocFrontEnd(): React.JSX.Element {
       <div className="viewcounter">
       
         <div className="post-date no-margin">
-          <span>September 11, 2025 · by Copilot ·</span>
+          <span>sepTEMber 11, 2025 · by Copilot ·</span>
         </div>
 
         <div className="eye-icon no-margin">

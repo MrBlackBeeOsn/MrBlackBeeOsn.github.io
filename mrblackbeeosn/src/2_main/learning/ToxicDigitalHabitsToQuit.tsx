@@ -130,7 +130,7 @@ export default function ToxicDigitalHabitsToQuit(): React.JSX.Element {
 			<div className="viewcounter">
 			
 				<div className="post-date no-margin">
-					<span>October 24, 2025 · by Clause ·</span>
+					<span>ocTOber 24, 2025 · by Clause ·</span>
 				</div>
 
 				<div className="eye-icon no-margin">

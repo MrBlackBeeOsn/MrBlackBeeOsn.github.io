@@ -45,7 +45,7 @@ export default function DATE(): React.JSX.Element {
 
           <li><strong>Year</strong>: The year you want to specify.</li>
 
-          <li><strong>Month</strong>: The month number (1 for January, 2 for February, and so on).</li>
+          <li><strong>Month</strong>: The month number (1 for JANuary, 2 for FEBruary, and so on).</li>
 
           <li><strong>Day</strong>: The day of the month.</li>
 
@@ -53,7 +53,7 @@ export default function DATE(): React.JSX.Element {
       
       <h3 className="margin-y-50 text-center">Examples</h3>
 
-      <p>To create a date for January 1, 2024:</p>
+      <p>To create a date for JANuary 1, 2024:</p>
 
       <p className="margin-y-50 text-center"><mark  className="highlight-255-padding-4-8 text-border1">=<strong>DATE</strong>(2024, 1, 1)</mark></p>
 
@@ -102,7 +102,7 @@ export default function DATE(): React.JSX.Element {
       <div className="viewcounter">
           
         <div className="post-date no-margin">
-          <span>August 18, 2024 · by 💎GEM ·</span>
+          <span>AUgust 18, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">
