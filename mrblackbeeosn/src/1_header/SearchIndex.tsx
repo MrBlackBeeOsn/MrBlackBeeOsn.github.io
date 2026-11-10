@@ -17,17 +17,21 @@ export default function SearchIndex(): React.JSX.Element {
 
 			<article>
 
-				<div className="table-search">
+        <div className="table-search">
 
-					<SearchComponent />
+          <SearchComponent />
 
-					{/* <VideoSearch3 /> */}
+          <VideoSearch3 />
+            
+        </div>
 
-						{/* <YouGlishWidget /> */}
-						
-				</div>
+        <div className="table-search" style={{ marginTop: '50px', padding: '0px', backgroundColor: '#f9f9f9', borderRadius: '8px' }}>
 
-			</article>
+          <YouGlishWidget />
+            
+        </div>
+
+      </article>
 
 		</main>
 
