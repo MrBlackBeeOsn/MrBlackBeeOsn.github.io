@@ -47,3 +47,7 @@ npm run db:update-likes
 
 npm run build
 npm run deploy
+
+---------
+
+npm run up
