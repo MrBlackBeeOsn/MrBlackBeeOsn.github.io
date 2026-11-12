@@ -2118,6 +2118,64 @@
 		"description": "strong"
 	},
 
+	// .pill-sage
+	"template .pill-sage": {
+		"prefix": ".pill-sage",
+		"body": [
+			"<span className=\"pill-sage\"></span>"
+		],
+		"description": "pill sage"
+	},
+	
+	// .pill-teal
+	"template .pill-teal": {
+		"prefix": ".pill-teal",
+		"body": [
+			"<span className=\"pill-teal\"></span>"
+		],
+		"description": "pill teal"
+	},
+
+	// .pill-plum
+	"template .pill-plum": {
+		"prefix": ".pill-plum",
+		"body": [
+			"<span className=\"pill-plum\"></span>"
+		],
+		"description": "pill plum"
+	},
+
+
+	// .color-sage
+	"template .color-sage": {
+		"prefix": ".color-sage",
+		"body": [
+			"<span className=\"color-sage\"></span>"
+		],
+		"description": "color sage"
+	},
+	
+	
+	// .color-teal
+	"template .color-teal": {
+		"prefix": ".color-teal",
+		"body": [
+			"<span className=\"color-teal\"></span>"
+		],
+		"description": "color teal"
+	},
+	
+	
+	// .color-plum
+	"template .color-plum": {
+		"prefix": ".color-plum",
+		"body": [
+			"<span className=\"color-plum\"></span>"
+		],
+		"description": "color plum"
+	},
+
+
 	// .margintop20
 	"template className mt20": {
 		"prefix": ".margintop20",
