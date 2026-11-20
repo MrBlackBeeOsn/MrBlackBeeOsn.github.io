@@ -22,7 +22,7 @@ export default function FunctionIndex(): React.JSX.Element {
           1. Function Terms
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="function-terms">Function Terms</h3>
+      <h3 className="margin-y-50 text-center" id="function-terms">Function Search</h3>
 
       <div className="table-search margin-bottom-50">
                         

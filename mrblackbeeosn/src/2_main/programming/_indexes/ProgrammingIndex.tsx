@@ -22,7 +22,7 @@ export default function ProgrammingIndex(): React.JSX.Element {
           1. Programming Terms
       ============================= */}
       
-      <h3 className="margin-y-50 text-center" id="programming-terms">Programming Terms</h3>
+      <h3 className="margin-y-50 text-center" id="programming-terms">Programming Search</h3>
 
       <div className="table-search margin-bottom-50">
                         

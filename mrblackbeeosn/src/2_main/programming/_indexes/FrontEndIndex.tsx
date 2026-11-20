@@ -22,7 +22,7 @@ export default function FrontEndIndex(): React.JSX.Element {
           2. Pront-End Terms
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Terms</h3>
+      <h3 className="margin-y-50 text-center" id="pront-end-terms">Pront-End Search</h3>
 
       <div className="table-search margin-bottom-50">
                         

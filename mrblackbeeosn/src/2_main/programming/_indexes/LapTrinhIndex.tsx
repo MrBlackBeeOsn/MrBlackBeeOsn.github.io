@@ -22,7 +22,7 @@ export default function LapTrinhIndex(): React.JSX.Element {
           4. Lập Trình Terms
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="lap-trinh-terms">Lập Trình Terms</h3>
+      <h3 className="margin-y-50 text-center" id="lap-trinh-terms">Lập Trình Search</h3>
 
       <div className="table-search margin-bottom-50">
                         

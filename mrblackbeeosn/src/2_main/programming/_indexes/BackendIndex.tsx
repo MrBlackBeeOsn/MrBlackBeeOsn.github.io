@@ -22,7 +22,7 @@ export default function BackendIndex(): React.JSX.Element {
           3. Back-End Terms
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="back-end-terms">Back-End Terms</h3>
+      <h3 className="margin-y-50 text-center" id="back-end-terms">Back-End Search</h3>
 
       <div className="table-search margin-bottom-50">
                         
