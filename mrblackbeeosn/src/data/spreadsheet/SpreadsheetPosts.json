@@ -44,6 +44,24 @@
 			"content": "Excel Quiz",
 			"slug": "spreadsheet/ev-excel-quiz",
 			"date": "2026-03-20"
+		},
+		{ 
+			"id": "ExcelShortcuts0110",
+			"categoryDisplay": "Spreadsheet",
+			"categorySlug": "spreadsheet",
+			"title": "Excel Shortcuts 01-10",
+			"content": "Excel Shortcuts 01-10",
+			"slug": "spreadsheet/excel-shortcuts-01-10",
+			"date": "2026-11-21"
+		},
+		{ 
+			"id": "SheetsShortcuts0110",
+			"categoryDisplay": "Spreadsheet",
+			"categorySlug": "spreadsheet",
+			"title": "Sheets Shortcuts 01-10",
+			"content": "Sheets Shortcuts 01-10",
+			"slug": "spreadsheet/sheets-shortcuts-01-10",
+			"date": "2026-11-21"
 		}
 	]
 }

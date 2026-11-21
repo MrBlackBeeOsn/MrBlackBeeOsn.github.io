@@ -117,6 +117,10 @@ import { Routes, Route } from 'react-router-dom';
 	const Formula = lazy(() => import('@/2_main/spreadsheet/Formula'));
 	const Function2 = lazy(() => import('@/2_main/spreadsheet/Function2'));
 
+	// Shortcuts
+	const ExcelShortcuts0110 = lazy(() => import('@/2_main/spreadsheet/quiz/shortcuts/ExcelShortcuts0110'));
+	const SheetsShortcuts0110 = lazy(() => import('@/2_main/spreadsheet/quiz/shortcuts/SheetsShortcuts0110'));
+	
 	// Quiz
 	const ExcelMultipleChoiceQuestions = lazy(() => import('@/2_main/spreadsheet/quiz/ExcelMultipleChoiceQuestions'));
 
@@ -264,6 +268,10 @@ export default function AppRoutes(): React.JSX.Element {
 					<Route path="/spreadsheet/what-is-formula?" element={<Formula />} />
 					<Route path="/spreadsheet/what-is-function?" element={<Function2 />} />
 
+					{/* Shortcuts */}
+					<Route path="/spreadsheet/excel-shortcuts-01-10" element={<ExcelShortcuts0110 />} />
+					<Route path="/spreadsheet/sheets-shortcuts-01-10" element={<SheetsShortcuts0110 />} />
+					
 					{/* Quiz */}
 					<Route path="/spreadsheet/excel-multiple-choice-questions" element={<ExcelMultipleChoiceQuestions />} />
 

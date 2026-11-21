@@ -35,6 +35,34 @@ export default function SpreadsheetIndex(): React.JSX.Element {
       <div className="vocabulary-container">
       
         {/* =============================
+            Shortcuts Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="Shortcuts-Quiz"><mark className="highlight-secondary-padding-2-4">Shortcuts Quiz</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/spreadsheet/excel-shortcuts-01-10">Excel Shortcuts 01-10</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/spreadsheet/sheets-shortcuts-01-10">Sheets Shortcuts 01-10</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+        
+        {/* =============================
               Spreadsheet Quiz
         ============================= */}
 
