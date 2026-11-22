@@ -40,8 +40,10 @@ import { Routes, Route } from 'react-router-dom';
 	const ReactJSFundamentals = lazy(() => import('@/2_main/programming/prontend/quiz/react/ReactJSFundamentals'));
 
 	// VS Code
+	const VSCodeShortcuts0110 = lazy(() => import('@/2_main/programming/quiz/vscodeshortcuts/VSCodeShortcuts0110'));
+	
+	// VS Code
 	const VSCodeQuiz = lazy(() => import('@/2_main/programming/quiz/vscode/VSCodeQuiz'));
-
 	
 
 
@@ -183,11 +185,13 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/programming/what-is-Git?" element={<Git />} />
 				<Route path="/programming/what-is-a-function?" element={<Function />} />
 
-				{/* Quiz */}
+				
+				{/* VS Code Shortcuts Quiz */}
+				<Route path="/programming/vs-code-shortcuts-01-10" element={<VSCodeShortcuts0110 />} />
 	
 
-				{/* VS Code */}
-				<Route path="/programming/vscode-quiz" element={<VSCodeQuiz />} />
+				{/* VS Code Quiz*/}
+				<Route path="/programming/vs-code-quiz" element={<VSCodeQuiz />} />
 
 				
 		

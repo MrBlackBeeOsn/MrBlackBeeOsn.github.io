@@ -96,16 +96,16 @@
       "categorySlug": "programming",
       "title": "Quiz",
       "content": "VS Code Multiple Choice Quiz",
-      "slug": "programming/vscode-quiz",
+      "slug": "programming/vs-code-quiz",
       "date": "2025-12-17"
     },
     { 
-      "id": "VSCodeQuiz",
+      "id": "VSCodeShortcuts0110",
       "categoryDisplay": "Programming",
       "categorySlug": "programming",
-      "title": "Quiz",
-      "content": "VS Code Multiple Choice Quiz",
-      "slug": "programming/vscode-quiz",
+      "title": "VS Code Shortcuts 01-10",
+      "content": "VS Code Shortcuts 01-10",
+      "slug": "programming/vs-code-shortcuts-01-10",
       "date": "2025-12-17"
     }
 

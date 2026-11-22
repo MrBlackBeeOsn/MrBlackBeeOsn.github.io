@@ -35,9 +35,24 @@ export default function ProgrammingIndex(): React.JSX.Element {
       <div className="vocabulary-container">
 
 				{/* =============================
-              Programming Quiz
+              VS Code Shortcuts Quiz
         ============================= */}
 
+        <details className="sub-box-fix-2">
+			
+					<summary id="vs-code-shortcuts-quiz"><mark className="highlight-secondary-padding-2-4">VS Code Shortcuts Quiz</mark></summary>
+
+					<ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/programming/vs-code-shortcuts-01-10">VS Code Shortcuts 01-10</Link>
+              </div>
+            </li>
+						
+					</ul>
+
+				</details>
 
 
         {/* =============================
@@ -46,13 +61,13 @@ export default function ProgrammingIndex(): React.JSX.Element {
 
 				<details className="sub-box-fix-2">
 			
-					<summary id="vs-code-basic-practice"><mark className="highlight-secondary-padding-2-4">VS Code</mark></summary>
+					<summary id="vs-code-quiz"><mark className="highlight-secondary-padding-2-4">VS Code</mark></summary>
 
 					<ul className="list-border1">
 
             <li>
               <div className="li-content">
-                <Link to="/programming/vscode-quiz">VS Code Multiple Choice Quiz</Link>
+                <Link to="/programming/vs-code-quiz">VS Code Multiple Choice Quiz</Link>
               </div>
             </li>
 						
