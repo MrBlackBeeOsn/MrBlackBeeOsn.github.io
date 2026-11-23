@@ -35,7 +35,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 2,
-			question: "Which shortcut inserts the current time into a selected cell?",
+			question: "Which shortcut inserts the current time into a selected cell in Google Sheets?",
 			options: [
 				"Ctrl + ;",
 				"Ctrl + Shift + ;",
@@ -47,7 +47,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 3,
-			question: "How do you select an entire column in Google Sheets using the keyboard?",
+			question: "How do you select an entire column using the keyboard in Google Sheets?",
 			options: [
 				"Ctrl + A",
 				"Shift + Space",
@@ -59,7 +59,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 4,
-			question: "How do you select an entire row in Google Sheets using the keyboard?",
+			question: "How do you select an entire row using the keyboard in Google Sheets?",
 			options: [
 				"Shift + Space",
 				"Ctrl + Space",
@@ -71,7 +71,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "Which shortcut toggles formula view to display all formulas in the sheet?",
+			question: "Which shortcut toggles formula view to display all formulas in Google Sheets?",
 			options: [
 				"Ctrl + F",
 				"Ctrl + ` (grave accent)",
@@ -83,7 +83,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 6,
-			question: "Which shortcut inserts a line break within the same cell while editing?",
+			question: "Which shortcut inserts a line break within the same cell while editing in Google Sheets?",
 			options: [
 				"Enter",
 				"Shift + Enter",
@@ -107,7 +107,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 8,
-			question: "Which shortcut pastes values only (without formatting or formulas)?",
+			question: "Which shortcut pastes values only (without formatting or formulas) in Google Sheets?",
 			options: [
 				"Ctrl + V",
 				"Ctrl + Shift + V",
@@ -119,7 +119,7 @@ export default function SheetsShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "How do you open the full list of Google Sheets keyboard shortcuts while working in a spreadsheet?",
+			question: "How do you open the full list of keyboard shortcuts while working in Google Sheets?",
 			options: [
 				"Ctrl + ?",
 				"F1",

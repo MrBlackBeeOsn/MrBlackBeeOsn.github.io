@@ -23,7 +23,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "Which shortcut selects the entire current region (contiguous data range) around the active cell?",
+			question: "Which shortcut selects the entire current region (contiguous data range) around the active cell in Excel?",
 			options: [
 				"Ctrl + Shift + Space",
 				"Alt + Enter",
@@ -35,7 +35,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 2,
-			question: "What does pressing Ctrl + ; (semicolon) insert into the active cell?",
+			question: "What does pressing Ctrl + ; (semicolon) insert into the active cell in Excel?",
 			options: [
 				"The current time",
 				"The current date",
@@ -47,7 +47,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 3,
-			question: "Which keyboard shortcut opens the Format Cells dialog box?",
+			question: "Which keyboard shortcut opens the Format Cells dialog box in Excel?",
 			options: [
 				"Ctrl + Shift + F",
 				"Alt + 1",
@@ -59,7 +59,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 4,
-			question: "How can you toggle absolute ($A$1), mixed, and relative (A1) cell references while editing a formula?",
+			question: "How can you toggle absolute ($A$1), mixed, and relative (A1) cell references while editing a formula in Excel?",
 			options: [
 				"F4",
 				"F2",
@@ -71,7 +71,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "Which shortcut quickly inserts an AutoSum (=SUM(...)) formula for adjacent numeric cells?",
+			question: "Which shortcut quickly inserts an AutoSum (=SUM(...)) formula for adjacent numeric cells in Excel?",
 			options: [
 				"Shift + =",
 				"Ctrl + Shift + S",
@@ -95,7 +95,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 7,
-			question: "Which shortcut moves the active cell to the very last non-empty cell in the current row (to the right)?",
+			question: "Which shortcut moves the active cell to the very last non-empty cell in the current row (to the right) in Excel?",
 			options: [
 				"End + Right Arrow",
 				"Ctrl + Right Arrow",
@@ -107,7 +107,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 8,
-			question: "When typing inside a cell, how do you start a new line within the same cell?",
+			question: "When typing inside a cell in Excel, how do you start a new line within the same cell?",
 			options: [
 				"Enter",
 				"Shift + Enter",
@@ -119,7 +119,7 @@ export default function ExcelShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "Which shortcut creates a standard column or bar chart from selected data on a new chart sheet?",
+			question: "Which shortcut creates a standard column or bar chart from selected data on a new chart sheet in Excel?",
 			options: [
 				"F11",
 				"Alt + F1",

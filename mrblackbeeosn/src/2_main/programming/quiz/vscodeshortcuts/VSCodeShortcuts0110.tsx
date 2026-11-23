@@ -46,7 +46,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 3,
-			question: "Which shortcut toggles the Integrated Terminal open and closed?",
+			question: "Which shortcut toggles the Integrated Terminal open and closed in VS Code?",
 			options: [
 				"Ctrl + Shift + T",
 				"Alt + F12",
@@ -54,7 +54,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 				"Ctrl + Alt + T"
 			],
 			correctAnswer: 2,
-			explanation: "Pressing Ctrl + `  (Cmd +  on macOS) toggles the integrated terminal panel.Ctrl + Shift + Treopens the last closed editor tab, andAlt + F12` peeks at a symbol's definition."
+			explanation: "Pressing Ctrl + `  (Cmd +  on macOS) toggles the integrated terminal panel.Ctrl + Shift + Treopens the last closed editor tab, and Alt + F12` peeks at a symbol's definition."
 		},
 		{
 			id: 4,
@@ -70,7 +70,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "Which shortcut selects all occurrences of the current word or selection in the active file for multi-cursor editing?",
+			question: "Which shortcut selects all occurrences of the current word or selection in the active file for multi-cursor editing in VS Code?",
 			options: [
 				"Ctrl + D",
 				"Alt + Click",
@@ -94,7 +94,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 7,
-			question: "Which shortcut moves the current line (or selected lines) up or down?",
+			question: "Which shortcut moves the current line (or selected lines) up or down in VS Code?",
 			options: [
 				"Alt + Up / Alt + Down",
 				"Ctrl + Up / Ctrl + Down",
@@ -106,7 +106,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 8,
-			question: "Which shortcut deletes the entire current line without needing to select it first?",
+			question: "Which shortcut deletes the entire current line without needing to select it first in VS Code?",
 			options: [
 				"Ctrl + X (with nothing selected)",
 				"Ctrl + Shift + K",
@@ -118,7 +118,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "How do you jump directly to a specific line number in the active file?",
+			question: "How do you jump directly to a specific line number in the active file in VS Code?",
 			options: [
 				"F12",
 				"Ctrl + L",
@@ -130,7 +130,7 @@ export default function VSCodeShortcuts0110(): React.JSX.Element {
 		},
 		{
 			id: 10,
-			question: "Which shortcut toggles Word Wrap on and off in the editor?",
+			question: "Which shortcut toggles Word Wrap on and off in the editor in VS Code?",
 			options: [
 				"Alt + W",
 				"Ctrl + Alt + W",
