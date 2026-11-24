@@ -33,29 +33,70 @@ export default function ProgrammingIndex(): React.JSX.Element {
                           
       </div>
 
+      
       <div className="vocabulary-container">
-                        
+      
         {/* =============================
-              Back-End Quiz
+              Windows Shortcuts Quiz
         ============================= */}
 
         <details className="sub-box-fix-2">
       
-          <summary id="learning-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+          <summary id="windows-shortcuts-quiz"><mark className="highlight-secondary-padding-2-4">Windows Shortcuts Quiz</mark></summary>
 
           <ul className="list-border1">
 
             <li>
               <div className="li-content">
-                <Link to="/programming/react-js-practice"></Link>
+                <Link to="/learning/windows-shortcuts-01-10">Windows Shortcuts 01-10</Link>
               </div>
             </li>
-
-            
             
           </ul>
 
         </details>
+
+        {/* =============================
+            WhatsApp Web Shortcuts Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="whatsapp-web-shortcuts-quiz"><mark className="highlight-secondary-padding-2-4">WhatsApp Web Shortcuts Quiz</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/learning/whatsapp-web-shortcuts-01-10">WhatsApp Web Shortcuts 01-10</Link>
+              </div>
+            </li>
+            
+          </ul>
+
+        </details>
+
+        {/* =============================
+            Facebook Shortcuts Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="facebook-shortcuts-quiz"><mark className="highlight-secondary-padding-2-4">Facebook Shortcuts Quiz</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/learning/facebook-shortcuts-01-10">Facebook Shortcuts 01-10</Link>
+              </div>
+            </li>
+            
+          </ul>
+
+        </details>
+
+
 
       </div>
 

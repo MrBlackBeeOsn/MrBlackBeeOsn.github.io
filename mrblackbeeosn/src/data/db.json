@@ -463,6 +463,39 @@
       "likes": 0
     },
     {
+      "id": "WindowsShortcuts0110",
+      "categoryDisplay": "Learning",
+      "categorySlug": "learning",
+      "title": "Windows Shortcuts 01-10",
+      "content": "Windows Shortcuts 01-10",
+      "slug": "learning/windows-shortcuts-01-10",
+      "date": "2026-11-24",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "WAShortcuts0110",
+      "categoryDisplay": "Learning",
+      "categorySlug": "learning",
+      "title": "WhatsApp Web Shortcuts 01-10",
+      "content": "WhatsApp Web Shortcuts 01-10",
+      "slug": "learning/whatsapp-web-shortcuts-01-10",
+      "date": "2026-11-24",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "FBShortcuts0110",
+      "categoryDisplay": "Learning",
+      "categorySlug": "learning",
+      "title": "Facebook Shortcuts 01-10",
+      "content": "Facebook Shortcuts 01-10",
+      "slug": "learning/facebook-shortcuts-01-10",
+      "date": "2026-11-24",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "Spreadsheet",
       "categoryDisplay": "Spreadsheet",
       "categorySlug": "spreadsheet",

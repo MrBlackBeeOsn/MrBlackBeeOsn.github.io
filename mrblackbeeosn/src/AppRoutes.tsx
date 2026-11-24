@@ -91,6 +91,15 @@ import { Routes, Route } from 'react-router-dom';
 	const MicroLearning = lazy(() => import('@/2_main/learning/MicroLearning'));
 	const ToxicDigitalHabitsToQuit = lazy(() => import('@/2_main/learning/ToxicDigitalHabitsToQuit'));
 
+	// Windows Shortcuts
+	const WindowsShortcuts0110 = lazy(() => import('@/2_main/learning/quiz/windowsshortcuts/WindowsShortcuts0110'));
+
+	// WA Shortcuts
+	const WAShortcuts0110 = lazy(() => import('@/2_main/learning/quiz/washortcuts/WAShortcuts0110'));
+
+	// FB Shortcuts
+	const FBShortcuts0110 = lazy(() => import('@/2_main/learning/quiz/fbshortcuts/FBShortcuts0110'));
+
 	// 5. Lập Trình
 	const LapTrinhIndex = lazy(() => import('@/2_main/programming/_indexes/LapTrinhIndex'));
 	const LapTrinhVien = lazy(() => import('@/2_main/programming/laptrinh/LapTrinhVien'));
@@ -188,7 +197,7 @@ export default function AppRoutes(): React.JSX.Element {
 				
 				{/* VS Code Shortcuts Quiz */}
 				<Route path="/programming/vs-code-shortcuts-01-10" element={<VSCodeShortcuts0110 />} />
-	
+
 
 				{/* VS Code Quiz*/}
 				<Route path="/programming/vs-code-quiz" element={<VSCodeQuiz />} />
@@ -242,6 +251,17 @@ export default function AppRoutes(): React.JSX.Element {
 				<Route path="/learning/what-is-project-based-learning?" element={<ProjectBasedLearning />} />
 				<Route path="/learning/what-is-micro-learning?" element={<MicroLearning />} />
 				<Route path="/learning/toxic-digital-habits-to-quit" element={<ToxicDigitalHabitsToQuit />} />
+
+				{/* Windows Shortcuts Quiz */}
+				<Route path="/learning/windows-shortcuts-01-10" element={<WindowsShortcuts0110 />} />
+
+				{/* WA Shortcuts Quiz */}
+				<Route path="/learning/whatsapp-web-shortcuts-01-10" element={<WAShortcuts0110 />} />
+
+				{/* FB Shortcuts Quiz */}
+				<Route path="/learning/facebook-shortcuts-01-10" element={<FBShortcuts0110 />} />
+
+
 				
 				{/* 5. Lập Trình */}
 				<Route path="/lap-trinh" element={<LapTrinhIndex />} />
