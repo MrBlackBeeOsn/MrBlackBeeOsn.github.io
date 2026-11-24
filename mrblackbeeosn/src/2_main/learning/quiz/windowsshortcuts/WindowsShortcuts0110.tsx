@@ -24,17 +24,17 @@ export default function WindowsShortcuts0110(): React.JSX.Element {
 			id: 1,
 			question: "Which keyboard shortcut opens File Explorer in Windows?",
 			options: [
-				"Windows Key + R",
-				"Windows Key + S",
-				"Windows Key + E",
-				"Windows Key + D"
+				"Windows + R",
+				"Windows + S",
+				"Windows + E",
+				"Windows + D"
 			],
 			correctAnswer: 2,
-			explanation: "Windows Key + E launches File Explorer directly. Windows Key + R opens the Run dialog, Windows Key + D shows or hides the desktop, and Windows Key + S opens Windows Search."
+			explanation: "Windows + E launches File Explorer directly. Windows + R opens the Run dialog, Windows + D shows or hides the desktop, and Windows + S opens Windows Search."
 		},
 		{
 			id: 2,
-			question: "What does pressing Windows Key + L do in Windows?",
+			question: "What does pressing Windows + L do in Windows?",
 			options: [
 				"Opens the Ease of Access / Accessibility settings",
 				"Locks your PC or switches accounts",
@@ -42,7 +42,7 @@ export default function WindowsShortcuts0110(): React.JSX.Element {
 				"Minimizes all windows except the active one"
 			],
 			correctAnswer: 1,
-			explanation: "Windows Key + L immediately locks your workstation so you can step away securely. Windows Key + Home minimizes all inactive windows, and Windows Key + Shift + S starts screen snipping."
+			explanation: "Windows + L immediately locks your workstation so you can step away securely. Windows + Home minimizes all inactive windows, and Windows + Shift + S starts screen snipping."
 		},
 		{
 			id: 3,
@@ -50,11 +50,11 @@ export default function WindowsShortcuts0110(): React.JSX.Element {
 			options: [
 				"Alt + Tab",
 				"Ctrl + Shift + Esc",
-				"Windows Key + A",
-				"Windows Key + Tab"
+				"Windows + A",
+				"Windows + Tab"
 			],
 			correctAnswer: 3,
-			explanation: "Windows Key + Tab opens Task View, allowing you to switch between open windows and manage virtual desktops. Alt + Tab also switches between open windows in a compact switcher, while Ctrl + Shift + Esc opens Task Manager."
+			explanation: "Windows + Tab opens Task View, allowing you to switch between open windows and manage virtual desktops. Alt + Tab also switches between open windows in a compact switcher, while Ctrl + Shift + Esc opens Task Manager."
 		},
 		{
 			id: 4,
@@ -62,51 +62,51 @@ export default function WindowsShortcuts0110(): React.JSX.Element {
 			options: [
 				"Ctrl + Shift + Esc",
 				"Ctrl + Alt + Tab",
-				"Windows Key + X",
+				"Windows + X",
 				"Alt + F4"
 			],
 			correctAnswer: 0,
-			explanation: "Ctrl + Shift + Esc opens Task Manager directly in a single step. Alt + F4 closes the active window or opens the shut-down dialog on the desktop, and Windows Key + X opens the Quick Link menu."
+			explanation: "Ctrl + Shift + Esc opens Task Manager directly in a single step. Alt + F4 closes the active window or opens the shut-down dialog on the desktop, and Windows + X opens the Quick Link menu."
 		},
 		{
 			id: 5,
 			question: "Which shortcut opens your Clipboard history in Windows (when enabled)?",
 			options: [
 				"Ctrl + Shift + V",
-				"Windows Key + C",
-				"Windows Key + V",
+				"Windows + C",
+				"Windows + V",
 				"Ctrl + Alt + V"
 			],
 			correctAnswer: 2,
-			explanation: "Windows Key + V opens the Clipboard history panel so you can view and paste previously copied items (and pin favorites). Standard pasting is Ctrl + V."
+			explanation: "Windows + V opens the Clipboard history panel so you can view and paste previously copied items (and pin favorites). Standard pasting is Ctrl + V."
 		},
 		{
 			id: 6,
 			question: "What is the shortcut to snap the active window to the left half of the screen in Windows?",
 			options: [
 				"Alt + Left Arrow",
-				"Windows Key + Left Arrow",
+				"Windows + Left Arrow",
 				"Ctrl + Left Arrow",
 				"Shift + Left Arrow"
 			],
 			correctAnswer: 1,
-			explanation: "Windows Key + Left Arrow snaps the active window to the left half of the display (and Windows Key + Right Arrow snaps it to the right). Alt + Left Arrow typically navigates back in browsers or File Explorer."
+			explanation: "Windows + Left Arrow snaps the active window to the left half of the display (and Windows + Right Arrow snaps it to the right). Alt + Left Arrow typically navigates back in browsers or File Explorer."
 		},
 		{
 			id: 7,
 			question: "Which shortcut creates a new virtual desktop in Windows?",
 			options: [
-				"Windows Key + Ctrl + F4",
-				"Windows Key + Shift + D",
+				"Windows + Ctrl + F4",
+				"Windows + Shift + D",
 				"Ctrl + Alt + D",
-				"Windows Key + Ctrl + D"
+				"Windows + Ctrl + D"
 			],
 			correctAnswer: 3,
-			explanation: "Windows Key + Ctrl + D creates a new virtual desktop. To close the current virtual desktop, use Windows Key + Ctrl + F4, and to switch between them, use Windows Key + Ctrl + Left/Right Arrow."
+			explanation: "Windows + Ctrl + D creates a new virtual desktop. To close the current virtual desktop, use Windows + Ctrl + F4, and to switch between them, use Windows + Ctrl + Left/Right Arrow."
 		},
 		{
 			id: 8,
-			question: "What does Windows Key + Shift + S do in Windows?",
+			question: "What does Windows + Shift + S do in Windows?",
 			options: [
 				"Saves the current document",
 				"Puts the computer to sleep",
@@ -114,19 +114,19 @@ export default function WindowsShortcuts0110(): React.JSX.Element {
 				"Opens System Settings"
 			],
 			correctAnswer: 2,
-			explanation: "Windows Key + Shift + S dims the screen and opens the snipping toolbar so you can capture a rectangular area, freeform shape, window, or full screen to the clipboard."
+			explanation: "Windows + Shift + S dims the screen and opens the snipping toolbar so you can capture a rectangular area, freeform shape, window, or full screen to the clipboard."
 		},
 		{
 			id: 9,
 			question: "Which shortcut opens the Quick Link (power user) menu near the Start button in Windows?",
 			options: [
-				"Windows Key + X",
-				"Windows Key + M",
-				"Windows Key + K",
+				"Windows + X",
+				"Windows + M",
+				"Windows + K",
 				"Ctrl + Shift + N"
 			],
 			correctAnswer: 0,
-			explanation: "Windows Key + X opens the Quick Link menu with fast access to Device Manager, Disk Management, Terminal/PowerShell, Settings, and power options. Ctrl + Shift + N creates a new folder in File Explorer."
+			explanation: "Windows + X opens the Quick Link menu with fast access to Device Manager, Disk Management, Terminal/PowerShell, Settings, and power options. Ctrl + Shift + N creates a new folder in File Explorer."
 		},
 		{
 			id: 10,
